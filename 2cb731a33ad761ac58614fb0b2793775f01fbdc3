@@ -1,0 +1,259 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAGH//+iI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "weird alignment on the function params",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+iE\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "weird alignment on the function params",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+iA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "const",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+h8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "this seems to be a duplication of Size()",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+h4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "-2 spaces on the indent",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+hs\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "you should probably clean up content_encoding_entries here",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+hQ\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "s/zlip/zlib/",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+g8\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "extra line",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+gI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5063,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "the rest of this file uses non-constants for ids, but at least be consistent with the case: 0x7E1",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+gA\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5217,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "Given the declaration order I think these should come at the end of the list",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+fw\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 6156,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "casing on the the hexadecimal.",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+fs\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 6237,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "inconsistent indent for this function",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+fk\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "this indent is inconsistent with the rest of this file",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+e8\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "These should come first",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//+e0\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-10-31T22:11:43Z",
+      "side": 1,
+      "message": "These should come first",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
