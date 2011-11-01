@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//+AA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+iI\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+iE\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "weird alignment on the function params",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9/8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+iE\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9/0\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+iA\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+h8\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -64,6 +118,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "this seems to be a duplication of Size()",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9/w\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "It is, but I need specific sizes of master elements. I refactored Size into two private functions so as not to dup as much code.",
+      "parentUuid": "AAAAGH//+h8\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9/o\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+h4\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+hs\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -98,6 +188,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "you should probably clean up content_encoding_entries here",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9/k\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done. Yeah, when I first wrote this function I had smart pointers before. Then I remembered that is not allowed in libwebm.",
+      "parentUuid": "AAAAGH//+hs\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9/U\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done. :)",
+      "parentUuid": "AAAAGH//+hQ\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+g8\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 7
@@ -132,6 +258,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "extra line",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9/c\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+g8\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9/M\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5063,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+gI\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+gA\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 7
@@ -166,6 +328,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "Given the declaration order I think these should come at the end of the list",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9/E\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5217,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+gA\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -223,6 +403,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9/A\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+fk\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+e8\u003d",
         "filename": "mkvparser.hpp",
         "patchSetId": 7
@@ -240,6 +438,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAGH//9+8\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+e8\u003d",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAGH//+e0\u003d",
         "filename": "mkvparser.hpp",
         "patchSetId": 7
@@ -251,6 +467,24 @@
       "writtenOn": "2011-10-31T22:11:43Z",
       "side": 1,
       "message": "These should come first",
+      "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//9+4\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2011-11-01T19:23:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAGH//+e0\u003d",
       "revId": "2cb731a33ad761ac58614fb0b2793775f01fbdc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
