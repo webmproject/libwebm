@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAGH//70Q\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-11-04T18:02:02Z",
+      "side": 1,
+      "message": "\u003e\u003ethis seems to be a duplication of Size()\n\n\u003e It is, but I need specific sizes of master elements. I refactored Size into two private functions so as not to dup as much code.\n\nOK just to be sure, the only difference now between 307-312 and 296-301 is the variable name encodings_size. Was this your intent?",
+      "revId": "7dbaa4d7ff352eb67935f1d8ecb4d80ed04f7e6d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//71Q\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 6153,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-11-04T18:02:02Z",
+      "side": 1,
+      "message": "casing on the hexadecimal",
+      "revId": "7dbaa4d7ff352eb67935f1d8ecb4d80ed04f7e6d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH//71E\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 6234,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2011-11-04T18:02:02Z",
+      "side": 1,
+      "message": "the indent for this block is inconsistent with the rest of the function",
+      "revId": "7dbaa4d7ff352eb67935f1d8ecb4d80ed04f7e6d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
