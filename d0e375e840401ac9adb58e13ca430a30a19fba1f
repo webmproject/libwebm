@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//+j4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1496,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Not sure on temp-- assignment to chunking_base_name_ should take care of it in dtor when the method returns early.\n\nFixed potential header leak.",
+      "parentUuid": "AAAAHn//+k8\u003d",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//+lA\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2012-01-18T19:53:34Z",
       "side": 1,
       "message": "this could be a const if a more creative name was used for the header allocation.",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+j0\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1508,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "We now have the supremely original \"name_length\" and \"header_length\", which are both const.",
+      "parentUuid": "AAAAHn//+lA\u003d",
       "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//+jw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1547,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//+lE\u003d",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//+k4\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2012-01-18T19:53:34Z",
       "side": 1,
       "message": "extra space before trailing )",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+jk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1627,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//+k4\u003d",
       "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//+jU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1692,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Done/changed to char* const.",
+      "parentUuid": "AAAAHn//+ks\u003d",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//+kw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//+iI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1697,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "AAAAHn//+kw\u003d",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//+kk\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -115,6 +223,24 @@
       "writtenOn": "2012-01-18T19:53:34Z",
       "side": 1,
       "message": "default",
+      "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+fg\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 604,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-18T21:04:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//+kk\u003d",
       "revId": "d0e375e840401ac9adb58e13ca430a30a19fba1f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
