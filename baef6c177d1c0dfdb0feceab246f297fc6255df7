@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//9Tw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1003,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-19T21:51:42Z",
+      "side": 1,
+      "message": "Done, but in its own patchset.",
+      "parentUuid": "AAAAHn//9zI\u003d",
+      "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//9zw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-01-19T14:32:29Z",
       "side": 1,
       "message": "You need to add a check here that writer_ is not NULL with the change to Init().",
+      "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9Ts\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1025,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-19T21:51:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//9zw\u003d",
       "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//9To\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1054,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-19T21:51:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//9zk\u003d",
+      "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//9zo\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//9Tk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1082,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-19T21:51:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//9zo\u003d",
+      "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//9zc\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -81,6 +153,24 @@
       "writtenOn": "2012-01-19T14:32:29Z",
       "side": 1,
       "message": "You are going to have to put checks for the 3 writer pointers in all of the functions that use them to make sure that Init gets called after the constructor. I think it would be easier to have the pointer assignments in the constructor to guarantee they are not NULL.",
+      "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9Tg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1438,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-01-19T21:51:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//9zc\u003d",
       "revId": "baef6c177d1c0dfdb0feceab246f297fc6255df7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
