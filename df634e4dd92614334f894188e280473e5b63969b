@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//98U\u003d",
+        "filename": "sample_muxer/sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-01-19T06:25:20Z",
+      "side": 1,
+      "message": "these come from stdlib.h. you should directly include it.",
+      "revId": "df634e4dd92614334f894188e280473e5b63969b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//98c\u003d",
+        "filename": "sample_muxer/sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-01-19T06:25:20Z",
+      "side": 1,
+      "message": "You could go with EXIT_FAILURE as you got no -h and are missing the desired params.",
+      "revId": "df634e4dd92614334f894188e280473e5b63969b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
