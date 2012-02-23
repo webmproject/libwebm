@@ -16,6 +16,40 @@
       "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//nYI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8458,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-23T23:27:24Z",
+      "side": 1,
+      "message": "Initialize to sane value-- NDEBUG w/failed Read call would be a less than enjoyable debugging experience.",
+      "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//nX4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8485,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-23T23:27:24Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
