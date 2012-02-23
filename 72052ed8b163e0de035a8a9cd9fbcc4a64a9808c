@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//nts\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-23T19:37:14Z",
+      "side": 1,
+      "message": "Reference the issue in the body,  398\n\nalso add a link to this commit to the issue",
+      "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
