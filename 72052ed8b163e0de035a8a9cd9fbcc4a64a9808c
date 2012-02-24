@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//nHo\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8458,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-24T02:05:06Z",
+      "side": 1,
+      "message": "That will be fixed in the next commit.  (In fact it\u0027s already fixed in a branch in my local repository.)",
+      "parentUuid": "AAAAHn//nYI\u003d",
+      "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//nX4\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -47,6 +65,24 @@
       "writtenOn": "2012-02-23T23:27:24Z",
       "side": 1,
       "message": "Ditto.",
+      "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//nHg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8485,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-24T02:05:06Z",
+      "side": 1,
+      "message": "As above.  This and all other error paths with be handled gracefully, via a different mechanism.",
+      "parentUuid": "AAAAHn//nX4\u003d",
       "revId": "72052ed8b163e0de035a8a9cd9fbcc4a64a9808c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
