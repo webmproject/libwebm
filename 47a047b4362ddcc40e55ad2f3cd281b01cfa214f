@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//mcI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 5428,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "Should this be initialized? I guess the real question is: can pCluster-\u003eGetNext return non-error status without setting pNextEntry?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbs\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7626,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "Init value?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbk\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7643,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "Ditto...",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7799,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "NDEBUG/ if (!pEntry) return -1 ?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbc\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7877,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "NDEBUG/ if (!m_entries) return -1 ?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7915,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "NDEBUG/ditto",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mbE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7932,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-24T19:16:13Z",
+      "side": 1,
+      "message": "If the asserts are truly failure conditions they need matching if\u0027s w/negated conditions. Otherwise: let\u0027s get rid of them.",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
