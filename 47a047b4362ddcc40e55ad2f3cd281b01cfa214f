@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAHn//mbA\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "constructor",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mcI\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -13,6 +30,23 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "Should this be initialized? I guess the real question is: can pCluster-\u003eGetNext return non-error status without setting pNextEntry?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mak\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 5482,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "has this condition been checked previously elsewhere?",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -70,6 +104,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mZY\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7821,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "the fact that this is a const member function is suspicious given the modification of m_entries.",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbc\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -115,6 +166,57 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "If the asserts are truly failure conditions they need matching if\u0027s w/negated conditions. Otherwise: let\u0027s get rid of them.",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mY4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8644,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "\u003c\u003d ? or was the assert incorrect?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mYk\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8649,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "LONG_MAX \u003d 9223372036854775807L when word size is 64 bits so I think this check is incorrect given the type range in the format.",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mW4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8797,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-02-24T19:42:19Z",
+      "side": 1,
+      "message": "\u003c\u003d?",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
