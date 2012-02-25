@@ -300,6 +300,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//loM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7877,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T04:06:27Z",
+      "side": 1,
+      "message": "m_entries cannot be NULL.",
+      "parentUuid": "AAAAHn//lr4\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbM\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -388,6 +406,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//loI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7932,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T04:06:27Z",
+      "side": 1,
+      "message": "The asserts imply no such thing (here, anyway).\n\npCurr is an element of m_entries.  If pCurr is non-NULL, then m_entries must also be NULL.",
+      "parentUuid": "AAAAHn//lr0\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mY4\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -470,6 +506,24 @@
       "side": 1,
       "message": "True. I was concerned though that it would exceed the max defined for matroska (2^56-2) in that case",
       "parentUuid": "AAAAHn//mN0\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//lns\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8649,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T04:06:27Z",
+      "side": 1,
+      "message": "This is an interesting corner-case.  The size of the last frame in the block is implied: it is calculated as the difference between the sum of all the previous frames (which are specified a MKV UInt types), and the total size of the block.\n\nThis block size is specified as an MKV UInt, so total_size is going to be limited to that max anyway, and thus the predicate could never be true.  (Geez, maybe I should put the assert back in... ha ha).",
+      "parentUuid": "AAAAHn//lrw\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
