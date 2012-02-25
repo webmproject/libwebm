@@ -282,6 +282,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//lr4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7877,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-25T02:54:11Z",
+      "side": 1,
+      "message": "It still silently fails in release mode when m_entries is NULL-- I don\u0027t think the cause really matters. We could remove NDEBUG from builds if that\u0027s what you\u0027d prefer.",
+      "parentUuid": "AAAAHn//maE\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbM\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -346,6 +364,24 @@
       "side": 1,
       "message": "These are true asserts, not tests for failure conditions.",
       "parentUuid": "AAAAHn//mbE\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//lr0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7932,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-02-25T02:54:11Z",
+      "side": 1,
+      "message": "If the library is capable of knowing that it\u0027s in a bad state, it should return failure status to users. The asserts imply that this is possible-- our release builds define NDEBUG, which masks bad state and potentially makes bugs (whether in the library or belonging to the user) more difficult to find. The negated conditions should be added so that NDEBUG builds have the opportunity to fail gracefully.",
+      "parentUuid": "AAAAHn//mZ4\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
