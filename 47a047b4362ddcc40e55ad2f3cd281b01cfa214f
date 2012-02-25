@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mQE\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAHn//mbA\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mcI\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "Should this be initialized? I guess the real question is: can pCluster-\u003eGetNext return non-error status without setting pNextEntry?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mac\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 5428,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "Ptrs returned as out params are always set to NULL, even when the function return value indicates error.",
+      "parentUuid": "AAAAHn//mcI\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mPY\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 5482,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "A \"block entry\" is the abstract superclass of SimpleBlock elements and BlockGroup elements.  Each of those concrete subclasses contains a Block object as a member variable, so this cannot fail.  The assert is just there to catch an error introduced in some future patch.",
+      "parentUuid": "AAAAHn//mak\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbs\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "Init value?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//maU\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7626,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "As above, pEntry is set to NULL if status indicates error.",
+      "parentUuid": "AAAAHn//mbs\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//maM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7643,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "pEntry is set to NULL if status indicates error.",
+      "parentUuid": "AAAAHn//mbk\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbg\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "NDEBUG/ if (!pEntry) return -1 ?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//maI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7799,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "OK I can fix this, by using std::nothrow.",
+      "parentUuid": "AAAAHn//mbg\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mOg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7821,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "AAAAHn//mZY\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbc\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -132,6 +258,24 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "NDEBUG/ if (!m_entries) return -1 ?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//maE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7877,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "This would indicate a bug in the algorithm.  This really needs to be an assert!",
+      "parentUuid": "AAAAHn//mbc\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mZ8\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7915,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "This would be a bug in the algorith, so an assert is appropriate.",
+      "parentUuid": "AAAAHn//mbM\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mbE\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -166,6 +328,24 @@
       "writtenOn": "2012-02-24T19:16:13Z",
       "side": 1,
       "message": "If the asserts are truly failure conditions they need matching if\u0027s w/negated conditions. Otherwise: let\u0027s get rid of them.",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mZ4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 7932,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "These are true asserts, not tests for failure conditions.",
+      "parentUuid": "AAAAHn//mbE\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mN8\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8644,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "I liberalized the parser, to allow 0-length frames.  The OP was using this parser with an MPEG4 codec for the video track, so that made me realize that this parser should not make assumptions about payload values.  It might be the case that it\u0027s perfectly legal for a frame to have a 0 length, so this parser should allow that.  If a 0-length frame is not legal, the client can deal with that as he sees fit.",
+      "parentUuid": "AAAAHn//mY4\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mYk\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -206,6 +404,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//mN0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8649,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "But that check is there because of the following line: f.len uses type long.",
+      "parentUuid": "AAAAHn//mYk\u003d",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//mW4\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -217,6 +433,24 @@
       "writtenOn": "2012-02-24T19:42:19Z",
       "side": 1,
       "message": "\u003c\u003d?",
+      "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//mNs\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8797,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-02-25T02:43:52Z",
+      "side": 1,
+      "message": "As above, the parser now permits a frame to have 0 length.  It\u0027s up to the client to determine whether this makes sense for his codec type.",
+      "parentUuid": "AAAAHn//mW4\u003d",
       "revId": "47a047b4362ddcc40e55ad2f3cd281b01cfa214f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
