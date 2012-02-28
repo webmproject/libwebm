@@ -11,6 +11,7 @@
 
 #include "mkvreader.hpp"
 #include "mkvparser.hpp"
+#include <memory>
 
 #ifdef _MSC_VER
 // Silences these warnings:
@@ -83,14 +84,17 @@ int main(int argc, char* argv[])
     printf("\t\tDoc Type\t\t: %s\n", ebmlHeader.m_docType);
     printf("\t\tPos\t\t\t: %lld\n", pos);
 
-    mkvparser::Segment* pSegment;
+    typedef mkvparser::Segment seg_t;
+    seg_t* pSegment_;
 
-    long long ret = mkvparser::Segment::CreateInstance(&reader, pos, pSegment);
+    long long ret = seg_t::CreateInstance(&reader, pos, pSegment_);
     if (ret)
     {
         printf("\n Segment::CreateInstance() failed.");
         return -1;
     }
+
+    const std::auto_ptr<seg_t> pSegment(pSegment_);
 
     ret  = pSegment->Load();
     if (ret < 0)
@@ -242,7 +246,6 @@ int main(int argc, char* argv[])
     if (clusterCount == 0)
     {
         printf("\t\tSegment has no clusters.\n");
-        delete pSegment;
         return -1;
     }
 
@@ -264,7 +267,7 @@ int main(int argc, char* argv[])
         {
             printf("\t\tError parsing first block of cluster\n");
             fflush(stdout);
-            goto done;
+            return -1;
         }
 
         while ((pBlockEntry != NULL) && !pBlockEntry->EOS())
@@ -273,21 +276,27 @@ int main(int argc, char* argv[])
             const long long trackNum = pBlock->GetTrackNumber();
             const unsigned long tn = static_cast<unsigned long>(trackNum);
             const Track* const pTrack = pTracks->GetTrackByNumber(tn);
-            const long long trackType = pTrack->GetType();
-            const int frameCount = pBlock->GetFrameCount();
-            const long long time_ns = pBlock->GetTime(pCluster);
 
-            printf("\t\t\tBlock\t\t:%s,%s,%15lld\n",
-                   (trackType == VIDEO_TRACK) ? "V" : "A",
-                   pBlock->IsKey() ? "I" : "P",
-                   time_ns);
-
-            for (int i = 0; i < frameCount; ++i)
+            if (pTrack == NULL)
+                printf("\t\t\tBlock\t\t:UNKNOWN TRACK TYPE\n");
+            else
             {
-                const Block::Frame& theFrame = pBlock->GetFrame(i);
-                const long size = theFrame.len;
-                const long long offset = theFrame.pos;
-                printf("\t\t\t %15ld,%15llx\n", size, offset);
+                const long long trackType = pTrack->GetType();
+                const int frameCount = pBlock->GetFrameCount();
+                const long long time_ns = pBlock->GetTime(pCluster);
+
+                printf("\t\t\tBlock\t\t:%s,%s,%15lld\n",
+                       (trackType == VIDEO_TRACK) ? "V" : "A",
+                       pBlock->IsKey() ? "I" : "P",
+                       time_ns);
+
+                for (int i = 0; i < frameCount; ++i)
+                {
+                    const Block::Frame& theFrame = pBlock->GetFrame(i);
+                    const long size = theFrame.len;
+                    const long long offset = theFrame.pos;
+                    printf("\t\t\t %15ld,%15llx\n", size, offset);
+                }
             }
 
             status = pCluster->GetNext(pBlockEntry, pBlockEntry);
@@ -296,15 +305,13 @@ int main(int argc, char* argv[])
             {
                 printf("\t\t\tError parsing next block of cluster\n");
                 fflush(stdout);
-                goto done;
+                return -1;
             }
         }
 
         pCluster = pSegment->GetNext(pCluster);
     }
 
-done:
-    delete pSegment;
+    fflush(stdout);
     return 0;
-
 }
