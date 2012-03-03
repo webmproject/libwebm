@@ -11,5 +11,13 @@ IReader::~IReader()
 {
 }
 
+Parser::Parser(IReader* p) :
+    m_pReader(p)
+{
+}
+
+Parser::~Parser()
+{
+}
 
 }  //end namespace WebvttParser
