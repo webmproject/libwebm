@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAHn//dGQ\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 2432,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "Refactor the identical code with the code above?",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//eKM\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -19,6 +36,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//dGE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 5022,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "Create an UnserializeFloat() function?",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//eKA\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -30,6 +64,24 @@
       "writtenOn": "2012-03-06T01:20:30Z",
       "side": 1,
       "message": "It\u0027d be nice if this common block of code was reused by Track/Video/Audio and anywhere else it\u0027s used.",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//dFo\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 6081,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "Ditto. ParseElementHeader()",
+      "parentUuid": "AAAAHn//eKA\u003d",
       "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -70,6 +122,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAHn//dFQ\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 6631,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "Would be nice if these were static consts or something.",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHn//eJA\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -81,6 +150,74 @@
       "writtenOn": "2012-03-06T01:20:30Z",
       "side": 1,
       "message": "properly",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//dFM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 7260,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "s/supported/unsupported",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//dFI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 7267,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "with the file.",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//dFE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 7496,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "ditto.",
+      "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//dFA\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 7503,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-06T21:09:20Z",
+      "side": 1,
+      "message": "ditto.",
       "revId": "52ce7377a599b0cdf54e3320ae5bfe23b4d8af46",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
