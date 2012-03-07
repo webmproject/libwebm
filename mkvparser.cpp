@@ -2375,6 +2375,18 @@ long Segment::Load()
     assert(m_pInfo);
     assert(m_pTracks);
 
+#if 1
+    for (;;)
+    {
+        const int status = LoadCluster();
+
+        if (status < 0)  //error
+            return status;
+
+        if (status >= 1)  //no more clusters
+            return 0;
+    }
+#else
     long long total, avail;
 
     long status = m_pReader->Length(&total, &avail);
@@ -2544,6 +2556,7 @@ long Segment::Load()
 #endif
 
     return 0;
+#endif  //xxx
 }
 
 
