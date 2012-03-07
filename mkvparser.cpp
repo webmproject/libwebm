@@ -521,6 +521,9 @@ long mkvparser::ParseElementHeader(
     long long& id,
     long long& size)
 {
+    if ((stop >= 0) && (pos >= stop))
+        return E_FILE_FORMAT_INVALID;
+
     long len;
 
     id = ReadUInt(pReader, pos, len);
@@ -1329,6 +1332,11 @@ long long Segment::ParseHeaders()
 
                 if (m_pSeekHead == NULL)
                     return -1;
+
+                const long status = m_pSeekHead->Parse();
+
+                if (status)
+                    return status;
             }
         }
 
@@ -2306,24 +2314,7 @@ void Segment::PreloadCluster(Cluster* pCluster, ptrdiff_t idx)
 
     if (count >= size)
     {
-        long n;
-
-        if (size > 0)
-            n = 2 * size;
-        else if (m_pInfo == 0)
-            n = 2048;
-        else
-        {
-            const long long ns = m_pInfo->GetDuration();
-
-            if (ns <= 0)
-                n = 2048;
-            else
-            {
-                const long long sec = (ns + 999999999LL) / 1000000000LL;
-                n = static_cast<long>(sec);
-            }
-        }
+        const long n = (size <= 0) ? 2048 : 2*size;
 
         Cluster** const qq = new Cluster*[n];
         Cluster** q = qq;
@@ -2556,39 +2547,6 @@ long Segment::Load()
 }
 
 
-#if 0
-void Segment::ParseSeekHead(long long start, long long size_)
-{
-    long long pos = start;
-    const long long stop = start + size_;
-
-    while (pos < stop)
-    {
-        long len;
-
-        const long long id = ReadUInt(m_pReader, pos, len);
-        assert(id >= 0);  //TODO
-        assert((pos + len) <= stop);
-
-        pos += len;  //consume ID
-
-        const long long size = ReadUInt(m_pReader, pos, len);
-        assert(size >= 0);
-        assert((pos + len) <= stop);
-
-        pos += len;  //consume Size field
-        assert((pos + size) <= stop);
-
-        if (id == 0x0DBB)  //SeekEntry ID
-            ParseSeekEntry(pos, size);
-
-        pos += size;  //consume payload
-        assert(pos <= stop);
-    }
-
-    assert(pos == stop);
-}
-#else
 SeekHead::SeekHead(
     Segment* pSegment,
     long long start,
@@ -2605,6 +2563,7 @@ SeekHead::SeekHead(
     m_void_elements(0),
     m_void_element_count(0)
 {
+#if 0
     long long pos = start;
     const long long stop = start + size_;
 
@@ -2708,6 +2667,7 @@ SeekHead::SeekHead(
     assert(count_ <= void_element_count);
 
     m_void_element_count = static_cast<int>(count_);
+#endif
 }
 
 SeekHead::~SeekHead()
@@ -2715,6 +2675,117 @@ SeekHead::~SeekHead()
     delete[] m_entries;
     delete[] m_void_elements;
 }
+
+
+long SeekHead::Parse()
+{
+    IMkvReader* const pReader = m_pSegment->m_pReader;
+
+    long long pos = m_start;
+    const long long stop = m_start + m_size;
+
+    //first count the seek head entries
+
+    int entry_count = 0;
+    int void_element_count = 0;
+
+    while (pos < stop)
+    {
+        long long id, size;
+
+        const long status = ParseElementHeader(
+                                pReader,
+                                pos,
+                                stop,
+                                id,
+                                size);
+
+        if (status < 0)  //error
+            return status;
+
+        if (id == 0x0DBB)  //SeekEntry ID
+            ++entry_count;
+        else if (id == 0x6C)  //Void ID
+            ++void_element_count;
+
+        pos += size;  //consume payload
+        assert(pos <= stop);
+    }
+
+    assert(pos == stop);
+
+    m_entries = new (std::nothrow) Entry[entry_count];
+
+    if (m_entries == NULL)
+        return -1;
+
+    m_void_elements = new (std::nothrow) VoidElement[void_element_count];
+
+    if (m_void_elements == NULL)
+        return -1;
+
+    //now parse the entries and void elements
+
+    Entry* pEntry = m_entries;
+    VoidElement* pVoidElement = m_void_elements;
+
+    pos = m_start;
+
+    while (pos < stop)
+    {
+        const long long idpos = pos;
+
+        long long id, size;
+
+        const long status = ParseElementHeader(
+                                pReader,
+                                pos,
+                                stop,
+                                id,
+                                size);
+
+        if (status < 0)  //error
+            return status;
+
+        if (id == 0x0DBB)  //SeekEntry ID
+        {
+            if (ParseEntry(pReader, pos, size, pEntry))
+            {
+                Entry& e = *pEntry++;
+
+                e.element_start = idpos;
+                e.element_size = (pos + size) - idpos;
+            }
+        }
+        else if (id == 0x6C)  //Void ID
+        {
+            VoidElement& e = *pVoidElement++;
+
+            e.element_start = idpos;
+            e.element_size = (pos + size) - idpos;
+        }
+
+        pos += size;  //consume payload
+        assert(pos <= stop);
+    }
+
+    assert(pos == stop);
+
+    ptrdiff_t count_ = ptrdiff_t(pEntry - m_entries);
+    assert(count_ >= 0);
+    assert(count_ <= entry_count);
+
+    m_entry_count = static_cast<int>(count_);
+
+    count_ = ptrdiff_t(pVoidElement - m_void_elements);
+    assert(count_ >= 0);
+    assert(count_ <= void_element_count);
+
+    m_void_element_count = static_cast<int>(count_);
+
+    return 0;
+}
+
 
 int SeekHead::GetCount() const
 {
@@ -2747,7 +2818,6 @@ const SeekHead::VoidElement* SeekHead::GetVoidElement(int idx) const
 
     return m_void_elements + idx;
 }
-#endif
 
 
 #if 0
@@ -2991,6 +3061,9 @@ bool SeekHead::ParseEntry(
     long long size_,
     Entry* pEntry)
 {
+    if (size_ <= 0)
+        return false;
+
     long long pos = start;
     const long long stop = start + size_;
 

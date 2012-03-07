@@ -541,6 +541,8 @@ public:
 
     ~SeekHead();
 
+    long Parse();
+
     struct Entry
     {
         //the SeekHead entry payload
