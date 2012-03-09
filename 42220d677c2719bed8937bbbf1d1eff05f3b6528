@@ -1,0 +1,225 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//Z0g\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "nit: You could combine with (size \u003c\u003d 0 || size \u003e 8)",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Z0U\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "If str is not null you will leak. You may want to force str to be null.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Z0M\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Would stop \u003c 0 always be an error?",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zz4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 4808,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "ParseElementHeader?",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zzw\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5629,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Potential memory leak on pTrack.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zzg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5700,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Check is unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zzc\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5703,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Check is unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//ZzY\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5706,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Check is unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zzo\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5869,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Potential memory leak on pTrack.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//ZzA\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5882,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Set rate to 0.0 then check below would be unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zy4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5883,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Set channels to 1 then check below would be unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//ZzQ\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5940,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Why not just make this the default in the constructor?",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zy8\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 5944,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T16:06:04Z",
+      "side": 1,
+      "message": "Check is unnecessary.",
+      "revId": "42220d677c2719bed8937bbbf1d1eff05f3b6528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
