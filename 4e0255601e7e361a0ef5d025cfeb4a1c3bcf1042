@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//Zn0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "I would rather remove the delete_str parameter.",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zqs\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 5600,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "Remove or uncomment.",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//ZpM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 5618,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "I would prefer that you return an error if pTrack is not null. This will force the calling code to do the right thing and you can removed the flag parameter.",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zqw\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 5839,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "Remove or uncomment.",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//ZpI\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 5857,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "I would prefer that you return an error if pTrack is not null. This will force the calling code to do the right thing and you can removed the flag parameter.",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//Zo4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 6178,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-09T18:49:33Z",
+      "side": 1,
+      "message": "Can we have the same null check here as in the VideoTrack parse code?",
+      "revId": "4e0255601e7e361a0ef5d025cfeb4a1c3bcf1042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
