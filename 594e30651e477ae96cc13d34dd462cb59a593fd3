@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//YPo\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 10
+      },
+      "lineNbr": 5253,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-12T18:41:51Z",
+      "side": 1,
+      "message": "Move this check above \"if (str \u003d\u003d NULL)\" because you could run into (str \u003d\u003d NULL and dst) which should return -1 but would return 0.",
+      "revId": "594e30651e477ae96cc13d34dd462cb59a593fd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//YX0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 10
+      },
+      "lineNbr": 5269,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-12T18:41:51Z",
+      "side": 1,
+      "message": "nit: Move this to the MSVC project file under C++-\u003eAdvanced",
+      "revId": "594e30651e477ae96cc13d34dd462cb59a593fd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//YPg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 10
+      },
+      "lineNbr": 5297,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-03-12T18:41:51Z",
+      "side": 1,
+      "message": "Should probably have a comment about this function that the state of dst is unknown if Copy() returns an error.",
+      "revId": "594e30651e477ae96cc13d34dd462cb59a593fd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
