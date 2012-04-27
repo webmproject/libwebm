@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn//0fc\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 4535,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-04-27T23:12:00Z",
+      "side": 1,
+      "message": "(note)\n\nEventually Match should go away, and all parsing should be done using ParseElementHeader.  The encryption stuff is the only extent entity that uses Match and friends.\n\n(end note)",
+      "revId": "acf544f184f4ef493a85013ed673ebbc915c0e41",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn//0fY\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 4558,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-04-27T23:12:00Z",
+      "side": 1,
+      "message": "Is this correct?  Under what circumstances would you *not* want to consume the payload?",
+      "revId": "acf544f184f4ef493a85013ed673ebbc915c0e41",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
