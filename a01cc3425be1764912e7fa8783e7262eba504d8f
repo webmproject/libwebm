@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn//rPc\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8251,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-05-08T21:42:15Z",
+      "side": 1,
+      "message": "strictly",
+      "revId": "a01cc3425be1764912e7fa8783e7262eba504d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn//rPg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8263,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-05-08T21:42:15Z",
+      "side": 1,
+      "message": "Couldn\u0027t this (perhaps briefly) through off sync?",
+      "revId": "a01cc3425be1764912e7fa8783e7262eba504d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
