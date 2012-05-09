@@ -33,6 +33,24 @@
       "revId": "a01cc3425be1764912e7fa8783e7262eba504d8f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn//qAM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8263,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-05-09T19:53:59Z",
+      "side": 1,
+      "message": "meant to say \u0027throw\u0027...\n\nstill other parsers (lavf/libmatroska) appear to forward this info to the app.",
+      "parentUuid": "AAAAKn//rPg\u003d",
+      "revId": "a01cc3425be1764912e7fa8783e7262eba504d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
