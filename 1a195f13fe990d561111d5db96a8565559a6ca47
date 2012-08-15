@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPH//z3U\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "These should probably be an enum.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z08\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "From here to line 134, could you replace with ParseLine and the perform the WEBVTT check on the line returned?",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z3M\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "If you made these enums then you wouldn\u0027t need the comments. Well as long as the enums had good names.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z0o\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "Rearrange according to declaration.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//zzQ\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "Add check for OOB?",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//zyg\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "You could make these blocks of code a ParseNumber function.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z3w\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "If an app is really only checking a binary for success, I would rather this return a  bool.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z0k\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "Add Returns comment.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z2w\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "This looks like it could return bool too.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z0g\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "Add Returns comment.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//z0M\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "optional settings...\n\nWe kind of copied Chromium\u0027s convention of using |\u003cparameter\u003e| to say you are talking about the specific parameter. So if you wanted you could change \"The line argument\" to \"|line|\".",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//zw0\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-15T00:34:56Z",
+      "side": 1,
+      "message": "Should you mention that line must not contain EOL chars?",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
