@@ -177,6 +177,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//xR8\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-16T22:21:21Z",
+      "side": 1,
+      "message": "I was just wondering if you should add code to check if arrow_pos is out of range instead of throwing.",
+      "parentUuid": "AAAAPH//yqs\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//zyg\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 10
