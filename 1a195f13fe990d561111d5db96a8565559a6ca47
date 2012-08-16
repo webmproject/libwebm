@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yrI\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z3U\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//z08\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 10
@@ -30,6 +48,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "From here to line 134, could you replace with ParseLine and the perform the WEBVTT check on the line returned?",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yrA\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z08\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yq8\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z3M\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//z0o\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 10
@@ -64,6 +118,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "Rearrange according to declaration.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yq4\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z0o\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yqs\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Not sure what you mean here.  Can you elaborate a bit?",
+      "parentUuid": "AAAAPH//zzQ\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//zyg\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 10
@@ -98,6 +188,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "You could make these blocks of code a ParseNumber function.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yms\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//zyg\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yrg\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Did it that way for consistency.  In principle we could return EOF too (or perhaps some other value), should we decide to do that.",
+      "parentUuid": "AAAAPH//z3w\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//z0k\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 10
@@ -132,6 +258,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "Add Returns comment.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yrc\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z0k\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yrY\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "As above.",
+      "parentUuid": "AAAAPH//z2w\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//z0g\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 10
@@ -166,6 +328,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "Add Returns comment.",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yrU\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z0g\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPH//yrQ\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//z0M\u003d",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPH//zw0\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 10
@@ -200,6 +398,24 @@
       "writtenOn": "2012-08-15T00:34:56Z",
       "side": 1,
       "message": "Should you mention that line must not contain EOL chars?",
+      "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH//yrM\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-16T18:48:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPH//zw0\u003d",
       "revId": "1a195f13fe990d561111d5db96a8565559a6ca47",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
