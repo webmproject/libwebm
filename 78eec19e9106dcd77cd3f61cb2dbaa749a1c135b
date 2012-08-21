@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPX//8os\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Add Copyright header.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8oI\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "How about parser instead of p?",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8oE\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Same with cue instead of c.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8n4\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "settings instead of s.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8n0\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "payload instead of p.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8oo\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Add Copyright header.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8ok\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Indent 4 sp.\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml?showone\u003dConstructor_Initializer_Lists#Constructor_Initializer_Lists",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8ow\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Add Copyright header.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8o8\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Function comment.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8oM\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Comment on implementing libwebvtt:Reader interface?",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPX//8pA\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-08-21T02:30:59Z",
+      "side": 1,
+      "message": "Remove.",
+      "revId": "78eec19e9106dcd77cd3f61cb2dbaa749a1c135b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
