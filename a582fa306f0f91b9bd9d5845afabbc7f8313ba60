@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//97A\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T19:33:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+tY\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+5s\u003d",
         "filename": "dumpvtt.cc",
         "patchSetId": 2
@@ -178,6 +196,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//94c\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T19:33:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+s0\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+5I\u003d",
         "filename": "dumpvtt.cc",
         "patchSetId": 2
@@ -242,6 +278,24 @@
       "side": 1,
       "message": "See my earlier comment (I don\u0027t know what the correct answer is).",
       "parentUuid": "AAAAPn//+44\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//98E\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T19:33:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+1A\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
