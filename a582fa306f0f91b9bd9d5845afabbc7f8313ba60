@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+tY\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:40Z",
+      "side": 1,
+      "message": "No the search path will still be used much in the same way as with e.g., sys/stat.h",
+      "parentUuid": "AAAAPn//+1s\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+5s\u003d",
         "filename": "dumpvtt.cc",
         "patchSetId": 2
@@ -136,6 +154,24 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "AAAAPn//+5k\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+s0\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:40Z",
+      "side": 1,
+      "message": "I meant in \u0027for (libwebvtt::Cue cue; ...\u0027 now the Cue will be constructed N times no?",
+      "parentUuid": "AAAAPn//+1U\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -381,6 +417,24 @@
       "side": 1,
       "message": "No copy ctor or assignment for this abstraction.",
       "parentUuid": "AAAAPn//+3E\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+sQ\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:40Z",
+      "side": 1,
+      "message": "Yes, sorry I missed they were defined in this way to disallow them...",
+      "parentUuid": "AAAAPn//+2M\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
