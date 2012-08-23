@@ -118,6 +118,24 @@
       "revId": "75c240a82685958f2c600dfa085c1e4e130007c2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+Bw\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T18:23:05Z",
+      "side": 1,
+      "message": "That or was the check above supposed to be file_ !\u003d NULL?",
+      "parentUuid": "AAAAPn//+Mo\u003d",
+      "revId": "75c240a82685958f2c600dfa085c1e4e130007c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
