@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+1s\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "But wouldn\u0027t that prevent someone from building these files using a different folder structure?  \n\nFor example, suppose someone wants to pull these files out of libwebm and use them for his own project.  In his project he might have all of the header files in their own directory (e.g. inc), separate from the implementation files (e.g. in src).",
+      "parentUuid": "AAAAPn//+50\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+5s\u003d",
         "filename": "dumpvtt.cc",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-08-23T00:11:39Z",
       "side": 1,
       "message": "maybe print the usage even though it\u0027s simple",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+1g\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+5s\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+1Y\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+5o\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+5k\u003d",
         "filename": "dumpvtt.cc",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2012-08-23T00:11:39Z",
       "side": 1,
       "message": "could scope this to the for()",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+1U\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+5k\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+1I\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done.\n\nVery interesting corner-case though!  The body of the else branch is actually a single statement, that happens to itself be multiple lines.",
+      "parentUuid": "AAAAPn//+5I\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+44\u003d",
         "filename": "vttreader.cc",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2012-08-23T00:11:39Z",
       "side": 1,
       "message": "ditto on \u0027./\u0027",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+1A\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "See my earlier comment (I don\u0027t know what the correct answer is).",
+      "parentUuid": "AAAAPn//+44\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+0c\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "I changed it as you suggest, though I don\u0027t particularly agree the change: disjunctive predicates should always be separated into distinct predicate statements, as it\u0027s easier to debug.",
+      "parentUuid": "AAAAPn//+4g\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+4k\u003d",
         "filename": "vttreader.cc",
         "patchSetId": 2
@@ -132,6 +258,24 @@
       "writtenOn": "2012-08-23T00:11:39Z",
       "side": 1,
       "message": "drop this line",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+0M\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+4k\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+0I\u003d",
+        "filename": "vttreader.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//+4c\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+3g\u003d",
         "filename": "vttreader.h",
         "patchSetId": 2
@@ -172,6 +334,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//+1E\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "See my earlier comment (I don\u0027t know the correct answer here).",
+      "parentUuid": "AAAAPn//+3g\u003d",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//+3E\u003d",
         "filename": "vttreader.h",
         "patchSetId": 2
@@ -183,6 +363,24 @@
       "writtenOn": "2012-08-23T00:11:39Z",
       "side": 1,
       "message": "do you need a copy constructor?\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Copy_Constructors",
+      "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+2M\u003d",
+        "filename": "vttreader.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-23T00:52:10Z",
+      "side": 1,
+      "message": "No copy ctor or assignment for this abstraction.",
+      "parentUuid": "AAAAPn//+3E\u003d",
       "revId": "a582fa306f0f91b9bd9d5845afabbc7f8313ba60",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
