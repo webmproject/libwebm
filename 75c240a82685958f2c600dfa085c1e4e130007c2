@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//+sM\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:44Z",
+      "side": 1,
+      "message": "const char*",
+      "revId": "75c240a82685958f2c600dfa085c1e4e130007c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+sE\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:44Z",
+      "side": 1,
+      "message": "drop this line",
+      "revId": "75c240a82685958f2c600dfa085c1e4e130007c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//+sI\u003d",
+        "filename": "dumpvtt.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-23T02:29:44Z",
+      "side": 1,
+      "message": "drop this line",
+      "revId": "75c240a82685958f2c600dfa085c1e4e130007c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
