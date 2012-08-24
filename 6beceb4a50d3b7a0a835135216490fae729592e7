@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//8gc\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "noted",
+      "parentUuid": "AAAAPn//9Ws\u003d",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//9WQ\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-08-24T00:36:01Z",
       "side": 1,
       "message": "4 space indent",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//8gY\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9WQ\u003d",
       "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//8gM\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9Uw\u003d",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//9Us\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2012-08-24T00:36:01Z",
       "side": 1,
       "message": "ditto",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//8gI\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9Us\u003d",
       "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//8gE\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9Uo\u003d",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//9WE\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 1
@@ -98,6 +188,24 @@
       "writtenOn": "2012-08-24T00:36:01Z",
       "side": 1,
       "message": "4 space indent",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//8gA\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9WE\u003d",
       "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//8f4\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//9V0\u003d",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//8+w\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 1
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//8gk\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//8+w\u003d",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//8+s\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 1
@@ -149,6 +293,24 @@
       "writtenOn": "2012-08-24T16:08:43Z",
       "side": 1,
       "message": "superfluous",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//8gg\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-24T22:02:01Z",
+      "side": 1,
+      "message": "Agreed, but I decided to leave it as is, after moving the member variables.  If you still don\u0027t like it, just -1 the patch.",
+      "parentUuid": "AAAAPn//8+s\u003d",
       "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
