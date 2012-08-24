@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//9Ws\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "these can be inlined in the class if you prefer; one line should suffice e.g., \u0027Reader() {}\u0027",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9WQ\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "4 space indent",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9Uw\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "drop this line",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9Us\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9Uo\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9WE\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "4 space indent",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//9V0\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-24T00:36:01Z",
+      "side": 1,
+      "message": "drop the std::, you\u0027re \u0027using\u0027 it above",
+      "revId": "6beceb4a50d3b7a0a835135216490fae729592e7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
