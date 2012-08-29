@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//46A\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7Hk\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//7HY\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2012-08-28T01:25:15Z",
       "side": 1,
       "message": "could be a for loop to better scope \u0027p\u0027",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//458\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7HY\u003d",
       "revId": "0019db237ac7a978a810f74f732b8d699a247423",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//45o\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7HQ\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//7HE\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2012-08-28T01:25:15Z",
       "side": 1,
       "message": "drop this line",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//45Y\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7HE\u003d",
       "revId": "0019db237ac7a978a810f74f732b8d699a247423",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//45U\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7G8\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//7G0\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 5
@@ -98,6 +188,24 @@
       "writtenOn": "2012-08-28T01:25:15Z",
       "side": 1,
       "message": "drop this line",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//45M\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7G0\u003d",
       "revId": "0019db237ac7a978a810f74f732b8d699a247423",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//45I\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7Gw\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//7Gs\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 5
@@ -132,6 +258,24 @@
       "writtenOn": "2012-08-28T01:25:15Z",
       "side": 1,
       "message": "this should probably be defined closer to its first use",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//45A\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//7Gs\u003d",
       "revId": "0019db237ac7a978a810f74f732b8d699a247423",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//43E\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "I changed the comment a bit.",
+      "parentUuid": "AAAAPn//7Gk\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//7GY\u003d",
         "filename": "webvttparser.cc",
         "patchSetId": 5
@@ -172,6 +334,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//43A\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "Mostly because libwebm doesn\u0027t have a \"int types\" module.  Secondarily, I was trying to make the parser module self-contained, with no dependency on other modules.",
+      "parentUuid": "AAAAPn//7GY\u003d",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//4/8\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 5
@@ -183,6 +363,24 @@
       "writtenOn": "2012-08-29T21:21:21Z",
       "side": 1,
       "message": "Again I don\u0027t like the extra \"private:\"s but I\u0027m not going to -1. I don\u0027t have a really strong opinion on it.",
+      "revId": "0019db237ac7a978a810f74f732b8d699a247423",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//46w\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-08-29T23:02:34Z",
+      "side": 1,
+      "message": "removed \"superfluous\" keywords",
+      "parentUuid": "AAAAPn//4/8\u003d",
       "revId": "0019db237ac7a978a810f74f732b8d699a247423",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
