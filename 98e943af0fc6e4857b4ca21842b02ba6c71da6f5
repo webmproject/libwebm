@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//4BU\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-08-30T19:57:30Z",
+      "side": 1,
+      "message": "Just FYI, these usually come at the end, but might require a DISALLOW macro to avoid lint issues if there were any here:\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Copy_Constructors",
+      "revId": "98e943af0fc6e4857b4ca21842b02ba6c71da6f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
