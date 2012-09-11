@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//wO4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1103,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//xBw\u003d",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//xBk\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -30,6 +48,41 @@
       "writtenOn": "2012-09-10T23:07:13Z",
       "side": 1,
       "message": "you should validate this pointer before using it",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//wO0\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1125,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//xBk\u003d",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//wOs\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2073,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Fixed this return value too, to return false.",
       "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//wOo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2077,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//xBY\u003d",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//xBc\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -70,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//wOk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2084,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Agreed, but marginally safer, if we happen to follow an error execution path.",
+      "parentUuid": "AAAAPn//xBc\u003d",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//xBA\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -81,6 +170,24 @@
       "writtenOn": "2012-09-10T23:07:13Z",
       "side": 1,
       "message": "this should come after WriteClusterHeader() or the implementation moved (see .cc note):\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Declaration_Order",
+      "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//wPQ\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-11T17:47:59Z",
+      "side": 1,
+      "message": "Preserved order here in header, but moved the implementation.",
+      "parentUuid": "AAAAPn//xBA\u003d",
       "revId": "df55ddbb2d116ed457b278bccb80560472da0d82",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
