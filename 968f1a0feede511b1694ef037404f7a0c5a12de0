@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//tJ4\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//tk0\u003d",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//tkw\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-09-13T18:06:04Z",
       "side": 1,
       "message": "Change this to an empty for loop.  At the top of the loop say:\n\nif ((total \u003e\u003d 0) \u0026\u0026 (pos \u003e\u003d total))\n  return E_FILE_FORMAT_INVALID;",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//tJ0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//tkw\u003d",
       "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//tIg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 781,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//tlw\u003d",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//tmQ\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2012-09-13T18:06:04Z",
       "side": 1,
       "message": "This seems wrong to me.  \n\nGetUIntLength looks at a single byte in the stream (the leading byte of an MKV integer, which says how long the integer is).  If there isn\u0027t enough data available (as indicated by the \"available\" value returned by IMkvReader::Length), then GetUIntLength returns the correct value: pos (same as available).  The old algorithm did the correct thing.",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//tIk\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "I was following what I thought was newer code. e.g. ParseHeaders below. But I think both should work, So I changed the code back to what was.",
+      "parentUuid": "AAAAPn//tmQ\u003d",
       "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//tJk\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 852,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//tks\u003d",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//tkk\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -98,6 +188,24 @@
       "writtenOn": "2012-09-13T18:06:04Z",
       "side": 1,
       "message": "Remove the return and the comment (it is dead code).",
+      "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//tJg\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 862,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-14T00:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//tkk\u003d",
       "revId": "968f1a0feede511b1694ef037404f7a0c5a12de0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
