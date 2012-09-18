@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//qWg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1880,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Removed the comment.",
+      "parentUuid": "AAAAPn//qxc\u003d",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//qxE\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-09-18T15:53:40Z",
       "side": 1,
       "message": "nit:\n\n// create a new cluster, but put this frame in one in the future",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qWc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1886,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qxE\u003d",
       "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//qWY\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1893,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qxA\u003d",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//qwo\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2012-09-18T15:53:40Z",
       "side": 1,
       "message": "rm line",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qWM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2003,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qwo\u003d",
       "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//qWI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2010,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qwg\u003d",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//qw0\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -98,6 +188,24 @@
       "writtenOn": "2012-09-18T15:53:40Z",
       "side": 1,
       "message": "nit:\nThis is called queued other places. This should probably be queued.",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qV8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2014,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qw0\u003d",
       "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//qV4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2017,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qws\u003d",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//qww\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//qV0\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2023,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//qww\u003d",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//qvM\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -149,6 +293,24 @@
       "writtenOn": "2012-09-18T15:53:40Z",
       "side": 1,
       "message": "I don\u0027t think this is true. In MakeNewCluster weWriteFramesLessThan(frame_timestamp_ns). Then we create a new cluster with the timecode of the first frame, which will be frame_timestamp_ns or a frame of equal time. So I think if frame_count \u003e 0 the frames written out will have a time equal to frame_timestamp_ns. If that is true than you could always return true here. Also you would have no need for returning 2 from TestFrame.\n\nAm I missing a code path?",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qUg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2027,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-18T23:24:16Z",
+      "side": 1,
+      "message": "Here\u0027s the problem I had:\n\nSuppose we write some queued audio frames to a new cluster.  Say the time is 1:00 (1 min, 0 secs).  Now suppose have a WebVTT cue whose time is 1:45 (1m, 45s).  That puts a 45 sec gap between between the first frame of the cluster (which we have just created) and the WebVTT cue element, so we cannot write the WebVTT cue to the cluster we just created.  Hence we must loop again, creating yet another cluster (whose timetag will be determined by the timestamp of the WebVTT cue).\n\nDo you agree with this analysis?",
+      "parentUuid": "AAAAPn//qvM\u003d",
       "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
