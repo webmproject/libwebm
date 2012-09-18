@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//qxc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1880,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "I think this is mispelled. So this is saying there are a lot of comments here and below?",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qxE\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1886,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "nit:\n\n// create a new cluster, but put this frame in one in the future",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qxA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1893,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "nit:\ncreate a",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qwo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2003,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "rm line",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qwg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2010,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "rm line",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qw0\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2014,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "nit:\nThis is called queued other places. This should probably be queued.",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qws\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2017,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "rm line",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qww\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2023,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "rm line",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//qvM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2027,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-18T15:53:40Z",
+      "side": 1,
+      "message": "I don\u0027t think this is true. In MakeNewCluster weWriteFramesLessThan(frame_timestamp_ns). Then we create a new cluster with the timecode of the first frame, which will be frame_timestamp_ns or a frame of equal time. So I think if frame_count \u003e 0 the frames written out will have a time equal to frame_timestamp_ns. If that is true than you could always return true here. Also you would have no need for returning 2 from TestFrame.\n\nAm I missing a code path?",
+      "revId": "9d648dbc5d58a0790d22b7903be747ce5beba32c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
