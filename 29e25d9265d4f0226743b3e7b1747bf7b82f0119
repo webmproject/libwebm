@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//oIU\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 674,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-21T14:57:25Z",
+      "side": 1,
+      "message": "The style guide doesn\u0027t allow default parameters. Just drop the default and make Add*Track take three parameters. I think in most code it uses all three.\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Default_Arguments",
+      "revId": "29e25d9265d4f0226743b3e7b1747bf7b82f0119",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
