@@ -16,6 +16,24 @@
       "revId": "3731154a7a3869b29e3a38826f923daa1a92a112",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//oGk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1389,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-21T15:53:12Z",
+      "side": 1,
+      "message": "I can\u0027t clear the current value if app is null as it is defined mandatory in the spec.\n\nI think all the rest I addressed. PTAL",
+      "parentUuid": "AAAAPn//of4\u003d",
+      "revId": "3731154a7a3869b29e3a38826f923daa1a92a112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
