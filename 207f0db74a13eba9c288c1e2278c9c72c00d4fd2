@@ -16,6 +16,24 @@
       "revId": "207f0db74a13eba9c288c1e2278c9c72c00d4fd2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//n04\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1391,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-21T19:18:19Z",
+      "side": 1,
+      "message": "Correct, but I changed the code to just perform a swap.",
+      "parentUuid": "AAAAPn//n7g\u003d",
+      "revId": "207f0db74a13eba9c288c1e2278c9c72c00d4fd2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
