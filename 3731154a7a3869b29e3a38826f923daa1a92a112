@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn//of4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1389,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-21T01:10:17Z",
+      "side": 1,
+      "message": "I would use app\u003dNULL to mean \"clear the current value\".  \n\nYou should also check explicitly for the case when app \u003d\u003d muxing_app_.\n\nSo the algorithm would become something like:\n\nif (app \u003d\u003d muxing_app_)\n  return;  // nothing else to do\n\ndelete[] muxing_app_;\nmuxing_app_ \u003d NULL;\n\nif (app \u003d\u003d NULL)\n  return;\n\nconst size_t len \u003d strlen(app) + 1;\n...\n\nYou also ignore the case when the allocator returns NULL (because of storage exhaustion).  You don\u0027t handle that case now (typically this would be reported to the caller via an error value), so perhaps it\u0027s a case you can continue to ignore for now.",
+      "revId": "3731154a7a3869b29e3a38826f923daa1a92a112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
