@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//ke0\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002094
+      },
+      "writtenOn": "2012-09-26T20:20:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//lBQ\u003d",
+      "revId": "fc3b94e736729847287b7d1230b54356f2ca5cc4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//lBM\u003d",
         "filename": "Makefile",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAPn//keg\u003d",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002094
+      },
+      "writtenOn": "2012-09-26T20:20:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//lBM\u003d",
+      "revId": "fc3b94e736729847287b7d1230b54356f2ca5cc4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn//lBI\u003d",
         "filename": "Makefile",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2012-09-26T05:58:35Z",
       "side": 1,
       "message": "the .so is ok for the first pass, but I\u0027d prefer not to have it be enabled via the default rule unless some versioning was added",
+      "revId": "fc3b94e736729847287b7d1230b54356f2ca5cc4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn//kec\u003d",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002094
+      },
+      "writtenOn": "2012-09-26T20:20:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAPn//lBI\u003d",
       "revId": "fc3b94e736729847287b7d1230b54356f2ca5cc4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
