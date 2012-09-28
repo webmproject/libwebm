@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH///84\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "I think it would be better if followed the current convention, even if you don\u0027t like it. I.e. Add 4 else if checking for -webvtt-* (or one checking for \"-webvtt-\"?) and then call another function to perform  the code below.",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAP3///uI\u003d",
         "filename": "sample_muxer.cpp",
         "patchSetId": 2
@@ -64,6 +81,23 @@
       "writtenOn": "2012-09-27T20:01:55Z",
       "side": 1,
       "message": "add Usage() or a suggestion of -h",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH///9E\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "In current code this can\u0027t happen. So remove?",
       "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -132,6 +166,23 @@
       "writtenOn": "2012-09-27T20:01:55Z",
       "side": 1,
       "message": "could be return Parse(...);",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH///9k\u003d",
+        "filename": "sample_muxer_metadata.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "This seems really fragile. What if someone adds a Kind or rearranges the Kind enum. Probably should be a static function to return these values passing in a Kind.",
       "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -251,6 +302,57 @@
       "writtenOn": "2012-09-27T20:01:55Z",
       "side": 1,
       "message": "enums/typedefs come first",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAP3///h4\u003d",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "Rename this to cue_list_t. cues_t is too close to cue_t.",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAP3///hs\u003d",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "Rename this to cue_list_map_t. Just looking at this I thought it was a map of cues.",
+      "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH///9s\u003d",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-09-28T00:38:12Z",
+      "side": 1,
+      "message": "I\u0027m feeling this code is overly complex for sample code. Why not just have a multimap of cues with a time key? If you were really worried about ordering the cues by track number you could do that after all the cues were parsed. But when you are writing out all the blocks track order doesn\u0027t matter in the sample.",
       "revId": "602afc3974c6acc669674d07246ab1a0e9c9aaee",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
