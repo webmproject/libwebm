@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH///X8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2107,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-28T17:41:44Z",
+      "side": 1,
+      "message": "Actually I did find such a case.  Not all audio frames were dequeued, and that remaining unqueued audio frame determined the cluster time.  But the time of the cue was much greater then the resulting cluster time.",
+      "parentUuid": "AAAAQH///rk\u003d",
+      "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH///r8\u003d",
         "filename": "sample_muxer_metadata.cc",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2012-09-28T06:57:34Z",
       "side": 1,
       "message": "ws",
+      "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH///YA\u003d",
+        "filename": "sample_muxer_metadata.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-28T17:41:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQH///r8\u003d",
       "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH///YU\u003d",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-28T17:41:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQH///sM\u003d",
+      "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH///sI\u003d",
         "filename": "sample_muxer_metadata.h",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2012-09-28T06:57:34Z",
       "side": 1,
       "message": "This should probably be on the line above (assuming length \u003c 80) and the next parameter aligned with the first. Otherwise the parameters should be indented to 4 spaces.\n\nSame for other functions below.",
+      "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH///YE\u003d",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-09-28T17:41:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQH///sI\u003d",
       "revId": "edb3fa35050d60ea549a06e3880cdeef3db5ae3d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
