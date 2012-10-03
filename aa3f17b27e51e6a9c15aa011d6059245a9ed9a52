@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQH//9mM\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-03T00:52:48Z",
+      "side": 1,
+      "message": "private inheritance is generally frowned on:\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Inheritance",
+      "revId": "aa3f17b27e51e6a9c15aa011d6059245a9ed9a52",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH//9mI\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-03T00:52:48Z",
+      "side": 1,
+      "message": "you should declare a virtual destructor",
+      "revId": "aa3f17b27e51e6a9c15aa011d6059245a9ed9a52",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
