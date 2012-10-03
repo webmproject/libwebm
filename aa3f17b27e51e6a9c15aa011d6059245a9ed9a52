@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH//9lQ\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-03T01:17:11Z",
+      "side": 1,
+      "message": "Thanks for the link.  This is kind of a corner case.  The LineReader doesn\u0027t have any state of its own (which is what makes inheritance nasty) -- all I did was move GetLine from being a private member of Parser, to a public member of a class from which Parser privately derives.  Six of one, half dozen of another.  I\u0027ll leave it as is for now (because I have no obvious alternative).",
+      "parentUuid": "AAAAQH//9mM\u003d",
+      "revId": "aa3f17b27e51e6a9c15aa011d6059245a9ed9a52",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH//9mI\u003d",
         "filename": "webvttparser.h",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-03T00:52:48Z",
       "side": 1,
       "message": "you should declare a virtual destructor",
+      "revId": "aa3f17b27e51e6a9c15aa011d6059245a9ed9a52",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH//9lw\u003d",
+        "filename": "webvttparser.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-03T01:17:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQH//9mI\u003d",
       "revId": "aa3f17b27e51e6a9c15aa011d6059245a9ed9a52",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
