@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH//4as\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5131,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-09T21:45:15Z",
+      "side": 1,
+      "message": "You can\u0027t make it return void.  You need a dispatching method so that it can be overridden by VideoTrack.\n\nThe state being checked via the asserts is unrelated to the purpose of VetEntry.  Just ignore the assertions.  The only meaningful thing that Track::VetEntry does is:\n\n  return true;",
+      "parentUuid": "AAAAQH//4bE\u003d",
+      "revId": "c61d6a80e827cc9a18da1316b3a1d1771b339e81",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH//4c0\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
