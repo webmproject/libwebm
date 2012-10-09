@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQH//4cw\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5131,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-10-09T21:13:51Z",
+      "side": 1,
+      "message": "Return false when vetting fails.",
+      "revId": "c61d6a80e827cc9a18da1316b3a1d1771b339e81",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQH//4c0\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5362,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-10-09T21:13:51Z",
+      "side": 1,
+      "message": "Does GetBlock() need to be checked before the IsKey() call?",
+      "revId": "c61d6a80e827cc9a18da1316b3a1d1771b339e81",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
