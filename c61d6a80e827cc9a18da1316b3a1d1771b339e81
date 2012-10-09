@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQH//4bE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5131,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2012-10-09T21:40:33Z",
+      "side": 1,
+      "message": "More questions:\n\n  1) Then why not return void? \n  2) Why even make the call at all? \n\nRe 2, this does nothing in a build with NDEBUG defined. Applications using libwebm will exhibit undefined behavior if using VetTrackEntry when linked to a build of libwebm produced with NDEBUG defined. All that needs to be done here to avoid that is\n\n  if (!pBlock || pBlock-\u003eGetTrackNumber() !\u003d m_info.number)\n    return false;\n\nI don\u0027t understand the argument against making the check.",
+      "parentUuid": "AAAAQH//4cU\u003d",
+      "revId": "c61d6a80e827cc9a18da1316b3a1d1771b339e81",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH//4c0\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
