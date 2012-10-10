@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX///NA\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 4766,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-10T22:52:06Z",
+      "side": 1,
+      "message": "just name them element_start / element_size as in the constructor",
+      "revId": "8ac1b0b9e590f8adc3a674b7c4b6a79b319fe278",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
