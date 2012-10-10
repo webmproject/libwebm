@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX///6c\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5131,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-10T16:00:40Z",
+      "side": 1,
+      "message": "This is a really really badly named function. At this point changing the declaration might be a bad idea if code is dependent on it. But please put a function comment on what the function actually does and a TODO in the header to change the name to something meaningful when we get around to changing the parser.",
+      "parentUuid": "AAAAQH//4cU\u003d",
+      "revId": "c61d6a80e827cc9a18da1316b3a1d1771b339e81",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQH//4c0\u003d",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
