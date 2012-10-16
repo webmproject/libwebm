@@ -16,6 +16,24 @@
       "revId": "ac238c0c5cd2136928ea52bcc2f2eaa82d0b5189",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQn//8gI\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-16T20:51:31Z",
+      "side": 1,
+      "message": "The issue is that these are byte values that never appear in a UTF-8 stream, so they don\u0027t have a name a la LF or CR.",
+      "parentUuid": "AAAAQn//8nM\u003d",
+      "revId": "ac238c0c5cd2136928ea52bcc2f2eaa82d0b5189",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
