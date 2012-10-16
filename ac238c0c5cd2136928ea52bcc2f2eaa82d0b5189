@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQn//8nM\u003d",
+        "filename": "webvttparser.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-16T20:48:46Z",
+      "side": 1,
+      "message": "nit: These should match kLF and kCR.",
+      "revId": "ac238c0c5cd2136928ea52bcc2f2eaa82d0b5189",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
