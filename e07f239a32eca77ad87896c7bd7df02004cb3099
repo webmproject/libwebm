@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///dI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1051,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Fixed (though I personally think \"delete []\" is evil).",
+      "parentUuid": "AAAAQ3///fw\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3///fs\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-26T22:01:03Z",
       "side": 1,
       "message": "uint32",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///dE\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1063,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Changed type to int, to match the type of the member var.",
+      "parentUuid": "AAAAQ3///fs\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///cI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3///fg\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3///fo\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2012-10-26T22:01:03Z",
       "side": 1,
       "message": "uint32",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///cA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1216,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Changed it to type int, to match type of member var.",
+      "parentUuid": "AAAAQ3///fo\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///b4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1788,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Must match type of seed arg of rand_r",
+      "parentUuid": "AAAAQ3///fk\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3///fA\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2012-10-26T22:01:03Z",
       "side": 1,
       "message": "uint32 (As well other places)",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///ec\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "This type matches the parameter of rand_r.",
+      "parentUuid": "AAAAQ3///fA\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -156,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///eM\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 514,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3///fU\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3///fY\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -167,6 +293,24 @@
       "writtenOn": "2012-10-26T22:01:03Z",
       "side": 1,
       "message": "anonymous namespace in the cc file?",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///d4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3///fY\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -220,6 +364,24 @@
       "side": 1,
       "message": "I agree this should probably be a class.",
       "parentUuid": "AAAAQn//0X0\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///dc\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3///gQ\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -342,6 +504,24 @@
       "writtenOn": "2012-10-26T22:01:03Z",
       "side": 1,
       "message": "Change this to kMkvChapString to match Matroska specs. Same with the 2 elements below.",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///eo\u003d",
+        "filename": "webmids.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T22:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3///tA\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
