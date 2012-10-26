@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQn//0X4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-26T02:17:32Z",
+      "side": 1,
+      "message": "this is usually last (or along with DISALLOW_COPY_AND_ASSIGN) in a private section",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQn//0X0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-26T02:17:32Z",
+      "side": 1,
+      "message": "this should be at the start of the section; though this is borderline as it provides functionality:\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Structs_vs._Classes",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQn//0WE\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-26T02:17:32Z",
+      "side": 1,
+      "message": "indicators",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQn//0WA\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-26T02:17:32Z",
+      "side": 1,
+      "message": "one space after the \u0027//\u0027 should be enough",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQn//0V4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 901,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2012-10-26T02:17:32Z",
+      "side": 1,
+      "message": "why not const\u0026?",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
