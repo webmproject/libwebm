@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///jg\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T21:24:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQn//0X4\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQn//0X0\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-26T02:17:32Z",
       "side": 1,
       "message": "this should be at the start of the section; though this is borderline as it provides functionality:\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Structs_vs._Classes",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///jQ\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T21:24:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQn//0X0\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///jI\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T21:24:13Z",
+      "side": 1,
+      "message": "I actually fixed the TODO.",
+      "parentUuid": "AAAAQn//0WE\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQn//0WA\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///jA\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T21:24:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQn//0WA\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQn//0V4\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -81,6 +153,24 @@
       "writtenOn": "2012-10-26T02:17:32Z",
       "side": 1,
       "message": "why not const\u0026?",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///iw\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 901,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-26T21:24:13Z",
+      "side": 1,
+      "message": "I was following what was there already -- I just needed a const version of GetSegInfo.",
+      "parentUuid": "AAAAQn//0V4\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
