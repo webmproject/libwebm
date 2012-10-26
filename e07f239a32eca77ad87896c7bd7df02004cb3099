@@ -2,6 +2,108 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAQ3///fw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1051,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "Every where else we use delete [].",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fs\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1063,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "uint32",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "Extra statement",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1216,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "uint32",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1788,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "uint32",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fA\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "uint32 (As well other places)",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQn//0X4\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -37,6 +139,40 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3///fU\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 514,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "Should talk about who owns the data going in and coming out.",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///fY\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "anonymous namespace in the cc file?",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQn//0X0\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -65,6 +201,24 @@
       "writtenOn": "2012-10-26T21:24:13Z",
       "side": 1,
       "message": "Done",
+      "parentUuid": "AAAAQn//0X0\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///gQ\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "I agree this should probably be a class.",
       "parentUuid": "AAAAQn//0X0\u003d",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
@@ -171,6 +325,23 @@
       "side": 1,
       "message": "I was following what was there already -- I just needed a const version of GetSegInfo.",
       "parentUuid": "AAAAQn//0V4\u003d",
+      "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3///tA\u003d",
+        "filename": "webmids.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-10-26T22:01:03Z",
+      "side": 1,
+      "message": "Change this to kMkvChapString to match Matroska specs. Same with the 2 elements below.",
       "revId": "e07f239a32eca77ad87896c7bd7df02004cb3099",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
