@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3//85w\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1032,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-31T00:09:23Z",
+      "side": 1,
+      "message": "That would be an error.  Unfortunately, the set_timecode_scale function (declared as inline, in the header) doesn\u0027t do any vetting.  If the timecode scale were 0 then nothing would work (because there we be lots of divide-by-zero exceptions everywhere).",
+      "parentUuid": "AAAAQ3//+HU\u003d",
+      "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3//9kg\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2012-10-30T17:58:05Z",
       "side": 1,
       "message": "Add comment about initializer lists.",
+      "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3//84g\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1058,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-31T00:09:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//9kg\u003d",
       "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3//8/M\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-31T00:09:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//+HQ\u003d",
+      "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3//+Gs\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 6
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3//86A\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-31T00:09:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//+Gs\u003d",
+      "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3//+G4\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 6
@@ -81,6 +153,24 @@
       "writtenOn": "2012-10-30T02:14:39Z",
       "side": 1,
       "message": "this should be indented 1 space",
+      "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3//854\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-10-31T00:09:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//+G4\u003d",
       "revId": "dcfdd342d1d0dd66cdba4cf0c04ea16560d1c41e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
