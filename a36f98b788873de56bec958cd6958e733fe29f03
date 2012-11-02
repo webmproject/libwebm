@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3//5vc\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-11-02T21:22:19Z",
+      "side": 1,
+      "message": "Agreed",
+      "parentUuid": "AAAAQ3//6cA\u003d",
+      "revId": "a36f98b788873de56bec958cd6958e733fe29f03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3//6bo\u003d",
         "filename": "sample_muxer_metadata.cc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-11-02T03:09:23Z",
       "side": 1,
       "message": "you could move this to 130 and avoid the else altogether",
+      "revId": "a36f98b788873de56bec958cd6958e733fe29f03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3//5vk\u003d",
+        "filename": "sample_muxer_metadata.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-11-02T21:22:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//6bo\u003d",
       "revId": "a36f98b788873de56bec958cd6958e733fe29f03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
