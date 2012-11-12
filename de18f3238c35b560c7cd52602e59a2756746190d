@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQ3//0sQ\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-11-12T19:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQ3//0zE\u003d",
+      "revId": "de18f3238c35b560c7cd52602e59a2756746190d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQ3//0x8\u003d",
         "filename": "vttdemux.cc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-11-12T18:02:58Z",
       "side": 1,
       "message": "Why not add GetRawTimecode functions? Then you could remove dependency on Chapters/Segment.",
+      "revId": "de18f3238c35b560c7cd52602e59a2756746190d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3//0rk\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 746,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-11-12T19:09:07Z",
+      "side": 1,
+      "message": "I\u0027m not following.  The atom contains the absolute timecode of the chapter cue (the value returned by GetStartTimecode()).  To convert that to an actual time you need the timecode_scale, so there must be a dependency on SegmentInfo somewhere.",
+      "parentUuid": "AAAAQ3//0x8\u003d",
       "revId": "de18f3238c35b560c7cd52602e59a2756746190d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
