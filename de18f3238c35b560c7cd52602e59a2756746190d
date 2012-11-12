@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQ3//0zE\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-11-12T18:02:58Z",
+      "side": 1,
+      "message": "Add a const of kChaptersKey instead of using 0 everywhere.",
+      "revId": "de18f3238c35b560c7cd52602e59a2756746190d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQ3//0x8\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 746,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2012-11-12T18:02:58Z",
+      "side": 1,
+      "message": "Why not add GetRawTimecode functions? Then you could remove dependency on Chapters/Segment.",
+      "revId": "de18f3238c35b560c7cd52602e59a2756746190d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
