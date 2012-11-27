@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQ3//r5I\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2012-11-27T00:29:08Z",
+      "side": 1,
+      "message": "I think this is wrong.  It should be something like:\n\nseed;\nunsigned int nn;\nconst errno_t err \u003d rand_s(\u0026nn);\nif (err !\u003d 0)\n  return 0;  // error\n\nThere is no seed for rand_s on Windows.  That\u0027s fine here, because we generate a random seed anyway.",
+      "revId": "9da4d98421da77b7565b5294cf929fb6e8904622",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
