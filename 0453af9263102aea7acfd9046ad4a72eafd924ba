@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVH//yn0\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 518,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-01-25T00:13:56Z",
+      "side": 1,
+      "message": "To document the fact that it\u0027s being ignored (for now).",
+      "parentUuid": "AAAAVH//yoA\u003d",
+      "revId": "0453af9263102aea7acfd9046ad4a72eafd924ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVH//yn8\u003d",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-25T00:09:04Z",
       "side": 1,
       "message": "Looks like this branch can\u0027t happen?",
+      "revId": "0453af9263102aea7acfd9046ad4a72eafd924ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//ynw\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-01-25T00:13:56Z",
+      "side": 1,
+      "message": "Right, but it\u0027s there to simplify someone else\u0027s life should we decide to not use the secure version of rand.",
+      "parentUuid": "AAAAVH//yn8\u003d",
       "revId": "0453af9263102aea7acfd9046ad4a72eafd924ba",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
