@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVH//c3g\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-26T20:26:30Z",
+      "side": 1,
+      "message": "The Matroska spec says that the Language sub-element has type String, not type UTF-8.  Can you reconcile this?",
+      "revId": "b6182b97f2df78a01a71b4d3a56327db67834441",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
