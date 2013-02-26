@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVH//cpE\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 5877,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-26T22:15:06Z",
+      "side": 1,
+      "message": "Note that Track::Seek is a little goofy.  Technically to seek for a block in a Matroska file you must have a Cues element containing a cue entry for the track you\u0027re interested in.  \n\nTrack::Seek is a ersatz seek function.  It works, but there\u0027s no guarantee that clients are using it to do their actual seeking.\n\n(Just reply with an ACK.)",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//cr8\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-26T22:15:06Z",
+      "side": 1,
+      "message": "It\u0027s not quite that simple -- the value 0x21 is also valid.",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
