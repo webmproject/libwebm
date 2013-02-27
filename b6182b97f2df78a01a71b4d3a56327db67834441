@@ -34,6 +34,24 @@
       "revId": "b6182b97f2df78a01a71b4d3a56327db67834441",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//b8Y\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-27T09:03:46Z",
+      "side": 1,
+      "message": "It\u0027s not merely the case that \"you should only expect ASCII\" characters -- any other character value would be illegal!\n\nYou don\u0027t need to tell me what you plan to do.  Just make the change and upload the new patch set.",
+      "parentUuid": "AAAAVH//cCA\u003d",
+      "revId": "b6182b97f2df78a01a71b4d3a56327db67834441",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
