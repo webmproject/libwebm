@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVH//a8c\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 5303,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-27T23:39:20Z",
+      "side": 1,
+      "message": "This is still wrong.  \n\nYou should be testing for an error value from UnserializeUInt, which is any value less than 0.\n\nNo, you don\u0027t need to bother testing for \"bad\" values that are positive.  Let the client do that.",
+      "revId": "160529bf8ef280286721522b69f01f7bc6e668f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
