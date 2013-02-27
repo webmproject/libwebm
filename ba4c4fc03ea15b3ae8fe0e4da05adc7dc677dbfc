@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVH//b1E\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 5302,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T15:24:11Z",
+      "side": 1,
+      "message": "Sorry for that...",
+      "revId": "ba4c4fc03ea15b3ae8fe0e4da05adc7dc677dbfc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
