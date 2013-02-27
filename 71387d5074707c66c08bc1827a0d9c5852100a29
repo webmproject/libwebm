@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVH//b7w\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 5877,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-27T09:11:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAVH//b/8\u003d",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVH//cr8\u003d",
         "filename": "mkvparser.hpp",
         "patchSetId": 3
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Oh, I saw that - \nit\u0027s defined in the WebVTT page on the webm project but not on matroska.org.\nIs this meant to indicate \u0027sound effect\u0027 type of tracks to complement the\nsubtitles for the hearing impaired? \n\nAndroid do not currently support selection of multiple tracks simultaneously,\nbut if there are example files available (or anyone using it) it would be helpful.",
       "parentUuid": "AAAAVH//cr8\u003d",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//b74\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-02-27T09:11:50Z",
+      "side": 1,
+      "message": "There are four kinds of subtitle tracks: subtitles, captions, descriptions, metadata.  The former two types have 0x11 as the track type, and the latter two type has 0x21 as the track type.  Better to say:\n\nkSubtitlesAndCaptions \u003d 0x11,\nkDescriptionsAndMetadata \u003d 0x21\n\nSelection of multiple tracks simultaneously is orthogonal to the present discussion.",
+      "parentUuid": "AAAAVH//cAg\u003d",
       "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
