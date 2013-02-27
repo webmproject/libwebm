@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVH//b/8\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 5877,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T07:56:18Z",
+      "side": 1,
+      "message": "I see. \nWhen cues are used this is not needed and cues from the video track are used in android. \n\nFor files without cues and audio only files this is a fallback. \nThere is an overhead with loading all clusters in advance to have anything to search in.\n\nThe way awesomeplayer in android works reads with seeks are independent for each track so even the subtitle track will need to come in with a seek request.\n(This prohibits searching just the main track and considering the media as a stream where secondary tracks such as audio and subtitles are parsed out of the stream and demuxed to the correct handler whenever you find such a block in the file.)\n\n\nAnother problem I see looking at androids MatroskaExtractor:\nSearching for a video cue first and then iterating in advance_l to the next matching subtitle could end up very far ahead in the file or even go to end of file.\nThis may not be a big deal for local playback but for streaming you might not\nwant to start loading clusters in advance for a simple seek...\n\nWell, this might only affect longer movies without any dialogue :)\n\n(ACK)",
+      "parentUuid": "AAAAVH//cpE\u003d",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVH//cr8\u003d",
         "filename": "mkvparser.hpp",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-02-26T22:15:06Z",
       "side": 1,
       "message": "It\u0027s not quite that simple -- the value 0x21 is also valid.",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//cAg\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T07:56:18Z",
+      "side": 1,
+      "message": "Oh, I saw that - \nit\u0027s defined in the WebVTT page on the webm project but not on matroska.org.\nIs this meant to indicate \u0027sound effect\u0027 type of tracks to complement the\nsubtitles for the hearing impaired? \n\nAndroid do not currently support selection of multiple tracks simultaneously,\nbut if there are example files available (or anyone using it) it would be helpful.",
+      "parentUuid": "AAAAVH//cr8\u003d",
       "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
