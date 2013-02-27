@@ -16,6 +16,24 @@
       "revId": "b0bb6ca2d09dbe48c26b414dcd4c422128d93d3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//cBk\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 5301,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T07:12:10Z",
+      "side": 1,
+      "message": "We might accept unknown types of compression or invalid data,\nbut I don\u0027t see any big risk - any parser decompressing data must\ncheck the type of algo and implement it. There is no way that it would\njust pass along invalid data here. \nThis way allows adding new types without changing the parser.\n\nNote that this function was heavily inspired by ParseEncryptionEntry :)",
+      "parentUuid": "AAAAVH//cu4\u003d",
+      "revId": "b0bb6ca2d09dbe48c26b414dcd4c422128d93d3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
