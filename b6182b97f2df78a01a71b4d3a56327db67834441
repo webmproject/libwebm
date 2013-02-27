@@ -16,6 +16,24 @@
       "revId": "b6182b97f2df78a01a71b4d3a56327db67834441",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//cCA\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T07:04:16Z",
+      "side": 1,
+      "message": "We\u0027ll remove \u0027AsUTF8\u0027 from the external method and variable names.\n\nIt contains a language code ISO-639-2  and optionally a country code\nso you should only expect characters used in those standards, not UTF-8.",
+      "parentUuid": "AAAAVH//c3g\u003d",
+      "revId": "b6182b97f2df78a01a71b4d3a56327db67834441",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
