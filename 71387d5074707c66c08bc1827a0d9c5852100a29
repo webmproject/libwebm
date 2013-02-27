@@ -105,6 +105,24 @@
       "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVH//b6o\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002590
+      },
+      "writtenOn": "2013-02-27T10:42:46Z",
+      "side": 1,
+      "message": "kSubtitles is clear and short imho\n\nFor a metadata track I can see the usecase with continous GPS coordinates\nbut this is neither clear from matroska.org or the webvtt standard.\nIt would have been much better if it was just invisible data embedded in normal\nWebVTT payloads, adding a new track type needs support from someone \nin change of the mediaplayer API.",
+      "parentUuid": "AAAAVH//b74\u003d",
+      "revId": "71387d5074707c66c08bc1827a0d9c5852100a29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
