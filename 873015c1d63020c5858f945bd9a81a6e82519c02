@@ -34,6 +34,24 @@
       "revId": "873015c1d63020c5858f945bd9a81a6e82519c02",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3//62o\u003d",
+        "filename": "mkvreader.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-03-29T18:28:04Z",
+      "side": 1,
+      "message": "I think it was bug and we should just remove it.",
+      "parentUuid": "AAAAW3//63c\u003d",
+      "revId": "873015c1d63020c5858f945bd9a81a6e82519c02",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
