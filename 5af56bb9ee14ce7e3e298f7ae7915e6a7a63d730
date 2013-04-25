@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXX//2wo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1439,
+      "author": {
+        "id": 1002833
+      },
+      "writtenOn": "2013-04-25T01:29:29Z",
+      "side": 1,
+      "message": "The purpose of DoWriteBlock was to normalize two different functions, AddFrame and AddMetadata, that were otherwise different but could be made to look the same when writing out payload. \n\nSo there\u0027s no need for DoWriteBlockWithAdditional, since there are no other (public) functions calling it.\n\nThe alternative (if possible) is to change DoWriteBlock to take an additional parameter that would be a no-op for AddFrame or AddMetadata, but a do-op for AddFrameWithAdditional.  Probably not worth the bother, though.",
+      "revId": "5af56bb9ee14ce7e3e298f7ae7915e6a7a63d730",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
