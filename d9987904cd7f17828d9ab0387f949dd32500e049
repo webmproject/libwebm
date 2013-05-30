@@ -1,0 +1,327 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAZn//+p8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1758,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "What if index is negative?",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+p4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1771,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Should you return an error if you cannot set?",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+ow\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2028,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Move this comment to the h file. You also need to comment the parameters better.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+oc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2032,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "-Move this down unitl it is needed.\n-CuePoint* const cue_point",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+oY\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2033,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "const. Also change name to be more descriptive old_cues_size?",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+oQ\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2034,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Check if cue_point is Null?",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+mI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2045,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "You already have \"a\" above.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+mA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2046,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Change b and c to be more descriptive.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+lA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2057,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Maybe change name to MoveCuesBeforeClusters?",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+lI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2065,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Change to cluster_index, cues_index.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+qw\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Maybe change end to size_t size. This way you don\u0027t have to specify if end is exclusive or inclusive. Also move this to anonymous namespace if only need in the .cpp file.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+qk\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "nit: This file tries to alphabetize functions. (Besides Init)",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+qY\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 842,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "nit: This file tries to alphabetize functions. (Besides Init)",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+qM\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 944,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "comment",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+kU\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1177,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Not really a flag.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+70\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "2013",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+3k\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "I know the code came from mkvreader, but you should follow the  C++ style guide, since this is a new file.\n\ni.e. Open brace on the same line. 2 space indent...",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+hk\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Maybe change to \"-cues_before_clusters \u003cint\u003e      \u003e0 puts Cues before Clusters\"",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//+hg\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T23:50:40Z",
+      "side": 1,
+      "message": "Change to cues_before_clusters, then you don\u0027t need the comment.",
+      "revId": "d9987904cd7f17828d9ab0387f949dd32500e049",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
