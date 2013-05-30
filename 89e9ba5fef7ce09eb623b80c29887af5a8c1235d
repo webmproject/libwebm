@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAZn///90\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "This seems a little complicated.\nHow about:\n\nint64 offset \u003d start;\nint64 len \u003d end - start;\n\nwhile (len \u003e 0) {\n  const int64 read_len (len \u003e BUF_SIZE) ? BUF_SIZE : len;\n  if (source-\u003eRead(offset , read_len, buf)) {\t\n       fprintf(stderr, \"Error reading\");\n       return false;\n    }\t\n    dst-\u003eWrite(buf, read_len);\n    offset +\u003d read_len;\n    len -\u003d read_len;\n}",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///68\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2034,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "This seems really bad. Have you hit (diff \u003e 0)? E.g you hit it on the first cue. You have already changed cue 0 to be first_cluster_pos + diff on the first run. Now you will change cue 0 to be first_cluster_pos + diff + new_diff on second run.\n\nActually changing the cue values before you decide where the new Clusters will start seem like a bad idea.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///78\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2043,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "int32",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///8E\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2045,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Vertical space.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///8I\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2047,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Not on same line.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///8c\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2077,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Declaration and definition should match.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///74\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2128,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "const",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn////0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Move IMkvReaderWriter it\u0027s own file. Then I think you should be able to remove the include of the parser.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn////c\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 841,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Function comments.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn////Y\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 843,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Functions start with upper case.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///+4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1123,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "vertical space.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZX//7uE\u003d",
+        "filename": "mkvreaderwriter.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "2013",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZX//7tM\u003d",
+        "filename": "mkvreaderwriter.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "nit: Get rid of \" on Windows\"",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZX//7t4\u003d",
+        "filename": "mkvreaderwriter.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "reading and writing.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZX//7tc\u003d",
+        "filename": "mkvreaderwriter.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "nit: space after //",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZX//7tQ\u003d",
+        "filename": "mkvreaderwriter.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "nit: 2 spaces before //",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn///64\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-05-30T01:15:26Z",
+      "side": 1,
+      "message": "Move this to the other if block.",
+      "revId": "89e9ba5fef7ce09eb623b80c29887af5a8c1235d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
