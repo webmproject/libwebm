@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAZn//9m4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "#undef this after use; generally it\u0027s preferred to have this outside the function rather than contained within.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9mw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "this probably shouldn\u0027t be in library code; an application would report the error.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9mc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "note you\u0027re mixing potentially different sized types here, though safe in this case you\u0027ll probably incur a warning in some toolchain or another.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9mI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "just set this at 282; logically it occurs before the cues anyway.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9mA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1753,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "couldn\u0027t all these be const member functions?",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9lk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2044,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "which",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9lc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2046,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "const",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9lU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2047,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "const",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9ls\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2059,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "const",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9lQ\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2098,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "seems there\u0027s a mix of NULL vs. ! checks for pointers in this module; I prefer the former",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9lI\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "sort",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9k0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "multiple inheritance is generally frowned on outside of tests; prefer a new class with members of these types.\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Multiple_Inheritance",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9ks\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 846,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "couldn\u0027t this just be exposed through a public constant?",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9kc\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 933,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "note the default",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9kg\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1130,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "picked up a line number (1126)",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9kk\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1134,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "long lines",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9kU\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-05-31T18:42:04Z",
+      "side": 1,
+      "message": "which is it? _MSC_VER or WIN32? mingw will provide _WIN32 -- the canonical form -- so be careful in the selection",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
