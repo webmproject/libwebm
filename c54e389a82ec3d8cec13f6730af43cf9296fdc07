@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9cg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9m4\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9mw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "this probably shouldn\u0027t be in library code; an application would report the error.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9cc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9mw\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9LI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9mc\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9mI\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "just set this at 282; logically it occurs before the cues anyway.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9cY\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "This can\u0027t be set in 282. To compute the master element\u0027s size, you need to know the payload size.",
+      "parentUuid": "AAAAZn//9mI\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9bw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1753,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9mA\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9lk\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "which",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9bQ\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2044,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9lk\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9bU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2046,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9lc\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9lU\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -132,6 +258,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "const",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9bM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2047,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9lU\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9bI\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2059,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9ls\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9lQ\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -166,6 +328,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "seems there\u0027s a mix of NULL vs. ! checks for pointers in this module; I prefer the former",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9a8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2098,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "cleaning this up might end up changing lines that are irrelevant to the feature being added in this CL. so i will go with this for now. should be modified to be consistent as part of the libwebm clean up.",
+      "parentUuid": "AAAAZn//9lQ\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9a4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9lI\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9k0\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -200,6 +398,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "multiple inheritance is generally frowned on outside of tests; prefer a new class with members of these types.\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Multiple_Inheritance",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9LU\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9k0\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -223,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9a0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 846,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9ks\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9kc\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -234,6 +468,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "note the default",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9aw\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 933,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9kc\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -257,6 +509,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9ak\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1130,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9kg\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9kk\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -274,6 +544,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9as\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1134,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9kk\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9kU\u003d",
         "filename": "mkvreaderwriter.cpp",
         "patchSetId": 3
@@ -285,6 +573,24 @@
       "writtenOn": "2013-05-31T18:42:04Z",
       "side": 1,
       "message": "which is it? _MSC_VER or WIN32? mingw will provide _WIN32 -- the canonical form -- so be careful in the selection",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Kk\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T21:46:34Z",
+      "side": 1,
+      "message": "I have no clue about this. I just used the same things as in the existing code (mkvreader.cpp and mkvwriter.cpp). Can you please tell me what exactly should i use here?",
+      "parentUuid": "AAAAZn//9kU\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
