@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9GU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9NU\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9mw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -212,6 +230,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9Hc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2032,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Mg\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9M4\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -229,6 +265,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9HY\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2036,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9M4\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9Mw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -240,6 +294,24 @@
       "writtenOn": "2013-05-31T21:47:34Z",
       "side": 1,
       "message": "And this too.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9HU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2037,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Mw\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -509,6 +581,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9F0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "how about ReadableWriter ?",
+      "parentUuid": "AAAAZn//9L0\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9ks\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -590,6 +680,24 @@
       "writtenOn": "2013-05-31T21:47:34Z",
       "side": 1,
       "message": "s/Init/Init()/",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Fs\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 945,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9LE\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -683,6 +791,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9EU\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Jo\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9Jk\u003d",
         "filename": "mkvreaderwriter.cpp",
         "patchSetId": 3
@@ -694,6 +820,24 @@
       "writtenOn": "2013-05-31T21:47:34Z",
       "side": 1,
       "message": "As noted above, be consistent...",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9EQ\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Jk\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -717,6 +861,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9EA\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Jc\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9JM\u003d",
         "filename": "mkvreaderwriter.cpp",
         "patchSetId": 3
@@ -728,6 +890,24 @@
       "writtenOn": "2013-05-31T21:47:34Z",
       "side": 1,
       "message": "Ditto; going to stop marking these. Please fix throughout the file.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9D8\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9JM\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -803,6 +983,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9Dw\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAZn//9Ik\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9IM\u003d",
         "filename": "sample_muxer.cpp",
         "patchSetId": 3
@@ -814,6 +1012,24 @@
       "writtenOn": "2013-05-31T21:47:34Z",
       "side": 1,
       "message": "Hmm... I don\u0027t know that this will work on Windows. I\u0027ll give it a shot and let you know. Are there test files I can use around here somewhere?",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9B4\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-05-31T22:21:42Z",
+      "side": 1,
+      "message": "done, have replaced this with tmpfile() which is a platform independent temporary file generating function.\n\nFYI, you can run any webm file through sample_muxer with \"-output_cues 1 -cues_before_cluster 1\" to test this.",
+      "parentUuid": "AAAAZn//9IM\u003d",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
