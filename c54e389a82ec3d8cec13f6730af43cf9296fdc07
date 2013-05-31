@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9NU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Why isn\u0027t this just:\nconst uint kBufSize \u003d 2048;\n?\n\n(or uint32; whatever)",
+      "parentUuid": "AAAAZn//9m4\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9mw\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 3
@@ -171,6 +189,57 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "AAAAZn//9mA\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Mg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2032,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Looks like this can be const.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9M4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2036,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "And this...",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Mw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2037,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "And this too.",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -422,6 +491,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9L0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "+1; Also, suggest rename, either of these:\n- IMkvRewriter\n- IMkvReadingWriter\n\n\u003c/bikeshed\u003e",
+      "parentUuid": "AAAAZn//9k0\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9ks\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 3
@@ -486,6 +573,23 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "AAAAZn//9kc\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9LE\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 945,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "s/Init/Init()/",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -562,6 +666,91 @@
     },
     {
       "key": {
+        "uuid": "AAAAZn//9Jo\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Please be consistent: either !buffer or file_ \u003d\u003d NULL above.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Jk\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "As noted above, be consistent...",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Jc\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9JM\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Ditto; going to stop marking these. Please fix throughout the file.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9I8\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Some tool chain is going to throw an unused arg warning here...",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAZn//9kU\u003d",
         "filename": "mkvreaderwriter.cpp",
         "patchSetId": 3
@@ -591,6 +780,40 @@
       "side": 1,
       "message": "I have no clue about this. I just used the same things as in the existing code (mkvreader.cpp and mkvwriter.cpp). Can you please tell me what exactly should i use here?",
       "parentUuid": "AAAAZn//9kU\u003d",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9Ik\u003d",
+        "filename": "mkvreaderwriter.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "use static_cast/reinterpret_cast; style guide forbids construction in this manner.",
+      "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZn//9IM\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2013-05-31T21:47:34Z",
+      "side": 1,
+      "message": "Hmm... I don\u0027t know that this will work on Windows. I\u0027ll give it a shot and let you know. Are there test files I can use around here somewhere?",
       "revId": "c54e389a82ec3d8cec13f6730af43cf9296fdc07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
