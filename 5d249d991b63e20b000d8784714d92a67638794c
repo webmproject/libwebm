@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAZ3//ubo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2089,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-06-14T19:52:22Z",
+      "side": 1,
+      "message": "alignment",
+      "revId": "5d249d991b63e20b000d8784714d92a67638794c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZ3//ubY\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2090,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-06-14T19:52:22Z",
+      "side": 1,
+      "message": "nit: vertical space. Here and below.\n\nAlso comments (here and below) should have proper grammar, capitalization, punctuation, ...\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml?showone\u003dPunctuation,_Spelling_and_Grammar#Punctuation,_Spelling_and_Grammar",
+      "revId": "5d249d991b63e20b000d8784714d92a67638794c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAZ3//uZA\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-06-14T19:52:22Z",
+      "side": 1,
+      "message": "Forward declare IMkvReader.",
+      "revId": "5d249d991b63e20b000d8784714d92a67638794c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
