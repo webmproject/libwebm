@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAc3//8jU\u003d",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003343
+      },
+      "writtenOn": "2013-08-19T18:43:26Z",
+      "side": 1,
+      "message": "Cool! I didn\u0027t know about this flag. (Read: Someone else should take a look at this :) )",
+      "revId": "1f9fec25b0cc9b57878ae44c113eed6c3f068732",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
