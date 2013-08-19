@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAc3//9EI\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1003343
+      },
+      "writtenOn": "2013-08-19T04:52:02Z",
+      "side": 1,
+      "message": "const uint64 uid_ will prevent uid_ from being modified.",
+      "revId": "15a708e4161304945e8b0418f29800cd1a1de894",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
