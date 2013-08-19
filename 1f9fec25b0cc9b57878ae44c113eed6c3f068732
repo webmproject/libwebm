@@ -16,6 +16,41 @@
       "revId": "1f9fec25b0cc9b57878ae44c113eed6c3f068732",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAc3//8Wo\u003d",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-08-19T20:22:50Z",
+      "side": 1,
+      "message": "One common change is to add the .d to the depdency chain:\n\nhttp://www.gnu.org/software/make/manual/make.html#Automatic-Prerequisites",
+      "parentUuid": "AAAAc3//8jU\u003d",
+      "revId": "1f9fec25b0cc9b57878ae44c113eed6c3f068732",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAc3//8WI\u003d",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2013-08-19T20:22:50Z",
+      "side": 1,
+      "message": "you should check MAKECMDGOALS for clean as you don\u0027t want to do generate deps only to delete them again",
+      "revId": "1f9fec25b0cc9b57878ae44c113eed6c3f068732",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
