@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH//6sw\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2478,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "I don\u0027t really like this. I was thinking we could change the algorithm to check last_frame_end_time \u003d\u003d timestamp and write out simple block? This will incur at least a one frame queue. But I don\u0027t see anyway around that if we want hide the complexity of last frame from the developers.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6s0\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "Sorry I missed this before, but this is wrong. You are writing a key-frame flag to a reserved bit of a Block. In either case you are always writing a key-frame Block. For an interframe you need to pass in a reference.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tU\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 713,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "Add what the function does first. Then you can talk about weirdness with the function.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tM\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "Yeah I think we are going to need to add a reference time parameter. Otherwise the block will be considered a key frame.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tQ\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 727,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "Change the name as AddMetadata is way off now. We could also change it to AddBlock, instead of AddFrame variant.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6s8\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1015,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "metadata ditto",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tE\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1037,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "metadata specifc",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tA\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1040,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "ditto. please update all comments to be specific to their functions.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6tI\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1042,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "remove these three line as they are copied from AddMetadata.",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6s4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1047,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:43:26Z",
+      "side": 1,
+      "message": "Now that I\u0027m looking at. I\u0027m not really thrilled with having the three \"additional\" parameters. Also the number of parameters is growing. Maybe we should create a Frame class and pass that?",
+      "revId": "622e67d852b7d8eded0989f4f24826592951703a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
