@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdH//6sk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2164,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:48:38Z",
+      "side": 1,
+      "message": "OK I see the duration is scaled already, but now you have a precision issue.",
+      "parentUuid": "AAAAdH//620\u003d",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH//6+Y\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "Not sure if passed_in_duration is a good name for this. It is intended to indicate only the cluster\u0027s last block\u0027s duration and if that is not specified it is going to remain zero.",
       "parentUuid": "AAAAdH//69s\u003d",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//6so\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 823,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2013-10-22T23:48:38Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "AAAAdH//62k\u003d",
       "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
