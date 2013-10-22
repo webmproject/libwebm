@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdH//620\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2164,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Duration is already in timecode\u0027s scale. So isn\u0027t this behavior correct?",
+      "parentUuid": "AAAAdH//6+M\u003d",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH//6+Y\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-10-22T00:37:21Z",
       "side": 1,
       "message": "Remove comment about metadata.",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//62w\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 744,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdH//6+Y\u003d",
       "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdH//62k\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 823,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Not sure if passed_in_duration is a good name for this. It is intended to indicate only the cluster\u0027s last block\u0027s duration and if that is not specified it is going to remain zero.",
+      "parentUuid": "AAAAdH//69s\u003d",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH//698\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2013-10-22T00:37:21Z",
       "side": 1,
       "message": "nit: Add function comment. Should probably have added one for AddFrameWithAdditional() as well.",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//62o\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1033,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdH//698\u003d",
       "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdH//62s\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1034,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdH//6+U\u003d",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH//6+Q\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -98,6 +188,24 @@
       "writtenOn": "2013-10-22T00:37:21Z",
       "side": 1,
       "message": "nit: 80 char",
+      "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//62g\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1181,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2013-10-22T16:29:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdH//6+Q\u003d",
       "revId": "c2697a7bfc2f3199690af8c535f712707f9b1463",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
