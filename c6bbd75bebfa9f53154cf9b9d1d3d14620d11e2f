@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//94Y\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 969,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-09T23:02:14Z",
+      "side": 1,
+      "message": "Changed this from const char* const to const char[] because you can change the value of const char* const via reassignment:\n\n    // This, for example, works is MSVC w/o the change:\n    const char Tracks::kVp8CodecId[] \u003d \"V_VP8\";\n    const char Tracks::kVp8CodecId[] \u003d \"V_VP9\";",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//94U\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 985,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-09T23:02:14Z",
+      "side": 1,
+      "message": "Adds a Vorbis track for backwards compat\u0027s sake.",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//94Q\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1064,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-09T23:02:14Z",
+      "side": 1,
+      "message": "Adds a VP8 track for backwards compat\u0027s sake.",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//94M\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-09T23:02:14Z",
+      "side": 1,
+      "message": "I could write if (codec_id[4] \u003d\u003d \u00279\u0027) here, but this seems more explicit and obvious. Should coded ID length constants be added to mkvmuxer::Tracks?",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
