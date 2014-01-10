@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//9mY\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-10T19:44:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//9vE\u003d",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//94U\u003d",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -99,6 +117,24 @@
       "side": 1,
       "message": "yeah, adding them to mkvmuxer::Tracks is probably a good idea.",
       "parentUuid": "AAAAdn//94M\u003d",
+      "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//9mM\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-10T19:44:09Z",
+      "side": 1,
+      "message": "Removed all of this in favor of:\n\n    video-\u003eset_codec_id(pVideoTrack-\u003eGetCodecId());",
+      "parentUuid": "AAAAdn//9vA\u003d",
       "revId": "c6bbd75bebfa9f53154cf9b9d1d3d14620d11e2f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
