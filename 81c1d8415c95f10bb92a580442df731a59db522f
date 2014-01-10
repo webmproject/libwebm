@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//9uw\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 955,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-01-10T08:25:59Z",
+      "side": 1,
+      "message": "nit: line up",
+      "revId": "81c1d8415c95f10bb92a580442df731a59db522f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//9us\u003d",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 957,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-01-10T08:25:59Z",
+      "side": 1,
+      "message": "ditto (fooled by eclipse\u0027s awesome bold\u0027ing of types may be?)",
+      "revId": "81c1d8415c95f10bb92a580442df731a59db522f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
