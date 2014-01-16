@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//8pM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1702,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "did some of the refactor... ptal.",
+      "parentUuid": "AAAAdn//8qI\u003d",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//8qE\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-16T01:41:30Z",
       "side": 1,
       "message": "frame \u003d\u003d NULL for some consistency with other code",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8pE\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2541,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "This file seems to be using !frame... maybe I should drop the \u003d\u003d 0 on the right side. AddFrame, AddFrameWithAdditional and this function do it this way. !pointer seems to be the way (for this file, argh).",
+      "parentUuid": "AAAAdn//8qE\u003d",
       "revId": "95a1874166a9da86b3761639b804601558e3f26e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//8pA\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2555,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "Done (and the other 2 places in this file that where it was missing)",
+      "parentUuid": "AAAAdn//8qA\u003d",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//8p8\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-16T01:41:30Z",
       "side": 1,
       "message": "\u003d\u003d NULL",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8o4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2576,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "Just checked... This file is using a good mix of both. Do you want to start using \u003d\u003d NULL throughout this file? I vote cleanup patchset if that\u0027s what we end up doing here.",
+      "parentUuid": "AAAAdn//8p8\u003d",
       "revId": "95a1874166a9da86b3761639b804601558e3f26e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//8ow\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "oops/done",
+      "parentUuid": "AAAAdn//8p4\u003d",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//8p0\u003d",
         "filename": "sample_muxer.cpp",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2014-01-16T01:41:30Z",
       "side": 1,
       "message": "can be const, no?",
+      "revId": "95a1874166a9da86b3761639b804601558e3f26e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8os\u003d",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 474,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-16T02:26:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//8p0\u003d",
       "revId": "95a1874166a9da86b3761639b804601558e3f26e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
