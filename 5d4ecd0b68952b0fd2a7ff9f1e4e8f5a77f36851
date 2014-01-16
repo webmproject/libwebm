@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//8mo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1601,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "nit: spaces around \u0027-\u0027",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8mk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1603,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "combine the two checks.",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8mg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1697,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "discard_padding \u003c\u003d 0",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8mc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2521,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "discard_padding \u003c\u003d 0",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8ms\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 839,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "nit: vertical ws",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8m4\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "nit: First sentence seems weird. Maybe writes with DiscardPadding.",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8m0\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 573,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "discard_padding \u003c\u003d 0",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8mw\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 611,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "Can these 3 functions be:\nif (!WriteEbmlElement(writer, kMkvDiscardPadding, discard_padding))\n  return 0;",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//8m8\u003d",
+        "filename": "mkvmuxerutil.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-01-16T17:23:02Z",
+      "side": 1,
+      "message": "We need more write block functions :)",
+      "revId": "5d4ecd0b68952b0fd2a7ff9f1e4e8f5a77f36851",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
