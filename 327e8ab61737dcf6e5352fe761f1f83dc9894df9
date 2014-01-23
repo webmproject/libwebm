@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//7oc\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-01-23T00:27:06Z",
+      "side": 1,
+      "message": "going to make a pass to fix the line endings?",
+      "revId": "327e8ab61737dcf6e5352fe761f1f83dc9894df9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
