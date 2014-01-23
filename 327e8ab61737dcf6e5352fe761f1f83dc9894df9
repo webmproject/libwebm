@@ -16,6 +16,24 @@
       "revId": "327e8ab61737dcf6e5352fe761f1f83dc9894df9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//7mk\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T01:39:27Z",
+      "side": 1,
+      "message": "Yes, soonish... probably later this week.",
+      "parentUuid": "AAAAdn//7oc\u003d",
+      "revId": "327e8ab61737dcf6e5352fe761f1f83dc9894df9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
