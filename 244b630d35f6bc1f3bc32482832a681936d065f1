@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//7ZM\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Yeah; missed it.",
+      "parentUuid": "AAAAdn//7Zw\u003d",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//7Zs\u003d",
         "filename": "sample.cpp",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-23T23:28:22Z",
       "side": 1,
       "message": "\u003d\u003d NULL",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//7ZI\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//7Zs\u003d",
       "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//7ZE\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//7Zo\u003d",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//7Zg\u003d",
         "filename": "sample.cpp",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-23T23:28:22Z",
       "side": 1,
       "message": "a bit redundant given the function name",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//7ZA\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Yeah: The comment is from before I moved the code into a function. Done.",
+      "parentUuid": "AAAAdn//7Zg\u003d",
       "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//7Y8\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//7ZU\u003d",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//7ZY\u003d",
         "filename": "sample.cpp",
         "patchSetId": 3
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//7Y4\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//7ZY\u003d",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//7Zc\u003d",
         "filename": "sample.cpp",
         "patchSetId": 3
@@ -115,6 +223,24 @@
       "writtenOn": "2014-01-23T23:28:22Z",
       "side": 1,
       "message": "!\u003d NULL",
+      "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//7Y0\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-01-23T23:32:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdn//7Zc\u003d",
       "revId": "244b630d35f6bc1f3bc32482832a681936d065f1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
