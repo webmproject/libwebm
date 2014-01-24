@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//7Xw\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-01-24T00:05:10Z",
+      "side": 1,
+      "message": "static I guess given the other isn\u0027t in an anonymous namespace",
+      "revId": "5440f200715d1a6a62c355b63773d6237596d087",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
