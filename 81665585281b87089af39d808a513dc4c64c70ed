@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//zi8\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-03-06T22:21:59Z",
+      "side": 1,
+      "message": "You want _MSC_VER: _WIN32 will be defined in mingw, and this will break. Here\u0027s a patchset where I fixed it elsewhere in libwebm, for context:\n\nhttps://gerrit.chromium.org/gerrit/68497",
+      "revId": "81665585281b87089af39d808a513dc4c64c70ed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
