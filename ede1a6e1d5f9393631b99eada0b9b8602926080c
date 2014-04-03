@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//vrE\u003d",
+        "filename": "mkvreader.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-03T18:46:46Z",
+      "side": 1,
+      "message": "Please add (after changing to bool return):\n\n    if (m_length \u003c 0)\n      return false;\n\nMissed this last night: Sorry.\n\nWhy: This will fail silently/go unnoticed in builds with NDEBUG defined, and break during a read.",
+      "revId": "ede1a6e1d5f9393631b99eada0b9b8602926080c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//vrA\u003d",
+        "filename": "mkvreader.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-03T18:46:46Z",
+      "side": 1,
+      "message": "Should have noticed this last night, but:\n\nMake this return bool, and return true for success. Also, add \"Returns true when successful.\" to the doc comment.\n\nSeems silly to return an int when this method is pass/fail.",
+      "revId": "ede1a6e1d5f9393631b99eada0b9b8602926080c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
