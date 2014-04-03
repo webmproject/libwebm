@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//vso\u003d",
+        "filename": "mkvreader.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-04-03T07:55:15Z",
+      "side": 1,
+      "message": "yes, this seemed like the only way without breaking API or imposing constraints on the user-side (e.g. FindLength should always be called after ctor).",
+      "parentUuid": "AAAAdn//vs0\u003d",
+      "revId": "77c0b0501e012b51b261bbe6f26ec6eb1fd7fd22",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//vtM\u003d",
         "filename": "mkvreader.hpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2014-04-03T07:44:02Z",
       "side": 1,
       "message": "Not that the other methods in here do this, but: doc comment (gotta start somewhere).\n\nAlso, how about GetFileSize() or GetLengthOfFile()?\n\nnit: Line break between methods and member vars.",
+      "revId": "77c0b0501e012b51b261bbe6f26ec6eb1fd7fd22",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//vsk\u003d",
+        "filename": "mkvreader.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-04-03T07:55:15Z",
+      "side": 1,
+      "message": "I\u0027ll go with GetFileSize(). I am working on a follow up CL with style clean ups. I will comment the others at that time.\n\nDone.",
+      "parentUuid": "AAAAdn//vtM\u003d",
       "revId": "77c0b0501e012b51b261bbe6f26ec6eb1fd7fd22",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
