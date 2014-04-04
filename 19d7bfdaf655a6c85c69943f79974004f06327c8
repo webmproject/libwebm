@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//vao\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 4671,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-04-04T22:38:32Z",
+      "side": 1,
+      "message": "Also we should \"fix\" all the UIDs that are unsigned the same way. Might be good to add a TODO to fix UnserializeUInt.",
+      "revId": "19d7bfdaf655a6c85c69943f79974004f06327c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//vas\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 4676,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2014-04-04T22:38:32Z",
+      "side": 1,
+      "message": "Add a cast here.",
+      "revId": "19d7bfdaf655a6c85c69943f79974004f06327c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
