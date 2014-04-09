@@ -34,6 +34,23 @@
       "revId": "e4ee1e7fd53476d6bf58fa584814c27228810b28",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//uzk\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-09T18:48:34Z",
+      "side": 1,
+      "message": "Commit message nit:\n\ns/Adding/Add/\n\nWhy: Because I\u0027m a pedantic pain in the ass, and also:\n\nYou were adding, the patch added, and in terms of the git log --oneline, present tense always seems to make more sense:\n\n\u003chash\u003e Add .clang-format\n\nMakes more sense than\n\n\u003chash\u003e Adding .clang-format\n\nFeel free to ignore this... it\u0027s just something that bugs me.",
+      "revId": "e4ee1e7fd53476d6bf58fa584814c27228810b28",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
