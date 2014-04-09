@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//u0I\u003d",
+        "filename": ".clang-format",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-09T18:42:37Z",
+      "side": 1,
+      "message": "Do we need the extra horizontal whitespace? (here and below)\n\nI don\u0027t think it\u0027s actually helping anything; it just looks messy.\n\nIs this just what clang provides, and you\u0027ve taken it as-is?",
+      "revId": "e4ee1e7fd53476d6bf58fa584814c27228810b28",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
