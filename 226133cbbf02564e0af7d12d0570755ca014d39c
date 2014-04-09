@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//u0o\u003d",
+        "filename": ".clang-format",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-04-09T18:33:22Z",
+      "side": 1,
+      "message": "differences to the default? maybe bring this one in first so the style changes are independent",
+      "revId": "226133cbbf02564e0af7d12d0570755ca014d39c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
