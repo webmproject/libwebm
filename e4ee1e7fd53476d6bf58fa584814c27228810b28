@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//uzc\u003d",
+        "filename": ".clang-format",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-09T18:49:27Z",
+      "side": 1,
+      "message": "OK; never mind then. Probably easier to go the garbage-in garbage-out route and just tweak what\u0027s given.",
+      "parentUuid": "AAAAdn//uz8\u003d",
+      "revId": "e4ee1e7fd53476d6bf58fa584814c27228810b28",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//uzk\u003d",
         "filename": "/COMMIT_MSG",
         "patchSetId": 3
