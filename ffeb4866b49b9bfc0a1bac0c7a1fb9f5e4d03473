@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAdn//uhU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-10T22:52:22Z",
+      "side": 1,
+      "message": "Is there a flag to prevent this extra spacing? I don\u0027t really care, but it would be nice to leave these as they were previously.",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//uhM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-10T22:52:22Z",
+      "side": 1,
+      "message": "This looks odd detached... Any setting that prevents this one?",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//ug4\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 861,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-10T22:52:22Z",
+      "side": 1,
+      "message": "Should probably remove this entirely (not in this commit).",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//ugg\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
