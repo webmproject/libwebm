@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//ugg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 896,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-04-10T22:40:34Z",
+      "side": 1,
+      "message": "might be a clang-format issue or it\u0027s being a bit liberal with:\n\nhttp://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Constructor_Initializer_Lists",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//ugc\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-04-10T22:40:34Z",
+      "side": 1,
+      "message": "note this and other locations are due to your tweak in .clang-format",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
