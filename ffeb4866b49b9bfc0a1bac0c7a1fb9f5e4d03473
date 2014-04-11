@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//uTg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-11T18:25:53Z",
+      "side": 1,
+      "message": "Yeah, it\u0027s fine. I prefer the other way but this doesn\u0027t really matter.",
+      "parentUuid": "AAAAdn//uUo\u003d",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//uhM\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "depends. how do you want this one to be?",
       "parentUuid": "AAAAdn//uhM\u003d",
+      "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//uTc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-11T18:25:53Z",
+      "side": 1,
+      "message": "I just want it the way it was before: \n\n    new (std::nothrow) CuePoint*[new_capacity];\n\nThis one isn\u0027t really a big deal either.",
+      "parentUuid": "AAAAdn//uUU\u003d",
       "revId": "ffeb4866b49b9bfc0a1bac0c7a1fb9f5e4d03473",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
