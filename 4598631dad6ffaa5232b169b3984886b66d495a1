@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//tqk\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-15T17:30:14Z",
+      "side": 1,
+      "message": "Add this pragma boilerplate:\n\n    #ifdef _MSC_VER\n    // Disable MSVC warnings that suggest making code non-portable.\n    #pragma warning(disable:4996)\n    #endif\n\nAnd see below...",
+      "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//tqc\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-15T17:30:14Z",
+      "side": 1,
+      "message": "Remove the fopen_s branch of the ifdef and try rerunning clang-format: that should fix the indent here... getting rid of the fopen_s() nonsense is also a nice side effect. (and the pragma above silences the silly warning)",
+      "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//tqI\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-15T17:30:14Z",
+      "side": 1,
+      "message": "Is it \n\n    AllowAllParametersOfDeclarationOnNextLine: true \n\nfrom .clang-format that\u0027s doing this? What\u0027s this end up looking like if you flip that to false?",
+      "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
