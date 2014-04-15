@@ -140,6 +140,24 @@
       "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//tgQ\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-04-15T18:51:50Z",
+      "side": 1,
+      "message": "umm, it looks like that setting is not causing this. probably because it\u0027s the definition and not declaration. i can\u0027t seem to find a flag that changes this. we\u0027ll have to do it manually and add NOLINT. shall i do that?",
+      "parentUuid": "AAAAdn//tgY\u003d",
+      "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
