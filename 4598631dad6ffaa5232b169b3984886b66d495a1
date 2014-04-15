@@ -104,6 +104,24 @@
       "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//thE\u003d",
+        "filename": "vttdemux.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-15T18:42:05Z",
+      "side": 1,
+      "message": "The problem I have with this is that it isn\u0027t really compliant. Typically args are joined on the same line only when closely related (i.e. data pointer and a length, or a source pointer and dest pointer). \n\nI don\u0027t think clang-format\u0027s style\u003dGoogle should be treated as if it\u0027s always correct, and\n\n1) potential unintended side effects is exactly why I asked what it looks like\n2) we\u0027ve already tweaked the style; doing it again when the results end up being pleasing seems like the right thing to do.",
+      "parentUuid": "AAAAdn//ti8\u003d",
+      "revId": "4598631dad6ffaa5232b169b3984886b66d495a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
