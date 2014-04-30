@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//rno\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-30T22:57:14Z",
+      "side": 1,
+      "message": "hmm... maybe a dead code clean up in here some time in the future. Not sure how useful all of this commented out code actually is...",
+      "revId": "4df111e60aca18a7793e29912209d4981b47f791",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//rmM\u003d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-04-30T22:57:14Z",
+      "side": 1,
+      "message": "also, maybe a pass through to make at least some of these asserts return errors.",
+      "revId": "4df111e60aca18a7793e29912209d4981b47f791",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
