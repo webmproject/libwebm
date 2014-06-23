@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAdn//j00\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2214,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "should check for writer_header_-\u003eSeekable() before returning false. there can\u0027t be a \"right\" behavior in that case, so let\u0027s just leave the doctype at 2 in that case.\n\nalso, should probably check if chunking_ is set?",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jyo\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2217,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "this is okay for now. but if the version number increases such that the size of ebml encoding it goes up, then this is going to break.",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jzg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2951,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "why is this variable needed? can\u0027t you just set doc_type_version_ itself on line 2956?",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//kGY\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -13,6 +64,58 @@
       "writtenOn": "2014-06-21T00:07:40Z",
       "side": 1,
       "message": "might be nice if these used Segment::AddFrameWithDiscardPadding()",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//j4I\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 3062,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "a TODO may be?",
+      "parentUuid": "AAAAdn//kGY\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jyg\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1365,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "nit: s/GetDocTypeVersion()/doc_type_version_/",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//j2w\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1366,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-23T22:38:08Z",
+      "side": 1,
+      "message": "nit: these 3 lines of comment should go one line below.",
       "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
