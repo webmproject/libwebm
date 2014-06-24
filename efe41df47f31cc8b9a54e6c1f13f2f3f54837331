@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//jYU\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2214,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-24T23:03:53Z",
+      "side": 1,
+      "message": "alright.",
+      "parentUuid": "AAAAdn//jZk\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//jyo\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -72,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//jYk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2217,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-24T23:03:53Z",
+      "side": 1,
+      "message": "yes, adding an assert is probably a good idea.",
+      "parentUuid": "AAAAdn//jZg\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//jzg\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -101,6 +137,24 @@
       "side": 1,
       "message": "strictly speaking it\u0027s not, I was making this safe should we set doc_type_version_ to a value \u003e4 at some point.",
       "parentUuid": "AAAAdn//jzg\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jZM\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2951,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-24T23:03:53Z",
+      "side": 1,
+      "message": "even then, i think it\u0027s just okay to make the assignment directly. we can add checks for higher versions in decreasing order so that we set the highest first and break (we should anyway do the decreasing order thing even with this variable - so no extra work).",
+      "parentUuid": "AAAAdn//jZc\u003d",
       "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -188,6 +242,24 @@
       "side": 1,
       "message": "they refer to both actually in the first line; Current ... and ...",
       "parentUuid": "AAAAdn//j2w\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jY4\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1366,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2014-06-24T23:03:53Z",
+      "side": 1,
+      "message": "my bad, i missed the \"and\" in the first line. fine then.",
+      "parentUuid": "AAAAdn//jZY\u003d",
       "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
