@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//jZk\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2214,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-06-24T22:48:49Z",
+      "side": 1,
+      "message": "this is within an existing Seekable() block",
+      "parentUuid": "AAAAdn//j00\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//jyo\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//jZg\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2217,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-06-24T22:48:49Z",
+      "side": 1,
+      "message": "true, that would be \u003e254; storing the offset and asserting here might be enough",
+      "parentUuid": "AAAAdn//jyo\u003d",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//jzg\u003d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2014-06-23T22:38:08Z",
       "side": 1,
       "message": "why is this variable needed? can\u0027t you just set doc_type_version_ itself on line 2956?",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jZc\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2951,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-06-24T22:48:49Z",
+      "side": 1,
+      "message": "strictly speaking it\u0027s not, I was making this safe should we set doc_type_version_ to a value \u003e4 at some point.",
+      "parentUuid": "AAAAdn//jzg\u003d",
       "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -116,6 +170,24 @@
       "writtenOn": "2014-06-23T22:38:08Z",
       "side": 1,
       "message": "nit: these 3 lines of comment should go one line below.",
+      "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//jZY\u003d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1366,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2014-06-24T22:48:49Z",
+      "side": 1,
+      "message": "they refer to both actually in the first line; Current ... and ...",
+      "parentUuid": "AAAAdn//j2w\u003d",
       "revId": "efe41df47f31cc8b9a54e6c1f13f2f3f54837331",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
