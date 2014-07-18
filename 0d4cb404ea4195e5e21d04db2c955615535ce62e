@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//fFo\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 718,
+      "author": {
+        "id": 1001629
+      },
+      "writtenOn": "2014-07-18T18:44:19Z",
+      "side": 1,
+      "message": "This is fine, but alternatively you could keep rand_s and change your #ifdef too\n\n#if defined(_MSC_VER) \u0026\u0026 !defined(_CRT_RAND_S) \n#define _CRT_RAND_S\n#endif\n\nand then it\u0027d be fine too.",
+      "revId": "0d4cb404ea4195e5e21d04db2c955615535ce62e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
