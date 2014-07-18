@@ -16,6 +16,24 @@
       "revId": "0d4cb404ea4195e5e21d04db2c955615535ce62e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//fFg\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 718,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-07-18T18:51:07Z",
+      "side": 1,
+      "message": "Yeah. I\u0027m just not convinced that rand_s() is buying us anything at all. Perhaps if we were actually looking for an error, but that\u0027s another issue entirely.",
+      "parentUuid": "AAAAdn//fFo\u003d",
+      "revId": "0d4cb404ea4195e5e21d04db2c955615535ce62e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
