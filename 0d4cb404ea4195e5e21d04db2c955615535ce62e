@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdn//fC4\u003d",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2014-07-18T21:00:10Z",
+      "side": 1,
+      "message": "This is equivalent to _CRT_SECURE_NO_WARNINGS.",
+      "parentUuid": "AAAAdn//fEU\u003d",
+      "revId": "0d4cb404ea4195e5e21d04db2c955615535ce62e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdn//fFo\u003d",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 1
