@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//IK8\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2088,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-02-03T17:12:02Z",
+      "side": 1,
+      "message": "Can you just call \n\nconst uint64 cluster_pos \u003d cue_point-\u003ecluster_pos() + current_cue_size;\n\ncue_point-\u003eset_cluster_pos(cluster_pos);  // update the new cluster position\n\nbefore the call to Size?\n\nYour most likely change in coded sizes will be your first shift. Since you are already doing a liner traversal here. Why not just set the new optimal offset, as this should hopefully cut down on recursions later.",
+      "revId": "f06e152abd24a38989683c21d922acb6d5036823",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
