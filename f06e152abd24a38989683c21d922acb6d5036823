@@ -16,6 +16,24 @@
       "revId": "f06e152abd24a38989683c21d922acb6d5036823",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//IKE\u003d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2088,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-02-03T17:45:41Z",
+      "side": 1,
+      "message": "The idea behind the helper is that, if you pass it a diff, it will handle all the changes induced by that diff recursively. If we set the offsets to the increased value here, then we need to handle the change in Cues Element length because of that. How will that happen?\n\n\u003e Your most likely change in coded sizes will be your first shift.\n\nI don\u0027t believe that\u0027s true. Coded size changing at any shift seems equally likely.",
+      "parentUuid": "AAAAdn//IK8\u003d",
+      "revId": "f06e152abd24a38989683c21d922acb6d5036823",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
