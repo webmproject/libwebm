@@ -16,6 +16,24 @@
       "revId": "f0f8984b77527a5ef46a0dba82532832f9f04414",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdn//G9o\u003d",
+        "filename": "build/msvc_runtime.cmake",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-02-12T23:40:01Z",
+      "side": 1,
+      "message": "Windows detection, true on windows, and false everywhere else. I just don\u0027t want to go updating command line flags that might mean something entirely different on other platforms.",
+      "parentUuid": "AAAAdn//G9w\u003d",
+      "revId": "f0f8984b77527a5ef46a0dba82532832f9f04414",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
