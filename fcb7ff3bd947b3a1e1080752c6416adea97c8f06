@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdn//Azg\u003d",
+        "filename": "sample.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-04-09T20:18:52Z",
+      "side": 1,
+      "message": "nit: prefer \"track_num \u003c num_tracks\" as the terminating condition.",
+      "revId": "fcb7ff3bd947b3a1e1080752c6416adea97c8f06",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
