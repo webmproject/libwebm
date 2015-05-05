@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d026fe9b_b423e2a0",
+        "filename": "iosbuild.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-05-05T19:55:06Z",
+      "side": 1,
+      "message": "this might not do what you expect with sh",
+      "revId": "3fe97b2caccbe65ca988af815cbf797bc298bd29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
