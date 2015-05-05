@@ -16,6 +16,24 @@
       "revId": "e07fe3a9f7fe7ffe5d0c80d35c1b5d336f68789b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "504a0e43_dc1c126c",
+        "filename": "iosbuild.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-05T16:54:58Z",
+      "side": 1,
+      "message": "Bashisms removed; I screwed up and ran checkbashisms w/!/bin/bash then forgot to re-run after updating.",
+      "parentUuid": "b0218a87_cb660926",
+      "revId": "e07fe3a9f7fe7ffe5d0c80d35c1b5d336f68789b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
