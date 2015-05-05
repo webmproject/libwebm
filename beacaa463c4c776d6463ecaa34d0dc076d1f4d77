@@ -16,6 +16,24 @@
       "revId": "beacaa463c4c776d6463ecaa34d0dc076d1f4d77",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "504a0e43_3c8a7e1e",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-05T16:35:38Z",
+      "side": 1,
+      "message": "meh-- didn\u0027t realize I was being a moron. Moved flags to after target in iosbuild; works fine now. Abandoning this... although I guess the presence of -g in the base flags does bug me a bit. Whatever.",
+      "parentUuid": "d026fe9b_9016f9f9",
+      "revId": "beacaa463c4c776d6463ecaa34d0dc076d1f4d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
