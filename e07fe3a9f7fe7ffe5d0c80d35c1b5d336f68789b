@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b0218a87_cb660926",
+        "filename": "iosbuild.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-05-05T06:21:38Z",
+      "side": 1,
+      "message": "this script is heavy on bashisms; probably OK considering the build environment...",
+      "revId": "e07fe3a9f7fe7ffe5d0c80d35c1b5d336f68789b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
