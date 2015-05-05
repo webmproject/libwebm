@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d026fe9b_9016f9f9",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-05-05T05:59:01Z",
+      "side": 1,
+      "message": "this works from the env, but not when given as parameters like (override can be used):\n\nmake -f Makefile.unix CXXFLAGS\u003d\n\nif you really want them as a base you could set another variable or just force the command line to list everything. -MMD -MP could go to a CPPFLAGS to reduce the overhead.",
+      "revId": "beacaa463c4c776d6463ecaa34d0dc076d1f4d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
