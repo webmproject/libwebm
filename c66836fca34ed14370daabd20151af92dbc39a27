@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "2d338121_6a45a678",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-12T18:43:14Z",
+      "side": 1,
+      "message": "bool CopyFrom(const Frame\u0026). Makes usage sites more explicit-- no need to look in the header to read this comment. Readers know.\n\nconst Frame* const is fine, but the extra verbosity is silly (yes, here and elsewhere, but that kind of change is for another patch; if ever).",
+      "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ad3e91ea_557b27ed",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
@@ -83,6 +100,81 @@
       "writtenOn": "2015-05-12T17:58:04Z",
       "side": 1,
       "message": "here you check for frame size \u003c 1, but elsewhere \u003d\u003d -1 (or maybe \u003c 0); should this class have a simple IsValid() that could then be followed up by checks specific to that frame type",
+      "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad3e91ea_2b9558b9",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-12T18:43:14Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "2d338121_3682eed8",
+      "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d338121_ca5672e6",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-12T18:43:14Z",
+      "side": 1,
+      "message": "s/126/kMaxTrackNumber/",
+      "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d338121_eadb76ec",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-12T18:43:14Z",
+      "side": 1,
+      "message": "A local bool function (i.e. CanBeSimpleBlock(const Frame\u0026)) followed by flipping the conditions makes this clearer.\n\nThen you can move the comment above to the util function instead of having it here.",
+      "range": {
+        "startLine": 402,
+        "startChar": 17,
+        "endLine": 402,
+        "endChar": 18
+      },
+      "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d338121_ca0af2d2",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-12T18:43:14Z",
+      "side": 1,
+      "message": "I think you should take the refactor one step further and add WriteBlock/WriteSimpleBlock which would be called in the if/else here instead of doing all the work within this function-- it\u0027s rather long.",
       "revId": "c66836fca34ed14370daabd20151af92dbc39a27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
