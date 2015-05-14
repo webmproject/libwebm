@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "4d9a7579_a67fbe25",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-14T18:27:41Z",
+      "side": 1,
+      "message": "no, was just getting at the leaks-- was wondering if I had missed a delete[] elsewhere.",
+      "parentUuid": "4d9a7579_663dd66f",
+      "range": {
+        "startLine": 144,
+        "startChar": 2,
+        "endLine": 144,
+        "endChar": 13
+      },
+      "revId": "4ec6304dbcd1f10eb5dd3ef679bb909ab2aa699b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8dc2ad55_bdae0312",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 5
@@ -184,6 +208,24 @@
     },
     {
       "key": {
+        "uuid": "4d9a7579_0687aaab",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-14T18:27:41Z",
+      "side": 1,
+      "message": "same as above: wrap indent starts in the wrong place.",
+      "parentUuid": "4d9a7579_a636de91",
+      "revId": "4ec6304dbcd1f10eb5dd3ef679bb909ab2aa699b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d9a7579_a6909e1b",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 5
@@ -219,6 +261,30 @@
       "side": 1,
       "message": "again, not sure what you mean here? clang-format gave me this.",
       "parentUuid": "4d9a7579_a6909e1b",
+      "range": {
+        "startLine": 527,
+        "startChar": 0,
+        "endLine": 527,
+        "endChar": 9
+      },
+      "revId": "4ec6304dbcd1f10eb5dd3ef679bb909ab2aa699b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8dc2ad55_5d0a4fa7",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-14T18:27:41Z",
+      "side": 1,
+      "message": "ditto.",
+      "parentUuid": "8dc2ad55_fd915bcc",
       "range": {
         "startLine": 527,
         "startChar": 0,
