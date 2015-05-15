@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "4d9a7579_9c320a1f",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eda6c9c2_e1de0806",
+      "range": {
+        "startLine": 136,
+        "startChar": 12,
+        "endLine": 136,
+        "endChar": 20
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cd8d8546_f0008a05",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -36,6 +60,30 @@
       "writtenOn": "2015-05-15T01:56:53Z",
       "side": 1,
       "message": "It would be better if this used copy and swap. If not please call out in the header that a failure from a CopyFrame() call may change the contents.",
+      "range": {
+        "startLine": 137,
+        "startChar": 11,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6dbd79c9_a2a7c088",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Noted in header.",
+      "parentUuid": "cd8d8546_f0008a05",
       "range": {
         "startLine": 137,
         "startChar": 11,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "4d9a7579_dc6c9205",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1524,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "i think it\u0027s an overkill just to get the timecode scale. i\u0027ll leave it as it is.",
+      "parentUuid": "eda6c9c2_815a9cd3",
+      "range": {
+        "startLine": 1524,
+        "startChar": 6,
+        "endLine": 1524,
+        "endChar": 21
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0da4fdb8_0685e30a",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -82,6 +154,30 @@
       "writtenOn": "2015-05-15T01:56:53Z",
       "side": 1,
       "message": "Check return value.",
+      "range": {
+        "startLine": 1544,
+        "startChar": 2,
+        "endLine": 1544,
+        "endChar": 7
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d9a7579_dc23b2d2",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1544,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0da4fdb8_0685e30a",
       "range": {
         "startLine": 1544,
         "startChar": 2,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "6dbd79c9_629e883a",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1560,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eda6c9c2_e142881c",
+      "range": {
+        "startLine": 1560,
+        "startChar": 8,
+        "endLine": 1560,
+        "endChar": 12
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eda6c9c2_01406c12",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 7
@@ -128,6 +248,30 @@
       "writtenOn": "2015-05-15T01:56:53Z",
       "side": 1,
       "message": "ditto and following",
+      "range": {
+        "startLine": 1561,
+        "startChar": 8,
+        "endLine": 1561,
+        "endChar": 25
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d9a7579_fc2076c8",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1561,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eda6c9c2_01406c12",
       "range": {
         "startLine": 1561,
         "startChar": 8,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "8dc2ad55_6ef59300",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0da4fdb8_cba046eb",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 52
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0da4fdb8_6b64ba48",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 7
@@ -174,6 +342,30 @@
       "writtenOn": "2015-05-15T01:56:53Z",
       "side": 1,
       "message": "nit: CanBeSimpleBlock() or SimpleBlockCapable()",
+      "range": {
+        "startLine": 91,
+        "startChar": 7,
+        "endLine": 91,
+        "endChar": 15
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6dbd79c9_42998c4f",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0da4fdb8_6b64ba48",
       "range": {
         "startLine": 91,
         "startChar": 7,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "4d9a7579_dc9e5265",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "cd8d8546_3015b2f0",
+      "range": {
+        "startLine": 384,
+        "startChar": 14,
+        "endLine": 384,
+        "endChar": 23
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0da4fdb8_262e673a",
         "filename": "mkvmuxerutil.hpp",
         "patchSetId": 7
@@ -220,6 +436,30 @@
       "writtenOn": "2015-05-15T01:56:53Z",
       "side": 1,
       "message": "Add comments about timestamp and duration. Also I think you should change the name of timestamp to timecode or better yet relative_timecode.",
+      "range": {
+        "startLine": 71,
+        "startChar": 35,
+        "endLine": 71,
+        "endChar": 40
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6dbd79c9_6277688a",
+        "filename": "mkvmuxerutil.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-15T16:05:17Z",
+      "side": 1,
+      "message": "have changed it to \"timecode\" as that\u0027s what\u0027s being used in matroska\u0027s block and simple block spec.\n\nThis is a private function with only one caller. So left out the comments as it was fairly self-explanatory.",
+      "parentUuid": "0da4fdb8_262e673a",
       "range": {
         "startLine": 71,
         "startChar": 35,
