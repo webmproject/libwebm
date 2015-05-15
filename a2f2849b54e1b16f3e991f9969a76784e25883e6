@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eda6c9c2_e1de0806",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "nit: Follow ordering from header file.",
+      "range": {
+        "startLine": 136,
+        "startChar": 12,
+        "endLine": 136,
+        "endChar": 20
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd8d8546_f0008a05",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "It would be better if this used copy and swap. If not please call out in the header that a failure from a CopyFrame() call may change the contents.",
+      "range": {
+        "startLine": 137,
+        "startChar": 11,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eda6c9c2_815a9cd3",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1524,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "I might pass in parent and return parent\u0027s timecode_scale from a public function. Might be overkill too.",
+      "range": {
+        "startLine": 1524,
+        "startChar": 6,
+        "endLine": 1524,
+        "endChar": 21
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0da4fdb8_0685e30a",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1544,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "Check return value.",
+      "range": {
+        "startLine": 1544,
+        "startChar": 2,
+        "endLine": 1544,
+        "endChar": 7
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eda6c9c2_e142881c",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1560,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "ditto and following",
+      "range": {
+        "startLine": 1560,
+        "startChar": 8,
+        "endLine": 1560,
+        "endChar": 12
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eda6c9c2_01406c12",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1561,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "ditto and following",
+      "range": {
+        "startLine": 1561,
+        "startChar": 8,
+        "endLine": 1561,
+        "endChar": 25
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0da4fdb8_cba046eb",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "nit: |frame| to match the style of this file.",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 52
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0da4fdb8_6b64ba48",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "nit: CanBeSimpleBlock() or SimpleBlockCapable()",
+      "range": {
+        "startLine": 91,
+        "startChar": 7,
+        "endLine": 91,
+        "endChar": 15
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd8d8546_3015b2f0",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "I think relative_timecode would be a better name.",
+      "range": {
+        "startLine": 384,
+        "startChar": 14,
+        "endLine": 384,
+        "endChar": 23
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0da4fdb8_262e673a",
+        "filename": "mkvmuxerutil.hpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-15T01:56:53Z",
+      "side": 1,
+      "message": "Add comments about timestamp and duration. Also I think you should change the name of timestamp to timecode or better yet relative_timecode.",
+      "range": {
+        "startLine": 71,
+        "startChar": 35,
+        "endLine": 71,
+        "endChar": 40
+      },
+      "revId": "a2f2849b54e1b16f3e991f9969a76784e25883e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
