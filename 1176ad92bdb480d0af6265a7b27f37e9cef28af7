@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "cdabc59c_6d2aa179",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 2415,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-18T18:44:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd8d8546_6334cf58",
+      "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eda6c9c2_50e15817",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 8
@@ -30,6 +48,24 @@
       "writtenOn": "2015-05-15T17:08:45Z",
       "side": 1,
       "message": "given the check at 2399 this is redundant",
+      "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eda409cd_eeb22ffa",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 2440,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-18T18:44:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eda6c9c2_50e15817",
       "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "cdabc59c_6db3c1db",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-18T18:44:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd8d8546_63cdafe0",
+      "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cd8d8546_e3b35f4a",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 8
@@ -64,6 +118,24 @@
       "writtenOn": "2015-05-15T17:08:45Z",
       "side": 1,
       "message": "I believe these are public, so the params should be checked",
+      "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cdabc59c_18e11d19",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-18T18:44:04Z",
+      "side": 1,
+      "message": "they are not intended to be public (so we can change them later if required) and have moved them to anonymous namespace.",
+      "parentUuid": "cd8d8546_e3b35f4a",
       "revId": "1176ad92bdb480d0af6265a7b27f37e9cef28af7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
