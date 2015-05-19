@@ -1,0 +1,169 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed4089d5_a2e460d7",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "!frame_",
+      "range": {
+        "startLine": 197,
+        "startChar": 14,
+        "endLine": 197,
+        "endChar": 16
+      },
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd4745eb_a190d84d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "!additional_",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d37016d_b2a260a8",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "I don\u0027t think this comment is necessary-- the condition and the method name explain well enough on their own. \n\nIf keeping the comment it should be rewritten to state things the same way the method name states them (i.e. Can only be a simple block when the following are true).\n\n(yes, nit)",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed4089d5_c2e964ae",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 1557,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "!additional",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd4745eb_81883c24",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 1655,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "!frame",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d37016d_ef7f9fd6",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "Strange. This class is missing it LIBWEBM_DISALLOW_COPY_AND_ASSIGN(). Please add it.",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd4745eb_01f50c99",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "prevailing style in this code seems to be without the !\u003d NULL part for pointer checks",
+      "range": {
+        "startLine": 46,
+        "startChar": 13,
+        "endLine": 46,
+        "endChar": 23
+      },
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed4089d5_02998c50",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "mix of braced and unbraced single statement conditionals. All braced or all unbraced.",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad4211dc_e696f44a",
+        "filename": "mkvmuxerutil.hpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-19T23:35:50Z",
+      "side": 1,
+      "message": "why do we need an anonymous namespace inside mkvmuxer?\n\nI don\u0027t think the generated namespace is guaranteed to be the same across multiple compilation units-- you\u0027re going to have link errors if you try to call these functions from files other than the one in which they are defined.\n\nProbably should just drop the extra inner namespace.",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
