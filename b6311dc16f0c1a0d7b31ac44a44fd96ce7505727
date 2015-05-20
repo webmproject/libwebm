@@ -16,6 +16,24 @@
       "revId": "b6311dc16f0c1a0d7b31ac44a44fd96ce7505727",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d6e217b_d2f915fc",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 12
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-05-20T22:26:00Z",
+      "side": 1,
+      "message": "i\u0027ll leave it as it is, we could potentially add is_invisible flag as well in the future to handle \"ffmpeg -c copy\" created vp9 streams and all vp8 streams correctly.",
+      "parentUuid": "6d7ad934_ed96bc4a",
+      "revId": "b6311dc16f0c1a0d7b31ac44a44fd96ce7505727",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
