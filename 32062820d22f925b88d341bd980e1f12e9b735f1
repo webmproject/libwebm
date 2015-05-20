@@ -356,6 +356,24 @@
       "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d37016d_3b8ce487",
+        "filename": "mkvmuxerutil.hpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-05-20T17:23:19Z",
+      "side": 1,
+      "message": "Right. I understand, but you are not accessing it from this file. You are accessing it from the .cpp file, so just have the anonymous namespace with the functions defined there. I don\u0027t think you the function declarations in this file.",
+      "parentUuid": "ad4211dc_cca2f77a",
+      "revId": "32062820d22f925b88d341bd980e1f12e9b735f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
