@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6d1bb95b_f504769d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 7139,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-05-28T18:20:06Z",
+      "side": 1,
+      "message": "nit: move the comment up above, put the brace on the same line as the if.\n\n    // comment\n    if () {\n    }",
+      "revId": "a17f36524c7d3de6bbb857b1a3baac05b761880b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
