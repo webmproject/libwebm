@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "b91fb853_0f170677",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T18:05:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d031dc0_d9499d94",
+      "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0d031dc0_442acb78",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2015-05-22T15:40:57Z",
       "side": 1,
       "message": "* const",
+      "range": {
+        "startLine": 2437,
+        "startChar": 9,
+        "endLine": 2437,
+        "endChar": 10
+      },
+      "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0d54fde2_12bae84b",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2437,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T18:05:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d031dc0_442acb78",
       "range": {
         "startLine": 2437,
         "startChar": 9,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "ed56c9ec_1151f665",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T18:05:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d0995dc_6ffc1137",
+      "range": {
+        "startLine": 113,
+        "startChar": 7,
+        "endLine": 113,
+        "endChar": 36
+      },
+      "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d0995dc_6f60917e",
         "filename": "mkvmuxerutil.cpp",
         "patchSetId": 1
@@ -76,6 +142,30 @@
       "writtenOn": "2015-05-22T15:40:57Z",
       "side": 1,
       "message": "I know this is technically correct, but I\u0027m a little worried that some demuxers will still be looking for the key frame flag because ffmpeg sets it. I guess we should land as is and then see if any demuxers are handling this incorrectly.",
+      "range": {
+        "startLine": 104,
+        "startChar": 27,
+        "endLine": 104,
+        "endChar": 33
+      },
+      "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0d54fde2_522e3010",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T18:05:28Z",
+      "side": 1,
+      "message": "I have checked the following demuxers and they handle it correctly: chromium (both MSE and Video tag), exoplayer, libwebm and android (which uses libwebm).\n\nAnyway, ACK that we should keep track if any other major demuxers don\u0027t handle this correctly and fix them. Also, i\u0027m going to fix the ffmpeg muxer to handle this correctly.",
+      "parentUuid": "4d0995dc_6f60917e",
       "range": {
         "startLine": 104,
         "startChar": 27,
