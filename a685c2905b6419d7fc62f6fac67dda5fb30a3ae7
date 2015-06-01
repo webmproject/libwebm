@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b91fb853_4c64ec14",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T17:32:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d0995dc_2f9859f0",
+      "range": {
+        "startLine": 501,
+        "startChar": 22,
+        "endLine": 501,
+        "endChar": 41
+      },
+      "revId": "a685c2905b6419d7fc62f6fac67dda5fb30a3ae7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d0995dc_af04699c",
         "filename": "sample_muxer_metadata.cc",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2015-05-22T15:48:03Z",
       "side": 1,
       "message": "2 spaces",
+      "range": {
+        "startLine": 385,
+        "startChar": 31,
+        "endLine": 385,
+        "endChar": 32
+      },
+      "revId": "a685c2905b6419d7fc62f6fac67dda5fb30a3ae7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b91fb853_ec3a98f8",
+        "filename": "sample_muxer_metadata.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-01T17:32:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d0995dc_af04699c",
       "range": {
         "startLine": 385,
         "startChar": 31,
