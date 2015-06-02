@@ -175,6 +175,30 @@
       "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b97b38ac_98803995",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-06-02T00:08:23Z",
+      "side": 1,
+      "message": "FYI: The FFmpeg patch for the same fix is here: https://ffmpeg.org/pipermail/ffmpeg-devel/2015-June/173680.html",
+      "parentUuid": "0d54fde2_522e3010",
+      "range": {
+        "startLine": 104,
+        "startChar": 27,
+        "endLine": 104,
+        "endChar": 33
+      },
+      "revId": "8a2a77da05649ba1018cd763bc7bef868f1f7ef5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
