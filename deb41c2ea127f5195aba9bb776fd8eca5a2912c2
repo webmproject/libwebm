@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99a8345d_7ebc310c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 4625,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-06-02T23:28:08Z",
+      "side": 1,
+      "message": "Wouldn\u0027t just assert()\u0027ing be better? Gracefully handling parsing errors is such a tedious waste of time.\n\n/s :|",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9a97860_d47bca9f",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-06-02T23:28:08Z",
+      "side": 1,
+      "message": "long long... \n\nThis makes me so sad. And frightened. Mostly sad.",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
