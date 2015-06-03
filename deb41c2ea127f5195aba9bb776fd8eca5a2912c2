@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "b97b38ac_adbcc80c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 4625,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-06-03T00:25:03Z",
+      "side": 1,
+      "message": "Seems like someone is making a case to overhaul the parser...",
+      "parentUuid": "99a8345d_7ebc310c",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b9a97860_d47bca9f",
         "filename": "mkvparser.hpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-06-02T23:28:08Z",
       "side": 1,
       "message": "long long... \n\nThis makes me so sad. And frightened. Mostly sad.",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59d23ce8_a60ff0ba",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-06-03T00:25:03Z",
+      "side": 1,
+      "message": "What if it was \"long long int\"?",
+      "parentUuid": "b9a97860_d47bca9f",
       "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
