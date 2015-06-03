@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "b9a97860_34ba5e2f",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 4625,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-06-03T01:11:34Z",
+      "side": 1,
+      "message": "Shutting up now.",
+      "parentUuid": "b97b38ac_adbcc80c",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b9a97860_d47bca9f",
         "filename": "mkvparser.hpp",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "What if it was \"long long int\"?",
       "parentUuid": "b9a97860_d47bca9f",
+      "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9ae2c65_1a83cd55",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-06-03T01:11:34Z",
+      "side": 1,
+      "message": "I want int64 or int64_t in here, and then deal with it in one place (like mkvmuxertypes.hpp takes care of it for the muxer). \n\nlong long or long long int are both fine with me as the basis of a typedef-- I just don\u0027t like seeing them throughout here because of scary things like awesome platforms with 40 bit longs and 32 bit ints. Having the types defined in one place would be enough to make me happy.",
+      "parentUuid": "59d23ce8_a60ff0ba",
       "revId": "deb41c2ea127f5195aba9bb776fd8eca5a2912c2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
