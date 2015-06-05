@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "19d6040d_63d13cc5",
+        "filename": ".clang-format",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-06-05T01:27:42Z",
+      "side": 1,
+      "message": "I\u0027m OK with either one; there\u0027s a pretty even split in other projects, though the default is true",
+      "revId": "7affc5c3f88b1ce26283049037213decb7a83a53",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
