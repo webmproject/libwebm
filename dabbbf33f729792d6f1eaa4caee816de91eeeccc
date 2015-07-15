@@ -1,0 +1,163 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "78f7fee1_3eedeb87",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1520,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "new line between class comment and first method (mirroring other classes in here)",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5834fa65_25513859",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1545,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "Private ctor is fine and generally well understood; this comment isn\u0027t really necessary. TBH I don\u0027t think you need an Init() for this class: Just set simple_tags_, simple_tags_size_ and simple_tags_count_ in the ctor initializer list.",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78f7fee1_5eb307d5",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1629,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "// Tag::SimpleTag",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3837466d_a71f8e17",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1653,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "wrap this line, and get rid of the extra space after the equal sign.",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8404ed5_c5996efc",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1676,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "remove horizontal whitespace",
+      "range": {
+        "startLine": 1676,
+        "startChar": 0,
+        "endLine": 1676,
+        "endChar": 3
+      },
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78f7fee1_3e6a8b99",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1760,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "remove horizontal whitespace",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78f7fee1_bbd20d76",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 743,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "indent is off in here; we generally follow the google style guide for c++. clang-format will take care of indentation for you if you\u0027d prefer an automated clean up.",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5834fa65_257858e7",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 748,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "Add comment explaining purpose of friend status for Tags",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5834fa65_483013f0",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 3555,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-07-15T22:53:05Z",
+      "side": 1,
+      "message": "General comment:\n\nThe parser code is in need of some major reworking. One of the changes that needs to be made is duplication of asserts into if\u0027s for error checking and graceful failures. Wherever you use an assert in this code, there needs to be a corresponding if that\u0027s enforcing that assert in all code (not only in code w/out NDEBUG).",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
