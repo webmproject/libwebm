@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "b8d41638_8df5e17d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1517,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-07-16T00:05:08Z",
+      "side": 1,
+      "message": "nit: i understand that you are just following the other classes in this file. going forward, i want to remove all of this. so can you please remove this comment.",
+      "range": {
+        "startLine": 1517,
+        "startChar": 0,
+        "endLine": 1517,
+        "endChar": 63
+      },
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78f7fee1_3eedeb87",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -13,6 +36,46 @@
       "writtenOn": "2015-07-15T22:53:05Z",
       "side": 1,
       "message": "new line between class comment and first method (mirroring other classes in here)",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8f20ee5_ef8a2124",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1520,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-07-16T00:05:08Z",
+      "side": 1,
+      "message": "nit: use underscore for variable names instead of camel case.",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f80beea6_c785fee4",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1541,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-07-16T00:05:08Z",
+      "side": 1,
+      "message": "supernit: privilege (spelling)",
+      "range": {
+        "startLine": 1541,
+        "startChar": 44,
+        "endLine": 1541,
+        "endChar": 53
+      },
       "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -93,6 +156,29 @@
     },
     {
       "key": {
+        "uuid": "f80beea6_e78002d7",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1676,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-07-16T00:05:08Z",
+      "side": 1,
+      "message": "nit: remove spaces.",
+      "range": {
+        "startLine": 1676,
+        "startChar": 0,
+        "endLine": 1676,
+        "endChar": 3
+      },
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78f7fee1_3e6a8b99",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -104,6 +190,29 @@
       "writtenOn": "2015-07-15T22:53:05Z",
       "side": 1,
       "message": "remove horizontal whitespace",
+      "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8d41638_adf09d8d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1760,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-07-16T00:05:08Z",
+      "side": 1,
+      "message": "nit: remove spaces.",
+      "range": {
+        "startLine": 1760,
+        "startChar": 0,
+        "endLine": 1760,
+        "endChar": 1
+      },
       "revId": "dabbbf33f729792d6f1eaa4caee816de91eeeccc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
