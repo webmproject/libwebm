@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "04806112_0dda7596",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T19:22:13Z",
+      "side": 1,
+      "message": "assuming the comment on 270 is correct, shouldn\u0027t size \u003e\u003d be sufficient? if it\u0027s LONG_MAX-1 then size+1 won\u0027t overflow",
+      "revId": "1f0e1dfedf70177927b15e6c7d2cbd078ec6f255",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "04b861a5_26d473e8",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T19:22:13Z",
+      "side": 1,
+      "message": "this should just be \u0027required_size\u0027, no?",
+      "revId": "1f0e1dfedf70177927b15e6c7d2cbd078ec6f255",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
