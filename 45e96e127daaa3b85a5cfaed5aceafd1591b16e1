@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "c4a9e95f_07d12dc5",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-17T22:40:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04806112_f0b09675",
+      "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "64591d73_ba470624",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2015-08-17T22:00:20Z",
       "side": 1,
       "message": "you can prevent rollover with subtraction in the last case; just check stop - pos instead",
+      "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64591d73_baa54602",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-17T22:40:31Z",
+      "side": 1,
+      "message": "ah, yeah-- that makes sense (well, what I have now still does, but just in case...)",
+      "parentUuid": "64591d73_ba470624",
       "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
