@@ -16,6 +16,24 @@
       "revId": "3876a9bb3de7e885d55fc73256ab59ebd1cfcb72",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "243ac5f6_b5ba72b3",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-17T19:13:25Z",
+      "side": 1,
+      "message": "sigh. you\u0027re right; was trying to be less verbose. Two checks now (size \u003d\u003d and size+1 \u003d\u003d), but I wonder if we should allow a string + null to be LONG_MAX. I think not... tbh I wish the spec set a reasonable limit on string length, but it appears that string length in matroska is effectively unlimited.",
+      "parentUuid": "c471e91c_e82b4b7f",
+      "revId": "3876a9bb3de7e885d55fc73256ab59ebd1cfcb72",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
