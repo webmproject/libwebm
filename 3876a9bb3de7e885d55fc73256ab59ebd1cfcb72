@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c471e91c_e82b4b7f",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T18:58:04Z",
+      "side": 1,
+      "message": "if size\u003d\u003dLONG_MAX here you\u0027ll roll the value before the check; LONG_MAX can differ between 32/64-bit builds",
+      "revId": "3876a9bb3de7e885d55fc73256ab59ebd1cfcb72",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
