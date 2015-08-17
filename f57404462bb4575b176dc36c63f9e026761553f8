@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e4aeed64_70e9bd76",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T21:54:04Z",
+      "side": 1,
+      "message": "I guess this is safe, I\u0027d guess the final character will be overwritten if this is just a dumb read",
+      "revId": "f57404462bb4575b176dc36c63f9e026761553f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4a9e95f_e750912c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T21:54:04Z",
+      "side": 1,
+      "message": "should be required_size - 1 since you embed the +1",
+      "revId": "f57404462bb4575b176dc36c63f9e026761553f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
