@@ -16,6 +16,41 @@
       "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "04806112_f0b09675",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T22:00:20Z",
+      "side": 1,
+      "message": "should be all right; you could condense the disallow comment with something like \u0027invalid payload size, integer length or an integer larger than...",
+      "parentUuid": "04806112_cdc93dbf",
+      "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64591d73_ba470624",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-17T22:00:20Z",
+      "side": 1,
+      "message": "you can prevent rollover with subtraction in the last case; just check stop - pos instead",
+      "revId": "45e96e127daaa3b85a5cfaed5aceafd1591b16e1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
