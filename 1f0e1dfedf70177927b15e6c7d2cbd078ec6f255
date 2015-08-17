@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c4a9e95f_448403ea",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-17T19:39:18Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "04806112_0dda7596",
+      "revId": "1f0e1dfedf70177927b15e6c7d2cbd078ec6f255",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04b861a5_26d473e8",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-17T19:22:13Z",
       "side": 1,
       "message": "this should just be \u0027required_size\u0027, no?",
+      "revId": "1f0e1dfedf70177927b15e6c7d2cbd078ec6f255",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "04b861a5_467de755",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-17T19:39:18Z",
+      "side": 1,
+      "message": "Thanks, missed this when I renamed the vars (because having \u0027size\u0027 and \u0027size_\u0027 was just too wtf for me).",
+      "parentUuid": "04b861a5_26d473e8",
       "revId": "1f0e1dfedf70177927b15e6c7d2cbd078ec6f255",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
