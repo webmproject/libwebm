@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "243ac5f6_5d6eaca9",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-18T17:50:19Z",
+      "side": 1,
+      "message": "total should be -1 for live/unknown duration input, so yeah status should be \u003e\u003d 0 w/-1 total in those situations\n\navailable - what\u0027s available to parse via Reads on MkvReader\ntotal - entire length of input or -1\n\nwe\u0027re making sure we haven\u0027t read past end of input",
+      "parentUuid": "c471e91c_4e12a7e6",
+      "revId": "40ae9e760ea923e6565be603afba6687fdaa53a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4a8755c_90b1d14f",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "e4434d7f_f2f242d5",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-18T17:50:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4a8755c_90b1d14f",
+      "revId": "40ae9e760ea923e6565be603afba6687fdaa53a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4a8755c_308fbd88",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -47,6 +83,24 @@
       "writtenOn": "2015-08-18T02:25:29Z",
       "side": 1,
       "message": "same for len check",
+      "revId": "40ae9e760ea923e6565be603afba6687fdaa53a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4aeed64_fc6106b5",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-18T17:50:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4a8755c_308fbd88",
       "revId": "40ae9e760ea923e6565be603afba6687fdaa53a8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
