@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "e4434d7f_96076b58",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 846,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T21:52:32Z",
+      "side": 1,
+      "message": "something like a util function that does the rollover check added in the ParseElementHeader fix?",
+      "parentUuid": "04806112_e65a9bc7",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c4a9e95f_d95a15c8",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "e4434d7f_c93af47e",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 853,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T21:52:32Z",
+      "side": 1,
+      "message": "I think I need to make another patch where:\n- ReadUInt takes care of len \u003c 1/len \u003e 8 checks, and add\n- ReadID, which enforces max ID length (and the minimum)\n\nAnd then some of this nonsense can just go away. Also, I\u0027ll probably add a rollover test util function so I can check for rollover more often without (further) crapping up this section of the code.",
+      "parentUuid": "c4a9e95f_d95a15c8",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "243ac5f6_f6afdd66",
         "filename": "mkvparser.cpp",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2015-08-19T03:11:15Z",
       "side": 1,
       "message": "doesn\u0027t this obviate the check at 861 (and change the interpretation of this condition)?",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64591d73_72caa7b3",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 858,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T21:52:32Z",
+      "side": 1,
+      "message": "Removed this-- I think I just got lucky that it worked in my minimal testing. (and, to your question, yes)",
+      "parentUuid": "243ac5f6_f6afdd66",
       "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
