@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "04b861a5_4e37310a",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T22:55:22Z",
+      "side": 1,
+      "message": "Changed the \u003c\u003d 0 to \u003c 1 (because 0 is bad). Here and below. Allowed \u003d\u003d len, and enforced max ID size of 4 (instead of 8, because that was wrong in the original code)",
+      "parentUuid": "04806112_7c847dea",
+      "revId": "9aec82706da954a4d0b93a6b9e1512def6f89ee4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "243ac5f6_72591660",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T22:55:22Z",
+      "side": 1,
+      "message": "disallowed len \u003d\u003d 0, allowed \u003d\u003d len",
+      "revId": "9aec82706da954a4d0b93a6b9e1512def6f89ee4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "243ac5f6_803c4bec",
         "filename": "mkvparser.cpp",
         "patchSetId": 7
@@ -30,6 +65,24 @@
       "writtenOn": "2015-08-18T19:59:23Z",
       "side": 1,
       "message": "rollover concern here and with +\u003d len?",
+      "revId": "9aec82706da954a4d0b93a6b9e1512def6f89ee4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4434d7f_4c7a7294",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T22:55:22Z",
+      "side": 1,
+      "message": "added same rollover check from earlier patch; really need to get on that util function",
+      "parentUuid": "243ac5f6_803c4bec",
       "revId": "9aec82706da954a4d0b93a6b9e1512def6f89ee4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
