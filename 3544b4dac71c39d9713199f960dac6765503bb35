@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "04806112_e65a9bc7",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 846,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-19T03:11:15Z",
+      "side": 1,
+      "message": "as discussed offline some of this and the pos +\u003d len business can be a follow-up, maybe one change/function as it will affect many lines",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4a9e95f_d95a15c8",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 853,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-19T03:11:15Z",
+      "side": 1,
+      "message": "this pos + size should be adjusted too probably",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "243ac5f6_f6afdd66",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 858,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-19T03:11:15Z",
+      "side": 1,
+      "message": "doesn\u0027t this obviate the check at 861 (and change the interpretation of this condition)?",
+      "revId": "3544b4dac71c39d9713199f960dac6765503bb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
