@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a4a8755c_7f666148",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T00:09:22Z",
+      "side": 1,
+      "message": "that should\u0027ve been a 1, fixed",
+      "parentUuid": "e4aeed64_5763530e",
+      "revId": "703e96a788e04331c1d17a992371e14a6d01a748",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04b861a5_75952b96",
         "filename": "mkvparser.cpp",
         "patchSetId": 4
@@ -30,6 +48,47 @@
       "writtenOn": "2015-08-18T19:55:49Z",
       "side": 1,
       "message": "do we know here this won\u0027t overflow?",
+      "revId": "703e96a788e04331c1d17a992371e14a6d01a748",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4a9e95f_7673f05c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T00:09:22Z",
+      "side": 1,
+      "message": "I think we do now.",
+      "parentUuid": "04b861a5_75952b96",
+      "revId": "703e96a788e04331c1d17a992371e14a6d01a748",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c471e91c_ba3195f3",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T00:09:22Z",
+      "side": 1,
+      "message": "had to remove this last check; stop and pos are not necessarily going to have anything to do with the size we end up with in here (i.e. can\u0027t even parse an EBML header without dying).",
+      "range": {
+        "startLine": 322,
+        "startChar": 48,
+        "endLine": 322,
+        "endChar": 49
+      },
       "revId": "703e96a788e04331c1d17a992371e14a6d01a748",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
