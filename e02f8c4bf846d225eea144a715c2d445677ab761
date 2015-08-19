@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "04b861a5_6821cd5c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T19:24:26Z",
+      "side": 1,
+      "message": "right, oops-- being in a rush is bad sometimes.",
+      "parentUuid": "e4aeed64_14d4f6b5",
+      "revId": "e02f8c4bf846d225eea144a715c2d445677ab761",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04b861a5_a8fd857a",
         "filename": "mkvparser.cpp",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-19T18:46:10Z",
       "side": 1,
       "message": "it shouldn\u0027t matter here, but you could test the unsigned value against signed max for consistency",
+      "revId": "e02f8c4bf846d225eea144a715c2d445677ab761",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4434d7f_76ce1fa8",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-19T19:24:26Z",
+      "side": 1,
+      "message": "I think it\u0027s a bit more readable with the LONG_LONG_MAX check, so I changed it.",
+      "parentUuid": "04b861a5_a8fd857a",
       "revId": "e02f8c4bf846d225eea144a715c2d445677ab761",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
