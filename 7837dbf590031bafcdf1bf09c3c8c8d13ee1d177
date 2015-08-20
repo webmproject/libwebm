@@ -16,6 +16,24 @@
       "revId": "7837dbf590031bafcdf1bf09c3c8c8d13ee1d177",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e430ad80_16e1dcba",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 853,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-20T04:29:27Z",
+      "side": 1,
+      "message": "Done. Also added one up above, so rollover_check is no longer const.",
+      "parentUuid": "a4fb1585_a5ca1f46",
+      "revId": "7837dbf590031bafcdf1bf09c3c8c8d13ee1d177",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
