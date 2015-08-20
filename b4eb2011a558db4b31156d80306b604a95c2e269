@@ -16,6 +16,24 @@
       "revId": "b4eb2011a558db4b31156d80306b604a95c2e269",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4700952_8d0b8162",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-20T04:47:32Z",
+      "side": 1,
+      "message": "I couldn\u0027t convince myself that inverting it was enough. Added an additional rollover_check abuse with pos + size; the one up above is now non-const.",
+      "parentUuid": "c4a9e95f_28bbcdba",
+      "revId": "b4eb2011a558db4b31156d80306b604a95c2e269",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
