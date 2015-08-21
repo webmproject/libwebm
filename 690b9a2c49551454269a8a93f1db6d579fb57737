@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a47f9520_e09ecae9",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-21T03:19:31Z",
+      "side": 1,
+      "message": "that\u0027s 1\u003c\u003c56 + 2 actually, just put the calculation in the const",
+      "revId": "690b9a2c49551454269a8a93f1db6d579fb57737",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4700952_36ee5e2a",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-21T03:19:31Z",
+      "side": 1,
+      "message": "well, I was just thinking you\u0027d check result itself before shifting, but given you\u0027re treating it as signed you\u0027d probably want 1^55 instead",
+      "revId": "690b9a2c49551454269a8a93f1db6d579fb57737",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
