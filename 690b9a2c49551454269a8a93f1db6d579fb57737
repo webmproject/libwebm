@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "248c8586_ba778e78",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-21T17:34:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a47f9520_e09ecae9",
+      "revId": "690b9a2c49551454269a8a93f1db6d579fb57737",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c4700952_36ee5e2a",
         "filename": "mkvparser.cpp",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-21T03:19:31Z",
       "side": 1,
       "message": "well, I was just thinking you\u0027d check result itself before shifting, but given you\u0027re treating it as signed you\u0027d probably want 1^55 instead",
+      "revId": "690b9a2c49551454269a8a93f1db6d579fb57737",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84253145_6d61597c",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-21T17:34:19Z",
+      "side": 1,
+      "message": "I\u0027m not following. result is signed, and I am checking it before the shift... I probably need coffee.",
+      "parentUuid": "c4700952_36ee5e2a",
       "revId": "690b9a2c49551454269a8a93f1db6d579fb57737",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
