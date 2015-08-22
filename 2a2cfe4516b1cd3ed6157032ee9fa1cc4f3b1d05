@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84253145_52a195a8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-22T04:44:47Z",
+      "side": 1,
+      "message": "if you use -funsigned-char that is",
+      "revId": "2a2cfe4516b1cd3ed6157032ee9fa1cc4f3b1d05",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
