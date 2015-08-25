@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "c4700952_45456519",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-25T19:40:00Z",
+      "side": 1,
+      "message": "BUG\u003d...",
+      "revId": "87dcbc35d0aa7b1c22731f24e1ca9adbd02cf4eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e430ad80_47522eb8",
         "filename": "mkvparser.cpp",
         "patchSetId": 4
