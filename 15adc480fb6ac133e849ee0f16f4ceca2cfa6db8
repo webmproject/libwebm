@@ -51,6 +51,24 @@
       "revId": "15adc480fb6ac133e849ee0f16f4ceca2cfa6db8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4618eea_8922f97d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1232,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-08-31T19:11:33Z",
+      "side": 1,
+      "message": "no need to duplicate the checks if AppendCluster covers all this",
+      "parentUuid": "e438aece_d17ae483",
+      "revId": "15adc480fb6ac133e849ee0f16f4ceca2cfa6db8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
