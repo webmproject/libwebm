@@ -16,6 +16,24 @@
       "revId": "d0313dd7ce333c641c59040e2fabe6def7fe8e9c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84529221_2c4e7736",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1345,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-08-31T22:29:52Z",
+      "side": 1,
+      "message": "yeah, pretty much. Keeping things highly paranoid for now-- unless it\u0027s a straight dupe of an earlier condition I keep the inverted version.",
+      "parentUuid": "6424bead_10906a7f",
+      "revId": "d0313dd7ce333c641c59040e2fabe6def7fe8e9c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
