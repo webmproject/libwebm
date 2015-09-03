@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "04cce27b_91ee867f",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-03T23:11:46Z",
+      "side": 1,
+      "message": "this could be condensed to a 8 - log2(temp_byte), but should be OK",
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6492fe15_da1b047a",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-03T23:11:46Z",
+      "side": 1,
+      "message": "!found_bit is fine",
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e486eed4_1294ec2f",
         "filename": "mkvparser.cpp",
         "patchSetId": 6
@@ -131,6 +165,57 @@
         "endLine": 602,
         "endChar": 75
       },
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44141a88_38c951e7",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1725,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-03T23:11:46Z",
+      "side": 1,
+      "message": "comment can go",
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6492fe15_9a6a5cb6",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 3640,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-03T23:11:46Z",
+      "side": 1,
+      "message": "weird that there\u0027s kMkvChapter.../kMkvChap...",
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0484e2ca_56282619",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 4925,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-03T23:11:46Z",
+      "side": 1,
+      "message": "drop comment",
       "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
