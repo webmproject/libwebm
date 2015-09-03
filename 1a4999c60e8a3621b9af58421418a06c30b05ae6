@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0484e2ca_b67bb254",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 519,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-09-03T22:47:44Z",
+      "side": 1,
+      "message": "I don\u0027t know. :(\n\nNote the lack of comments in the initial code-- I have no idea, so I made the decision to do exactly what was happening before in this block: Just return status. \n\nLeaving this one in the interest of avoiding behavior changes.",
+      "parentUuid": "e486eed4_1294ec2f",
+      "range": {
+        "startLine": 519,
+        "startChar": 13,
+        "endLine": 519,
+        "endChar": 19
+      },
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "84529221_b2f755c1",
         "filename": "mkvparser.cpp",
         "patchSetId": 6
@@ -53,6 +77,30 @@
       "writtenOn": "2015-09-03T22:26:23Z",
       "side": 1,
       "message": "nit: remove.",
+      "range": {
+        "startLine": 602,
+        "startChar": 57,
+        "endLine": 602,
+        "endChar": 75
+      },
+      "revId": "1a4999c60e8a3621b9af58421418a06c30b05ae6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6492fe15_fa18407f",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-09-03T22:47:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6492fe15_7f83c2ce",
       "range": {
         "startLine": 602,
         "startChar": 57,
