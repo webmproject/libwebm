@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "64159e82_a4aa37b8",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-09-05T18:49:37Z",
+      "side": 1,
+      "message": "seems to be a mix of (ret) / (ret \u003c 0) checks",
+      "revId": "714f3c4e4fdee59d884bd978803cf8de9cecb042",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
