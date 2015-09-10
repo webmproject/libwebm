@@ -16,6 +16,24 @@
       "revId": "6067f1b88fd3982bb43fa3e71b071c3d0b73ae9d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4bdd6e7_0332d1bf",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 531,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2015-09-10T19:10:31Z",
+      "side": 1,
+      "message": "these constants are self-explanatory. i\u0027ll just remove this comment altogether.",
+      "parentUuid": "a4bdd6e7_8317010f",
+      "revId": "6067f1b88fd3982bb43fa3e71b071c3d0b73ae9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
