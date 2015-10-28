@@ -22,6 +22,410 @@
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96cad9dc_262c1633",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1132,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96cad9dc_06291a23",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1793,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56ab01f0_2c5233fc",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1854,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "remove this too (and not mentioning these anymore since they appear to be debugging/dev releated, and you\u0027ll take care of them on your own, right? :))",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56ab01f0_ef4dbdae",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2261,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "this should be just before force_new_cluster_",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6d955b5_cc11dfd9",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2771,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "nit: remove commented arg",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56ab01f0_0f0c897d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2775,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Ascending",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7621e584_a51c9e09",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2794,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "There\u0027s an anonymous namespace up at the top of this file; the local function belongs up there (the local types and typedefs as well).",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6d955b5_acbbcb1d",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2828,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "looks to... be OK? :)",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7621e584_654c6605",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2833,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "const",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "36a68d28_8e623bcb",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2839,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "const",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d6d0d18a_eb780db2",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2876,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Is a duration of 0 better than a missing BlockDuration for your use case?\n\nSeems like omitting it instead of just writing 0 would be the better choice, but I don\u0027t know what MSE\u0027s going to do with 0 versus omission.",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56ab01f0_6f06ed38",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2885,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Drop reference to AddFrameToCluster() and just note that this is now memory owned locally since we pop()\u0027d it from holdback_pq above.  If things are refactored I\u0027d like to avoid a stale comment pointing at AFTC().",
+      "range": {
+        "startLine": 2885,
+        "startChar": 7,
+        "endLine": 2885,
+        "endChar": 24
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6d955b5_6cb3933a",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 3238,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6d35d95_4704aee5",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 954,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Drop the \"is_\"",
+      "range": {
+        "startLine": 954,
+        "startChar": 7,
+        "endLine": 954,
+        "endChar": 19
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56ab01f0_6cb8bbac",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1291,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "spell out duration; it\u0027s a little longer, but lets keep references to duration all named duration so the innocents looking at our code don\u0027t get tripped up when they look for \"duration\" instead of \"dur\".",
+      "range": {
+        "startLine": 1291,
+        "startChar": 40,
+        "endLine": 1291,
+        "endChar": 62
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6d955b5_891cf909",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1307,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Add |frame| to the correct cluster. Some elaboration on what makes a particular cluster the correct cluster would be helpful for future readers/reviewers/hackers.",
+      "range": {
+        "startLine": 1307,
+        "startChar": 9,
+        "endLine": 1307,
+        "endChar": 12
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6d35d95_874fc62e",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1327,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "s/area/are/",
+      "range": {
+        "startLine": 1327,
+        "startChar": 14,
+        "endLine": 1327,
+        "endChar": 18
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "769c85d8_8dfd2123",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1463,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Drop MSE/javascript specific information. It\u0027s not really necessary to mention the particular implementation: Better to simply say this allows consumers of chunked WebM to accurately determine chunk duration without consuming/rendering all input in the chunk or looking ahead to read the start time of the next chunk.",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6d35d95_07b7565f",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1487,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "s/tracks/track/",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6d35d95_67c452c7",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1490,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "Missing period",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d6d0d18a_4b6af9d6",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "wrap",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6d955b5_0c7f77de",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-10-28T19:32:33Z",
+      "side": 1,
+      "message": "duration",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
