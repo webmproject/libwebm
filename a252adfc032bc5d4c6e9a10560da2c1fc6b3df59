@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fbb05f0b_410b36a9",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "For c++11/nullptr/etc support? I don\u0027t think so. At this point I think it\u0027s on the person building the software to ensure they have a reasonably up to date compiler. Not doing anything fancy here.\n\nAt any rate, cmake doesn\u0027t care. It\u0027s just going to generate project files. Maybe it would care when generator is make, but that falls back onto the point above.",
+      "parentUuid": "bb2a67bd_38d675ea",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bb2a67bd_d86599f1",
         "filename": "webm2pes.cc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-11-23T23:14:24Z",
       "side": 1,
       "message": "// namespace",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b153384_3ec7796d",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb2a67bd_d86599f1",
       "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "3b167790_54aa1aac",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b1b2bb8_00f21a03",
+      "range": {
+        "startLine": 28,
+        "startChar": 3,
+        "endLine": 28,
+        "endChar": 26
+      },
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b153384_9382e6b4",
         "filename": "webm2pes.cc",
         "patchSetId": 1
@@ -70,6 +130,24 @@
       "writtenOn": "2015-11-23T23:14:24Z",
       "side": 1,
       "message": "not needed",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5b1b2bb8_bbbedbee",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "oops/done/was a class",
+      "parentUuid": "1b153384_9382e6b4",
       "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -93,6 +171,24 @@
     },
     {
       "key": {
+        "uuid": "fbb05f0b_41e0d618",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b153384_f38fdada",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b153384_1360b6e4",
         "filename": "webm2pes.cc",
         "patchSetId": 1
@@ -104,6 +200,24 @@
       "writtenOn": "2015-11-23T23:14:24Z",
       "side": 1,
       "message": "could be static",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fbb05f0b_81bffeeb",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b153384_1360b6e4",
       "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -127,6 +241,24 @@
     },
     {
       "key": {
+        "uuid": "bbc4277e_f9aaf7ad",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb2a67bd_18d291dc",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bb2a67bd_98bde185",
         "filename": "webm2pes.cc",
         "patchSetId": 1
@@ -138,6 +270,24 @@
       "writtenOn": "2015-11-23T23:14:24Z",
       "side": 1,
       "message": "be good to note the timecode scale in the name or a comment",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fbb05f0b_418e9651",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done... fixed TODO re milliseconds. I think the new name is self documenting enough.",
+      "parentUuid": "bb2a67bd_98bde185",
       "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -161,6 +311,24 @@
     },
     {
       "key": {
+        "uuid": "bb2a67bd_6322fee5",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "oops. done.",
+      "parentUuid": "bbc4277e_d98cd31e",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bb2a67bd_f8685dc9",
         "filename": "webm2pes.cc",
         "patchSetId": 1
@@ -172,6 +340,24 @@
       "writtenOn": "2015-11-23T23:14:24Z",
       "side": 1,
       "message": "could be in an anonymous namespace",
+      "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3b167790_1ff1dbc3",
+        "filename": "webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-11-24T00:44:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb2a67bd_f8685dc9",
       "revId": "a252adfc032bc5d4c6e9a10560da2c1fc6b3df59",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
