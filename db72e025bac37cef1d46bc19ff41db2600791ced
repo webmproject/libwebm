@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9bb8433f_f3fdaad6",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "This is now fixed in FlushHoldBackFrames",
+      "parentUuid": "7642c5df_83ab625b",
+      "range": {
+        "startLine": 214,
+        "startChar": 25,
+        "endLine": 214,
+        "endChar": 27
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96cad9dc_262c1633",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -76,6 +100,24 @@
     },
     {
       "key": {
+        "uuid": "b686fe2b_1eed39e7",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1854,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "You bet, I\u0027ll remove all of these before checkin. Let me leave them until we\u0027ve cleared all other issues since they\u0027re super helpful for debugging. \n\nRelated: What do you think of adding a DLOG type macro to this library? I doubt this is the last time we\u0027ll want these logs.",
+      "parentUuid": "56ab01f0_2c5233fc",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "56ab01f0_ef4dbdae",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -87,6 +129,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "this should be just before force_new_cluster_",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "36892e3b_e790deff",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2261,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56ab01f0_ef4dbdae",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -110,6 +170,24 @@
     },
     {
       "key": {
+        "uuid": "3b18372c_bb22efe5",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2771,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Made this into an enum. LMK if you have better ideas for the name",
+      "parentUuid": "f6d955b5_cc11dfd9",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "56ab01f0_0f0c897d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -121,6 +199,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Ascending",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6923665_d4262d95",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2775,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56ab01f0_0f0c897d",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -144,6 +240,24 @@
     },
     {
       "key": {
+        "uuid": "36892e3b_c7c922d3",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2794,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7621e584_a51c9e09",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f6d955b5_acbbcb1d",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -155,6 +269,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "looks to... be OK? :)",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d683721b_5916efd7",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2828,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6d955b5_acbbcb1d",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -178,6 +310,24 @@
     },
     {
       "key": {
+        "uuid": "b686fe2b_5e225195",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2833,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7621e584_654c6605",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "36a68d28_8e623bcb",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -195,6 +345,24 @@
     },
     {
       "key": {
+        "uuid": "1698aa84_27bae1e2",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2839,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "36a68d28_8e623bcb",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d6d0d18a_eb780db2",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -206,6 +374,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Is a duration of 0 better than a missing BlockDuration for your use case?\n\nSeems like omitting it instead of just writing 0 would be the better choice, but I don\u0027t know what MSE\u0027s going to do with 0 versus omission.",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5b1deb19_b9eddb77",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2876,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "I think you\u0027re right. Removed this part and just let duration go unset for the last cluster.",
+      "parentUuid": "d6d0d18a_eb780db2",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -235,6 +421,30 @@
     },
     {
       "key": {
+        "uuid": "b69d1e72_6b6afdf6",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2885,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56ab01f0_6f06ed38",
+      "range": {
+        "startLine": 2885,
+        "startChar": 7,
+        "endLine": 2885,
+        "endChar": 24
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f6d955b5_6cb3933a",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 1
@@ -252,6 +462,24 @@
     },
     {
       "key": {
+        "uuid": "568ea242_2e9f1c77",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 3238,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6d955b5_6cb3933a",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b6d35d95_4704aee5",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -263,6 +491,30 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Drop the \"is_\"",
+      "range": {
+        "startLine": 954,
+        "startChar": 7,
+        "endLine": 954,
+        "endChar": 19
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d69a9277_bc98ae39",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 954,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6d35d95_4704aee5",
       "range": {
         "startLine": 954,
         "startChar": 7,
@@ -298,6 +550,30 @@
     },
     {
       "key": {
+        "uuid": "1698aa84_a71331a4",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1291,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56ab01f0_6cb8bbac",
+      "range": {
+        "startLine": 1291,
+        "startChar": 40,
+        "endLine": 1291,
+        "endChar": 62
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f6d955b5_891cf909",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -309,6 +585,30 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Add |frame| to the correct cluster. Some elaboration on what makes a particular cluster the correct cluster would be helpful for future readers/reviewers/hackers.",
+      "range": {
+        "startLine": 1307,
+        "startChar": 9,
+        "endLine": 1307,
+        "endChar": 12
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b686fe2b_fe206578",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1307,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6d955b5_891cf909",
       "range": {
         "startLine": 1307,
         "startChar": 9,
@@ -344,6 +644,30 @@
     },
     {
       "key": {
+        "uuid": "568ea242_2eed5ce7",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1327,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6d35d95_874fc62e",
+      "range": {
+        "startLine": 1327,
+        "startChar": 14,
+        "endLine": 1327,
+        "endChar": 18
+      },
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "769c85d8_8dfd2123",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -355,6 +679,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Drop MSE/javascript specific information. It\u0027s not really necessary to mention the particular implementation: Better to simply say this allows consumers of chunked WebM to accurately determine chunk duration without consuming/rendering all input in the chunk or looking ahead to read the start time of the next chunk.",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d69a9277_7cc6461e",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1463,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done. Well said!",
+      "parentUuid": "769c85d8_8dfd2123",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -378,6 +720,24 @@
     },
     {
       "key": {
+        "uuid": "d683721b_249f4e77",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1487,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6d35d95_07b7565f",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b6d35d95_67c452c7",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 1
@@ -389,6 +749,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "Missing period",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b686fe2b_9e3049c5",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1490,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6d35d95_67c452c7",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -412,6 +790,24 @@
     },
     {
       "key": {
+        "uuid": "96a49abb_851b90fd",
+        "filename": "mkvmuxerutil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "clang-format doesn\u0027t like the wrapping. do you still want it?",
+      "parentUuid": "d6d0d18a_4b6af9d6",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f6d955b5_0c7f77de",
         "filename": "sample_muxer.cpp",
         "patchSetId": 1
@@ -423,6 +819,24 @@
       "writtenOn": "2015-10-28T19:32:33Z",
       "side": 1,
       "message": "duration",
+      "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b686fe2b_5e317198",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-01T23:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6d955b5_0c7f77de",
       "revId": "db72e025bac37cef1d46bc19ff41db2600791ced",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
