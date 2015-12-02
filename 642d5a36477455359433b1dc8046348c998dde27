@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5ba24b12_23bcf8f5",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-12-02T21:09:42Z",
+      "side": 1,
+      "message": "libwebm supports some fairly old MSVC releases-- what do you need from inttypes.h that isn\u0027t in mkvmuxertypes.h?",
+      "revId": "642d5a36477455359433b1dc8046348c998dde27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b17f3fd_3a6d394a",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 2
@@ -19,6 +36,70 @@
         "endLine": 1900,
         "endChar": 22
       },
+      "revId": "642d5a36477455359433b1dc8046348c998dde27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1bac5306_00e29655",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1900,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-12-02T21:09:42Z",
+      "side": 1,
+      "message": "Chunking is used when a muxer user wants chunked output, but doesn\u0027t want to handle the details directly. In this situation libwebm handles writing and naming of actual chunk files. \n\nThis can\u0027t land until that works with the change unless it\u0027s going to be particularly onerous to deal with the problem.",
+      "parentUuid": "1b17f3fd_3a6d394a",
+      "range": {
+        "startLine": 1900,
+        "startChar": 10,
+        "endLine": 1900,
+        "endChar": 22
+      },
+      "revId": "642d5a36477455359433b1dc8046348c998dde27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fba69f26_3ab25d0e",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-12-02T21:09:42Z",
+      "side": 1,
+      "message": "Set to",
+      "range": {
+        "startLine": 137,
+        "startChar": 8,
+        "endLine": 137,
+        "endChar": 9
+      },
+      "revId": "642d5a36477455359433b1dc8046348c998dde27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dbae3bf9_2656cedc",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1388,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2015-12-02T21:09:42Z",
+      "side": 1,
+      "message": "comment?",
       "revId": "642d5a36477455359433b1dc8046348c998dde27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
