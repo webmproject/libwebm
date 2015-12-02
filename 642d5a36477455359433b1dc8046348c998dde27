@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1b17f3fd_3a6d394a",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1900,
+      "author": {
+        "id": 1129179
+      },
+      "writtenOn": "2015-12-02T01:16:00Z",
+      "side": 1,
+      "message": "Looking for fb on this issue. end_clusters_with_duration does not currently work with chunking. Is that important? When is chunking used? Its probably not too hard to support - I think its just a matter of moving the writer shutdown/creation to the place where the cluster is finalized instead of always doing it when new clusters are created.",
+      "range": {
+        "startLine": 1900,
+        "startChar": 10,
+        "endLine": 1900,
+        "endChar": 22
+      },
+      "revId": "642d5a36477455359433b1dc8046348c998dde27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
