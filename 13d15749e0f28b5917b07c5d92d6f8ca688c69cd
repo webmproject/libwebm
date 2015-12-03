@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8091b00f_5f936b7e",
+        "filename": "webm2pes.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-12-03T20:50:09Z",
+      "side": 1,
+      "message": "Seems weird to set frame_ranges, then clear, then set again for vp9 non-superframes.",
+      "range": {
+        "startLine": 415,
+        "startChar": 6,
+        "endLine": 415,
+        "endChar": 18
+      },
+      "revId": "13d15749e0f28b5917b07c5d92d6f8ca688c69cd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8091b00f_5fa84bb8",
+        "filename": "webm2pes.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-12-03T20:50:09Z",
+      "side": 1,
+      "message": "Incrementing pos here or in the for loop. One has to go.",
+      "range": {
+        "startLine": 444,
+        "startChar": 8,
+        "endLine": 444,
+        "endChar": 36
+      },
+      "revId": "13d15749e0f28b5917b07c5d92d6f8ca688c69cd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "204d6487_2418d2ff",
+        "filename": "webm2pes.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2015-12-03T20:50:09Z",
+      "side": 1,
+      "message": "pos is shadow. Also your offsets are going to be wrong for vp9 superframe \u003c MaxPacketPayload size. I.e. this else branch. I think you should be fine if you just drop this instance of pos.",
+      "range": {
+        "startLine": 449,
+        "startChar": 37,
+        "endLine": 449,
+        "endChar": 40
+      },
+      "revId": "13d15749e0f28b5917b07c5d92d6f8ca688c69cd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
