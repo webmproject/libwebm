@@ -34,6 +34,24 @@
       "revId": "bf35288de0390bd39d4bd64b733e18182b898aa6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5b8863e_363280cc",
+        "filename": "webm2pes.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2015-12-17T06:15:51Z",
+      "side": 1,
+      "message": "you can always just hold the rebase until the one commit is sorted out.\nwe can resolve this tomorrow. it\u0027ll be easier with some shared file between us. the frame[] access for the second marker (to me) should be frame[frame_size - index_size], but maybe I\u0027m missing some subtle difference.\n\nhttps://chromium.googlesource.com/webm/libvpx/+/master/vp9/decoder/vp9_decoder.c#477",
+      "parentUuid": "c5b1fa58_f7475831",
+      "revId": "bf35288de0390bd39d4bd64b733e18182b898aa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
