@@ -22,6 +22,23 @@
       "revId": "6a4fdb1fdeec63b2ee83b18ca25c5d9baa03088e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2a9aa3ee_df597f14",
+        "filename": "README.libwebm",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-01-08T20:52:52Z",
+      "side": 1,
+      "message": "a link to the repo (and a tag ref?) might be good. if you want to pin to a tag with no changes a submodule could be used",
+      "revId": "6a4fdb1fdeec63b2ee83b18ca25c5d9baa03088e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
