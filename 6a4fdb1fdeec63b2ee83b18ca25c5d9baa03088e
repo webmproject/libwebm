@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8a62afbe_97228449",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-08T19:24:15Z",
+      "side": 1,
+      "message": "https://cmake.org/cmake/help/v2.8.12/cmake.html#command:set\n\nCACHE: Lets the user override the setting (see readme)\nPATH: Tells cmake gui how to allow manipulation of the value",
+      "range": {
+        "startLine": 17,
+        "startChar": 28,
+        "endLine": 17,
+        "endChar": 38
+      },
+      "revId": "6a4fdb1fdeec63b2ee83b18ca25c5d9baa03088e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
