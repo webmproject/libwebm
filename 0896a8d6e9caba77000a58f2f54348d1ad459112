@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "b40b5e17_7edf6990",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c70ca2f0_3fd7ef1e",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "07f95afe_3e8a45d3",
         "filename": "vpxpes2ts.cc",
         "patchSetId": 9
@@ -30,6 +48,41 @@
       "writtenOn": "2016-01-20T21:08:10Z",
       "side": 1,
       "message": "you\u0027re getting stdio from 2 levels of includes I think, is that OK?",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d439b2d1_9a60f10d",
+        "filename": "vpxpes2ts.cc",
+        "patchSetId": 9
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07f95afe_3e8a45d3",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b40b5e17_9eb0fd43",
+        "filename": "vpxpes2ts.cc",
+        "patchSetId": 9
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Note: I had to make a tweak here and above in TsHeader to allow for correctly setting the adaptation field presence flag.",
       "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "141a6a67_99edbb20",
+        "filename": "vpxpes2ts.cc",
+        "patchSetId": 9
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "I want packet here.",
+      "parentUuid": "e7ae06f9_f50c7219",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "07f95afe_fe7f3d88",
         "filename": "vpxpes2ts.h",
         "patchSetId": 9
@@ -64,6 +135,24 @@
       "writtenOn": "2016-01-20T21:08:10Z",
       "side": 1,
       "message": "const \u0026 for the params?",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4115643_ce1b635c",
+        "filename": "vpxpes2ts.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07f95afe_fe7f3d88",
       "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "54206291_04e5c0c7",
+        "filename": "vpxpes2ts.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Made it private.",
+      "parentUuid": "47efd232_00960833",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "671db61a_f97f5388",
         "filename": "webm2pes.cc",
         "patchSetId": 9
@@ -98,6 +205,41 @@
       "writtenOn": "2016-01-20T21:08:10Z",
       "side": 1,
       "message": "indent is wrong",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d4eb7261_0a381f0d",
+        "filename": "webm2pes.cc",
+        "patchSetId": 9
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "671db61a_f97f5388",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d439b2d1_9a9d912a",
+        "filename": "webm2pes.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "fixed this comment.",
       "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -121,6 +263,24 @@
     },
     {
       "key": {
+        "uuid": "d487f2cf_07859a7a",
+        "filename": "webm2pes.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Only at the override site; it\u0027s still \u003d 0 in the interface declaration (unless there\u0027s another new keyword I\u0027m unaware of).",
+      "parentUuid": "87062ace_bd1027a2",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "47efd232_406930f9",
         "filename": "webm2pes.h",
         "patchSetId": 9
@@ -138,6 +298,24 @@
     },
     {
       "key": {
+        "uuid": "d4eb7261_caffd77c",
+        "filename": "webm2pes.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47efd232_406930f9",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "87062ace_9d156392",
         "filename": "webm2pes.h",
         "patchSetId": 9
@@ -149,6 +327,24 @@
       "writtenOn": "2016-01-20T21:08:10Z",
       "side": 1,
       "message": "|packet_sink_| for consistency I think or maybe that\u0027s only function params",
+      "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "141a6a67_99913b75",
+        "filename": "webm2pes.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-21T22:40:59Z",
+      "side": 1,
+      "message": "nope, it\u0027s locals  and members; thanks/done.",
+      "parentUuid": "87062ace_9d156392",
       "revId": "0896a8d6e9caba77000a58f2f54348d1ad459112",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
