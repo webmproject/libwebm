@@ -16,6 +16,24 @@
       "revId": "e569ab0f7c64aaa251f24b6ebbba0e4898c194d8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "74c9e678_25a3b871",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-01-26T18:28:55Z",
+      "side": 1,
+      "message": "yeah; the new parsing code will require c++11. Might as well take the pain now (if there is any... doesn\u0027t seem likely that there will be much).",
+      "parentUuid": "94b2daf4_77e010b9",
+      "revId": "e569ab0f7c64aaa251f24b6ebbba0e4898c194d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
