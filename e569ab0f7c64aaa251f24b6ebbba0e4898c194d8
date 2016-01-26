@@ -34,6 +34,24 @@
       "revId": "e569ab0f7c64aaa251f24b6ebbba0e4898c194d8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "34c3ee5c_69e90d36",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-01-26T19:33:33Z",
+      "side": 1,
+      "message": "there\u0027s just one left over auto_ptr that could get cleaned up afterward",
+      "parentUuid": "74c9e678_25a3b871",
+      "revId": "e569ab0f7c64aaa251f24b6ebbba0e4898c194d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
