@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9489faaa_b9968f70",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "Nope, or at least not necessarily. Clang/mac behavior:\n    \n#include \u003ccstdio\u003e\n\nstruct A {\n  int a \u003d 0;\n};\n\nstruct B {\n  int b;\n};\n\nint main(int argc, const char* argv[]) {\n  A foo;\n  B bar;\n  printf(\"a\u003d%d b\u003d%d\\n\", foo.a, bar.b);\n  return 0;\n}\n\n\nOutput:\n\na\u003d0 b\u003d1606416368\nProgram ended with exit code: 0\n\nTo be anything but uninit\u0027d the members must be non-POD (or have ctors; but I don\u0027t think the POD types have any ctors beyond the compiler generated output from something like \u0027int a \u003d int();\u0027\n\nAnd holy crap gerrit has gotten even worse-- I mean, ffs, command + left/right is navigating while in text boxes now. WTF.  That\u0027s home/end on mac. Wow... just wow. Good job guys!",
+      "parentUuid": "9462dabe_3759b8de",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b486fe94_43359813",
         "filename": "testing/webm2pes_tests.cc",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-01-29T00:17:38Z",
       "side": 1,
       "message": "do you care about what value/range length actually is here?",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "349a0eef_7cba2ef7",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "yeah, actually I do-- added std::numeric_limits\u003cstd::uint16_t\u003e check. Speaking of which, I think I have some UINT16_MAX usages to replace...",
+      "parentUuid": "b486fe94_43359813",
       "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5422228b_7f9eaf25",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9489faaa_82031c25",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "749006cb_819ebc22",
         "filename": "testing/webm2pes_tests.cc",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2016-01-29T00:17:38Z",
       "side": 1,
       "message": "here too, the derefs will just be noise otherwise",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9489faaa_d44cfa25",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "749006cb_819ebc22",
       "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "548b02a3_ff2ab222",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "yeah, done. no idea why i felt the need to reuse i.",
+      "parentUuid": "5422228b_856162ba",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "349a0eef_7f05cb97",
         "filename": "testing/webm2pes_tests.cc",
         "patchSetId": 3
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "b486fe94_c7736d7d",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "349a0eef_7f05cb97",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "14950abd_dea261ba",
         "filename": "testing/webm2pes_tests.cc",
         "patchSetId": 3
@@ -115,6 +223,24 @@
       "writtenOn": "2016-01-29T00:17:38Z",
       "side": 1,
       "message": "could use a clang-format run later, I think this would have fit on one line",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "548b02a3_1f303e8e",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:18:03Z",
+      "side": 1,
+      "message": "i need to remember to go over all the new files with clang-format using the correct style. this is resulting from me carelessly using the chromium style instead of setting the clang-format plug-in I use in xcode/xvim to file mode (so it picks up ours).",
+      "parentUuid": "14950abd_dea261ba",
       "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
