@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "d468d2a0_31e0dbb8",
+        "filename": "testing/webm2pes_tests.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-01T22:51:43Z",
+      "side": 1,
+      "message": "\u003e here I was thinking \u0027B bar \u003d B()\u0027;\n\nThat actually does work the way you expected, which surprised me (especially in a release build).\nI still see uninit\u0027d vals when I do this:\n    \n#include \u003ccstdio\u003e\n\nstruct A {\n  int a \u003d 0;\n};\n\nstruct B {\n  int b;\n};\n\nstruct C {\n  A a;\n  B b;\n};\n\nint main(int argc, const char* argv[]) {\n  A foo;\n  B bar \u003d B();\n  C c;\n  printf(\"a\u003d%d b\u003d%d\\n\", foo.a, bar.b);\n  printf(\"c.a.a\u003d%d c.b.b\u003d%d\\n\", c.a.a, c.b.b);\n  return 0;\n}\n\nOutput:\na\u003d0 b\u003d0\nc.a.a\u003d0 c.b.b\u003d256\nProgram ended with exit code: 0\n\nSince PesOptionalHeader is a child in PesHeader here I\u0027d like to keep the init values the way they are. Unless you\u0027d prefer a ctor w/init list, which I\u0027m fine with.",
+      "parentUuid": "b486fe94_c7f28d02",
+      "revId": "1b519b09e4715429cf6166f35b6926c0bc32dbc3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b486fe94_43359813",
         "filename": "testing/webm2pes_tests.cc",
         "patchSetId": 3
