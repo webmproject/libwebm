@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9124acf4_e481d3e9",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 5103,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-03T22:51:21Z",
+      "side": 1,
+      "message": "will change to auto_ptr",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "31fce07c_131d4b50",
         "filename": "mkvparser.hpp",
         "patchSetId": 4
