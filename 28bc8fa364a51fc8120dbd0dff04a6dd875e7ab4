@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "31fce07c_131d4b50",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-03T22:49:11Z",
+      "side": 1,
+      "message": "probably don\u0027t need this....",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9124acf4_2433eb32",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-03T22:49:11Z",
+      "side": 1,
+      "message": "or this...\n\nWas foolishly attempting use of std::uintXX_t and mkvmuxer::uintXX before realizing that I\u0027m just going to cause myself pain (because long long). Will fix.",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31fce07c_b31f1749",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-03T22:49:11Z",
+      "side": 1,
+      "message": "OK, forgot to define this... oops? Anyway, will wait for one comment cycle before any edits...",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
