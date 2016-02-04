@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5116b490_a2ace75e",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 5034,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "yeah, definitely nicer. done.",
+      "parentUuid": "b121b0e4_2ff74af4",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9124acf4_e481d3e9",
         "filename": "mkvparser.cpp",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2016-02-03T22:51:21Z",
       "side": 1,
       "message": "will change to auto_ptr",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71c9f878_a001739b",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 5103,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9124acf4_e481d3e9",
       "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "b121b0e4_12eee9aa",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31fce07c_131d4b50",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9124acf4_2433eb32",
         "filename": "mkvparser.hpp",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2016-02-03T22:49:11Z",
       "side": 1,
       "message": "or this...\n\nWas foolishly attempting use of std::uintXX_t and mkvmuxer::uintXX before realizing that I\u0027m just going to cause myself pain (because long long). Will fix.",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f127a8f2_31796fa5",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9124acf4_2433eb32",
       "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -104,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "71c9f878_60259b53",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "was just being nice; removed.",
+      "parentUuid": "711bb8b8_63edd540",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "31fce07c_a9868a3e",
         "filename": "mkvparser.hpp",
         "patchSetId": 4
@@ -115,6 +205,24 @@
       "writtenOn": "2016-02-04T06:58:12Z",
       "side": 1,
       "message": "usually we use american english, unless you\u0027re trying to match the mkv spec",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f127a8f2_71cac726",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 439,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "lol, yes...\n\nOriginal:\nhttps://lists.matroska.org/pipermail/matroska-devel/2016-January/004920.html\n\nLatest:\nhttps://lists.matroska.org/pipermail/matroska-devel/2016-January/004950.html\n\nNote: ID values changed because of a collision. Mine are more recent.",
+      "parentUuid": "31fce07c_a9868a3e",
       "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -138,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "31c3005d_9b4b0cb1",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "just corrected to siting in a newish ietf cellar post:\n\nhttps://mailarchive.ietf.org/arch/msg/cellar/y5yWWrTt5fLcerfEqbTr5-aXcmo",
+      "parentUuid": "31c3005d_e956fdac",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "31fce07c_b31f1749",
         "filename": "mkvparser.hpp",
         "patchSetId": 4
@@ -149,6 +275,24 @@
       "writtenOn": "2016-02-03T22:49:11Z",
       "side": 1,
       "message": "OK, forgot to define this... oops? Anyway, will wait for one comment cycle before any edits...",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3115c084_2b257a54",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-04T18:03:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31fce07c_b31f1749",
       "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
