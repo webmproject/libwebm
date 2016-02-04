@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "b121b0e4_2ff74af4",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 5034,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-04T06:58:12Z",
+      "side": 1,
+      "message": "you could break this out and rework it to a switch to make it a bit more concise",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9124acf4_e481d3e9",
         "filename": "mkvparser.cpp",
         "patchSetId": 4
@@ -47,6 +64,74 @@
       "writtenOn": "2016-02-03T22:49:11Z",
       "side": 1,
       "message": "or this...\n\nWas foolishly attempting use of std::uintXX_t and mkvmuxer::uintXX before realizing that I\u0027m just going to cause myself pain (because long long). Will fix.",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11f7dc9a_08b35609",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-04T06:58:12Z",
+      "side": 1,
+      "message": "could be a separate clang-format rerun prior to this change",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "711bb8b8_63edd540",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-04T06:58:12Z",
+      "side": 1,
+      "message": "should be unnecessary",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31fce07c_a9868a3e",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 439,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-04T06:58:12Z",
+      "side": 1,
+      "message": "usually we use american english, unless you\u0027re trying to match the mkv spec",
+      "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31c3005d_e956fdac",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-04T06:58:12Z",
+      "side": 1,
+      "message": "siting?",
       "revId": "28bc8fa364a51fc8120dbd0dff04a6dd875e7ab4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
