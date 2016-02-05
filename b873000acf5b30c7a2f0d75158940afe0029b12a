@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "515a34de_85284273",
+        "filename": "testing/parser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-02-05T18:24:41Z",
+      "side": 1,
+      "message": "nit: all the NOLINTs can go away for long and long long.",
+      "range": {
+        "startLine": 118,
+        "startChar": 36,
+        "endLine": 118,
+        "endChar": 42
+      },
+      "revId": "b873000acf5b30c7a2f0d75158940afe0029b12a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
