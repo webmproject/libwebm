@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9162ecbe_faec8546",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 4992,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-06T20:59:03Z",
+      "side": 1,
+      "message": "What is this trying to do? Seems you like you wanted the local variable to take ownership of the parameter variable?",
+      "range": {
+        "startLine": 4992,
+        "startChar": 30,
+        "endLine": 4992,
+        "endChar": 46
+      },
+      "revId": "bb165db26b6b959ddbca2c69b9e90f8c2870e5e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9162ecbe_1ad21984",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 5042,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-06T20:59:03Z",
+      "side": 1,
+      "message": "luminance_min max value is 999.9999",
+      "range": {
+        "startLine": 5042,
+        "startChar": 34,
+        "endLine": 5042,
+        "endChar": 41
+      },
+      "revId": "bb165db26b6b959ddbca2c69b9e90f8c2870e5e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
