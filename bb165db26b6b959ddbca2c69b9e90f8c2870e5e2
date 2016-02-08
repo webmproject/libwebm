@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "91890cab_45375ed6",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 4992,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-08T16:42:28Z",
+      "side": 1,
+      "message": "Yeah but the code you have here is taking ownership of the local variable? ... I think\n\nYou probably wanted something like:\nchromaticity_ptr.reset(*chromaticity);",
+      "parentUuid": "f165e8c4_9dc3878d",
+      "range": {
+        "startLine": 4992,
+        "startChar": 30,
+        "endLine": 4992,
+        "endChar": 46
+      },
+      "revId": "bb165db26b6b959ddbca2c69b9e90f8c2870e5e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9162ecbe_1ad21984",
         "filename": "mkvparser.cpp",
         "patchSetId": 6
