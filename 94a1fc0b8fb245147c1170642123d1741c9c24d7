@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3d44b487_fe96a171",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 861,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-08T23:32:06Z",
+      "side": 1,
+      "message": "The code as is will always write luminance_min and luminance_max, which is not something the muxer should do as they do not have default values. Maybe you should initialize min and max to -1.0. Then only write the values if they are in the valid range.",
+      "range": {
+        "startLine": 861,
+        "startChar": 16,
+        "endLine": 861,
+        "endChar": 31
+      },
+      "revId": "94a1fc0b8fb245147c1170642123d1741c9c24d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d3de8ec_5fe06b42",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 968,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-08T23:32:06Z",
+      "side": 1,
+      "message": "matrix to primaries can be written all the time as they do have default values, but ideally they should not be written unless their values are different then the defaults.",
+      "range": {
+        "startLine": 968,
+        "startChar": 44,
+        "endLine": 968,
+        "endChar": 50
+      },
+      "revId": "94a1fc0b8fb245147c1170642123d1741c9c24d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dda3987e_e3665295",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 976,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-08T23:32:06Z",
+      "side": 1,
+      "message": "max_cll and max_fall should not be written unless they are explicitly set.",
+      "range": {
+        "startLine": 976,
+        "startChar": 38,
+        "endLine": 976,
+        "endChar": 45
+      },
+      "revId": "94a1fc0b8fb245147c1170642123d1741c9c24d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dda3987e_630262a3",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1016,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-08T23:32:06Z",
+      "side": 1,
+      "message": "Could this be a reference?",
+      "range": {
+        "startLine": 1016,
+        "startChar": 59,
+        "endLine": 1016,
+        "endChar": 77
+      },
+      "revId": "94a1fc0b8fb245147c1170642123d1741c9c24d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
