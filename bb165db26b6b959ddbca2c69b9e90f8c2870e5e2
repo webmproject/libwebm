@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f165e8c4_9dc3878d",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 4992,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-08T16:10:44Z",
+      "side": 1,
+      "message": "yes; when chromaticity is non-null this function owns it until the auto_ptr release() and the final return of true. Just trying to avoid a leak on a failed parse. Might have screwed this up-- I\u0027ll find out when I get the muxer working (so I have some test data to parse).",
+      "parentUuid": "9162ecbe_faec8546",
+      "range": {
+        "startLine": 4992,
+        "startChar": 30,
+        "endLine": 4992,
+        "endChar": 46
+      },
+      "revId": "bb165db26b6b959ddbca2c69b9e90f8c2870e5e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9162ecbe_1ad21984",
         "filename": "mkvparser.cpp",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2016-02-06T20:59:03Z",
       "side": 1,
       "message": "luminance_min max value is 999.9999",
+      "range": {
+        "startLine": 5042,
+        "startChar": 34,
+        "endLine": 5042,
+        "endChar": 41
+      },
+      "revId": "bb165db26b6b959ddbca2c69b9e90f8c2870e5e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7179f872_5c073533",
+        "filename": "mkvparser.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 5042,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-08T16:10:44Z",
+      "side": 1,
+      "message": "oops; assumed they had the same ranges. Done.",
+      "parentUuid": "9162ecbe_1ad21984",
       "range": {
         "startLine": 5042,
         "startChar": 34,
