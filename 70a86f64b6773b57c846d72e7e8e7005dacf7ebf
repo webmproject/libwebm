@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fd977c52_8ff2d98a",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-09T20:15:49Z",
+      "side": 1,
+      "message": "could be a reference",
+      "revId": "70a86f64b6773b57c846d72e7e8e7005dacf7ebf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fdc21c56_9a75cd9e",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-09T20:15:49Z",
+      "side": 1,
+      "message": "here too",
+      "revId": "70a86f64b6773b57c846d72e7e8e7005dacf7ebf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd9a6476_95c58678",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-09T20:15:49Z",
+      "side": 1,
+      "message": "and here",
+      "revId": "70a86f64b6773b57c846d72e7e8e7005dacf7ebf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
