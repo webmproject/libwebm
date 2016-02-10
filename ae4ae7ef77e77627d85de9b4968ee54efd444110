@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7dbb8cf2_de5a75cc",
+        "filename": "mkvparser.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-10T17:21:36Z",
+      "side": 1,
+      "message": "I considered defining this (and the one below) as kFloatingPointValueNotPresent and kUnsignedValueNotPresent, but I didn\u0027t want to make a user think they applied to all elements... That seemed evil.\n\nSo, instead, we have {Colour|MasteringMetadata}::kValueNotPresent.",
+      "range": {
+        "startLine": 406,
+        "startChar": 22,
+        "endLine": 406,
+        "endChar": 38
+      },
+      "revId": "ae4ae7ef77e77627d85de9b4968ee54efd444110",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
