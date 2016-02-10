@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fdb5bcf8_25bdd4f9",
+        "filename": "sample_muxer.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-10T19:08:44Z",
+      "side": 1,
+      "message": "alignment looks off",
+      "range": {
+        "startLine": 148,
+        "startChar": 22,
+        "endLine": 148,
+        "endChar": 30
+      },
+      "revId": "1754258a0dc0da8e4b1eacc98c771843dfcbab6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
