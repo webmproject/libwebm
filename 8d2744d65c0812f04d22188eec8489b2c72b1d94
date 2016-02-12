@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7d09ccae_0533054e",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-12T17:20:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d09ccae_c5ee0dd9",
+      "range": {
+        "startLine": 238,
+        "startChar": 31,
+        "endLine": 238,
+        "endChar": 37
+      },
+      "revId": "8d2744d65c0812f04d22188eec8489b2c72b1d94",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fde3fc1c_09067e3e",
         "filename": "sample.cpp",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "9dc4c07e_ae666b25",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-12T17:20:55Z",
+      "side": 1,
+      "message": "lazy: was one less character to type at each access. :)\n\nDone.",
+      "parentUuid": "fde3fc1c_09067e3e",
+      "range": {
+        "startLine": 262,
+        "startChar": 46,
+        "endLine": 262,
+        "endChar": 48
+      },
+      "revId": "8d2744d65c0812f04d22188eec8489b2c72b1d94",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5dbec8e3_71c5d803",
         "filename": "sample.cpp",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2016-02-12T17:02:32Z",
       "side": 1,
       "message": "I think you want to replace with mm here for consistency.",
+      "range": {
+        "startLine": 268,
+        "startChar": 14,
+        "endLine": 268,
+        "endChar": 40
+      },
+      "revId": "8d2744d65c0812f04d22188eec8489b2c72b1d94",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bdc1846e_ce1d23fc",
+        "filename": "sample.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-12T17:20:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5dbec8e3_71c5d803",
       "range": {
         "startLine": 268,
         "startChar": 14,
