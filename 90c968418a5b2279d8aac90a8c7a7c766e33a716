@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8240dd43_d69c1435",
+        "filename": "hdr_util.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-18T21:12:28Z",
+      "side": 1,
+      "message": "Why COMMON?",
+      "range": {
+        "startLine": 8,
+        "startChar": 8,
+        "endLine": 8,
+        "endChar": 34
+      },
+      "revId": "90c968418a5b2279d8aac90a8c7a7c766e33a716",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8240dd43_96a68c83",
+        "filename": "hdr_util.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-02-18T21:12:28Z",
+      "side": 1,
+      "message": "nit:working",
+      "range": {
+        "startLine": 18,
+        "startChar": 35,
+        "endLine": 18,
+        "endChar": 43
+      },
+      "revId": "90c968418a5b2279d8aac90a8c7a7c766e33a716",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
