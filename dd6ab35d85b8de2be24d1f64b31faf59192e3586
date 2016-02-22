@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a29b218c_aa2f6ed1",
+        "filename": "hdr_util.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-22T18:59:34Z",
+      "side": 1,
+      "message": "heh, oops. thanks!",
+      "revId": "dd6ab35d85b8de2be24d1f64b31faf59192e3586",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
