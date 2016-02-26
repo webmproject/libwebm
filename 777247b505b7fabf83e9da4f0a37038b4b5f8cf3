@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02e4ed24_731f204f",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-26T00:09:10Z",
+      "side": 1,
+      "message": "syntactically can you use this to note what is being endif\u0027d? endif (WIN32) ?",
+      "revId": "777247b505b7fabf83e9da4f0a37038b4b5f8cf3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
