@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4276e54b_1da01f18",
+        "filename": "testing/test_util.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-26T23:05:10Z",
+      "side": 1,
+      "message": "tmpfile() deletes the FILE when closed; closing this is technically a race, but shouldn\u0027t matter here",
+      "revId": "82f376f3569e2a6af5e82eb8675bb9dfc00f38f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
