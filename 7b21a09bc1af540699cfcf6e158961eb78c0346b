@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a29b218c_b22eaa40",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-02-26T00:11:23Z",
+      "side": 1,
+      "message": "is -Wno-deprecated less inclusive / applicable here?",
+      "revId": "7b21a09bc1af540699cfcf6e158961eb78c0346b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
