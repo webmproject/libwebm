@@ -16,6 +16,24 @@
       "revId": "777247b505b7fabf83e9da4f0a37038b4b5f8cf3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "628f697d_c305d630",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-26T15:36:49Z",
+      "side": 1,
+      "message": "yeah-- I dropped them because I want to be consistent and I find the the multi-condition if\u0027s are very distracting when reading through the code:\n    \n  if (CMAKE_CXX_COMPILER_ID STREQUAL \"AppleClang\" OR\n      CMAKE_CXX_COMPILER_ID STREQUAL \"Clang\" OR\n      CMAKE_CXX_COMPILER_ID STREQUAL \"GNU\")\n    CHECK_CXX_COMPILER_FLAG(\"-std\u003dc++11\" HAVE_CXX11)\n    if (HAVE_CXX11)\n      set(CMAKE_CXX_FLAGS \"-std\u003dc++11 ${CMAKE_CXX_FLAGS}\" CACHE STRING \"\" FORCE)\n    endif (HAVE_CXX11)\n  endif (CMAKE_CXX_COMPILER_ID STREQUAL \"AppleClang\" OR\n            CMAKE_CXX_COMPILER_ID STREQUAL \"Clang\" OR\n            CMAKE_CXX_COMPILER_ID STREQUAL \"GNU\")\n\nI prefer the empty endif() just for readability.",
+      "parentUuid": "02e4ed24_731f204f",
+      "revId": "777247b505b7fabf83e9da4f0a37038b4b5f8cf3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
