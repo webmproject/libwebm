@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02594de9_aabaeb9b",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-02-29T20:03:07Z",
+      "side": 1,
+      "message": "any specific reason for adding this function?",
+      "range": {
+        "startLine": 39,
+        "startChar": 4,
+        "endLine": 39,
+        "endChar": 8
+      },
+      "revId": "748280bdad6962a26dd53bacecd47f334b9d6c8d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
