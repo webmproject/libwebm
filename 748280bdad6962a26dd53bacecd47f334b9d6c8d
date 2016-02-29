@@ -22,6 +22,30 @@
       "revId": "748280bdad6962a26dd53bacecd47f334b9d6c8d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e2b0b90b_3cfcbbd2",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-02-29T20:26:32Z",
+      "side": 1,
+      "message": "You can\u0027t ASSERT_* from a ctor, and the tests need to die when anything goes bad in Init()-- the EXPECT_*\u0027s were pretty useless in this case because EXPECT_ allows continued execution upon failure where ASSERT_ does not.",
+      "parentUuid": "02594de9_aabaeb9b",
+      "range": {
+        "startLine": 39,
+        "startChar": 4,
+        "endLine": 39,
+        "endChar": 8
+      },
+      "revId": "748280bdad6962a26dd53bacecd47f334b9d6c8d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
