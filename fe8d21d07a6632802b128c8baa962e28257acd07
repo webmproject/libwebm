@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e211990a_308a7109",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-03T19:13:23Z",
+      "side": 1,
+      "message": "is this the proper way to do this, or is there a less verbose way?",
+      "revId": "fe8d21d07a6632802b128c8baa962e28257acd07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
