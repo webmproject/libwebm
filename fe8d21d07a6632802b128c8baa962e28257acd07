@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "97ebc162_27f67eb0",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-05T03:11:43Z",
+      "side": 1,
+      "message": "deps for OBJS* don\u0027t get deleted",
+      "revId": "fe8d21d07a6632802b128c8baa962e28257acd07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e211990a_308a7109",
         "filename": "Makefile.unix",
         "patchSetId": 1
@@ -13,6 +30,41 @@
       "writtenOn": "2016-03-03T19:13:23Z",
       "side": 1,
       "message": "is this the proper way to do this, or is there a less verbose way?",
+      "revId": "fe8d21d07a6632802b128c8baa962e28257acd07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7e8c566_65a000cf",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-05T03:11:43Z",
+      "side": 1,
+      "message": "this one is unnecessary since the only references are %_a.o/%_so.o",
+      "parentUuid": "e211990a_308a7109",
+      "revId": "fe8d21d07a6632802b128c8baa962e28257acd07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57f5c93b_a545ea3e",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-05T03:11:43Z",
+      "side": 1,
+      "message": "%_a.o: %.cc will work. if the suffix was common you could say $(OBJS): %.o: %.cc and just use the builtin compile command",
       "revId": "fe8d21d07a6632802b128c8baa962e28257acd07",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
