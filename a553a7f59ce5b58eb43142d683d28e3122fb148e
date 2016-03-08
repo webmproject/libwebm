@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "57b229f7_97012456",
+        "filename": "common/file_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-08T18:50:49Z",
+      "side": 1,
+      "message": "swap this and the line above",
+      "revId": "a553a7f59ce5b58eb43142d683d28e3122fb148e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
