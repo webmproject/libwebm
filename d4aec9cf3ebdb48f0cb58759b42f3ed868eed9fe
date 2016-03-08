@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "57b229f7_b7f54833",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-08T19:26:06Z",
+      "side": 1,
+      "message": "fopen()",
+      "parentUuid": "57b229f7_97cf6479",
+      "revId": "d4aec9cf3ebdb48f0cb58759b42f3ed868eed9fe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "57b229f7_d7e47cf8",
         "filename": "testing/muxer_tests.cc",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "57b229f7_5706acff",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-08T19:26:06Z",
+      "side": 1,
+      "message": "FilePtr owns the pointer, which is passed to MkvWriter(FILE*), which sets ownership flag to false, and then the writer doesn\u0027t touch it in CloseWriter (just NULLs it\u0027s pointer).",
+      "parentUuid": "57b229f7_d7e47cf8",
+      "revId": "d4aec9cf3ebdb48f0cb58759b42f3ed868eed9fe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "97be618f_6146d12f",
         "filename": "testing/muxer_tests.cc",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2016-03-08T18:48:35Z",
       "side": 1,
       "message": "(expected, actual)",
+      "revId": "d4aec9cf3ebdb48f0cb58759b42f3ed868eed9fe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57b229f7_971f643f",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 463,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-08T19:26:06Z",
+      "side": 1,
+      "message": "blast. done.",
+      "parentUuid": "97be618f_6146d12f",
       "revId": "d4aec9cf3ebdb48f0cb58759b42f3ed868eed9fe",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
