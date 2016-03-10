@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b7e0c53d_85a864ec",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-10T00:47:58Z",
+      "side": 1,
+      "message": "not sure if this is worth a README entry",
+      "revId": "3cda7f6babcb0bb82894510f4e64c537fb3d91a9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7e0c53d_c5e42c8e",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-10T00:47:58Z",
+      "side": 1,
+      "message": "across",
+      "revId": "3cda7f6babcb0bb82894510f4e64c537fb3d91a9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
