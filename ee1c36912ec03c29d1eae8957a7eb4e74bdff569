@@ -16,6 +16,24 @@
       "revId": "ee1c36912ec03c29d1eae8957a7eb4e74bdff569",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7e0c53d_d167ceb6",
+        "filename": "sample_muxer_metadata.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-10T17:23:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b7e0c53d_65e44025",
+      "revId": "ee1c36912ec03c29d1eae8957a7eb4e74bdff569",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
