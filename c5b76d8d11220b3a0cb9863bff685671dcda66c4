@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "573069cd_e435b32d",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-14T16:52:21Z",
+      "side": 1,
+      "message": "I\u0027ll get those later; wasn\u0027t even paying attention when I originally dropped in the main(), and copy/paste abuse since.",
+      "parentUuid": "573069cd_bce115bd",
+      "revId": "c5b76d8d11220b3a0cb9863bff685671dcda66c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "573069cd_dce6c9d1",
         "filename": "CMakeLists.txt",
         "patchSetId": 14
@@ -30,6 +48,24 @@
       "writtenOn": "2016-03-12T02:48:44Z",
       "side": 1,
       "message": "I\u0027m OK with the checks, but wouldn\u0027t this all fall under the c++11 banner?",
+      "revId": "c5b76d8d11220b3a0cb9863bff685671dcda66c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "573069cd_043ba722",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-14T16:52:21Z",
+      "side": 1,
+      "message": "Absolutely, but MSVC has no equivalent of the --std\u003dc++11 flag to test, and I don\u0027t really want to look at version numbers. Adding them as I use features for now, but the new parser is going to exercise a whole bunch of stuff I never touch (and stuff like constexpr is going to break in MSVC iirc). I think it\u0027s going to be easier in the end with fine grained feature tests in the cmake file, but these definitely need to move out into an include of some sort. Way too much noise already, and going to get a ton worse.",
+      "parentUuid": "573069cd_dce6c9d1",
       "revId": "c5b76d8d11220b3a0cb9863bff685671dcda66c4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
