@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "37cbf5e3_5074619d",
+        "filename": "testing/muxer_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-15T23:50:00Z",
+      "side": 1,
+      "message": "ASSERT_; no reason to let the test continue executing if there\u0027s a failure here (that I\u0027m aware of, anyway).",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 88,
+        "endChar": 13
+      },
+      "revId": "bc7e9498701920e6c1c095bae2c2cfdbfca796a7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
