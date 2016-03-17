@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcf63e9d_85f0d6b5",
+        "filename": "Makefile.unix",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-17T23:39:08Z",
+      "side": 1,
+      "message": "consumers of the public headers would need these too, so you probably want to embed them directly",
+      "revId": "1dd86ba98f39e4db0543fdc34b118bfed7fa1ece",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
