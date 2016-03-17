@@ -142,6 +142,24 @@
     },
     {
       "key": {
+        "uuid": "dcf63e9d_71401013",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-17T19:07:51Z",
+      "side": 1,
+      "message": "When you put a blank line between groups it sorts within the sub-groupings instead of messing with the whole bunch.",
+      "parentUuid": "dcf63e9d_51f35450",
+      "revId": "6fa7e664cdbbbe2ae51a41a6fd4f42109db7a76b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dcf63e9d_ebfc1186",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 2
