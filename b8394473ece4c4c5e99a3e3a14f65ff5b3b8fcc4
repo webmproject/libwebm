@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcf63e9d_5fba3b34",
+        "filename": "Makefile.unix",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-17T22:01:55Z",
+      "side": 1,
+      "message": "\u0027flag\u0027 seems misleading here. how about \u0027PREDEFINES\u0027 or some such.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 6
+      },
+      "revId": "b8394473ece4c4c5e99a3e3a14f65ff5b3b8fcc4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
