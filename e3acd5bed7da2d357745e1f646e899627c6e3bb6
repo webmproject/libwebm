@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc2e3e90_eef17ff7",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2082,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-17T00:06:35Z",
+      "side": 1,
+      "message": "looks like delegating constructors isn\u0027t allowed on non-c++11. i will figure out a way to fix this. please don\u0027t let it block reviewing the rest of this CL.",
+      "range": {
+        "startLine": 2082,
+        "startChar": 6,
+        "endLine": 2082,
+        "endChar": 13
+      },
+      "revId": "e3acd5bed7da2d357745e1f646e899627c6e3bb6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
