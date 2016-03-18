@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcf63e9d_e8a1aa71",
+        "filename": "Makefile.unix",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-18T18:32:39Z",
+      "side": 1,
+      "message": "DEFINES or CPPFLAGS works too, but this is fine",
+      "revId": "2e2b8c6a75b783a3909dcf3cbcc1368ac506ccda",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
