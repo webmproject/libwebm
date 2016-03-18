@@ -70,6 +70,30 @@
       "revId": "9b0fedd031fe5fc5108fffa37f4b89c444d76cd3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dcf63e9d_f7e06be3",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-18T06:48:14Z",
+      "side": 1,
+      "message": "\u003e Yes, Ctrl+F didn\u0027t show anything. But after you pointed out, i\n \u003e tried \"/\" instead and it worked (sort of).\n \u003e \n \u003e Anyway, ChunkedCopy and CopyCuesBeforeClusters uses only IMkvReader\n \u003e (the interface) and it is defined in mkvparser.hpp. So i still\n \u003e think this isn\u0027t needed.\n\nI agree. and your iwyu target backs it up",
+      "parentUuid": "dcf63e9d_3f83ef32",
+      "range": {
+        "startLine": 24,
+        "startChar": 20,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "9b0fedd031fe5fc5108fffa37f4b89c444d76cd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
