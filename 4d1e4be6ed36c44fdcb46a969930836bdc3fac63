@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dcf63e9d_c8ee6e17",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2194,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "\u0027+ n\u0027 only works on random access iterators [1] and map iterator isn\u0027t random access.\n\n[1] http://en.cppreference.com/w/cpp/concept/RandomAccessIterator",
+      "parentUuid": "dcf63e9d_083196cb",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dcf63e9d_885e26ea",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2016-03-18T19:03:57Z",
       "side": 1,
       "message": "const",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dcf63e9d_28fc52cb",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2213,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcf63e9d_885e26ea",
       "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "dcf63e9d_08f996da",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2333,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcf63e9d_289e12d9",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dcf63e9d_888f46a9",
         "filename": "mkvmuxer.cpp",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2016-03-18T19:03:57Z",
       "side": 1,
       "message": "size() returns size_type, so you might get a warning in some configs",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dcf63e9d_68b13a2a",
+        "filename": "mkvmuxer.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2342,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "used an iterator (not typedef\u0027ing the iterator type since it\u0027s only used here.",
+      "parentUuid": "dcf63e9d_888f46a9",
       "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "dcf63e9d_08607678",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 989,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcf63e9d_4831dea0",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dcf63e9d_48127e3b",
         "filename": "mkvmuxer.hpp",
         "patchSetId": 4
@@ -98,6 +188,24 @@
       "writtenOn": "2016-03-18T19:03:57Z",
       "side": 1,
       "message": "parameterized",
+      "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dcf63e9d_8854669d",
+        "filename": "mkvmuxer.hpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 1151,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-03-18T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcf63e9d_48127e3b",
       "revId": "4d1e4be6ed36c44fdcb46a969930836bdc3fac63",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
