@@ -16,6 +16,24 @@
       "revId": "d3ecd28883b1a5bfeb648b1f8e365c87ed42f5bc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dcf63e9d_1247f8f7",
+        "filename": "mkvmuxer/mkvmuxertypes.hpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-21T21:41:11Z",
+      "side": 1,
+      "message": "damn... xcode was warning me for these, and then I got complacent I guess (probably had the wrong target selected)",
+      "parentUuid": "dcf63e9d_12fff810",
+      "revId": "d3ecd28883b1a5bfeb648b1f8e365c87ed42f5bc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
