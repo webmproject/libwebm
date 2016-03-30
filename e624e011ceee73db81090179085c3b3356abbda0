@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "119a81ee_eb011d59",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-30T22:46:43Z",
+      "side": 1,
+      "message": "be nice to normalize these",
+      "revId": "e624e011ceee73db81090179085c3b3356abbda0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
