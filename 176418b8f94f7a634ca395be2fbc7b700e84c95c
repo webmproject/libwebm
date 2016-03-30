@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "119a81ee_ebb3dd0c",
+        "filename": "common/libwebm_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-03-30T22:44:51Z",
+      "side": 1,
+      "message": "do you want to keep the double precision while multiplying as you were previously?",
+      "revId": "176418b8f94f7a634ca395be2fbc7b700e84c95c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
