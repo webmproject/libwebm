@@ -16,6 +16,24 @@
       "revId": "e624e011ceee73db81090179085c3b3356abbda0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "119a81ee_972c33da",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-03-31T17:43:59Z",
+      "side": 1,
+      "message": "done, but caused noise elsewhere",
+      "parentUuid": "119a81ee_eb011d59",
+      "revId": "e624e011ceee73db81090179085c3b3356abbda0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
