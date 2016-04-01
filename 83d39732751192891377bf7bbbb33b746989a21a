@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ced204e7_f5cb726b",
+        "filename": "build/mingw64_toolchain.cmake",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-01T21:42:51Z",
+      "side": 1,
+      "message": "this and windres are probably fine for completeness, but I don\u0027t think they\u0027re needed in this project",
+      "revId": "83d39732751192891377bf7bbbb33b746989a21a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ced204e7_75e542f1",
+        "filename": "build/mingw64_toolchain.cmake",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-01T21:42:51Z",
+      "side": 1,
+      "message": "be nice if there was something like autoconf\u0027s --host which would set the prefix for all tools",
+      "revId": "83d39732751192891377bf7bbbb33b746989a21a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ced204e7_95dd462c",
+        "filename": "build/mingw64_toolchain.cmake",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-01T21:42:51Z",
+      "side": 1,
+      "message": "x86_64-w64-mingw32 exists too",
+      "revId": "83d39732751192891377bf7bbbb33b746989a21a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
