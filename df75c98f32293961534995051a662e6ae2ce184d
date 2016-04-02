@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2e3f20ea_66e2ff7c",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-02T01:45:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e3f20ea_269c7725",
+      "revId": "df75c98f32293961534995051a662e6ae2ce184d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2e3f20ea_72075eb5",
         "filename": "common/hdr_util.cc",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-02T01:25:56Z",
       "side": 1,
       "message": "aka private_data[1]",
+      "revId": "df75c98f32293961534995051a662e6ae2ce184d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e3f20ea_a6ec076d",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-02T01:45:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e3f20ea_72075eb5",
       "revId": "df75c98f32293961534995051a662e6ae2ce184d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "2e3f20ea_86f10b48",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-02T01:45:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e3f20ea_d2ebd200",
+      "revId": "df75c98f32293961534995051a662e6ae2ce184d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2e3f20ea_c68e73ed",
         "filename": "common/hdr_util.cc",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2016-04-02T01:25:56Z",
       "side": 1,
       "message": "could just return here and drop the bool",
+      "revId": "df75c98f32293961534995051a662e6ae2ce184d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e3f20ea_e6f56f32",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-02T01:45:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e3f20ea_c68e73ed",
       "revId": "df75c98f32293961534995051a662e6ae2ce184d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
