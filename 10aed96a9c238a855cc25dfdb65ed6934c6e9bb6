@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "8e09ecb1_59f7a49f",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-06T22:06:35Z",
+      "side": 1,
+      "message": "https://build.webmproject.org/jenkins/job/libwebm__compile_android/4/APP_ABI\u003dx86,APP_OPTIM\u003drelease,APP_STL\u003dc++_static,NDK_TOOLCHAIN_VERSION\u003dclang/console\n\n14:44:34 [x86] Compile++      : webm \u003c\u003d mkvparser.cc\n14:44:34 In file included from ./common/file_util.cc:17:\n14:44:34 In file included from /opt/android-ndk-r10e/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:169:\n14:44:34 In file included from /opt/android-ndk-r10e/sources/cxx-stl/llvm-libc++/libcxx/include/ostream:131:\n14:44:34 In file included from /opt/android-ndk-r10e/sources/cxx-stl/llvm-libc++/libcxx/include/ios:216:\n14:44:34 In file included from /opt/android-ndk-r10e/sources/cxx-stl/llvm-libc++/libcxx/include/__locale:21:\n14:44:34 In file included from /opt/android-ndk-r10e/sources/cxx-stl/llvm-libc++/../../android/support/include/locale.h:39:\n14:44:34 /opt/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/locale.h:55:1: warning: empty struct has size 0 in C, size 1 in C++ [-Wextern-c-compat]\n14:44:34 struct lconv { };\n14:44:34 ^\n14:44:35 1 warning generated.",
+      "parentUuid": "8e09ecb1_be09e610",
+      "revId": "10aed96a9c238a855cc25dfdb65ed6934c6e9bb6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8e09ecb1_c38cc5f8",
         "filename": "Android.mk",
         "patchSetId": 3
