@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8e09ecb1_be09e610",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-06T21:36:52Z",
+      "side": 1,
+      "message": "where did that warning come from?",
+      "parentUuid": "8e09ecb1_63bf597f",
+      "revId": "10aed96a9c238a855cc25dfdb65ed6934c6e9bb6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8e09ecb1_c38cc5f8",
         "filename": "Android.mk",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-06T21:15:07Z",
       "side": 1,
       "message": "as mentioned in commit spam: just don\u0027t want to have to maintain these additions in libvpx, and it doesn\u0027t seem that this will hurt anything.",
+      "revId": "10aed96a9c238a855cc25dfdb65ed6934c6e9bb6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e09ecb1_fe0f5e13",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-06T21:36:52Z",
+      "side": 1,
+      "message": "probably fine. this just has the chance of polluting the command line, but if the project is actually referencing the header it will need it",
+      "parentUuid": "8e09ecb1_c38cc5f8",
       "revId": "10aed96a9c238a855cc25dfdb65ed6934c6e9bb6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
