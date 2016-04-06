@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e09ecb1_3e973674",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-06T21:58:01Z",
+      "side": 1,
+      "message": "...that want...",
+      "revId": "9951d413e7fd17f1ca96acf72daacc680704501e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e09ecb1_5ec54a77",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-06T21:58:01Z",
+      "side": 1,
+      "message": "\u0027exactly \u003cint\u003e bytes\u0027, maybe include the range",
+      "revId": "9951d413e7fd17f1ca96acf72daacc680704501e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
