@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8e09ecb1_19bb6cea",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-04-06T22:03:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e09ecb1_3e973674",
+      "revId": "9951d413e7fd17f1ca96acf72daacc680704501e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8e09ecb1_5ec54a77",
         "filename": "sample_muxer.cc",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-06T21:58:01Z",
       "side": 1,
       "message": "\u0027exactly \u003cint\u003e bytes\u0027, maybe include the range",
+      "revId": "9951d413e7fd17f1ca96acf72daacc680704501e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e09ecb1_59c9e472",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-04-06T22:03:23Z",
+      "side": 1,
+      "message": "it\u0027s just intended to be a boolean flag (we\u0027re just forcing it to be an integer like all the other boolean flags here), so i don\u0027t want to complicate this by making it an integer flag.",
+      "parentUuid": "8e09ecb1_5ec54a77",
       "revId": "9951d413e7fd17f1ca96acf72daacc680704501e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
