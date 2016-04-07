@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e09ecb1_697df33c",
+        "filename": "common/file_util.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-07T17:31:41Z",
+      "side": 1,
+      "message": "Really not supposed to do this, c++98 std::string::c_str doc:\n\n  A program shall not alter any of the characters in this sequence.\n\nC++11 docs don\u0027t mention this, but since we\u0027re kind of in this limbo state between fully moving over you should alloc your own buffer, copy into it, and then pass it to mkstemp().",
+      "revId": "0d62d336ae4d7c782ec69dd99146e3cd6f4e02d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
