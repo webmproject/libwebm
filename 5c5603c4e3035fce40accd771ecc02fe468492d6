@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e09ecb1_da3ed86b",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-07T22:18:54Z",
+      "side": 1,
+      "message": "you could just match the type",
+      "revId": "5c5603c4e3035fce40accd771ecc02fe468492d6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e09ecb1_1a4d9013",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-07T22:18:54Z",
+      "side": 1,
+      "message": "same here, given the other uses in comparisons",
+      "revId": "5c5603c4e3035fce40accd771ecc02fe468492d6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
