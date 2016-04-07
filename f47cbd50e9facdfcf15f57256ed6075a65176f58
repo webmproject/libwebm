@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e09ecb1_5a0b080b",
+        "filename": "build/cxx_flags.cmake",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-07T22:09:23Z",
+      "side": 1,
+      "message": "wonder how noisy this is",
+      "revId": "f47cbd50e9facdfcf15f57256ed6075a65176f58",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e09ecb1_7afdac13",
+        "filename": "build/cxx_flags.cmake",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-07T22:09:23Z",
+      "side": 1,
+      "message": "should be enabled with -Wall, but OK to be explicit",
+      "revId": "f47cbd50e9facdfcf15f57256ed6075a65176f58",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
