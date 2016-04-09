@@ -34,6 +34,41 @@
       "revId": "5530784f05dfd9b002d926de9373231e785ea8ae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b671e0e_788a01a2",
+        "filename": "mkvmuxer/mkvmuxerutil.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-09T04:32:47Z",
+      "side": 1,
+      "message": "You can probably generate a warning about changing the signed-ness, but this conversion already exists below",
+      "parentUuid": "8b671e0e_3859e907",
+      "revId": "5530784f05dfd9b002d926de9373231e785ea8ae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b671e0e_d898edf4",
+        "filename": "mkvmuxer/mkvmuxerutil.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-09T04:32:47Z",
+      "side": 1,
+      "message": "this mixed types could potentially generate a warning too, but should be safe with the current set as above.",
+      "revId": "5530784f05dfd9b002d926de9373231e785ea8ae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
