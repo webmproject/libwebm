@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ebf7badf_921aa2b3",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-13T07:18:23Z",
+      "side": 1,
+      "message": "treating multiple instances of an id as harmless?",
+      "revId": "7c722f5fd69d8fd48c422d8e856e4e072da9741a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ebf7badf_724966b0",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-13T07:18:23Z",
+      "side": 1,
+      "message": "what are the conditions for true/false return?",
+      "revId": "7c722f5fd69d8fd48c422d8e856e4e072da9741a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
