@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "ebf7badf_17f58492",
+        "filename": "webm_info.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-13T04:40:43Z",
+      "side": 1,
+      "message": "Kind of. I think some of the other master elements had a start_element variable. But like much of the parser, I don\u0027t think it was very consistent.",
+      "parentUuid": "ebf7badf_c9e755fa",
+      "revId": "a42d43640aba33bd90c092c91e34cf2e56c9ffec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ebf7badf_26a3b824",
         "filename": "webm_info.cc",
         "patchSetId": 1
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "ebf7badf_57753c93",
+        "filename": "webm_info.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-13T04:40:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ebf7badf_26a3b824",
+      "revId": "a42d43640aba33bd90c092c91e34cf2e56c9ffec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ebf7badf_26acd8f9",
         "filename": "webm_info.cc",
         "patchSetId": 1
@@ -64,6 +100,30 @@
       "writtenOn": "2016-04-12T23:57:08Z",
       "side": 1,
       "message": "don\u0027t these if conditions need braces (they\u0027re more than 1 line)?\n\ndon\u0027t bother changing this now since you\u0027re being consistent with the rest of this file.",
+      "range": {
+        "startLine": 503,
+        "startChar": 10,
+        "endLine": 503,
+        "endChar": 17
+      },
+      "revId": "a42d43640aba33bd90c092c91e34cf2e56c9ffec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ebf7badf_7778388f",
+        "filename": "webm_info.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 503,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-13T04:40:43Z",
+      "side": 1,
+      "message": "Couldn\u0027t find that in the style guide. Anyway this is consistent with this file. We can talk about changing it later.",
+      "parentUuid": "ebf7badf_26acd8f9",
       "range": {
         "startLine": 503,
         "startChar": 10,
@@ -104,6 +164,24 @@
       "writtenOn": "2016-04-12T23:54:58Z",
       "side": 1,
       "message": "you could pair these as (X, Y), but I guess it\u0027s fine to explicitly write the fields out",
+      "revId": "a42d43640aba33bd90c092c91e34cf2e56c9ffec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ebf7badf_176fc4c7",
+        "filename": "webm_info.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-13T04:40:43Z",
+      "side": 1,
+      "message": "Yeah I just wanted to output one line per element.",
+      "parentUuid": "ebf7badf_e6848095",
       "revId": "a42d43640aba33bd90c092c91e34cf2e56c9ffec",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
