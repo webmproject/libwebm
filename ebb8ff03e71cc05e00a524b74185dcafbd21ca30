@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0bac0e06_8cd1a74b",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 433,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-04-13T17:27:52Z",
+      "side": 1,
+      "message": "a link to the spec in a comment will probably make understanding this easier.",
+      "range": {
+        "startLine": 433,
+        "startChar": 24,
+        "endLine": 433,
+        "endChar": 37
+      },
+      "revId": "ebb8ff03e71cc05e00a524b74185dcafbd21ca30",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
