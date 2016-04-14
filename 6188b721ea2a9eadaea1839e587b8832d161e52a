@@ -16,6 +16,24 @@
       "revId": "6188b721ea2a9eadaea1839e587b8832d161e52a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0bac0e06_a1fc5a18",
+        "filename": "mkvmuxer/mkvmuxer.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 1179,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-14T19:59:18Z",
+      "side": 1,
+      "message": "depends on the goal; simplify here, yes. I want to keep the stdint.h types and try doing the roll to see if it\u0027ll stick. If it does we have a built in sentinel for trying to truly get rid of the mkvmuxer:: types.",
+      "parentUuid": "0bac0e06_2144ea97",
+      "revId": "6188b721ea2a9eadaea1839e587b8832d161e52a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
