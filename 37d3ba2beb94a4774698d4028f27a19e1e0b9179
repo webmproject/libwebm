@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0bac0e06_9d9b842d",
+        "filename": "mkvmuxer/mkvmuxer.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-14T17:19:32Z",
+      "side": 1,
+      "message": "yeah, my fault-- meant to swing back through and deal with these since the ambiguity that the UINT64_C usage was addressing is no longer an issue.",
+      "parentUuid": "0bac0e06_ac89f8ad",
+      "revId": "37d3ba2beb94a4774698d4028f27a19e1e0b9179",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0bac0e06_4c9974f6",
         "filename": "mkvmuxer/mkvmuxer.cc",
         "patchSetId": 5
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "0bac0e06_9d10a4e1",
+        "filename": "mkvmuxer/mkvmuxer.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-14T17:19:32Z",
+      "side": 1,
+      "message": "Changed some locals back to uint64, but didn\u0027t really need to; reverted.",
+      "parentUuid": "0bac0e06_4c9974f6",
+      "revId": "37d3ba2beb94a4774698d4028f27a19e1e0b9179",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0bac0e06_cc6ba480",
         "filename": "mkvmuxer/mkvmuxerutil.cc",
         "patchSetId": 5
@@ -47,6 +83,24 @@
       "writtenOn": "2016-04-14T02:45:07Z",
       "side": 1,
       "message": "sizeof(var) was fine here",
+      "revId": "37d3ba2beb94a4774698d4028f27a19e1e0b9179",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0bac0e06_f808d67f",
+        "filename": "mkvmuxer/mkvmuxerutil.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 632,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-14T17:19:32Z",
+      "side": 1,
+      "message": "done; blindly reverted this file in its entirety instead of the more tedious approach I used in mkvmuxer.",
+      "parentUuid": "0bac0e06_cc6ba480",
       "revId": "37d3ba2beb94a4774698d4028f27a19e1e0b9179",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
