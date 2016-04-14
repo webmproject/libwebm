@@ -16,6 +16,24 @@
       "revId": "ec479287ff641fa2a8bdca02e977d81c7ab69500",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0bac0e06_d237b2bf",
+        "filename": "mkvmuxer/mkvmuxer.cc",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-14T22:19:57Z",
+      "side": 1,
+      "message": "they do because of all the overloads:\n\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxer.cc:86:7: error: call to \u0027EbmlElementSize\u0027 is\n      ambiguous\n      EbmlElementSize(libwebm::kMkvEBMLVersion, 1);\n      ^~~~~~~~~~~~~~~\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:37:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, int64 value);\n       ^\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:38:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, uint64 value);\n       ^\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:39:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, float value);\n       ^\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxer.cc:87:11: error: call to \u0027EbmlElementSize\u0027 is\n      ambiguous\n  size +\u003d EbmlElementSize(libwebm::kMkvEBMLReadVersion, 1);\n          ^~~~~~~~~~~~~~~\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:37:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, int64 value);\n       ^\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:38:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, uint64 value);\n       ^\n/usr/local/google/home/tomfinegan/webm/libwebm/mkvmuxer/mkvmuxerutil.h:39:8: note: candidate function\nuint64 EbmlElementSize(uint64 type, float value);\n       ^",
+      "parentUuid": "0bac0e06_8727ae8f",
+      "revId": "ec479287ff641fa2a8bdca02e977d81c7ab69500",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
