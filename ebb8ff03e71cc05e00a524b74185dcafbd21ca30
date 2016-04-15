@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "48fc4c2b_4d0405b3",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 433,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-15T22:58:15Z",
+      "side": 1,
+      "message": "Yes. It\u0027s coming",
+      "parentUuid": "0bac0e06_8cd1a74b",
+      "range": {
+        "startLine": 433,
+        "startChar": 24,
+        "endLine": 433,
+        "endChar": 37
+      },
+      "revId": "ebb8ff03e71cc05e00a524b74185dcafbd21ca30",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eb425a2f_c0534c10",
         "filename": "sample_muxer.cc",
         "patchSetId": 2
@@ -36,6 +60,24 @@
       "writtenOn": "2016-04-15T06:04:34Z",
       "side": 1,
       "message": "\"VP9 level: %d or VP9 level (%d)...\"?",
+      "revId": "ebb8ff03e71cc05e00a524b74185dcafbd21ca30",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "48fc4c2b_cdf7f5e4",
+        "filename": "sample_muxer.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-15T22:58:15Z",
+      "side": 1,
+      "message": "The latter. Done",
+      "parentUuid": "eb425a2f_c0534c10",
       "revId": "ebb8ff03e71cc05e00a524b74185dcafbd21ca30",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
