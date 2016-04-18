@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "087b34af_5de04f74",
+        "filename": "common/vp9_header_parser.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:53:03Z",
+      "side": 1,
+      "message": "these 2 could be bool",
+      "revId": "8bb68c2b3ec6c0547540d4badd5f22aa50a5f758",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_1dead752",
+        "filename": "common/vp9_header_parser.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:53:03Z",
+      "side": 1,
+      "message": "here too",
+      "revId": "8bb68c2b3ec6c0547540d4badd5f22aa50a5f758",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
