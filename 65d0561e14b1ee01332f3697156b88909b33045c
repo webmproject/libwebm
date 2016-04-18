@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "087b34af_5d6feffc",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "alignment is off",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_fd3efbb8",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "won\u0027t this always be true since you\u0027re accumulating luma_picture_size to current_luma_size_?",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_3d8b13e3",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "these could be named as simple accessors (level()), though that differs with much of libwebm I guess",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_fd8cbbf8",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "can most of these be const member functions?",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_7d6aebbc",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "do you want to balance this with row tiles?",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "087b34af_5d4e0f6e",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-18T19:49:38Z",
+      "side": 1,
+      "message": "could store a pair() if that was more convenient",
+      "revId": "65d0561e14b1ee01332f3697156b88909b33045c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
