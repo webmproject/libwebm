@@ -1,0 +1,242 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e87a6032_4b4825ac",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "can get rid of this comma",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_0ba8dd4c",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "you have a mix of braced/unbraced one line conditionals in here",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e86b402f_45c441b4",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "These are already defined in common/webm_constants.h",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e86b402f_e5ac4dfc",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "these could use default values (or Vp9LevelRow() \u003d delete); ditto on the second point for remaining unimplemented defaults (copy/move ctors).\n\nhttps://google.github.io/styleguide/cppguide.html#Copyable_Movable_Types",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "48ac4cb5_d2e9545f",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "could \u003d default this and assign at declaration sites",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28a718d3_d7802429",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "default ctor/ops here too",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_4bd6e510",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "Is the rule here the same throughout?",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_cbe175ea",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "this and GetMaxCompressionRatio() seem lonely w/o their comments",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_ab098982",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "s/in the unit of frames/in frames/\n\nif you want; I swear we say similar things in other comments w/o saying anything about unit",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_eb947163",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "reference",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_abe669cc",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "would be nice to say what each member of the pair is",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_8be92d60",
+        "filename": "common/vp9_level_stats_tests.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "probably nitpicking way too much now... but ASSERT_NE(0, filename.length())",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_8b304de2",
+        "filename": "common/vp9_level_stats_tests.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "could be unique_ptr",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_4b2b4575",
+        "filename": "common/vp9_level_stats_tests.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-20T01:16:05Z",
+      "side": 1,
+      "message": "hooray for mkvparser",
+      "revId": "a113db6dbb5066db7d896e27428ca985e3475937",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
