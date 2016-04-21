@@ -2,6 +2,125 @@
   "comments": [
     {
       "key": {
+        "uuid": "e87a6032_91ff0a76",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "shouldn\u0027t be too hard given you have x/y subsampling from the parser",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_4cf9098f",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "empty is redundant with the size() check no?",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_2c8b5d15",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "logically I guess it makes sense these are separate rather than merged into one loop",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_cc6899f4",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "not necessary, but a lamda might work for this to simplify the bodies",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_4c5d894e",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "some of these could be inlined in the header",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_31e736fe",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "extra space before \u0027\u003e\u0027 isn\u0027t necessary with c++11.\nyou should include \u003cpair\u003e above",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_51e0c2de",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "same whitespace comment here",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_cce9795f",
         "filename": "common/vp9_level_stats_tests.cc",
         "patchSetId": 7
@@ -13,6 +132,23 @@
       "writtenOn": "2016-04-21T18:58:13Z",
       "side": 1,
       "message": "uint8_t, but ok as is if you want to leave it",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_ecb8f5a0",
+        "filename": "common/vp9_level_stats_tests.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T18:58:15Z",
+      "side": 1,
+      "message": "uint8_t",
       "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
