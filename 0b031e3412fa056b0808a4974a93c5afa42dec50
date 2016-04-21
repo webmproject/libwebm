@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "e87a6032_3c6dc693",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-21T23:16:14Z",
+      "side": 1,
+      "message": "s/to parse/for parsing/ \n\nbecause I\u0027m a sadistic pedant",
+      "parentUuid": "e87a6032_4637a5db",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_3cbf0624",
+        "filename": "common/hdr_util.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-21T23:16:14Z",
+      "side": 1,
+      "message": "more pedantry: technically needs braces",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_e6233183",
         "filename": "common/hdr_util.h",
         "patchSetId": 2
@@ -30,6 +65,58 @@
       "writtenOn": "2016-04-21T21:32:11Z",
       "side": 1,
       "message": "if there was a chance of conflict or this was more involved has_*() accessors might be helpful",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_7c7b4e49",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-21T23:16:14Z",
+      "side": 1,
+      "message": "or just abuse kValueNotPresent (which is already happening within other HDR utils)",
+      "parentUuid": "e87a6032_e6233183",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_1ce56a51",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-21T23:16:14Z",
+      "side": 1,
+      "message": "All, or at least one?\n\nTests and code appear to say at least one, but would be nice to not have to look.",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_fc1c1e01",
+        "filename": "webm_info.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-04-21T23:16:14Z",
+      "side": 1,
+      "message": "anyone want to file a bug for fixing the formatting in here? I\u0027ll do the tedious bits if someone else files it. Deal? :)",
       "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
