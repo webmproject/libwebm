@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e87a6032_4637a5db",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T21:32:11Z",
+      "side": 1,
+      "message": "is there a BUG\u003d for this one?",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_e6233183",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-04-21T21:32:11Z",
+      "side": 1,
+      "message": "if there was a chance of conflict or this was more involved has_*() accessors might be helpful",
+      "revId": "0b031e3412fa056b0808a4974a93c5afa42dec50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
