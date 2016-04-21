@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "e87a6032_177c6a8c",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Yeah will do in a follow up CL. Need to change some code in parser as well.",
+      "parentUuid": "e87a6032_91ff0a76",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_4cf9098f",
         "filename": "common/vp9_level_stats.cc",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-21T18:58:15Z",
       "side": 1,
       "message": "empty is redundant with the size() check no?",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_f78afedc",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e87a6032_4cf9098f",
       "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "e87a6032_7797ee00",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Yeah it might add a little overhead, but I don\u0027t think we are worrying about performance yet.",
+      "parentUuid": "e87a6032_2c8b5d15",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_cc6899f4",
         "filename": "common/vp9_level_stats.cc",
         "patchSetId": 7
@@ -64,6 +118,24 @@
       "writtenOn": "2016-04-21T18:58:15Z",
       "side": 1,
       "message": "not necessary, but a lamda might work for this to simplify the bodies",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_17654aec",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "e87a6032_cc6899f4",
       "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "e87a6032_3753a614",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Yeah I know. This one I can do. The others I wanted to keep them logically in one group.",
+      "parentUuid": "e87a6032_4c5d894e",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_31e736fe",
         "filename": "common/vp9_level_stats.h",
         "patchSetId": 7
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "e87a6032_acc66d86",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e87a6032_31e736fe",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e87a6032_51e0c2de",
         "filename": "common/vp9_level_stats.h",
         "patchSetId": 7
@@ -115,6 +223,24 @@
       "writtenOn": "2016-04-21T18:58:15Z",
       "side": 1,
       "message": "same whitespace comment here",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_6cc0856a",
+        "filename": "common/vp9_level_stats.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e87a6032_51e0c2de",
       "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -149,6 +275,24 @@
       "writtenOn": "2016-04-21T18:58:15Z",
       "side": 1,
       "message": "uint8_t",
+      "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a6032_f7351ed0",
+        "filename": "common/vp9_level_stats_tests.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-21T20:02:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e87a6032_ecb8f5a0",
       "revId": "578d49fe5798a1106abe74b9f393aaed41e45065",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
