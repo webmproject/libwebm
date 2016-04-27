@@ -16,6 +16,24 @@
       "revId": "66ce96b6bba355d4ca3f2c71e57c7091270bb53e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "483d2ded_d98813d9",
+        "filename": "webm_info.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 684,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-27T05:18:00Z",
+      "side": 1,
+      "message": "I removed this code as the parser can handle profile 3.",
+      "parentUuid": "483d2ded_3f9be7da",
+      "revId": "66ce96b6bba355d4ca3f2c71e57c7091270bb53e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
