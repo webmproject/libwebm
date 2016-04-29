@@ -16,6 +16,24 @@
       "revId": "04132d03106ff77d076806f6c8d81327f7f7a662",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28d5592a_a510c899",
+        "filename": "common/vp9_level_stats.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-04-29T00:27:01Z",
+      "side": 1,
+      "message": "You caught that huh. Yeah I was leaving it in because I think it could be useful at some point. Anyway I removed it for now.",
+      "parentUuid": "4880cd13_c78f5e84",
+      "revId": "04132d03106ff77d076806f6c8d81327f7f7a662",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
