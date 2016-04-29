@@ -16,6 +16,24 @@
       "revId": "c182ed97d16a1fd5688f864d2fed55fab6bfe36c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "08fed5bc_0be201b0",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002174
+      },
+      "writtenOn": "2016-04-29T19:16:48Z",
+      "side": 1,
+      "message": "it might be your version of clang-format.\n\nthe jenkins one seems fine with this.",
+      "parentUuid": "08fed5bc_0869e77b",
+      "revId": "c182ed97d16a1fd5688f864d2fed55fab6bfe36c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
