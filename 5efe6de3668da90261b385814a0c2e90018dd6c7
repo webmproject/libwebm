@@ -16,6 +16,24 @@
       "revId": "5efe6de3668da90261b385814a0c2e90018dd6c7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "06c16e19_8dd8e131",
+        "filename": "m2ts/vpxpes_parser.cc",
+        "patchSetId": 7
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-06-03T00:06:17Z",
+      "side": 1,
+      "message": "I know. :(\n\nAdded a todo for reading one packet at a time... that\u0027ll take more work than is sane for this patch.",
+      "parentUuid": "19ac71b4_01a40cc5",
+      "revId": "5efe6de3668da90261b385814a0c2e90018dd6c7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
