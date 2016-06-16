@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "141d1d1b_1152db22",
+        "filename": "webm_parser/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-06-16T00:41:01Z",
+      "side": 1,
+      "message": "looks weird. I guess that\u0027s in reference to std::istream?",
+      "range": {
+        "startLine": 37,
+        "startChar": 15,
+        "endLine": 37,
+        "endChar": 28
+      },
+      "revId": "cb8ce0b4b55a904deb2ca07838b6eeda772c7463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "141d1d1b_11477b59",
+        "filename": "webm_parser/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-06-16T00:41:01Z",
+      "side": 1,
+      "message": "parsing",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 6
+      },
+      "revId": "cb8ce0b4b55a904deb2ca07838b6eeda772c7463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "141d1d1b_91026b33",
+        "filename": "webm_parser/clang-format-style",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-06-16T00:41:01Z",
+      "side": 1,
+      "message": "why not .clang-format ?",
+      "revId": "cb8ce0b4b55a904deb2ca07838b6eeda772c7463",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
