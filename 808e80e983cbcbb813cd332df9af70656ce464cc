@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "43099dae_f1de7a4c",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-06-24T06:41:49Z",
+      "side": 1,
+      "message": "seems there was no change here...",
+      "parentUuid": "63b861d5_bf20bf3d",
+      "revId": "808e80e983cbcbb813cd332df9af70656ce464cc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0ec6ea30_9410ec4d",
         "filename": "CMakeLists.txt",
         "patchSetId": 2
