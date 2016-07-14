@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a1264d9_54f19f6d",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-07-14T17:44:31Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "revId": "230afffd6f6ff4690c2bb420d5d3248963167581",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a1264d9_d4058f45",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-07-14T17:44:31Z",
+      "side": 1,
+      "message": "this line could go",
+      "revId": "230afffd6f6ff4690c2bb420d5d3248963167581",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a1264d9_549abf2f",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 398,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-07-14T17:44:31Z",
+      "side": 1,
+      "message": "this line could go",
+      "revId": "230afffd6f6ff4690c2bb420d5d3248963167581",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a1264d9_349f4b1f",
+        "filename": "build/cxx11_tests.cmake",
+        "patchSetId": 5
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-07-14T17:44:31Z",
+      "side": 1,
+      "message": "this line could go",
+      "revId": "230afffd6f6ff4690c2bb420d5d3248963167581",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
