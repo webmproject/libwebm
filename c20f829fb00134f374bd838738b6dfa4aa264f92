@@ -16,6 +16,24 @@
       "revId": "c20f829fb00134f374bd838738b6dfa4aa264f92",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a425b4c_983c747e",
+        "filename": "m2ts/webm2pes.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-07-19T18:26:48Z",
+      "side": 1,
+      "message": "public now; don\u0027t want to mess with FRIEND_TEST etc anyway. Leaving pointer/length check. Don\u0027t really want the assert. Also, a couple more tweaks to keep things sane with this becoming a public method:\n\n- enum VideoCodec moved from Webm2Pes to VpxFrame\n- usages updated\n- stopped abusing codec_ in Webm2Pes::WritePesPacket()\n- make kMaxPayloadSize static (Webm2Pes::WritePesPacket() can technically\n  be a static method now, but not bothering until I need it).",
+      "parentUuid": "bac440d3_a71e2701",
+      "revId": "c20f829fb00134f374bd838738b6dfa4aa264f92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
