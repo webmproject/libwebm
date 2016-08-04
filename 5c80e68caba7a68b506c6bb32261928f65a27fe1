@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d4454ee6_9c7dfc4b",
+        "filename": "m2ts/vpxpes_parser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-04T17:26:26Z",
+      "side": 1,
+      "message": "It\u0027s unlimited excepting any limitations in maximum VPx frame size. I could cap it at INT_MAX or something like the size of a single frame at 1 gigabit/60 fps assuming cbr.",
+      "parentUuid": "d4454ee6_9143ac9b",
+      "revId": "5c80e68caba7a68b506c6bb32261928f65a27fe1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d4454ee6_f1db10e6",
         "filename": "m2ts/vpxpes_parser.cc",
         "patchSetId": 10
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "d4454ee6_dc6aa486",
+        "filename": "m2ts/vpxpes_parser.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 333,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-04T17:26:26Z",
+      "side": 1,
+      "message": "basically; i want to leave this in until it actually happens, but it won\u0027t until I setup incremental reading of some sort (which probably won\u0027t happen because the general attitude re this code is now \"just get it done and move on\")",
+      "parentUuid": "d4454ee6_f1db10e6",
+      "revId": "5c80e68caba7a68b506c6bb32261928f65a27fe1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d4454ee6_71f06062",
         "filename": "m2ts/webm2pes.cc",
         "patchSetId": 10
@@ -47,6 +83,24 @@
       "writtenOn": "2016-08-04T01:04:32Z",
       "side": 1,
       "message": "could leave the braces if you want",
+      "revId": "5c80e68caba7a68b506c6bb32261928f65a27fe1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d4454ee6_fc3d2077",
+        "filename": "m2ts/webm2pes.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-04T17:26:26Z",
+      "side": 1,
+      "message": "Leaving it alone because I can spot at least one loop in here omitting the braces. Maybe a tidy pass.",
+      "parentUuid": "d4454ee6_71f06062",
       "revId": "5c80e68caba7a68b506c6bb32261928f65a27fe1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
