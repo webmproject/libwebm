@@ -40,6 +40,24 @@
       "revId": "8a583c2ea18cadf64d579824cac774aa1cf35ed1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b99e1320_3920f855",
+        "filename": "m2ts/vpxpes_parser.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-06T00:26:11Z",
+      "side": 1,
+      "message": "\u003e didn\u0027t think of that, actually... looks cleaner, but I\u0027m screwing\n \u003e something up or something weird is going on (type promotion,\n \u003e maybe...? guessing):\n \u003e \n \u003e header-\u003epts \u003d (pes_file_data_[offset] \u0026 0xe) \u003c\u003c 29 |\n \u003e ((ReadUint16(\u0026pes_file_data_[offset + 1]) \u0026 ~1) \u003c\u003c 15) |\n \u003e\n\nI think you want \u003c\u003c 14 now\n\n \u003e (ReadUint16(\u0026pes_file_data_[offset + 3]) \u003e\u003e 1);\n \u003e \n \u003e That\u0027s ending up with:\n \u003e \n \u003e /Users/tomfinegan/webm/libwebm/m2ts/tests/webm2pes_tests.cc:137:\n \u003e Failure\n \u003e Expected: fake_frame.nanosecond_pts()\n \u003e Which is: 1000000000\n \u003e To be equal to: parsed_frame.nanosecond_pts()\n \u003e Which is: 1728177777",
+      "parentUuid": "b99e1320_f632a0a2",
+      "revId": "8a583c2ea18cadf64d579824cac774aa1cf35ed1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
