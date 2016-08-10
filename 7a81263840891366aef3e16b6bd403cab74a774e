@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5950b7ef_b105c06d",
+        "filename": "m2ts/vpxpes_parser.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-10T23:03:54Z",
+      "side": 1,
+      "message": "that\u0027s worded a bit weird, the left has the inserted 0x3, right? do you mean to say this function strips that resulting in the right?",
+      "revId": "7a81263840891366aef3e16b6bd403cab74a774e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
