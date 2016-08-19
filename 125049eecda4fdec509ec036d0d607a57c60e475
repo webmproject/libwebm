@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8812db45_4e987374",
+        "filename": "testing/parser_tests.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-19T23:31:59Z",
+      "side": 1,
+      "message": "this is starting to look like a common block",
+      "revId": "125049eecda4fdec509ec036d0d607a57c60e475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
