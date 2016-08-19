@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "68ee8774_edce302f",
+        "filename": "testing/testdata/invalid/README.libwebm",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-19T18:17:13Z",
+      "side": 1,
+      "message": "we already have a README.libwebm at the repo root, and i find README file ownership ambiguous in downstream projects snapshotting our code without appending the project name... just seems clearer for downstream users this way.",
+      "parentUuid": "1b8e3781_ee555a31",
+      "revId": "07764130aa030501397dfddbba53d208811a217d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b8e3781_ae5f524d",
         "filename": "testing/testdata/invalid/README.libwebm",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2016-08-18T19:20:56Z",
       "side": 1,
       "message": "s/\\./:/",
+      "revId": "07764130aa030501397dfddbba53d208811a217d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "68ee8774_ed43d09c",
+        "filename": "testing/testdata/invalid/README.libwebm",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-19T18:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b8e3781_ae5f524d",
       "revId": "07764130aa030501397dfddbba53d208811a217d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
