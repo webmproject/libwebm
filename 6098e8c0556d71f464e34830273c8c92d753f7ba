@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28f2cfe6_58bc51a9",
+        "filename": "testing/mkvparser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-23T19:11:29Z",
+      "side": 1,
+      "message": "this is a bit inconsistent with the rest of the file",
+      "range": {
+        "startLine": 87,
+        "startChar": 41,
+        "endLine": 87,
+        "endChar": 46
+      },
+      "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28f2cfe6_18c6c945",
+        "filename": "testing/mkvparser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 706,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-23T19:11:29Z",
+      "side": 1,
+      "message": "do you want to ASSERT_NO_FATAL_FAILURE here?",
+      "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
