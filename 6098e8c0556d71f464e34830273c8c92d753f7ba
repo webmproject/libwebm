@@ -25,6 +25,24 @@
     },
     {
       "key": {
+        "uuid": "28f2cfe6_4376a669",
+        "filename": "testing/mkvparser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-23T20:15:55Z",
+      "side": 1,
+      "message": "oops; didn\u0027t notice some xcode autocomplete \"help\". done.",
+      "parentUuid": "28f2cfe6_58bc51a9",
+      "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "28f2cfe6_18c6c945",
         "filename": "testing/mkvparser_tests.cc",
         "patchSetId": 2
@@ -36,6 +54,24 @@
       "writtenOn": "2016-08-23T19:11:29Z",
       "side": 1,
       "message": "do you want to ASSERT_NO_FATAL_FAILURE here?",
+      "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28f2cfe6_033ade7b",
+        "filename": "testing/mkvparser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 706,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-23T20:15:55Z",
+      "side": 1,
+      "message": "no: everything in CreateSegmentNoHeaderChecks is ASSERT_*, it\u0027ll already be dead before we get here if there\u0027s a failure, so it would just be noise.",
+      "parentUuid": "28f2cfe6_18c6c945",
       "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
