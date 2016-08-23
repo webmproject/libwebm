@@ -75,6 +75,24 @@
       "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "881e5bf2_da9f054e",
+        "filename": "testing/mkvparser_tests.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 706,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-23T23:59:02Z",
+      "side": 1,
+      "message": "but you\u0027ll continue on to the next EXPECT. ASSERT only returns from the containing function. You can check HasFatalFailures() or so as an alternative",
+      "parentUuid": "28f2cfe6_033ade7b",
+      "revId": "6098e8c0556d71f464e34830273c8c92d753f7ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
