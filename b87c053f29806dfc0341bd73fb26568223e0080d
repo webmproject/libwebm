@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "25a4baca_b4f58cb7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-29T17:13:12Z",
+      "side": 1,
+      "message": "done, for all patches",
+      "parentUuid": "25a4baca_742384ab",
+      "revId": "b87c053f29806dfc0341bd73fb26568223e0080d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "25a4baca_7496e4e5",
         "filename": "mkvmuxer/mkvmuxer.h",
         "patchSetId": 3
@@ -36,6 +54,24 @@
         "endLine": 469,
         "endChar": 17
       },
+      "revId": "b87c053f29806dfc0341bd73fb26568223e0080d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "25a4baca_d47db046",
+        "filename": "mkvmuxer/mkvmuxer.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-29T17:13:12Z",
+      "side": 1,
+      "message": "reworked things in here a bit-- this never should have been a struct.",
+      "parentUuid": "25a4baca_7496e4e5",
       "revId": "b87c053f29806dfc0341bd73fb26568223e0080d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
