@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "f19509fc_ddcb0b9a",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 11
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-08-30T22:10:08Z",
+      "side": 1,
+      "message": "You are already in test.",
+      "range": {
+        "startLine": 482,
+        "startChar": 14,
+        "endLine": 482,
+        "endChar": 18
+      },
+      "revId": "1e3bd73556e3e16d8a588935e56db6dfd256da34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c5c11ec4_61f9d1de",
         "filename": "testing/mkvmuxer_tests.cc",
         "patchSetId": 11
@@ -37,6 +60,47 @@
       "side": 1,
       "message": "But without the extra step we wouldn\u0027t know that there\u0027s a potential problem with cues_before_clusters.webm-- trying to walk the cues exposes a problem (this crashes under valgrind and asan on linux x86-64).\n\nIt\u0027s quite possible that cues_before_clusters.webm is perfectly valid and the real problem is yet another mkvparser wtf, but I think this is a necessary step.\n\nMy real issue with the mkvmuxer tests we have right now is that they\u0027re all like this: \n\n1) do some stuff with mkvmuxer\n2) write new file\n3) do a bytewise file compare of new file against golden file\n\nWhat I see as the problem is that the golden file was produced using the same code that produces the new file. The only thing we\u0027re testing is that the bits output by mkvmuxer don\u0027t change. We don\u0027t know the golden file is actually valid. All the tests tell is that the bytes are the same.\n\nMaybe I\u0027m being paranoid.",
       "parentUuid": "c5c11ec4_61f9d1de",
+      "revId": "1e3bd73556e3e16d8a588935e56db6dfd256da34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f19509fc_5d8a9b74",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 11
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-08-30T22:10:08Z",
+      "side": 1,
+      "message": "OK, I guess it is fine. But I think you are right that the issue is with the parser.",
+      "parentUuid": "c5c11ec4_3a7a5e4e",
+      "revId": "1e3bd73556e3e16d8a588935e56db6dfd256da34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f19509fc_3dd78f43",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 11
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-08-30T22:10:08Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 484,
+        "startChar": 14,
+        "endLine": 484,
+        "endChar": 18
+      },
       "revId": "1e3bd73556e3e16d8a588935e56db6dfd256da34",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
