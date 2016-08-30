@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5c11ec4_e16781b8",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 10
+      },
+      "lineNbr": 782,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-08-30T15:51:14Z",
+      "side": 1,
+      "message": "Hmmm, this should not be valid value. I think we need to change the colour muxer implementation to do validation. I.e. no more simple struct (or class :) )",
+      "range": {
+        "startLine": 782,
+        "startChar": 15,
+        "endLine": 782,
+        "endChar": 37
+      },
+      "revId": "50dde5b20de2063bf7ae35c1d6e96ff33aeb0f11",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
