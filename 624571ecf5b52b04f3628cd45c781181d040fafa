@@ -50,6 +50,24 @@
       "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11b0ddbd_9ac01d8d",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 12
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2016-08-31T03:10:18Z",
+      "side": 1,
+      "message": "and I guess _NE works with nullptr? ASSERT_TRUE(!\u003d) was needed for NULL",
+      "parentUuid": "11b0ddbd_9a3b3dd7",
+      "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
