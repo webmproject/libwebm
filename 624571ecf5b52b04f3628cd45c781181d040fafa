@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "11b0ddbd_3097c5f4",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 12
+      },
+      "lineNbr": 792,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-31T17:00:44Z",
+      "side": 1,
+      "message": "it is; will do in follow up. this just keeps getting pasted around because lazy.",
+      "parentUuid": "11b0ddbd_1a766d9b",
+      "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "11b0ddbd_ba3879da",
         "filename": "testing/mkvmuxer_tests.cc",
         "patchSetId": 12
@@ -30,6 +48,24 @@
       "writtenOn": "2016-08-31T03:05:16Z",
       "side": 1,
       "message": "could use segment_ptr",
+      "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11b0ddbd_70b9bdeb",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 12
+      },
+      "lineNbr": 803,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-31T17:00:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "11b0ddbd_ba3879da",
       "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -65,6 +101,24 @@
       "side": 1,
       "message": "and I guess _NE works with nullptr? ASSERT_TRUE(!\u003d) was needed for NULL",
       "parentUuid": "11b0ddbd_9a3b3dd7",
+      "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11b0ddbd_10e3a9f6",
+        "filename": "testing/mkvmuxer_tests.cc",
+        "patchSetId": 12
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-08-31T17:00:44Z",
+      "side": 1,
+      "message": "Didn\u0027t really mean to do that, and not sure if it\u0027s always true; changed to ASSERT_TRUE like other places. Also added missing check on parser_mm down below.",
+      "parentUuid": "11b0ddbd_9ac01d8d",
       "revId": "624571ecf5b52b04f3628cd45c781181d040fafa",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
