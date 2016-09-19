@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "eb3b56ab_a5871268",
+        "filename": "common/webm_endian.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-09-19T16:11:17Z",
+      "side": 1,
+      "message": "Yeah my fault for copy and pasting and not looking to deeply into what it said.",
+      "parentUuid": "eb3b56ab_5dd9f072",
+      "range": {
+        "startLine": 17,
+        "startChar": 31,
+        "endLine": 18,
+        "endChar": 17
+      },
+      "revId": "ba2073065f48f87fffeb94ac8eacbb4feed6e955",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eb3b56ab_5d73b077",
         "filename": "webm_info.cc",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2016-09-17T00:37:17Z",
       "side": 1,
       "message": "%u would be more correct",
+      "range": {
+        "startLine": 817,
+        "startChar": 26,
+        "endLine": 817,
+        "endChar": 27
+      },
+      "revId": "ba2073065f48f87fffeb94ac8eacbb4feed6e955",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb3b56ab_85fdb6ce",
+        "filename": "webm_info.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 817,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-09-19T16:11:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb3b56ab_5d73b077",
       "range": {
         "startLine": 817,
         "startChar": 26,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "eb3b56ab_c5cedeac",
+        "filename": "webm_info.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 955,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-09-19T16:11:17Z",
+      "side": 1,
+      "message": "Yeah I was just following what was already there. Will switch both now.",
+      "parentUuid": "eb3b56ab_3d29844b",
+      "range": {
+        "startLine": 955,
+        "startChar": 72,
+        "endLine": 955,
+        "endChar": 77
+      },
+      "revId": "ba2073065f48f87fffeb94ac8eacbb4feed6e955",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eb3b56ab_dd1a4024",
         "filename": "webm_info.cc",
         "patchSetId": 2
@@ -82,6 +154,30 @@
       "writtenOn": "2016-09-17T00:37:17Z",
       "side": 1,
       "message": "weird case on this one",
+      "range": {
+        "startLine": 997,
+        "startChar": 30,
+        "endLine": 997,
+        "endChar": 32
+      },
+      "revId": "ba2073065f48f87fffeb94ac8eacbb4feed6e955",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb3b56ab_855776c7",
+        "filename": "webm_info.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 997,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2016-09-19T16:11:17Z",
+      "side": 1,
+      "message": "Yeah I saw that, which I didn\u0027t follow convention :). I was planning on following up with another CL to switch to \"kE\". Didn\u0027t want to pollute this CL.",
+      "parentUuid": "eb3b56ab_dd1a4024",
       "range": {
         "startLine": 997,
         "startChar": 30,
