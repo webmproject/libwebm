@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2675ae07_7f6aaf2f",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 8092,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-10-31T19:18:01Z",
+      "side": 1,
+      "message": "you can remove this comment",
+      "range": {
+        "startLine": 8092,
+        "startChar": 38,
+        "endLine": 8092,
+        "endChar": 58
+      },
+      "revId": "63ee8fe9a18695a0b798ac8d06156b0478c1a17d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2675ae07_bf4b47cb",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 8109,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-10-31T19:18:01Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 8109,
+        "startChar": 39,
+        "endLine": 8109,
+        "endChar": 60
+      },
+      "revId": "63ee8fe9a18695a0b798ac8d06156b0478c1a17d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2675ae07_ff55bf63",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 8132,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2016-10-31T19:18:01Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 8132,
+        "startChar": 44,
+        "endLine": 8132,
+        "endChar": 70
+      },
+      "revId": "63ee8fe9a18695a0b798ac8d06156b0478c1a17d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
