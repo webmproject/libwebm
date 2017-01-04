@@ -1,0 +1,170 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "17c7fe66_ea850bf4",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 7569,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "wrap this",
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_aaa4f38d",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8056,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "indent is off here; correct examples up above, or just clang-format",
+      "range": {
+        "startLine": 8050,
+        "startChar": 0,
+        "endLine": 8056,
+        "endChar": 2
+      },
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_aff085af",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8094,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "Use ReadID to read EBML IDs, and use the constants from webmids.h when testing for ID values-- do not use magic numbers (i.e. 0x26, use kMkvBlockMore)",
+      "range": {
+        "startLine": 8094,
+        "startChar": 19,
+        "endLine": 8094,
+        "endChar": 27
+      },
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_0f0fb9e2",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8110,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "remove these extra whitespace chars",
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_efea7dbd",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8111,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "ReadID",
+      "range": {
+        "startLine": 8111,
+        "startChar": 9,
+        "endLine": 8111,
+        "endChar": 17
+      },
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_2fc6355e",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8113,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "kMkvBlockAddID",
+      "range": {
+        "startLine": 8113,
+        "startChar": 14,
+        "endLine": 8113,
+        "endChar": 18
+      },
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_4abfdf91",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8134,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "ReadID",
+      "range": {
+        "startLine": 8134,
+        "startChar": 9,
+        "endLine": 8134,
+        "endChar": 24
+      },
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17c7fe66_2ff475ae",
+        "filename": "mkvparser/mkvparser.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-04T18:41:04Z",
+      "side": 1,
+      "message": "remove trailing whitespace",
+      "revId": "9f2e4b63cf382b38fc13e7c6250b546a8c188e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
