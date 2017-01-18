@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "082efe90_e0a4e88f",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-01-18T23:42:43Z",
+      "side": 1,
+      "message": "should these 4 be split out to share with dumpvtt?",
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "082efe90_e012a8cf",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-01-18T23:42:43Z",
+      "side": 1,
+      "message": "this line can go. seems to be 1 line between sections above",
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "082efe90_e040689f",
+        "filename": "build/cxx_flags.cmake",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-01-18T23:42:43Z",
+      "side": 1,
+      "message": "I guess this could be gnulike instead, but given the combinations for this lib it\u0027s probably fine either way",
+      "range": {
+        "startLine": 57,
+        "startChar": 27,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
