@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e3662dd0_a931e92d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-01-18T19:42:01Z",
+      "side": 1,
+      "message": "for std::min at least I believe, that\u0027s its source anyway.",
+      "revId": "9fb774ab80626b9e7bd98e59a4cccf035d68f69f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    }
+  ]
+}
