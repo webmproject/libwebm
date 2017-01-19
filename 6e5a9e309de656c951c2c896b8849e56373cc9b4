@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "082efe90_dded49d0",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-19T16:29:14Z",
+      "side": 1,
+      "message": "Oops, missed the dupe. Added new obj lib, webvtt_common, and new var, webvtt_common_sources.",
+      "parentUuid": "082efe90_e0a4e88f",
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "082efe90_e012a8cf",
         "filename": "CMakeLists.txt",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2017-01-18T23:42:43Z",
       "side": 1,
       "message": "this line can go. seems to be 1 line between sections above",
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "082efe90_9dcd816b",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-19T16:29:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "082efe90_e012a8cf",
       "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
@@ -53,6 +89,24 @@
         "endLine": 57,
         "endChar": 33
       },
+      "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "082efe90_bde39dea",
+        "filename": "build/cxx_flags.cmake",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-19T16:29:14Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "082efe90_e040689f",
       "revId": "6e5a9e309de656c951c2c896b8849e56373cc9b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
