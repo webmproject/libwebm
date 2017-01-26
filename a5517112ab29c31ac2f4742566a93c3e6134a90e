@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "197eb051_09ce731e",
+        "filename": "mkvparser/mkvreader.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-01-26T16:03:42Z",
+      "side": 1,
+      "message": "Please move this to where it\u0027s really needed, and remove the off_t comment\n\n$ git grep off_t\nmkvmuxer/mkvwriter.cc:  return fseeko(file_, static_cast\u003coff_t\u003e(position), SEEK_SET);\nmkvparser/mkvreader.cc:  fseeko(m_file, static_cast\u003coff_t\u003e(offset), SEEK_SET);",
+      "revId": "a5517112ab29c31ac2f4742566a93c3e6134a90e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
