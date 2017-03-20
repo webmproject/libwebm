@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a169a06f_093f3936",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 4983,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-03-20T21:39:36Z",
+      "side": 1,
+      "message": "this would probably be more readable if you used a temp here (especially at line 4989). Also you\u0027d then be able to control the value of the pointer when the function fails at 4998",
+      "revId": "66a5774e5c3c0c35fde05e8f6fecfc7f509971ec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
