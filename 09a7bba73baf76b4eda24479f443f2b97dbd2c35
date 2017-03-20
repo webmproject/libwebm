@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bcd6fa03_bb5e85ae",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-03-20T19:24:29Z",
+      "side": 1,
+      "message": "b/36255773 otherwise this looks like a chrome bug",
+      "revId": "09a7bba73baf76b4eda24479f443f2b97dbd2c35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
