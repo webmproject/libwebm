@@ -16,6 +16,24 @@
       "revId": "5a418303e33eb7caa0c98e2547081094db31ab9a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3040d06f_91377c0a",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 4988,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-03-21T18:39:45Z",
+      "side": 1,
+      "message": "Yeah, this is always a pointer to a MasteringMetadata member that\u0027s going to get cleaned up in ~MasteringMetadata().",
+      "parentUuid": "41d39be3_7e777530",
+      "revId": "5a418303e33eb7caa0c98e2547081094db31ab9a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
     }
   ]
 }
