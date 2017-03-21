@@ -16,6 +16,24 @@
       "revId": "66a5774e5c3c0c35fde05e8f6fecfc7f509971ec",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "da14d3af_cc3febd2",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 4983,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-03-21T17:57:43Z",
+      "side": 1,
+      "message": "Used temp and added FLT_MIN/FLT_MAX check prior to cast. I have allowed the pointer to be set in one failure mode (out of range values per spec). \n\nI\u0027ll make another pass if you\u0027d like, but as it stands the parsing of the video track will fail as the error down here will bubble all the way up to VideoTrack::Parse and cause return of E_FILE_FORMAT_INVALID to user code.",
+      "parentUuid": "a169a06f_093f3936",
+      "revId": "66a5774e5c3c0c35fde05e8f6fecfc7f509971ec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
     }
   ]
 }
