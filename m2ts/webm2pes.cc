@@ -13,6 +13,7 @@
 #include <cstring>
 #include <new>
 #include <vector>
+#include <algorithm>
 
 #include "common/libwebm_util.h"
 
