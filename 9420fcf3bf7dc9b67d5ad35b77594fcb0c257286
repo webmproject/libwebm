@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1065f183_a0cf20ae",
+        "filename": "mkvmuxer_sample.cc",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-08-07T22:16:19Z",
+      "side": 1,
+      "message": "just s/private_// -- that\u0027ll fix the line length and keep clang-format happy.",
+      "range": {
+        "startLine": 74,
+        "startChar": 24,
+        "endLine": 74,
+        "endChar": 32
+      },
+      "revId": "9420fcf3bf7dc9b67d5ad35b77594fcb0c257286",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
