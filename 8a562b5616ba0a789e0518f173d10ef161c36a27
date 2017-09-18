@@ -52,6 +52,24 @@
       "revId": "8a562b5616ba0a789e0518f173d10ef161c36a27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "711708cd_6de677aa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-09-18T18:32:06Z",
+      "side": 1,
+      "message": "Build hopefully works now if you update jenkins to use the new toolchain files.",
+      "parentUuid": "8d18ff1f_e258c28c",
+      "revId": "8a562b5616ba0a789e0518f173d10ef161c36a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
     }
   ]
 }
