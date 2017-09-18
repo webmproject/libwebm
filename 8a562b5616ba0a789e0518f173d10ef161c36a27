@@ -16,6 +16,24 @@
       "revId": "8a562b5616ba0a789e0518f173d10ef161c36a27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b810e8f8_a1d200ce",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-09-18T18:05:01Z",
+      "side": 1,
+      "message": "\u003e this config is part of the compile test for libwebm via cmake already, unless it\u0027s incorrectly configured\n\noh, I forgot (from the log):\n\u0027This configuration currently fails to build\u0027",
+      "parentUuid": "4b16a582_b260ee33",
+      "revId": "8a562b5616ba0a789e0518f173d10ef161c36a27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
     }
   ]
 }
