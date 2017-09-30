@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1823d412_5bdd5160",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 7977,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-09-30T03:53:59Z",
+      "side": 1,
+      "message": "you may want to check this condition here too before wrapping the LLONG_MAX calc",
+      "range": {
+        "startLine": 7977,
+        "startChar": 2,
+        "endLine": 7977,
+        "endChar": 19
+      },
+      "revId": "7136827b0f3f0a9c312c3182c9280a973dab1c71",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
