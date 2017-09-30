@@ -22,6 +22,30 @@
       "revId": "7136827b0f3f0a9c312c3182c9280a973dab1c71",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c40db2c6_461df86d",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 7977,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-09-30T19:15:07Z",
+      "side": 1,
+      "message": "i feel great shame for ignoring the assert as only means of protection against that. great. shame. Added to the check below.",
+      "parentUuid": "1823d412_5bdd5160",
+      "range": {
+        "startLine": 7977,
+        "startChar": 2,
+        "endLine": 7977,
+        "endChar": 19
+      },
+      "revId": "7136827b0f3f0a9c312c3182c9280a973dab1c71",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
