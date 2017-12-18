@@ -16,6 +16,24 @@
       "revId": "73f5102282f01a8f8d22ed766152df35d58f3b3b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12cda02c_92e67c8d",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2017-12-18T19:34:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffe278fe_f6112234",
+      "revId": "73f5102282f01a8f8d22ed766152df35d58f3b3b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
     }
   ]
 }
