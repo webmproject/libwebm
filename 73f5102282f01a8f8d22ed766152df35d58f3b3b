@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffe278fe_f6112234",
+        "filename": "common/hdr_util.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2017-12-18T18:53:50Z",
+      "side": 1,
+      "message": "this appears to have come in with 4.7. could check \u003e\u003d5 or \u003d\u003d4 and minor \u003e\u003d 7",
+      "revId": "73f5102282f01a8f8d22ed766152df35d58f3b3b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    }
+  ]
+}
