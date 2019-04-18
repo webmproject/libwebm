@@ -4261,6 +4261,7 @@ long ContentEncoding::ParseContentEncodingEntry(long long start, long long size,
         delete compression;
         return status;
       }
+      assert(compression_count > 0);
       *compression_entries_end_++ = compression;
     } else if (id == libwebm::kMkvContentEncryption) {
       ContentEncryption* const encryption =
@@ -4273,6 +4274,7 @@ long ContentEncoding::ParseContentEncodingEntry(long long start, long long size,
         delete encryption;
         return status;
       }
+      assert(encryption_count > 0);
       *encryption_entries_end_++ = encryption;
     }
 
