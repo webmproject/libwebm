@@ -477,7 +477,7 @@ bool OutputTracks(const mkvparser::Segment& segment, const Options& options,
 
     if (track_type == mkvparser::Track::kVideo) {
       const mkvparser::VideoTrack* const video_track =
-          static_cast<const mkvparser::VideoTrack* const>(track);
+          static_cast<const mkvparser::VideoTrack*>(track);
       const int64_t width = video_track->GetWidth();
       const int64_t height = video_track->GetHeight();
       const int64_t display_width = video_track->GetDisplayWidth();
@@ -641,7 +641,7 @@ bool OutputTracks(const mkvparser::Segment& segment, const Options& options,
       }
     } else if (track_type == mkvparser::Track::kAudio) {
       const mkvparser::AudioTrack* const audio_track =
-          static_cast<const mkvparser::AudioTrack* const>(track);
+          static_cast<const mkvparser::AudioTrack*>(track);
       const int64_t channels = audio_track->GetChannels();
       const int64_t bit_depth = audio_track->GetBitDepth();
       const uint64_t codec_delay = audio_track->GetCodecDelay();
