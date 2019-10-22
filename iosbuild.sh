@@ -174,7 +174,7 @@ for PLATFORM in ${PLATFORMS}; do
   SDKROOT="${PLATFORMSROOT}/"
   SDKROOT="${SDKROOT}${PLATFORM}.platform/Developer/SDKs/${PLATFORM}${SDK}.sdk/"
   CXXFLAGS="-arch ${ARCH2:-${ARCH}} -isysroot ${SDKROOT} ${OPT_FLAGS}
-            -miphoneos-version-min=6.0"
+            -miphoneos-version-min=6.0 -stdlib=libc++"
 
   # enable bitcode if available
   if [ "${SDK_MAJOR_VERSION}" -gt 8 ]; then

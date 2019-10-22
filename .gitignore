@@ -18,6 +18,7 @@ Release
 *.opensdf
 ipch
 dumpvtt
+framework
 mkvmuxer_sample
 mkvparser_sample
 vttdemux
