@@ -658,12 +658,13 @@ long long EBMLHeader::Parse(IMkvReader* pReader, long long& pos) {
 
 Segment::Segment(IMkvReader* pReader, long long elem_start,
                  // long long elem_size,
-                 long long start, long long size)
+                 long long start, long long size, Type type)
     : m_pReader(pReader),
       m_element_start(elem_start),
       // m_element_size(elem_size),
       m_start(start),
       m_size(size),
+      m_type(type),
       m_pos(start),
       m_pUnknownSize(0),
       m_pSeekHead(NULL),
@@ -699,7 +700,7 @@ Segment::~Segment() {
 }
 
 long long Segment::CreateInstance(IMkvReader* pReader, long long pos,
-                                  Segment*& pSegment) {
+                                  Segment*& pSegment, Type type) {
   if (pReader == NULL || pos < 0)
     return E_PARSE_FAILED;
 
@@ -795,7 +796,7 @@ long long Segment::CreateInstance(IMkvReader* pReader, long long pos,
       else if ((pos + size) > total)
         size = -1;
 
-      pSegment = new (std::nothrow) Segment(pReader, idpos, pos, size);
+      pSegment = new (std::nothrow) Segment(pReader, idpos, pos, size, type);
       if (pSegment == NULL)
         return E_PARSE_FAILED;
 
@@ -1280,9 +1281,17 @@ long Segment::DoLoadCluster(long long& pos, long& len) {
   if (pCluster == NULL)
     return -1;
 
-  if (!AppendCluster(pCluster)) {
-    delete pCluster;
-    return -1;
+  if (m_type != kTypeLiveStream || m_clusters == nullptr)
+  {
+    if (!AppendCluster(pCluster)) {
+        delete pCluster;
+        return -1;
+    }
+  } else { // m_type == kTypeLiveStream
+      if (m_clusters[pCluster->m_index - 1] != nullptr) {
+          delete m_clusters[pCluster->m_index - 1];
+      }
+      m_clusters[pCluster->m_index - 1] = pCluster;
   }
 
   if (cluster_size >= 0) {
@@ -1472,6 +1481,9 @@ long Segment::Load() {
 
     if (status >= 1)  // no more clusters
       return 0;
+
+    if (m_type == kTypeLiveStream)
+      return 0; // Live streams only have one cluster loaded at any point in time.
   }
 }
 

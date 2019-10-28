@@ -1054,11 +1054,17 @@ class Segment {
 
   Segment(const Segment&);
   Segment& operator=(const Segment&);
+ public:
+  enum Type
+  {
+    kTypeSeekable, // Stores all loaded Clusters to allow for seeking within the file.
+    kTypeLiveStream // Stores only the currently loaded Cluster, useful for live streams. Note that using SEEKABLE on live stream will leak memory.
+  };
 
  private:
   Segment(IMkvReader*, long long elem_start,
           // long long elem_size,
-          long long pos, long long size);
+          long long pos, long long size, Type type=kTypeSeekable);
 
  public:
   IMkvReader* const m_pReader;
@@ -1068,7 +1074,7 @@ class Segment {
   const long long m_size;  // size of segment payload
   Cluster m_eos;  // TODO: make private?
 
-  static long long CreateInstance(IMkvReader*, long long, Segment*&);
+  static long long CreateInstance(IMkvReader*, long long, Segment*&, Type type=kTypeSeekable);
   ~Segment();
 
   long Load();  // loads headers and all clusters
@@ -1084,6 +1090,7 @@ class Segment {
   long ParseNext(const Cluster* pCurr, const Cluster*& pNext, long long& pos,
                  long& size);
 
+  Type GetType() const { return m_type; }
   const SeekHead* GetSeekHead() const;
   const Tracks* GetTracks() const;
   const SegmentInfo* GetInfo() const;
@@ -1107,6 +1114,7 @@ class Segment {
                  long long& parse_pos, long& parse_len);
 
  private:
+  Type m_type;
   long long m_pos;  // absolute file posn; what has been consumed so far
   Cluster* m_pUnknownSize;
 
