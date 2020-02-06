@@ -5229,6 +5229,8 @@ bool Projection::Parse(IMkvReader* reader, long long start, long long size,
 
       projection_ptr->type = static_cast<ProjectionType>(projection_type);
     } else if (child_id == libwebm::kMkvProjectionPrivate) {
+      if (projection_ptr->private_data != NULL)
+        return false;
       unsigned char* data = SafeArrayAlloc<unsigned char>(1, child_size);
 
       if (data == NULL)
