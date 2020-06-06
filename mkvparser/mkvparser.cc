@@ -5288,6 +5288,7 @@ VideoTrack::VideoTrack(Segment* pSegment, long long element_start,
       m_projection(NULL) {}
 
 VideoTrack::~VideoTrack() {
+  delete[] m_colour_space;
   delete m_colour;
   delete m_projection;
 }
