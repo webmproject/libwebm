@@ -711,7 +711,7 @@ void PrintVP9Info(const uint8_t* data, int size, FILE* o, int64_t time_ns,
 
   do {
     const size_t frame_length = (count > 0) ? sizes[i] : size;
-    if (frame_length > std::numeric_limits<int>::max() ||
+    if (frame_length > static_cast<size_t>(std::numeric_limits<int>::max()) ||
         static_cast<int>(frame_length) > size) {
       fprintf(o, " invalid VP9 frame size (%u)\n",
               static_cast<uint32_t>(frame_length));
