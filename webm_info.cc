@@ -726,6 +726,7 @@ void PrintVP9Info(const uint8_t* data, int size, FILE* o, int64_t time_ns,
     const int key = parser->key();
     const int altref_frame = parser->altref();
     const int error_resilient_mode = parser->error_resilient_mode();
+    const int row_tiles = parser->row_tiles();
     const int column_tiles = parser->column_tiles();
     const int frame_parallel_mode = parser->frame_parallel_mode();
 
@@ -756,9 +757,9 @@ void PrintVP9Info(const uint8_t* data, int size, FILE* o, int64_t time_ns,
       fprintf(o, " packed [%d]: {", i);
     }
 
-    fprintf(o, " key:%d v:%d altref:%d errm:%d ct:%d fpm:%d", key, version,
-            altref_frame, error_resilient_mode, column_tiles,
-            frame_parallel_mode);
+    fprintf(o, " key:%d v:%d altref:%d errm:%d rt:%d ct:%d fpm:%d", key,
+            version, altref_frame, error_resilient_mode, row_tiles,
+            column_tiles, frame_parallel_mode);
 
     if (key && size > 4) {
       fprintf(o, " cs:%d", parser->color_space());
