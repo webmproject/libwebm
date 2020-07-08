@@ -243,11 +243,11 @@ bool OutputSeekHead(const mkvparser::Segment& segment, const Options& options,
     fprintf(o, "\n");
 
     indent->Adjust(libwebm::kIncreaseIndent);
-    const char* const entry_indent = indent->indent_str().c_str();
+    std::string entry_indent = indent->indent_str();
     // TODO(jzern): 1) known ids could be stringified. 2) ids could be
     // reencoded to EBML for ease of lookup.
-    fprintf(o, "%sSeek ID       : %llx\n", entry_indent, entry->id);
-    fprintf(o, "%sSeek position : %lld\n", entry_indent, entry->pos);
+    fprintf(o, "%sSeek ID       : %llx\n", entry_indent.c_str(), entry->id);
+    fprintf(o, "%sSeek position : %lld\n", entry_indent.c_str(), entry->pos);
     indent->Adjust(libwebm::kDecreaseIndent);
   }
 
