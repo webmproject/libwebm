@@ -16,6 +16,24 @@
       "message": "Thanks Cody. Can you cc me and the others on this change on any new reports?",
       "revId": "97f8074dc9cc5ca0263325c16340ff0f4fcfc212",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f49483ad_b6b958eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1335500
+      },
+      "writtenOn": "2020-11-24T21:11:14Z",
+      "side": 1,
+      "message": "Thanks for the review!\n\nI\u0027ll set that up for the automatic reporting. In this case, I found the issue while developing https://android-review.googlesource.com/c/platform/external/libwebm/+/1506861 thanks to a comment from willcoster@.\n\nWhat are the next steps here? I don\u0027t have permission to submit or add the change to the commit queue.",
+      "parentUuid": "66d52d95_616fb389",
+      "revId": "97f8074dc9cc5ca0263325c16340ff0f4fcfc212",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
