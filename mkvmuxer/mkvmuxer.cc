@@ -4105,12 +4105,16 @@ int Segment::WriteFramesAll() {
     // places where |doc_type_version_| needs to be updated.
     if (frame->discard_padding() != 0)
       doc_type_version_ = 4;
-    if (!cluster->AddFrame(frame))
-      return -1;
+    if (!cluster->AddFrame(frame)) {
+      delete frame;
+      continue;
+    }
 
     if (new_cuepoint_ && cues_track_ == frame->track_number()) {
-      if (!AddCuePoint(frame->timestamp(), cues_track_))
-        return -1;
+      if (!AddCuePoint(frame->timestamp(), cues_track_)) {
+        delete frame;
+        continue;
+      }
     }
 
     if (frame->timestamp() > last_timestamp_) {
@@ -4153,12 +4157,16 @@ bool Segment::WriteFramesLessThan(uint64_t timestamp) {
       const Frame* const frame_prev = frames_[i - 1];
       if (frame_prev->discard_padding() != 0)
         doc_type_version_ = 4;
-      if (!cluster->AddFrame(frame_prev))
-        return false;
+      if (!cluster->AddFrame(frame_prev)) {
+        delete frame_prev;
+        continue;
+      }
 
       if (new_cuepoint_ && cues_track_ == frame_prev->track_number()) {
-        if (!AddCuePoint(frame_prev->timestamp(), cues_track_))
-          return false;
+        if (!AddCuePoint(frame_prev->timestamp(), cues_track_)) {
+          delete frame_prev;
+          continue;
+        }
       }
 
       ++shift_left;
