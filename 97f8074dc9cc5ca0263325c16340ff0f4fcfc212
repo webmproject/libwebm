@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66d52d95_616fb389",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2020-11-24T03:53:34Z",
+      "side": 1,
+      "message": "Thanks Cody. Can you cc me and the others on this change on any new reports?",
+      "revId": "97f8074dc9cc5ca0263325c16340ff0f4fcfc212",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
