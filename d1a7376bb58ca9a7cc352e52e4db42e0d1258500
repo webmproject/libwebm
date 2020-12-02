@@ -106,6 +106,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0d5b0e3_b1eeda51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2020-12-02T00:28:17Z",
+      "side": 1,
+      "message": "Jer, were you still interested in moving forward with this?",
+      "revId": "d1a7376bb58ca9a7cc352e52e4db42e0d1258500",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5f949aa_11edc239",
