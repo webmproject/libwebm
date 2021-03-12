@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6fa5855_2cfa7557",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-03-12T19:19:25Z",
+      "side": 1,
+      "message": "in fact this doesn\u0027t work with my msys2 setup and gcc 9; there\u0027s an MSYS flag as of 3.14 which I can add:\nhttps://cmake.org/cmake/help/v3.19/variable/MSYS.html",
+      "revId": "311af782a092564036a5caaf79efeb8f6b7b9c23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
