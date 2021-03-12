@@ -46,6 +46,30 @@
       },
       "revId": "566a1e09ecf22d315eaaf8992287a044629afc08",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb770c6a_fd22e840",
+        "filename": "mkvparser/mkvparser.cc",
+        "patchSetId": 2
+      },
+      "lineNbr": 4208,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-03-12T02:32:39Z",
+      "side": 1,
+      "message": "\u003e Yeah but the bug was already about files theoretically with counts bigger than INT_MAX. So I didn\u0027t want to put a lower limit. On some we could, like I thought you could only have 127 tracks, but that is only recommended. I also don\u0027t want to change the api so I didn\u0027t want to increase the count size there. I think is the best for now, unless this becomes a real issue.\n\nsgtm",
+      "parentUuid": "807dc39d_9498dcde",
+      "range": {
+        "startLine": 4208,
+        "startChar": 2,
+        "endLine": 4208,
+        "endChar": 11
+      },
+      "revId": "566a1e09ecf22d315eaaf8992287a044629afc08",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
