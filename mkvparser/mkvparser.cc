@@ -54,9 +54,9 @@ Type* SafeArrayAlloc(unsigned long long num_elements,
 
 void GetVersion(int& major, int& minor, int& build, int& revision) {
   major = 1;
-  minor = 0;
+  minor = 1;
   build = 0;
-  revision = 30;
+  revision = 0;
 }
 
 long long ReadUInt(IMkvReader* pReader, long long pos, long& len) {
