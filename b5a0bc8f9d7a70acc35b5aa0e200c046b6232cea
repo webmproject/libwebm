@@ -16,6 +16,24 @@
       "message": "I\u0027m not really sure what was going on here, but at least shared object builds were never supported in cmake so we don\u0027t need to worry about library versioning (I think).",
       "revId": "b5a0bc8f9d7a70acc35b5aa0e200c046b6232cea",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "334c84c6_d870f681",
+        "filename": "mkvmuxer/mkvmuxerutil.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 1002054
+      },
+      "writtenOn": "2021-04-23T22:54:57Z",
+      "side": 0,
+      "message": "The versioning is not obvious? :)",
+      "parentUuid": "f541f021_9c2a7676",
+      "revId": "b5a0bc8f9d7a70acc35b5aa0e200c046b6232cea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
