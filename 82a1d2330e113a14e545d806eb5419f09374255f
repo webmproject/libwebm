@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d941a0d_568b7850",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-04-23T23:36:11Z",
+      "side": 1,
+      "message": "I figured while I was here I could add this to the rest of the projects as a starting point. We never mention gerrit anywhere else in the repo.",
+      "revId": "82a1d2330e113a14e545d806eb5419f09374255f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
