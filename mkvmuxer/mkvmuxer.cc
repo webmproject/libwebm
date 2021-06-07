@@ -3085,6 +3085,7 @@ Segment::Segment()
       accurate_cluster_duration_(false),
       fixed_size_cluster_timecode_(false),
       estimate_file_duration_(false),
+      ebml_header_size_(0),
       payload_pos_(0),
       size_position_(0),
       doc_type_version_(kDefaultDocTypeVersion),
