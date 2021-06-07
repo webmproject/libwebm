@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22260cca_6fb4aab3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002431
+      },
+      "writtenOn": "2021-06-07T17:21:27Z",
+      "side": 1,
+      "message": "Unhandled edge case exposed by some new tests. ptal/thx!",
+      "revId": "43534ea1a15466ebce67dd625ed913f7d5efb311",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
