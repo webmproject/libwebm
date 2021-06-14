@@ -774,7 +774,7 @@ bool Track::Write(IMkvWriter* writer) const {
     return false;
 
   // AV1 tracks require a CodecPrivate. See
-  // https://github.com/Matroska-Org/matroska-specification/blob/av1-mappin/codec/av1.md
+  // https://github.com/ietf-wg-cellar/matroska-specification/blob/HEAD/codec/av1.md
   // TODO(tomfinegan): Update the above link to the AV1 Matroska mappings to
   // point to a stable version once it is finalized, or our own WebM mappings
   // page on webmproject.org should we decide to release them.
