@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ff4a9355_7956aaf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-01T22:46:54Z",
+      "side": 1,
+      "message": "use ShellCheck to validate the script:\n\nhttps://github.com/koalaman/shellcheck",
+      "revId": "e0b5c28f3590f97c1d8eec64783759df42be3c35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "25106291_ad9978d1",
         "filename": "jenkins/compile.sh",
         "patchSetId": 7
