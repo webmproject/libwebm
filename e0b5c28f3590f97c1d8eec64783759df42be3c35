@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "009123b2_bba280f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-01T18:46:05Z",
+      "side": 1,
+      "message": "First draft of the compile.sh which ports the configuration from Jenkins.\n\nI made several patchsets to pass Jenkins compilation.",
+      "revId": "e0b5c28f3590f97c1d8eec64783759df42be3c35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
