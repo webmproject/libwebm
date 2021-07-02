@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e796bb0_7407f253",
+        "filename": "infra/compile.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "shellcheck: SC2230: which is non-standard. Use builtin \u0027command -v\u0027 instead.",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 42
+      },
+      "revId": "4533e39c6f9aec7ea5fe5dd87af21d53d8d1db97",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

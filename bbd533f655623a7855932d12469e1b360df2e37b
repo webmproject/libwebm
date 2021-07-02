@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "953917e9_654ab352",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "which of the 2 bugs? both are about porting libwebm",
+      "parentUuid": "ab8cb612_ff2f6a98",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 34
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "5b838a68_f8f8198e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 8
@@ -64,6 +88,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ef5361c_193736e9",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b34fa86d_9db98d51",
+      "range": {
+        "startLine": 1,
+        "startChar": 2,
+        "endLine": 1,
+        "endChar": 9
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "664dbd0a_bbe7d377",
@@ -77,6 +125,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "...integration pipelines, but also can be run locally.",
+      "range": {
+        "startLine": 4,
+        "startChar": 38,
+        "endLine": 5,
+        "endChar": 36
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92afcbfb_efb50b2e",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "664dbd0a_bbe7d377",
       "range": {
         "startLine": 4,
         "startChar": 38,
@@ -104,6 +176,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d0ac0b6_09fbca23",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec3c5fb4_72190e6d",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd9aae97_aa19b14b",
@@ -117,6 +207,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "The current ...",
+      "range": {
+        "startLine": 20,
+        "startChar": 47,
+        "endLine": 20,
+        "endChar": 54
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bae42065_f2171ed6",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd9aae97_aa19b14b",
       "range": {
         "startLine": 20,
         "startChar": 47,
@@ -150,6 +264,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb1e9f05_21ba2a9c",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a69a941e_d55f249c",
+      "range": {
+        "startLine": 21,
+        "startChar": 11,
+        "endLine": 21,
+        "endChar": 17
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea0daa55_e0241959",
@@ -163,6 +301,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "maybe compile.sh just to keep things clear",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 9
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6015807_5264ce0a",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea0daa55_e0241959",
       "range": {
         "startLine": 25,
         "startChar": 2,
@@ -190,6 +352,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac0f121b_c95f4a2d",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e118284_4090321f",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "66914fc6_cf34c9e9",
@@ -203,6 +383,24 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "maybe log_err(), \u0027err\u0027 might be a little ambiguous. it could be read as fatal (log and exit)",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7aa02497_9e88ad41",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66914fc6_cf34c9e9",
       "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -224,6 +422,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34374ac6_59a522ea",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7a97317_5263ebbb",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5b10636_bb0a604b",
@@ -237,6 +453,24 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "this only needs to happen under jenkins and the rest of the TODO? ... comment could be removed",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43b59d21_0e0196b9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5b10636_bb0a604b",
       "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -258,6 +492,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37337205_b3c7083f",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "What I am trying to do here is to guarantee that the bash was executed in ./infra/compile.sh. So $(dirname \"$0\") will always give me */infra/.",
+      "parentUuid": "1a86e24b_7e6f23d3",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe8e30fe_725d1150",
@@ -271,6 +523,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "break before the ||:\n\nhttps://google.github.io/styleguide/shellguide.html#pipelines",
+      "range": {
+        "startLine": 120,
+        "startChar": 24,
+        "endLine": 120,
+        "endChar": 26
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b300859_0884ef49",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe8e30fe_725d1150",
       "range": {
         "startLine": 120,
         "startChar": 24,
@@ -304,6 +580,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0689cc69_faf5b719",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a98be2f_d93e1cb7",
+      "range": {
+        "startLine": 121,
+        "startChar": 2,
+        "endLine": 121,
+        "endChar": 3
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f8a8dd0_233e1b73",
@@ -317,6 +617,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "change these to be +\u003d since we\u0027re requiring bash",
+      "range": {
+        "startLine": 145,
+        "startChar": 14,
+        "endLine": 145,
+        "endChar": 15
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c28606d7_f2a23687",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f8a8dd0_233e1b73",
       "range": {
         "startLine": 145,
         "startChar": 14,
@@ -344,6 +668,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7eb7ead1_c6938246",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "173771ff_075f9379",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9e880968_14e0b8ef",
@@ -367,6 +709,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "81575943_a0b885ba",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9e880968_14e0b8ef",
+      "range": {
+        "startLine": 164,
+        "startChar": 14,
+        "endLine": 164,
+        "endChar": 31
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "955bcb94_a1d83394",
@@ -380,6 +746,30 @@
       "writtenOn": "2021-07-02T18:42:03Z",
       "side": 1,
       "message": "we can use \u0027set -e\u0027 instead of these",
+      "range": {
+        "startLine": 166,
+        "startChar": 37,
+        "endLine": 166,
+        "endChar": 47
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d34a507e_76442ee9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "955bcb94_a1d83394",
       "range": {
         "startLine": 166,
         "startChar": 37,

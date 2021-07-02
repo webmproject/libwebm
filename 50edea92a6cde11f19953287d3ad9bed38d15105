@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0103131_5506c54d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T19:52:15Z",
+      "side": 1,
+      "message": "Address the following:\n- used shellcheck -s bash --enable\u003dall compile.sh\n- replied to -f check. intended check\n- removed old comments",
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
