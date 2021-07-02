@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab8cb612_ff2f6a98",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "I think we\u0027re close to the point of closing this bug, since it\u0027s about bringing up the infrastructure to support the rest of the work. We can leave it off this one and likely close it after the pools are switched over.",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 34
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "5b838a68_f8f8198e",
@@ -14,6 +37,355 @@
       "writtenOn": "2021-07-02T02:11:22Z",
       "side": 1,
       "message": "Addressed comments:\n- second look at shell styleguide\n- verify shellcheck. this should be added in the style-check validation\n- moved usage and added err functions.\n- removed functions\n- use mktemp instead of user\u0027s directory.",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b34fa86d_9db98d51",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "I would remove Jenkins from the title since these are going to be used locally and by LUCI too",
+      "range": {
+        "startLine": 1,
+        "startChar": 2,
+        "endLine": 1,
+        "endChar": 9
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "664dbd0a_bbe7d377",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "...integration pipelines, but also can be run locally.",
+      "range": {
+        "startLine": 4,
+        "startChar": 38,
+        "endLine": 5,
+        "endChar": 36
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec3c5fb4_72190e6d",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "you could not that if it isn\u0027t set a temporary directory will be used.",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd9aae97_aa19b14b",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "The current ...",
+      "range": {
+        "startLine": 20,
+        "startChar": 47,
+        "endLine": 20,
+        "endChar": 54
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a69a941e_d55f249c",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "main",
+      "range": {
+        "startLine": 21,
+        "startChar": 11,
+        "endLine": 21,
+        "endChar": 17
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea0daa55_e0241959",
+        "filename": "infra/README.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "maybe compile.sh just to keep things clear",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 9
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e118284_4090321f",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "let\u0027s only modify the PATH in a jenkins environment, that can be done after the function defintions",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66914fc6_cf34c9e9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "maybe log_err(), \u0027err\u0027 might be a little ambiguous. it could be read as fatal (log and exit)",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e7a97317_5263ebbb",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "remove this line and fix the indent for the next one",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5b10636_bb0a604b",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "this only needs to happen under jenkins and the rest of the TODO? ... comment could be removed",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a86e24b_7e6f23d3",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "you can remove this check and use $(dirname \"$0\")/../.. as the source root",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe8e30fe_725d1150",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "break before the ||:\n\nhttps://google.github.io/styleguide/shellguide.html#pipelines",
+      "range": {
+        "startLine": 120,
+        "startChar": 24,
+        "endLine": 120,
+        "endChar": 26
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a98be2f_d93e1cb7",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "use {}s, there\u0027s no need for a subshell",
+      "range": {
+        "startLine": 121,
+        "startChar": 2,
+        "endLine": 121,
+        "endChar": 3
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f8a8dd0_233e1b73",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "change these to be +\u003d since we\u0027re requiring bash",
+      "range": {
+        "startLine": 145,
+        "startChar": 14,
+        "endLine": 145,
+        "endChar": 15
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "173771ff_075f9379",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "remove this line",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e880968_14e0b8ef",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "quote this:\nhttps://google.github.io/styleguide/shellguide.html#quoting",
+      "range": {
+        "startLine": 164,
+        "startChar": 14,
+        "endLine": 164,
+        "endChar": 31
+      },
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "955bcb94_a1d83394",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T18:42:03Z",
+      "side": 1,
+      "message": "we can use \u0027set -e\u0027 instead of these",
+      "range": {
+        "startLine": 166,
+        "startChar": 37,
+        "endLine": 166,
+        "endChar": 47
+      },
       "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
