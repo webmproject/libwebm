@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "71ae6a1e_040f8051",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "you can remove the space before \u0027libwebm_compile\u0027 to have the link work correctly.",
+      "range": {
+        "startLine": 9,
+        "startChar": 56,
+        "endLine": 9,
+        "endChar": 57
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "d0103131_5506c54d",
@@ -14,6 +37,212 @@
       "writtenOn": "2021-07-02T19:52:15Z",
       "side": 1,
       "message": "Address the following:\n- used shellcheck -s bash --enable\u003dall compile.sh\n- replied to -f check. intended check\n- removed old comments",
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20910f69_254e92c3",
+        "filename": "infra/README.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "join these two otherwise the final But also... isn\u0027t a complete sentence",
+      "range": {
+        "startLine": 4,
+        "startChar": 67,
+        "endLine": 4,
+        "endChar": 74
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b575fb67_029e0a0f",
+        "filename": "infra/README.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "supports the...",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 8
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8355681b_add93c59",
+        "filename": "infra/README.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "maybe \u0027Builds libwebm for various configurations and hosts\u0027?",
+      "range": {
+        "startLine": 25,
+        "startChar": 30,
+        "endLine": 25,
+        "endChar": 77
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27ace72c_77733fa9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "you might say \u0027via the e.g., debian package system\u0027 since this can be run on other distros too",
+      "range": {
+        "startLine": 99,
+        "startChar": 45,
+        "endLine": 99,
+        "endChar": 59
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37ff2c0d_74efcead",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "quote this string",
+      "range": {
+        "startLine": 100,
+        "startChar": 20,
+        "endLine": 100,
+        "endChar": 43
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6d16888_eba2a1e7",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "I think it would be good to log this at the start of the build \"Building libwebm in \u0027${WORKSPACE}\u0027\" or so",
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6970629_b1906530",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "Maybe: WORKSPACE directory \u0027${WORKSPACE}\u0027 does not exist",
+      "range": {
+        "startLine": 116,
+        "startChar": 34,
+        "endLine": 116,
+        "endChar": 45
+      },
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a67090b2_68d59f72",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "this isn\u0027t needed",
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3829181f_bfe309ce",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "this isn\u0027t needed",
+      "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3ed6fbf_2cb9b64f",
+        "filename": "infra/compile.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "+ is used to disable a flag: set +e (see \u0027help set\u0027)",
       "revId": "50edea92a6cde11f19953287d3ad9bed38d15105",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

@@ -536,6 +536,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cf2b08b3_2e0b341f",
+        "filename": "infra/compile.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-02T20:55:10Z",
+      "side": 1,
+      "message": "\u003e What I am trying to do here is to guarantee that the bash was executed in ./infra/compile.sh. So $(dirname \"$0\") will always give me */infra/.\n\nmy point was it didn\u0027t have to be executed from the root of the tree and that the tree could be assumed to be 2 levels up from the script.",
+      "parentUuid": "37337205_b3c7083f",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fe8e30fe_725d1150",
         "filename": "infra/compile.sh",
         "patchSetId": 8
