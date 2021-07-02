@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b838a68_f8f8198e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-02T02:11:22Z",
+      "side": 1,
+      "message": "Addressed comments:\n- second look at shell styleguide\n- verify shellcheck. this should be added in the style-check validation\n- moved usage and added err functions.\n- removed functions\n- use mktemp instead of user\u0027s directory.",
+      "revId": "bbd533f655623a7855932d12469e1b360df2e37b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
