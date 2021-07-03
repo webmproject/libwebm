@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73b8593b_a4aa6def",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-03T00:06:24Z",
+      "side": 1,
+      "message": "Addressed comments:\n- fixed compile.sh to use the root as workspace.\n- fixed set +e",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f1030d8_dce03f85",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-03T00:06:24Z",
+      "side": 1,
+      "message": "Added this path to be able to run compile.sh without being in the repo\u0027s root.",
+      "range": {
+        "startLine": 128,
+        "startChar": 38,
+        "endLine": 128,
+        "endChar": 41
+      },
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
