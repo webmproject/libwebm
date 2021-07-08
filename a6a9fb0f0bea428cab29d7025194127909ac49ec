@@ -16,6 +16,23 @@
       "message": "- change global var as private\n- filtersourcefiles tuple to list\n- checked makefiles are not affected by tabs checker",
       "revId": "a6a9fb0f0bea428cab29d7025194127909ac49ec",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "300c67ff_457954e4",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T02:51:07Z",
+      "side": 1,
+      "message": "this doesn\u0027t appear to be used",
+      "revId": "a6a9fb0f0bea428cab29d7025194127909ac49ec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
