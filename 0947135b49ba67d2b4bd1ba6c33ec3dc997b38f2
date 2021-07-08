@@ -100,6 +100,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5804902e_03bc9a67",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T02:47:48Z",
+      "side": 1,
+      "message": "\u003e The intention here was to make a tuple, but I changed to list.\n\u003e FilterSourceFiles need a list of re\n\u003e https://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:presubmit_support.py;l\u003d745\n\nI think it just needs something iterable because the defaults are tuples, contrary to the documentation:\nhttps://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:presubmit_support.py;l\u003d517",
+      "parentUuid": "d63a0984_82fe1df4",
+      "revId": "0947135b49ba67d2b4bd1ba6c33ec3dc997b38f2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1a64bee1_87ebb0ba",
