@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05e7ba0a_c90ab585",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T23:17:14Z",
+      "side": 1,
+      "message": "Removed x86_64-unknown-linux-gnu.\nAddressed comments changes\nSet -e globally.",
+      "revId": "ad96ce0e50f7ce23b2d89557d958a98adcc0f4ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
