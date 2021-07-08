@@ -16,6 +16,212 @@
       "message": "- Refined input: check builtype and target, include supported args in usage\n- Formated usage message\n- remove legacy *.cmake validations.",
       "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4927e005_6eee4d53",
+        "filename": "infra/README.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": ", but these scripts can also be ...",
+      "range": {
+        "startLine": 4,
+        "startChar": 68,
+        "endLine": 5,
+        "endChar": 20
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "441c6b58_60d7a8ac",
+        "filename": "infra/README.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "...prior to invocation.",
+      "range": {
+        "startLine": 10,
+        "startChar": 39,
+        "endLine": 10,
+        "endChar": 44
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e7a5b59_a5f7db71",
+        "filename": "infra/README.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "these two aren\u0027t necessary",
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a47a37f8_66d0c226",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "for this and other instances I would just say \u0027C compiler\u0027. Toolchain to me implies the entire package of compiler tools, e.g., x86_64-linux-gnu.",
+      "range": {
+        "startLine": 41,
+        "startChar": 12,
+        "endLine": 41,
+        "endChar": 32
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0124f78c_c38b8cd6",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "long line",
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51fa07e4_bc81a918",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "this can be removed",
+      "range": {
+        "startLine": 125,
+        "startChar": 18,
+        "endLine": 125,
+        "endChar": 43
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab8d76ac_b69a71a6",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "remove this check, it was for compatibility when the original change landed:\n\nhttps://chromium-review.googlesource.com/c/webm/libwebm/+/669917",
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf716e2e_509016dd",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "maybe: no additional mingw targets",
+      "range": {
+        "startLine": 150,
+        "startChar": 23,
+        "endLine": 150,
+        "endChar": 53
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bfc7b41_8de58a4c",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "maybe: no additional flags needed",
+      "range": {
+        "startLine": 157,
+        "startChar": 17,
+        "endLine": 157,
+        "endChar": 47
+      },
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bbfaf7f_6f171432",
+        "filename": "infra/compile.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-08T22:44:27Z",
+      "side": 1,
+      "message": "I think we can set this globally just to avoid anything slipping by",
+      "revId": "ba87b44ba89b0d3e043ddad95349cb989a23d56d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
