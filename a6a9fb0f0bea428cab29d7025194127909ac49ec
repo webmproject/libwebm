@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08117c64_118d7cf5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T01:38:12Z",
+      "side": 1,
+      "message": "- change global var as private\n- filtersourcefiles tuple to list\n- checked makefiles are not affected by tabs checker",
+      "revId": "a6a9fb0f0bea428cab29d7025194127909ac49ec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
