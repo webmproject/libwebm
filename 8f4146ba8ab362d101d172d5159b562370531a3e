@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "90edd433_23a69d0b",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5eab4784_bf63e3d8",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc54f31d_45e2c2fc",
@@ -52,6 +70,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc63d49e_cee00c68",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "validation is done through case *) not supported",
+      "parentUuid": "bc54f31d_45e2c2fc",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "820357de_957c558c",
@@ -65,6 +101,30 @@
       "writtenOn": "2021-07-07T16:55:24Z",
       "side": 1,
       "message": "drop this period to match the other lines",
+      "range": {
+        "startLine": 40,
+        "startChar": 45,
+        "endLine": 40,
+        "endChar": 46
+      },
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95c1a807_90ae108f",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "820357de_957c558c",
       "range": {
         "startLine": 40,
         "startChar": 45,
@@ -98,6 +158,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "79c0609b_7778c044",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e51e576e_03c8863e",
+      "range": {
+        "startLine": 54,
+        "startChar": 47,
+        "endLine": 55,
+        "endChar": 32
+      },
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "24a5130c_8dcda4e9",
@@ -111,6 +195,24 @@
       "writtenOn": "2021-07-07T16:55:24Z",
       "side": 1,
       "message": "this is somewhat redundant given the first sentence.",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d04e6a3_c32e66b2",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24a5130c_8dcda4e9",
       "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -138,6 +240,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f82dd91_540bab8b",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75c4aa49_f613f1f3",
+      "range": {
+        "startLine": 79,
+        "startChar": 26,
+        "endLine": 79,
+        "endChar": 30
+      },
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94543ed4_040c88c7",
@@ -155,6 +281,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8efeb06_6d825216",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94543ed4_040c88c7",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "984afa9b_96ed9433",
@@ -168,6 +312,24 @@
       "writtenOn": "2021-07-07T16:55:24Z",
       "side": 1,
       "message": "indent is off",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1aafe38f_217fe5e9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "984afa9b_96ed9433",
       "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -219,6 +381,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8aafad66_9a38b19c",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3efba6da_07043e0d",
+      "range": {
+        "startLine": 128,
+        "startChar": 38,
+        "endLine": 128,
+        "endChar": 41
+      },
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "803e0f63_dda059d4",
@@ -236,6 +422,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "812177be_8cd29fb8",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "803e0f63_dda059d4",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b2c31b08_684dcfcd",
@@ -249,6 +453,24 @@
       "writtenOn": "2021-07-07T16:55:24Z",
       "side": 1,
       "message": "we can start with enabling all the checks, these are harmless though they could be documented as mentioned:\n\nhttps://github.com/koalaman/shellcheck/wiki/SC2249#exceptions\n\nalso add a space after the ):\nhttps://google.github.io/styleguide/shellguide.html#case-statement",
+      "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42ca25e1_67db59c9",
+        "filename": "infra/compile.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-08T19:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2c31b08_684dcfcd",
       "revId": "8f4146ba8ab362d101d172d5159b562370531a3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
