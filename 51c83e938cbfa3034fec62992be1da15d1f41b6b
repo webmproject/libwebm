@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dac500ec_0ee196f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-09T22:41:00Z",
+      "side": 1,
+      "message": "Looks pretty good. Just some minor adjustments. Since the script can be run on any platform I was trying to make the arguments a bit clearer and more correct if I were to run this on e.g., Mac.",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42c0f371_785b4abe",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-09T22:41:00Z",
+      "side": 1,
+      "message": "as mentioned in the other LUCI change let\u0027s try to normalize these using:\n\u003ctoolchain\u003e-\u003cextra-args\u003e, so:\ni686-w64-mingw32\n\nsince cmake is more common, let\u0027s drop the reference and name things a bit more appropriately since x86_64-linux-gnu is expected to be a native compile:\n\nnative\nnative-clang,\nnative-Makefile.unix\ni686-w64-mingw32\nx86_64-w64-mingw32",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82b60772_dd468249",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-09T22:41:00Z",
+      "side": 1,
+      "message": "this should be indent 2 more spaces",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7639a006_c805f320",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-09T22:41:00Z",
+      "side": 1,
+      "message": "this should be indented two more spaces",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f43bc681_3fc7a339",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-09T22:41:00Z",
+      "side": 1,
+      "message": "there\u0027s really not much benefit to joining these 2 conditions and having a secondary case. You can split them then you won\u0027t need the extra check at line 153",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
