@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fae616de_8cf469aa",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-09T23:30:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42c0f371_785b4abe",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "82b60772_dd468249",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-07-09T22:41:00Z",
       "side": 1,
       "message": "this should be indent 2 more spaces",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e402ba3b_4ad254ec",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-09T23:30:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82b60772_dd468249",
       "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7e5bafe_c6eddce8",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-09T23:30:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7639a006_c805f320",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f43bc681_3fc7a339",
@@ -82,6 +136,24 @@
       "writtenOn": "2021-07-09T22:41:00Z",
       "side": 1,
       "message": "there\u0027s really not much benefit to joining these 2 conditions and having a secondary case. You can split them then you won\u0027t need the extra check at line 153",
+      "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7241641e_a1cea821",
+        "filename": "infra/compile.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-09T23:30:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f43bc681_3fc7a339",
       "revId": "51c83e938cbfa3034fec62992be1da15d1f41b6b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
