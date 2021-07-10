@@ -16,6 +16,40 @@
       "message": "Found some errors by running jenkins.",
       "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5889f30b_f1395e06",
+        "filename": "infra/compile.sh",
+        "patchSetId": 21
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-10T02:51:55Z",
+      "side": 1,
+      "message": "this path is unused in most cases since CC isn\u0027t set, it was probably inherited from another job or fell out of sync on its own. let\u0027s just use the PATH case since this was for something custom to the jenkins install of clang in /opt",
+      "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60291969_a2203697",
+        "filename": "infra/compile.sh",
+        "patchSetId": 21
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-10T02:51:55Z",
+      "side": 1,
+      "message": "this was for some older versions of ccache I believe where the default wasn\u0027t true. we can just set it in all cases to be safe.",
+      "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
