@@ -32,7 +32,7 @@
 See https://dev.chromium.org/developers/how-tos/depottools/presubmit-scripts for
 details on the presubmit API built into depot_tools.
 """
-
+USE_PYTHON3 = True
 _INCLUDE_SOURCE_FILES_ONLY = [r'.*\.(c|cc|[hc]pp|h)$']
 _LIBWEBM_MAX_LINE_LENGTH = 80
 
