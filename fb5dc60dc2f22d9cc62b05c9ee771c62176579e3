@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d80c5993_acab9dcf",
+        "filename": "infra/compile.sh",
+        "patchSetId": 21
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-12T17:52:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5889f30b_f1395e06",
+      "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60291969_a2203697",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-07-10T02:51:55Z",
       "side": 1,
       "message": "this was for some older versions of ccache I believe where the default wasn\u0027t true. we can just set it in all cases to be safe.",
+      "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e62350b_071457f5",
+        "filename": "infra/compile.sh",
+        "patchSetId": 21
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-12T17:52:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60291969_a2203697",
       "revId": "fb5dc60dc2f22d9cc62b05c9ee771c62176579e3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
