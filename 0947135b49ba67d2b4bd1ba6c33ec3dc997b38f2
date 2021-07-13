@@ -234,6 +234,30 @@
       },
       "revId": "0947135b49ba67d2b4bd1ba6c33ec3dc997b38f2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f340c80a_8dd1f075",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-13T14:14:37Z",
+      "side": 1,
+      "message": "I will check this and send a patch",
+      "parentUuid": "44095b60_20ac6b0a",
+      "range": {
+        "startLine": 57,
+        "startChar": 32,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "0947135b49ba67d2b4bd1ba6c33ec3dc997b38f2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
