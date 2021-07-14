@@ -113,8 +113,8 @@ case "${TARGET}" in
         ;;
     esac
     pushd "${BUILD_DIR}"
-    cmake "${opts[@]}" "${LIBWEBM_ROOT}"
-    make VERBOSE=1
+    cmake "${LIBWEBM_ROOT}" "${opts[@]}"
+    make -j4 VERBOSE=1
     popd
     ;;
 esac
