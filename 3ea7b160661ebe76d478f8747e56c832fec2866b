@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c3cd499_87395723",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b7303fe9_f3a45904",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22132636_ae889c07",
@@ -37,6 +61,24 @@
       "writtenOn": "2021-07-14T18:44:22Z",
       "side": 1,
       "message": "split the creation of common.sh to its own change followed by the infra/compile_android.sh addition.",
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f92e26b_ef789e13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22132636_ae889c07",
       "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -58,6 +100,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e63ba162_d35fd719",
+        "filename": "infra/common",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75697bde_5078ba06",
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49a778d0_08a33816",
@@ -75,6 +135,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cc0cc6e_f6ae7a79",
+        "filename": "infra/common",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49a778d0_08a33816",
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9905c39f_1a675493",
@@ -88,6 +166,30 @@
       "writtenOn": "2021-07-14T18:44:22Z",
       "side": 1,
       "message": "you can drop this part since it\u0027s implied in how the shell passes arguments via $@\n\nif $1 is optional it should be noted, otherwise I\u0027d remove build-, check $# and let the caller determine the basename",
+      "range": {
+        "startLine": 40,
+        "startChar": 4,
+        "endLine": 40,
+        "endChar": 9
+      },
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fa6ce13_15e251ec",
+        "filename": "infra/common",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9905c39f_1a675493",
       "range": {
         "startLine": 40,
         "startChar": 4,
@@ -121,6 +223,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a24e8241_3054a41d",
+        "filename": "infra/common",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a26b4978_7f8d309c",
+      "range": {
+        "startLine": 42,
+        "startChar": 18,
+        "endLine": 42,
+        "endChar": 19
+      },
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01d6ed1c_48802b24",
+        "filename": "infra/common",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a26b4978_7f8d309c",
+      "range": {
+        "startLine": 42,
+        "startChar": 18,
+        "endLine": 42,
+        "endChar": 19
+      },
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02a6b045_9c884e47",
@@ -134,6 +284,24 @@
       "writtenOn": "2021-07-14T18:44:22Z",
       "side": 1,
       "message": "source statements, like includes most often come early in the script move this and set -e to line 31",
+      "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ff916a1_85164297",
+        "filename": "infra/compile.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "Moved set -e. However this include is dependent on LIBWEBM_ROOT.",
+      "parentUuid": "02a6b045_9c884e47",
       "revId": "3ea7b160661ebe76d478f8747e56c832fec2866b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

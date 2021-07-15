@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c02f4acf_50212c42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-15T01:33:23Z",
+      "side": 1,
+      "message": "split common.sh refactoring, the cl is in the CL chain.\nAddressed comments",
+      "revId": "6336155a93a838810773f0f57462028b83a0192d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
