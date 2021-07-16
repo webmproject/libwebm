@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7cb9f37_902ff346",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T16:17:08Z",
+      "side": 1,
+      "message": "Addressed set -e position.\nMoved comments to function\u0027s header.\nRemoved BUILD_DIR output from function because make_build_dir does not define this anymore.",
+      "revId": "9a22c1b10cb16e0b4a91dad767dc23e7cd3594f7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

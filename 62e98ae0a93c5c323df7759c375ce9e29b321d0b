@@ -37,6 +37,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "41d93048_6eb77370",
+        "filename": "infra/common.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T16:17:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a8a4e91_67b5ab31",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "bd24713a_f423668c",
         "filename": "infra/common.sh",
         "patchSetId": 3
@@ -70,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "254ebad4_5ba7a0b3",
+        "filename": "infra/common.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T16:17:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f524099a_6887d214",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2cffe0a_8fd34691",
@@ -83,6 +119,24 @@
       "writtenOn": "2021-07-16T01:48:19Z",
       "side": 1,
       "message": "this can be the first line to catch a mktemp failure too",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24bd51fe_7b786a49",
+        "filename": "infra/compile.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T16:17:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2cffe0a_8fd34691",
       "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
