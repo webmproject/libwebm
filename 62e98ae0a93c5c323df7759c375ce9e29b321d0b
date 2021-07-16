@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a8a4e91_67b5ab31",
+        "filename": "infra/common.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-16T01:48:19Z",
+      "side": 1,
+      "message": "I think this should go in the function level comment",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "bd24713a_f423668c",
@@ -31,6 +48,41 @@
       "writtenOn": "2021-07-16T00:47:22Z",
       "side": 1,
       "message": "https://github.com/koalaman/shellcheck/wiki/SC2154",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f524099a_6887d214",
+        "filename": "infra/common.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-16T01:48:19Z",
+      "side": 1,
+      "message": "\u003e https://github.com/koalaman/shellcheck/wiki/SC2154\n\nI saw that and thought it might be good for the make line. With this update you can just use the check in the find command and it will fail if the variable is null or unset.",
+      "parentUuid": "bd24713a_f423668c",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2cffe0a_8fd34691",
+        "filename": "infra/compile.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-16T01:48:19Z",
+      "side": 1,
+      "message": "this can be the first line to catch a mktemp failure too",
       "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
