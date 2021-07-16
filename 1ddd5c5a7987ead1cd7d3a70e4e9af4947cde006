@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b706d003_2e525432",
+        "filename": "infra/common.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13c93fdc_30618a00",
+      "range": {
+        "startLine": 43,
+        "startChar": 8,
+        "endLine": 43,
+        "endChar": 20
+      },
+      "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "95c4d5d5_fad82267",
@@ -47,6 +71,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "31b4780b_ac2f9876",
+        "filename": "infra/common.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95c4d5d5_fad82267",
+      "range": {
+        "startLine": 47,
+        "startChar": 17,
+        "endLine": 47,
+        "endChar": 22
+      },
+      "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8c7d4562_479fafb5",
@@ -60,6 +108,24 @@
       "writtenOn": "2021-07-16T00:22:37Z",
       "side": 1,
       "message": "the result of the last command is automatically returned, this can be removed",
+      "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "009d3745_c4d9f32e",
+        "filename": "infra/common.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8c7d4562_479fafb5",
       "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -94,6 +160,24 @@
       "writtenOn": "2021-07-16T00:22:37Z",
       "side": 1,
       "message": "move this before the source command and move that to the top of the file, before the functions",
+      "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7382f0d_feff2396",
+        "filename": "infra/compile.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc761774_5ddeb019",
       "revId": "1ddd5c5a7987ead1cd7d3a70e4e9af4947cde006",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

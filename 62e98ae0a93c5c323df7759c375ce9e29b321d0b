@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "522ee3e0_cbfb0622",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "Addressed shellcheck issues.\nReorganized set -e and variables.\nAddressed other misc comments",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd24713a_f423668c",
+        "filename": "infra/common.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-16T00:47:22Z",
+      "side": 1,
+      "message": "https://github.com/koalaman/shellcheck/wiki/SC2154",
+      "revId": "62e98ae0a93c5c323df7759c375ce9e29b321d0b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
