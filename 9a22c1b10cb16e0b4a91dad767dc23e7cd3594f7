@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "141b800c_ba7cf98a",
+        "filename": "infra/common.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-17T00:20:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18beef8e_812a65fe",
+      "range": {
+        "startLine": 43,
+        "startChar": 14,
+        "endLine": 43,
+        "endChar": 18
+      },
+      "revId": "9a22c1b10cb16e0b4a91dad767dc23e7cd3594f7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b3ecf866_5adcabef",
@@ -54,6 +78,30 @@
       "writtenOn": "2021-07-16T18:21:49Z",
       "side": 1,
       "message": "$1 would be better otherwise you might allow multiple directories and the -d check would be incorrect",
+      "range": {
+        "startLine": 48,
+        "startChar": 14,
+        "endLine": 48,
+        "endChar": 15
+      },
+      "revId": "9a22c1b10cb16e0b4a91dad767dc23e7cd3594f7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f98f9b3_e1f7829b",
+        "filename": "infra/common.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-17T00:20:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3ecf866_5adcabef",
       "range": {
         "startLine": 48,
         "startChar": 14,
