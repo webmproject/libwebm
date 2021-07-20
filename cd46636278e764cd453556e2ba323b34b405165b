@@ -51,6 +51,24 @@
       "parentUuid": "0b4539bd_89730dd9",
       "revId": "cd46636278e764cd453556e2ba323b34b405165b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a5a1980_190e0c35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-20T21:04:44Z",
+      "side": 1,
+      "message": "\u003e Yes, Roberto ping me when you have time, we need to set some permissions for CQ label to work as expected.\n\nI made some updates to refs/meta/config to get the label and some groups in place, but let me know if there\u0027s anything further to be done on that side.",
+      "parentUuid": "1ec6fd75_b9971301",
+      "revId": "cd46636278e764cd453556e2ba323b34b405165b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
