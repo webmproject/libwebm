@@ -33,6 +33,24 @@
       "message": "The commit-queue label can be set now, but it looks like it will need a little more tweaking to have it have any effect.",
       "revId": "cd46636278e764cd453556e2ba323b34b405165b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ec6fd75_b9971301",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1483223
+      },
+      "writtenOn": "2021-07-20T14:17:06Z",
+      "side": 1,
+      "message": "Yes, Roberto ping me when you have time, we need to set some permissions for CQ label to work as expected.",
+      "parentUuid": "0b4539bd_89730dd9",
+      "revId": "cd46636278e764cd453556e2ba323b34b405165b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
