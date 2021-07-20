@@ -16,6 +16,46 @@
       "message": "Rebased changes.",
       "revId": "beb171cea75cbac1276b3f9213e4863d8698d512",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c97468f4_13f9e637",
+        "filename": "infra/compile_android.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-20T21:52:55Z",
+      "side": 1,
+      "message": "this could be $(basename $0)",
+      "range": {
+        "startLine": 41,
+        "startChar": 7,
+        "endLine": 41,
+        "endChar": 17
+      },
+      "revId": "beb171cea75cbac1276b3f9213e4863d8698d512",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91e16a07_8a425fcb",
+        "filename": "infra/compile_android.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-20T21:52:55Z",
+      "side": 1,
+      "message": "this could be extended to support cmake too using something like:\ncmake .. -DCMAKE_TOOLCHAIN_FILE\u003d\u003cpath-to-ndk\u003e/build/cmake/android.toolchain.cmake -DANDROID_ABI\u003darm64-v8a",
+      "revId": "beb171cea75cbac1276b3f9213e4863d8698d512",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
