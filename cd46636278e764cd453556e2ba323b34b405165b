@@ -16,6 +16,23 @@
       "message": "Addressed logic changes",
       "revId": "cd46636278e764cd453556e2ba323b34b405165b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b4539bd_89730dd9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-20T01:02:20Z",
+      "side": 1,
+      "message": "The commit-queue label can be set now, but it looks like it will need a little more tweaking to have it have any effect.",
+      "revId": "cd46636278e764cd453556e2ba323b34b405165b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
