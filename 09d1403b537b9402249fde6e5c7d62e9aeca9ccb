@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79ac4cb7_91a263b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1507873
+      },
+      "writtenOn": "2021-07-21T00:54:37Z",
+      "side": 1,
+      "message": "Addressed basename comments,\nFixed a shellcheck issue",
+      "revId": "09d1403b537b9402249fde6e5c7d62e9aeca9ccb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
