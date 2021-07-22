@@ -16,6 +16,126 @@
       "message": "This script runs unit tests for webm. This is simple and fast build, so I did not use sharding. We can get back to this script if we need to improve performance.",
       "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0d6e309_db3baf94",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "\u0027supported targets\u0027 should be enough",
+      "range": {
+        "startLine": 43,
+        "startChar": 7,
+        "endLine": 43,
+        "endChar": 32
+      },
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ddabc7e_db7aef8a",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "command valgrind might be a little better in case it live elsewhere in some configurations",
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db51b379_96ffa571",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "you probably want to force the generator since make is assumed on the next line. you can avoid the pushd by using:\ncmake -S ${LIBWEBM_ROOT} -B ${BUILD_DIR} ...",
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e1de93e_4b95d88a",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "no shellcheck complaint here? you can capture the find result in an array to allow this to be quoted tests\u003d($(find...))",
+      "range": {
+        "startLine": 105,
+        "startChar": 13,
+        "endLine": 105,
+        "endChar": 21
+      },
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af03762f_b5529d32",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "maybe \"Unrecognized TARGET: \u0027$TARGET\u0027!\"",
+      "range": {
+        "startLine": 119,
+        "startChar": 13,
+        "endLine": 119,
+        "endChar": 39
+      },
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fde3d77_68d06e0c",
+        "filename": "infra/run_unit_tests.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1002219
+      },
+      "writtenOn": "2021-07-22T02:51:47Z",
+      "side": 1,
+      "message": "this isn\u0027t necessary nor is the pushd",
+      "revId": "a5bd0c26f11889716c97840a6a895149a822af88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
