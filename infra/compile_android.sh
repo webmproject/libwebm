@@ -37,7 +37,7 @@ WORKSPACE=${WORKSPACE:-"$(mktemp -d)"}
 source "${LIBWEBM_ROOT}/infra/common.sh"
 
 usage() {
-  cat<< EOF
+  cat << EOF
 Usage: $(basename "$0") APP_OPTIM APP_ABI
 Options:
 APP_OPTIM   supported build type (release, debug)
@@ -56,8 +56,14 @@ if [[ ! -d "${WORKSPACE}" ]]; then
   exit 1
 fi
 
-APP_OPTIM=${1:?"not defined.$(echo; usage)"}
-APP_ABI=${2:?"Application Binary Interface not defined.$(echo; usage)"}
+APP_OPTIM=${1:?"not defined.$(
+  echo
+  usage
+)"}
+APP_ABI=${2:?"Application Binary Interface not defined.$(
+  echo
+  usage
+)"}
 BUILD_DIR="${WORKSPACE}/build-${APP_OPTIM}"
 
 if [[ ! -x "$(command -v ndk-build)" ]]; then

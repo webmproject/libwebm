@@ -37,7 +37,7 @@ WORKSPACE=${WORKSPACE:-"$(mktemp -d)"}
 source "${LIBWEBM_ROOT}/infra/common.sh"
 
 usage() {
-  cat<< EOF
+  cat << EOF
 Usage: compile.sh BUILD_TYPE TARGET
 Options:
 BUILD_TYPE  supported build type (static, static-debug)
@@ -66,8 +66,14 @@ if [[ ! -d "${WORKSPACE}" ]]; then
   exit 1
 fi
 
-BUILD_TYPE=${1:?"Build type not defined.$(echo; usage)"}
-TARGET=${2:?"Target not defined.$(echo; usage)"}
+BUILD_TYPE=${1:?"Build type not defined.$(
+  echo
+  usage
+)"}
+TARGET=${2:?"Target not defined.$(
+  echo
+  usage
+)"}
 BUILD_DIR="${WORKSPACE}/build-${BUILD_TYPE}"
 
 trap cleanup EXIT
