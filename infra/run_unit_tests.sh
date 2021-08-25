@@ -149,7 +149,15 @@ export CXX
 opts+=("-DCMAKE_BUILD_TYPE=Debug" "-DENABLE_TESTS=ON")
 case "${TARGET}" in
   *-asan) opts+=("-DCMAKE_CXX_FLAGS=-fsanitize=address") ;;
-  *-ubsan) opts+=("-DCMAKE_CXX_FLAGS=-fsanitize=integer") ;;
+  *-ubsan)
+    opts+=("-DCMAKE_CXX_FLAGS=-fsanitize=integer")
+    if [[ "${TARGET}" == "x86-ubsan" ]]; then
+      # clang fails to find symbols when -fsanitize=integer is set in x86 arch.
+      # https://bugs.llvm.org/show_bug.cgi?id=17693
+      opts+=("-DCMAKE_CXX_FLAGS=-rtlib=compiler-rt")
+      opts+=("-DCMAKE_EXE_LINKER_FLAGS=-lgcc_s")
+    fi
+    ;;
   *) ;;  # No additional flags needed.
 esac
 
