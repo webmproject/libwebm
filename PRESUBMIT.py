@@ -32,7 +32,10 @@
 See https://dev.chromium.org/developers/how-tos/depottools/presubmit-scripts for
 details on the presubmit API built into depot_tools.
 """
+import subprocess2
+
 USE_PYTHON3 = True
+_INCLUDE_BASH_FILES_ONLY = [r".*\.sh$"]
 _INCLUDE_SOURCE_FILES_ONLY = [r".*\.(c|cc|[hc]pp|h)$"]
 _LIBWEBM_MAX_LINE_LENGTH = 80
 
@@ -43,6 +46,35 @@ def _CheckChangeLintsClean(input_api, output_api):
       x, files_to_check=_INCLUDE_SOURCE_FILES_ONLY, files_to_skip=None)
   return input_api.canned_checks.CheckChangeLintsClean(input_api, output_api,
                                                        sources)
+
+
+def _RunShellCheckCmd(input_api, output_api, bash_file):
+  """shellcheck command wrapper."""
+  cmd = ["shellcheck", "-x", "-oall", "-sbash", bash_file]
+  name = "Check %s file." % bash_file
+  start = input_api.time.time()
+  subprocess2.communicate(["shellcheck", "--version"])
+  output, rc = subprocess2.communicate(
+      cmd, stdout=None, stderr=subprocess2.PIPE, universal_newlines=True)
+  duration = input_api.time.time() - start
+  if rc == 0:
+    return output_api.PresubmitResult("%s\n%s (%4.2fs)\n" %
+                                      (name, " ".join(cmd), duration))
+  return output_api.PresubmitError("%s\n%s (%4.2fs) failed\n%s" %
+                                   (name, " ".join(cmd), duration, output[1]))
+
+
+def _CheckChangedShellCheckClean(input_api, output_api):
+  """Ensure shell scripts are clean."""
+  bash_sources = lambda x: input_api.FilterSourceFile(
+      x, files_to_check=_INCLUDE_BASH_FILES_ONLY, files_to_skip=None)
+
+  affected_bash_files = input_api.change.AffectedFiles(file_filter=bash_sources)
+  results = [
+      _RunShellCheckCmd(input_api, output_api, bash_file.AbsoluteLocalPath())
+      for bash_file in affected_bash_files
+  ]
+  return results
 
 
 def _CommonChecks(input_api, output_api):
@@ -72,6 +104,7 @@ def CheckChangeOnUpload(input_api, output_api):
   results = []
   results.extend(_CommonChecks(input_api, output_api))
   results.extend(_CheckChangeLintsClean(input_api, output_api))
+  results.extend(_CheckChangedShellCheckClean(input_api, output_api))
   return results
 
 
@@ -79,4 +112,5 @@ def CheckChangeOnCommit(input_api, output_api):
   results = []
   results.extend(_CommonChecks(input_api, output_api))
   results.extend(_CheckChangeLintsClean(input_api, output_api))
+  results.extend(_CheckChangedShellCheckClean(input_api, output_api))
   return results
