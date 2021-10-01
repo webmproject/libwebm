@@ -38,45 +38,45 @@ _LIBWEBM_MAX_LINE_LENGTH = 80
 
 
 def _CheckChangeLintsClean(input_api, output_api):
-    """Makes sure that libwebm/ code is cpplint clean"""
-    sources = lambda x: input_api.FilterSourceFile(
-        x, files_to_check=_INCLUDE_SOURCE_FILES_ONLY, files_to_skip=None)
-    return input_api.canned_checks.CheckChangeLintsClean(
-        input_api, output_api, sources)
+  """Makes sure that libwebm/ code is cpplint clean."""
+  sources = lambda x: input_api.FilterSourceFile(
+      x, files_to_check=_INCLUDE_SOURCE_FILES_ONLY, files_to_skip=None)
+  return input_api.canned_checks.CheckChangeLintsClean(input_api, output_api,
+                                                       sources)
 
 
 def _CommonChecks(input_api, output_api):
-    results = []
-    results.extend(
-        input_api.canned_checks.CheckChangeHasNoCrAndHasOnlyOneEol(
-            input_api, output_api))
-    results.extend(
-        input_api.canned_checks.CheckChangeHasNoTabs(input_api, output_api))
-    results.extend(
-        input_api.canned_checks.CheckChangeHasNoStrayWhitespace(
-            input_api, output_api))
-    results.extend(
-        input_api.canned_checks.CheckLongLines(
-            input_api, output_api, maxlen=_LIBWEBM_MAX_LINE_LENGTH))
-    results.extend(
-        input_api.canned_checks.CheckPatchFormatted(
-            input_api,
-            output_api,
-            check_clang_format=True,
-            check_python=True,
-            result_factory=output_api.PresubmitError))
-    return results
+  results = []
+  results.extend(
+      input_api.canned_checks.CheckChangeHasNoCrAndHasOnlyOneEol(
+          input_api, output_api))
+  results.extend(
+      input_api.canned_checks.CheckChangeHasNoTabs(input_api, output_api))
+  results.extend(
+      input_api.canned_checks.CheckChangeHasNoStrayWhitespace(
+          input_api, output_api))
+  results.extend(
+      input_api.canned_checks.CheckLongLines(
+          input_api, output_api, maxlen=_LIBWEBM_MAX_LINE_LENGTH))
+  results.extend(
+      input_api.canned_checks.CheckPatchFormatted(
+          input_api,
+          output_api,
+          check_clang_format=True,
+          check_python=True,
+          result_factory=output_api.PresubmitError))
+  return results
 
 
 def CheckChangeOnUpload(input_api, output_api):
-    results = []
-    results.extend(_CommonChecks(input_api, output_api))
-    results.extend(_CheckChangeLintsClean(input_api, output_api))
-    return results
+  results = []
+  results.extend(_CommonChecks(input_api, output_api))
+  results.extend(_CheckChangeLintsClean(input_api, output_api))
+  return results
 
 
 def CheckChangeOnCommit(input_api, output_api):
-    results = []
-    results.extend(_CommonChecks(input_api, output_api))
-    results.extend(_CheckChangeLintsClean(input_api, output_api))
-    return results
+  results = []
+  results.extend(_CommonChecks(input_api, output_api))
+  results.extend(_CheckChangeLintsClean(input_api, output_api))
+  return results
