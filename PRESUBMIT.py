@@ -41,6 +41,13 @@ _INCLUDE_SOURCE_FILES_ONLY = [r".*\.(c|cc|[hc]pp|h)$"]
 _LIBWEBM_MAX_LINE_LENGTH = 80
 
 
+def _GetFilesToSkip(input_api):
+  """Skips libwebm-specific files."""
+  return list(input_api.DEFAULT_FILES_TO_SKIP) + [
+      r"\.pylintrc$",
+  ]
+
+
 def _CheckChangeLintsClean(input_api, output_api):
   """Makes sure that libwebm/ code is cpplint clean."""
   sources = lambda x: input_api.FilterSourceFile(
@@ -105,9 +112,16 @@ def _CommonChecks(input_api, output_api):
   results.extend(
       input_api.canned_checks.CheckChangeHasNoStrayWhitespace(
           input_api, output_api))
+
+  source_file_filter = lambda x: input_api.FilterSourceFile(
+      x, files_to_skip=_GetFilesToSkip(input_api))
   results.extend(
       input_api.canned_checks.CheckLongLines(
-          input_api, output_api, maxlen=_LIBWEBM_MAX_LINE_LENGTH))
+          input_api,
+          output_api,
+          maxlen=_LIBWEBM_MAX_LINE_LENGTH,
+          source_file_filter=source_file_filter))
+
   results.extend(
       input_api.canned_checks.CheckPatchFormatted(
           input_api,
@@ -116,6 +130,15 @@ def _CommonChecks(input_api, output_api):
           check_python=True,
           result_factory=output_api.PresubmitError))
   results.extend(_CheckChangeLintsClean(input_api, output_api))
+
+  # Run pylint.
+  results.extend(
+      input_api.canned_checks.RunPylint(
+          input_api,
+          output_api,
+          files_to_skip=_GetFilesToSkip(input_api),
+          pylintrc=".pylintrc",
+          version="2.7"))
 
   # Binaries shellcheck and shfmt are not installed in depot_tools.
   # Installation is needed
