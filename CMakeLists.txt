@@ -32,6 +32,9 @@ else()
   require_cxx_flag_nomsvc("-std=c++11")
 endif()
 
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
+
 add_cxx_preproc_definition("__STDC_CONSTANT_MACROS")
 add_cxx_preproc_definition("__STDC_FORMAT_MACROS")
 add_cxx_preproc_definition("__STDC_LIMIT_MACROS")
