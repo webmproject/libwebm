@@ -1533,14 +1533,15 @@ long SeekHead::Parse() {
     return E_FILE_FORMAT_INVALID;
 
   if (entry_count > 0) {
-    m_entries = new (std::nothrow) Entry[entry_count];
+    m_entries = new (std::nothrow) Entry[static_cast<size_t>(entry_count)];
 
     if (m_entries == NULL)
       return -1;
   }
 
   if (void_element_count > 0) {
-    m_void_elements = new (std::nothrow) VoidElement[void_element_count];
+    m_void_elements =
+        new (std::nothrow) VoidElement[static_cast<size_t>(void_element_count)];
 
     if (m_void_elements == NULL)
       return -1;
@@ -4234,16 +4235,16 @@ long ContentEncoding::ParseContentEncodingEntry(long long start, long long size,
     return -1;
 
   if (compression_count > 0) {
-    compression_entries_ =
-        new (std::nothrow) ContentCompression*[compression_count];
+    compression_entries_ = new (std::nothrow)
+        ContentCompression*[static_cast<size_t>(compression_count)];
     if (!compression_entries_)
       return -1;
     compression_entries_end_ = compression_entries_;
   }
 
   if (encryption_count > 0) {
-    encryption_entries_ =
-        new (std::nothrow) ContentEncryption*[encryption_count];
+    encryption_entries_ = new (std::nothrow)
+        ContentEncryption*[static_cast<size_t>(encryption_count)];
     if (!encryption_entries_) {
       delete[] compression_entries_;
       compression_entries_ = NULL;
@@ -4956,7 +4957,8 @@ long Track::ParseContentEncodingsEntry(long long start, long long size) {
   if (count <= 0)
     return -1;
 
-  content_encoding_entries_ = new (std::nothrow) ContentEncoding*[count];
+  content_encoding_entries_ =
+      new (std::nothrow) ContentEncoding*[static_cast<size_t>(count)];
   if (!content_encoding_entries_)
     return -1;
 
@@ -5703,7 +5705,7 @@ long Tracks::Parse() {
   if (count <= 0)
     return 0;  // success
 
-  m_trackEntries = new (std::nothrow) Track*[count];
+  m_trackEntries = new (std::nothrow) Track*[static_cast<size_t>(count)];
 
   if (m_trackEntries == NULL)
     return -1;
