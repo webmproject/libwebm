@@ -30,8 +30,11 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 set -e
+shopt -s inherit_errexit
+
 LIBWEBM_ROOT="$(realpath "$(dirname "$0")/..")"
-WORKSPACE=${WORKSPACE:-"$(mktemp -d)"}
+readonly LIBWEBM_ROOT
+readonly WORKSPACE=${WORKSPACE:-"$(mktemp -d)"}
 
 # shellcheck source=infra/common.sh
 source "${LIBWEBM_ROOT}/infra/common.sh"
@@ -66,7 +69,7 @@ APP_ABI=${2:?"Application Binary Interface not defined.$(
 )"}
 BUILD_DIR="${WORKSPACE}/build-${APP_OPTIM}"
 
-if [[ ! -x "$(command -v ndk-build)" ]]; then
+if ! command -v ndk-build 2> /dev/null; then
   log_err "unable to find ndk-build in PATH"
   exit 1
 fi

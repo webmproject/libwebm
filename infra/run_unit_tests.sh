@@ -30,8 +30,11 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 set -xeo pipefail
+shopt -s inherit_errexit
+
 readonly GOOGLETEST_REPO="https://github.com/google/googletest.git"
-readonly LIBWEBM_ROOT="$(realpath "$(dirname "$0")/..")"
+LIBWEBM_ROOT="$(realpath "$(dirname "$0")/..")"
+readonly LIBWEBM_ROOT
 readonly WORKSPACE=${WORKSPACE:-"$(mktemp -d -t webm.XXX)"}
 
 # shellcheck source=infra/common.sh
@@ -90,8 +93,7 @@ dump_sanitizer_log() {
     return 1
   fi
 
-  local asan_symbolize_tool
-  if [[ -x "$(command -v asan_symbolize)" ]]; then
+  if command -v asan_symbolize; then
     asan_symbolize_tool="asan_symbolize"
   else
     asan_symbolize_tool="asan_symbolize.py"
@@ -111,7 +113,7 @@ dump_sanitizer_log() {
       fi
       ;;
     *) ;;  # No other sanitizer options are required
-    # TODO(b/185520494): Handle ubsan warning output inspection
+      # TODO(b/185520494): Handle ubsan warning output inspection
   esac
 }
 
@@ -168,10 +170,11 @@ cmake "${LIBWEBM_ROOT}" "${opts[@]}"
 make -j 4
 popd
 
+find_tests="$(find "${BUILD_DIR}" -name '*_tests')"
 UNIT_TESTS=()
 while IFS='' read -r line; do
   UNIT_TESTS+=("${line}")
-done < <(find "${BUILD_DIR}" -name '*_tests')
+done < <(echo "${find_tests}")
 
 export LIBWEBM_TEST_DATA_PATH="${LIBWEBM_ROOT}/testing/testdata"
 case "${TARGET}" in
