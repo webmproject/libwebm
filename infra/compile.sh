@@ -42,7 +42,8 @@ Usage: compile.sh BUILD_TYPE TARGET
 Options:
 BUILD_TYPE  supported build type (static, static-debug)
 TARGET      supported target platform compilation: (native, native-clang,
-            i686-w64-mingw32, x86_64-w64-mingw32, native-Makefile.unix)
+            clang-i686, i686-w64-mingw32, x86_64-w64-mingw32,
+            native-Makefile.unix)
 Environment variables:
 WORKSPACE   directory where the build is done
 EOF
@@ -99,6 +100,10 @@ case "${TARGET}" in
     TOOLCHAIN_FILE_FLAG="-DCMAKE_TOOLCHAIN_FILE=${LIBWEBM_ROOT}/build"
     case "${TARGET}" in
       native-clang) opts+=("-DCMAKE_CXX_COMPILER=clang++") ;;
+      clang-i686)
+        opts+=("-DCMAKE_CXX_COMPILER=clang++")
+        opts+=("-DCMAKE_CXX_FLAGS=-m32")
+        ;;
       native) ;; # No additional flags needed.
       i686-w64-mingw32)
         opts+=("${TOOLCHAIN_FILE_FLAG}/x86-mingw-gcc.cmake")
