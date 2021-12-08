@@ -61,7 +61,7 @@ def _CheckCommitSubjectLength(input_api, output_api):
                   stdout) and (len(stdout) - 1) > _GIT_COMMIT_SUBJECT_LENGTH:
     failure_msg = (
         "The commit subject: %s is too long (%d chars)\n"
-        "Try to keep this to 50 or lessor less (up to 65 is permitted for "
+        "Try to keep this to 50 or less (up to 65 is permitted for "
         "non-reverts).\n"
         "https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-"
         "Project#_commit_guidelines") % (stdout, len(stdout) - 1)
