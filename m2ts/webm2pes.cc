@@ -68,7 +68,7 @@ void PesOptionalHeader::SetPtsBits(std::int64_t pts_90khz) {
   // Top 8 bits of second PTS chunk.
   buffer[3] |= (pts3 >> 7) & 0xff;
   // bottom 7 bits of second PTS chunk.
-  buffer[4] |= (pts3 << 1);
+  buffer[4] |= (pts3 << 1) & 0xff;
   // Marker.
   buffer[4] |= 1;
 
