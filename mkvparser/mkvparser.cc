@@ -55,7 +55,7 @@ Type* SafeArrayAlloc(unsigned long long num_elements,
 void GetVersion(int& major, int& minor, int& build, int& revision) {
   major = 1;
   minor = 1;
-  build = 0;
+  build = 1;
   revision = 0;
 }
 
