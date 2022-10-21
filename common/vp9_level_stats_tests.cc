@@ -118,7 +118,7 @@ class Vp9LevelStatsTests : public ::testing::Test {
 };
 
 TEST_F(Vp9LevelStatsTests, VideoOnlyFile) {
-  CreateAndLoadSegment("test_stereo_left_right.webm");
+  ASSERT_NO_FATAL_FAILURE(CreateAndLoadSegment("test_stereo_left_right.webm"));
   ProcessTheFrames();
   EXPECT_EQ(256, parser_.width());
   EXPECT_EQ(144, parser_.height());
@@ -141,7 +141,8 @@ TEST_F(Vp9LevelStatsTests, VideoOnlyFile) {
 }
 
 TEST_F(Vp9LevelStatsTests, Muxed) {
-  CreateAndLoadSegment("bbb_480p_vp9_opus_1second.webm", 4);
+  ASSERT_NO_FATAL_FAILURE(
+      CreateAndLoadSegment("bbb_480p_vp9_opus_1second.webm", 4));
   ProcessTheFrames();
   EXPECT_EQ(854, parser_.width());
   EXPECT_EQ(480, parser_.height());
@@ -163,7 +164,7 @@ TEST_F(Vp9LevelStatsTests, Muxed) {
 }
 
 TEST_F(Vp9LevelStatsTests, SetDuration) {
-  CreateAndLoadSegment("test_stereo_left_right.webm");
+  ASSERT_NO_FATAL_FAILURE(CreateAndLoadSegment("test_stereo_left_right.webm"));
   ProcessTheFrames();
   const int64_t kDurationNano = 2080000000;  // 2.08 seconds
   stats_.set_duration(kDurationNano);
