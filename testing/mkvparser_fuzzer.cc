@@ -9,6 +9,7 @@
 #include <cstdint>
 #include <cstdlib>
 #include <cstring>
+#include <functional>
 #include <memory>
 #include <new>
 
@@ -58,6 +59,51 @@ void ParseCues(const mkvparser::Segment& segment) {
   }
 }
 
+const mkvparser::BlockEntry* GetBlockEntryFromCues(
+    const void* ctx, const mkvparser::CuePoint* cue,
+    const mkvparser::CuePoint::TrackPosition* track_pos) {
+  const auto* const cues = static_cast<const mkvparser::Cues*>(ctx);
+  return cues->GetBlock(cue, track_pos);
+}
+
+const mkvparser::BlockEntry* GetBlockEntryFromCluster(
+    const void* ctx, const mkvparser::CuePoint* cue,
+    const mkvparser::CuePoint::TrackPosition* track_pos) {
+  if (track_pos == nullptr) {
+    return nullptr;
+  }
+  const auto* const cluster = static_cast<const mkvparser::Cluster*>(ctx);
+  const mkvparser::BlockEntry* block_entry =
+      cluster->GetEntry(*cue, *track_pos);
+  return block_entry;
+}
+
+void WalkCues(const mkvparser::Segment& segment,
+              std::function<const mkvparser::BlockEntry*(
+                  const void*, const mkvparser::CuePoint*,
+                  const mkvparser::CuePoint::TrackPosition*)>
+                  get_block_entry,
+              const void* ctx) {
+  const mkvparser::Cues* const cues = segment.GetCues();
+  const mkvparser::Tracks* tracks = segment.GetTracks();
+  if (cues == nullptr || tracks == nullptr) {
+    return;
+  }
+  const unsigned long num_tracks = tracks->GetTracksCount();
+
+  for (const mkvparser::CuePoint* cue = cues->GetFirst(); cue != nullptr;
+       cue = cues->GetNext(cue)) {
+    for (unsigned long track_num = 0; track_num < num_tracks; ++track_num) {
+      const mkvparser::Track* const track = tracks->GetTrackByIndex(track_num);
+      const mkvparser::CuePoint::TrackPosition* const track_pos =
+          cue->Find(track);
+      const mkvparser::BlockEntry* block_entry =
+          get_block_entry(ctx, cue, track_pos);
+      static_cast<void>(block_entry);
+    }
+  }
+}
+
 void ParseCluster(const mkvparser::Cluster& cluster) {
   const mkvparser::BlockEntry* block_entry;
   long status = cluster.GetFirst(block_entry);
@@ -100,12 +146,15 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t* data, size_t size) {
     return 0;
   }
 
+  ParseCues(*segment);
+  WalkCues(*segment, GetBlockEntryFromCues, segment->GetCues());
+
   const mkvparser::Cluster* cluster = segment->GetFirst();
   while (cluster != nullptr && !cluster->EOS()) {
     ParseCluster(*cluster);
+    WalkCues(*segment, GetBlockEntryFromCluster, cluster);
     cluster = segment->GetNext(cluster);
   }
-  ParseCues(*segment);
 
   return 0;
 }

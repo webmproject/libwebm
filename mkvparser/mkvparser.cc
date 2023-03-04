@@ -2432,7 +2432,7 @@ bool CuePoint::TrackPosition::Parse(IMkvReader* pReader, long long start_,
     pos += size;  // consume payload
   }
 
-  if ((m_pos < 0) || (m_track <= 0)) {
+  if ((m_pos < 0) || (m_track <= 0) || (m_block < 0) || (m_block > LONG_MAX)) {
     return false;
   }
 
