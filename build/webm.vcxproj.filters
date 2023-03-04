@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\common\file_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\common\hdr_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\mkvmuxer\mkvmuxer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\mkvmuxer\mkvmuxerutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\mkvmuxer\mkvwriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\mkvparser\mkvparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\mkvparser\mkvreader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webvtt\vttreader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webvtt\webvttparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\ancestory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\bit_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\block_header_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\block_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\buffer_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\callback.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\date_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\file_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\float_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\id_element_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\id_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\istream_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\master_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\parser_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\segment_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\size_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\skip_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\unknown_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\var_int_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\virtual_block_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\void_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\webm_parser\webm_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Basit\OneDrive\Desktop\libwebm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF58837D-5184-37F4-8CFA-E1F375524817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

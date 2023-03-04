@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Basit\OneDrive\Desktop\libwebm\src\m2ts\webm2pes_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Basit\OneDrive\Desktop\libwebm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Basit\OneDrive\Desktop\libwebm\build\webmts.dir\$(Configuration)\libwebm_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Basit\OneDrive\Desktop\libwebm\build\webmts.dir\$(Configuration)\video_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Basit\OneDrive\Desktop\libwebm\build\webmts.dir\$(Configuration)\vpxpes2ts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Basit\OneDrive\Desktop\libwebm\build\webmts.dir\$(Configuration)\vpxpes_parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Basit\OneDrive\Desktop\libwebm\build\webmts.dir\$(Configuration)\webm2pes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{466FB514-1C31-372D-93DC-EBD37E8C4AE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF58837D-5184-37F4-8CFA-E1F375524817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
