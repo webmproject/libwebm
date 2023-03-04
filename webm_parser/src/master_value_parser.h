@@ -403,6 +403,7 @@ class MasterValueParser : public ElementParser {
     return master_parser_.child_metadata();
   }
 
+ public:
   // Helper struct that will be std::true_type if Tag is in Tags, or
   // std::false_type otherwise.
   template <typename Tag, typename... Tags>
@@ -421,6 +422,7 @@ class MasterValueParser : public ElementParser {
   template <typename Tag, typename... Tags>
   struct HasTag<Tag, Tag, Tags...> : std::true_type {};
 
+ private:
   template <typename Base, typename F, typename... Tags>
   class ChildParser : public Base {
    public:
