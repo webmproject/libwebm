@@ -129,7 +129,7 @@ Vp9Level Vp9LevelStats::GetLevel() const {
   const int64_t max_luma_picture_breadth = GetMaxLumaPictureBreadth();
   const double average_bitrate = GetAverageBitRate();
   const double max_cpb_size = GetMaxCpbSize();
-  const double compresion_ratio = GetCompressionRatio();
+  const double compression_ratio = GetCompressionRatio();
   const int max_column_tiles = GetMaxColumnTiles();
   const int min_altref_distance = GetMinimumAltrefDistance();
   const int max_ref_frames = GetMaxReferenceFrames();
@@ -215,7 +215,7 @@ Vp9Level Vp9LevelStats::GetLevel() const {
 
   // The minimum compression ratio has the same behavior as minimum altref
   // distance.
-  if (compresion_ratio < Vp9LevelTable[level_index].compresion_ratio)
+  if (compression_ratio < Vp9LevelTable[level_index].compression_ratio)
     max_level = LEVEL_UNKNOWN;
   return max_level;
 }

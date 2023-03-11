@@ -330,7 +330,7 @@ class ContentEncoding {
 
  private:
   // Returns the size in bytes for the encoding elements.
-  uint64_t EncodingSize(uint64_t compresion_size,
+  uint64_t EncodingSize(uint64_t compression_size,
                         uint64_t encryption_size) const;
 
   // Returns the size in bytes for the encryption elements.

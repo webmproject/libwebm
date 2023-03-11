@@ -46,7 +46,7 @@ struct Vp9LevelRow {
   int64_t max_luma_picture_breadth;
   double average_bitrate;
   double max_cpb_size;
-  double compresion_ratio;
+  double compression_ratio;
   int max_tiles;
   int min_altref_distance;
   int max_ref_frames;
