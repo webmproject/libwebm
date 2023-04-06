@@ -2856,13 +2856,13 @@ bool SeekHead::AddSeekEntry(uint32_t id, uint64_t pos) {
 
 uint32_t SeekHead::GetId(int index) const {
   if (index < 0 || index >= kSeekEntryCount)
-    return UINT_MAX;
+    return UINT32_MAX;
   return seek_entry_id_[index];
 }
 
 uint64_t SeekHead::GetPosition(int index) const {
   if (index < 0 || index >= kSeekEntryCount)
-    return ULLONG_MAX;
+    return UINT64_MAX;
   return seek_entry_pos_[index];
 }
 
@@ -2896,7 +2896,7 @@ SegmentInfo::SegmentInfo()
       muxing_app_(NULL),
       timecode_scale_(1000000ULL),
       writing_app_(NULL),
-      date_utc_(LLONG_MIN),
+      date_utc_(INT64_MIN),
       duration_pos_(-1) {}
 
 SegmentInfo::~SegmentInfo() {
@@ -2974,7 +2974,7 @@ bool SegmentInfo::Write(IMkvWriter* writer) {
   if (duration_ > 0.0)
     size +=
         EbmlElementSize(libwebm::kMkvDuration, static_cast<float>(duration_));
-  if (date_utc_ != LLONG_MIN)
+  if (date_utc_ != INT64_MIN)
     size += EbmlDateElementSize(libwebm::kMkvDateUTC);
   size += EbmlElementSize(libwebm::kMkvMuxingApp, muxing_app_);
   size += EbmlElementSize(libwebm::kMkvWritingApp, writing_app_);
@@ -2999,7 +2999,7 @@ bool SegmentInfo::Write(IMkvWriter* writer) {
       return false;
   }
 
-  if (date_utc_ != LLONG_MIN)
+  if (date_utc_ != INT64_MIN)
     WriteEbmlDateElement(writer, libwebm::kMkvDateUTC, date_utc_);
 
   if (!WriteEbmlElement(writer, libwebm::kMkvMuxingApp, muxing_app_))
