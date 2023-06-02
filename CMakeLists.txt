@@ -41,6 +41,7 @@ add_cxx_preproc_definition("__STDC_LIMIT_MACROS")
 include_directories("${LIBWEBM_SRC_DIR}")
 
 if (MSVC)
+  set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
   add_cxx_flag_if_supported("/W4")
   # Disable MSVC warnings that suggest making code non-portable.
   add_cxx_flag_if_supported("/wd4996")
@@ -349,13 +350,6 @@ add_library(webvtt_common OBJECT ${webvtt_common_sources})
 add_library(webm ${libwebm_common_sources}
             $<TARGET_OBJECTS:mkvmuxer>
             $<TARGET_OBJECTS:mkvparser>)
-
-if (WIN32)
-  # Use libwebm and libwebm.lib for project and library name on Windows (instead
-  # webm and webm.lib).
-  set_target_properties(webm PROPERTIES PROJECT_LABEL libwebm)
-  set_target_properties(webm PROPERTIES PREFIX lib)
-endif ()
 
 if(ENABLE_SAMPLE_PROGRAMS)
   add_executable(mkvparser_sample ${mkvparser_sample_sources})
