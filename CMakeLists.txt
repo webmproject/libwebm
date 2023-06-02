@@ -24,6 +24,7 @@ option(ENABLE_TESTS "Enables tests." OFF)
 option(ENABLE_IWYU "Enables include-what-you-use support." OFF)
 option(ENABLE_WERROR "Enable warnings as errors." OFF)
 option(ENABLE_WEBM_PARSER "Enables new parser API." OFF)
+option(ENABLE_SAMPLE_PROGRAMS "Enables building sample programs." ON)
 
 if(WIN32 OR CYGWIN OR MSYS)
   # Allow use of rand_r() / fdopen() and other POSIX functions.
@@ -356,18 +357,20 @@ if (WIN32)
   set_target_properties(webm PROPERTIES PREFIX lib)
 endif ()
 
-add_executable(mkvparser_sample ${mkvparser_sample_sources})
-target_link_libraries(mkvparser_sample LINK_PUBLIC webm)
+if(ENABLE_SAMPLE_PROGRAMS)
+  add_executable(mkvparser_sample ${mkvparser_sample_sources})
+  target_link_libraries(mkvparser_sample LINK_PUBLIC webm)
 
-add_executable(mkvmuxer_sample ${mkvmuxer_sample_sources}
-               $<TARGET_OBJECTS:webvtt_common>)
-target_link_libraries(mkvmuxer_sample LINK_PUBLIC webm)
+  add_executable(mkvmuxer_sample ${mkvmuxer_sample_sources}
+                $<TARGET_OBJECTS:webvtt_common>)
+  target_link_libraries(mkvmuxer_sample LINK_PUBLIC webm)
 
-add_executable(dumpvtt ${dumpvtt_sources} $<TARGET_OBJECTS:webvtt_common>)
-target_link_libraries(dumpvtt LINK_PUBLIC webm)
+  add_executable(dumpvtt ${dumpvtt_sources} $<TARGET_OBJECTS:webvtt_common>)
+  target_link_libraries(dumpvtt LINK_PUBLIC webm)
 
-add_executable(vttdemux ${vttdemux_sources})
-target_link_libraries(vttdemux LINK_PUBLIC webm)
+  add_executable(vttdemux ${vttdemux_sources})
+  target_link_libraries(vttdemux LINK_PUBLIC webm)
+endif()
 
 if (ENABLE_WEBMINFO)
   add_executable(webm_info ${webm_info_sources})
