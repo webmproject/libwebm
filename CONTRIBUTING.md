@@ -23,6 +23,18 @@ https://chromium-review.googlesource.com for this purpose. See the
 [WebM Project page](https://www.webmproject.org/code/contribute/submitting-patches/)
 for additional details.
 
+## Code Style
+
+The C++ code style is based on the
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) and
+`clang-format --style=Google`. `clang-format -i --style=file` can be used to
+format individual files, it will use the settings from `.clang-format`.
+
+CMake files are formatted with
+[cmake-format](https://cmake-format.readthedocs.io/en/latest/). `cmake-format
+-i` can be used to format individual files, it will use the settings from
+`.cmake-format.py`.
+
 ## Community Guidelines
 
 This project follows
