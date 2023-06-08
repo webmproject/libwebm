@@ -11,7 +11,9 @@ project(LIBWEBM CXX)
 include(GNUInstallDirs)
 include("${CMAKE_CURRENT_SOURCE_DIR}/build/cxx_flags.cmake")
 
-if(NOT BUILD_SHARED_LIBS)
+if(BUILD_SHARED_LIBS)
+  set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+else()
   include("${CMAKE_CURRENT_SOURCE_DIR}/build/msvc_runtime.cmake")
 endif()
 
