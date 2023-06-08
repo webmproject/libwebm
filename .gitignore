@@ -33,3 +33,4 @@ Makefile
 CMakeFiles
 CMakeCache.txt
 *.cmake
+.vscode
