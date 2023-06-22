@@ -334,9 +334,6 @@ set(webvtt_common_sources
 
 set(vttdemux_sources ${webvtt_common_sources} "${LIBWEBM_SRC_DIR}/vttdemux.cc")
 
-# Public headers that will be installed with the library.
-set(webm_public_headers ${mkvmuxer_public_headers} ${mkvparser_public_headers})
-
 # Targets.
 add_library(mkvmuxer OBJECT ${mkvmuxer_sources})
 add_library(mkvparser OBJECT ${mkvparser_sources})
@@ -372,8 +369,6 @@ if(ENABLE_WEBM_PARSER)
 
   add_executable(webm_parser_demo ${webm_parser_demo_sources})
   target_link_libraries(webm_parser_demo LINK_PUBLIC webm)
-
-  list(APPEND webm_public_headers ${webm_parser_public_headers})
 endif()
 
 if(ENABLE_WEBMTS)
@@ -459,7 +454,9 @@ if(ENABLE_IWYU)
   endif()
 endif()
 
-set_target_properties(webm PROPERTIES PUBLIC_HEADER "${webm_public_headers}")
+# webm_parser headers are rooted at webm/.
+set_target_properties(webm PROPERTIES PUBLIC_HEADER
+                                      "${webm_parser_public_headers}")
 install(
   TARGETS webm
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
@@ -470,3 +467,8 @@ install(
 # Install common headers into a subdirectory to avoid breaking nested includes.
 install(FILES ${libwebm_common_public_headers}
         DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/webm/common)
+# mkvmuxer and mkvparser headers are referenced with their prefix.
+install(FILES ${mkvmuxer_public_headers}
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/webm/mkvmuxer)
+install(FILES ${mkvparser_public_headers}
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/webm/mkvparser)
