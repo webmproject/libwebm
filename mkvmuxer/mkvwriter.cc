@@ -12,6 +12,7 @@
 
 #ifdef _MSC_VER
 #include <share.h>  // for _SH_DENYWR
+#include <windows.h>
 #endif
 
 namespace mkvmuxer {
@@ -45,7 +46,21 @@ bool MkvWriter::Open(const char* filename) {
     return false;
 
 #ifdef _MSC_VER
-  file_ = _fsopen(filename, "wb", _SH_DENYWR);
+  int nChar;
+  WCHAR *zWideFilename;
+ 
+  nChar = MultiByteToWideChar(CP_UTF8, 0, filename, -1, NULL, 0);
+  zWideFilename = (WCHAR*)malloc( nChar*sizeof(zWideFilename[0]) );
+  if( zWideFilename==0 ){
+    return 0;
+  }
+  nChar = MultiByteToWideChar(CP_UTF8, 0, filename, -1, zWideFilename, nChar);
+  if( nChar==0 ){
+    free(zWideFilename);
+    zWideFilename = 0;
+  }
+  file_ = _wfsopen(zWideFilename, L"wb", _SH_DENYWR);
+  free(zWideFilename);
 #else
   file_ = fopen(filename, "wb");
 #endif

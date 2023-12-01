@@ -7,6 +7,10 @@
 // be found in the AUTHORS file in the root of the source tree.
 #include "mkvparser/mkvreader.h"
 
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+
 #include <sys/types.h>
 
 #include <cassert>
@@ -33,7 +37,23 @@ int MkvReader::Open(const char* fileName) {
     return -1;
 
 #ifdef _MSC_VER
-  const errno_t e = fopen_s(&m_file, fileName, "rb");
+  int nChar;
+  WCHAR *zWideFilename;
+ 
+  nChar = MultiByteToWideChar(CP_UTF8, 0, fileName, -1, NULL, 0);
+  zWideFilename = (WCHAR*)malloc( nChar*sizeof(zWideFilename[0]) );
+  if( zWideFilename==0 ){
+    return 0;
+  }
+  nChar = MultiByteToWideChar(CP_UTF8, 0, fileName, -1, zWideFilename, nChar);
+  if( nChar==0 ){
+    free(zWideFilename);
+    zWideFilename = 0;
+  }
+
+
+  const errno_t e = _wfopen_s(&m_file, zWideFilename, L"rb");
+  free(zWideFilename);
 
   if (e)
     return -1;  // error
