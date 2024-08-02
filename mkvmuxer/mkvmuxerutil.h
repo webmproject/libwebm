@@ -9,7 +9,6 @@
 #define MKVMUXER_MKVMUXERUTIL_H_
 
 #include "mkvmuxertypes.h"
-
 #include "stdint.h"
 
 namespace mkvmuxer {

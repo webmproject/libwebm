@@ -26,7 +26,6 @@
 #include "mkvmuxer/mkvmuxer.h"
 #include "mkvmuxer/mkvmuxertypes.h"
 #include "mkvmuxer/mkvwriter.h"
-
 #include "sample_muxer_metadata.h"
 
 namespace {

@@ -5,7 +5,7 @@
 // tree. An additional intellectual property rights grant can be found
 // in the file PATENTS.  All contributing project authors may
 // be found in the AUTHORS file in the root of the source tree.
-#include "gtest/gtest.h"
+#include "mkvparser/mkvparser.h"
 
 #include <array>
 #include <cstdint>
@@ -14,8 +14,9 @@
 #include <iomanip>
 #include <string>
 
+#include "gtest/gtest.h"
+
 #include "common/hdr_util.h"
-#include "mkvparser/mkvparser.h"
 #include "mkvparser/mkvreader.h"
 #include "testing/test_util.h"
 

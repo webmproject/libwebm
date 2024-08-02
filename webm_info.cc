@@ -22,7 +22,6 @@
 #include "common/vp9_level_stats.h"
 #include "common/webm_constants.h"
 #include "common/webm_endian.h"
-
 #include "mkvparser/mkvparser.h"
 #include "mkvparser/mkvreader.h"
 
