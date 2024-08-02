@@ -97,7 +97,7 @@ set(mkvmuxer_sample_sources
     "${LIBWEBM_SRC_DIR}/sample_muxer_metadata.h")
 
 set(mkvmuxer_tests_sources
-    "${LIBWEBM_SRC_DIR}/testing/mkvmuxer_tests.cc"
+    "${LIBWEBM_SRC_DIR}/testing/mkvmuxer_test.cc"
     "${LIBWEBM_SRC_DIR}/testing/test_util.cc"
     "${LIBWEBM_SRC_DIR}/testing/test_util.h")
 
@@ -111,12 +111,12 @@ set(mkvparser_sources
 
 set(mkvparser_sample_sources "${LIBWEBM_SRC_DIR}/mkvparser_sample.cc")
 set(mkvparser_tests_sources
-    "${LIBWEBM_SRC_DIR}/testing/mkvparser_tests.cc"
+    "${LIBWEBM_SRC_DIR}/testing/mkvparser_test.cc"
     "${LIBWEBM_SRC_DIR}/testing/test_util.cc"
     "${LIBWEBM_SRC_DIR}/testing/test_util.h")
 
 set(vp9_header_parser_tests_sources
-    "${LIBWEBM_SRC_DIR}/common/vp9_header_parser_tests.cc"
+    "${LIBWEBM_SRC_DIR}/common/vp9_header_parser_test.cc"
     "${LIBWEBM_SRC_DIR}/common/vp9_header_parser.cc"
     "${LIBWEBM_SRC_DIR}/common/vp9_header_parser.h"
     "${LIBWEBM_SRC_DIR}/testing/test_util.cc"
@@ -125,7 +125,7 @@ set(vp9_header_parser_tests_sources
 set(vp9_level_stats_tests_sources
     "${LIBWEBM_SRC_DIR}/common/vp9_header_parser.cc"
     "${LIBWEBM_SRC_DIR}/common/vp9_header_parser.h"
-    "${LIBWEBM_SRC_DIR}/common/vp9_level_stats_tests.cc"
+    "${LIBWEBM_SRC_DIR}/common/vp9_level_stats_test.cc"
     "${LIBWEBM_SRC_DIR}/common/vp9_level_stats.cc"
     "${LIBWEBM_SRC_DIR}/common/vp9_level_stats.h"
     "${LIBWEBM_SRC_DIR}/testing/test_util.cc"
@@ -320,8 +320,8 @@ set(webm2pes_sources "${LIBWEBM_SRC_DIR}/m2ts/webm2pes_main.cc")
 set(webm2pes_tests_sources
     "${LIBWEBM_SRC_DIR}/testing/test_util.cc"
     "${LIBWEBM_SRC_DIR}/testing/test_util.h"
-    "${LIBWEBM_SRC_DIR}/testing/video_frame_tests.cc"
-    "${LIBWEBM_SRC_DIR}/m2ts/tests/webm2pes_tests.cc")
+    "${LIBWEBM_SRC_DIR}/testing/video_frame_test.cc"
+    "${LIBWEBM_SRC_DIR}/m2ts/tests/webm2pes_test.cc")
 set(webm2ts_sources "${LIBWEBM_SRC_DIR}/m2ts/vpxpes2ts_main.cc")
 
 set(webvtt_common_headers "${LIBWEBM_SRC_DIR}/webvtt/vttreader.h"
