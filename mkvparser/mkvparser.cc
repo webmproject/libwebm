@@ -8,7 +8,6 @@
 #include "mkvparser/mkvparser.h"
 
 #if defined(_MSC_VER) && _MSC_VER < 1800
-#include <float.h>  // _isnan() / _finite()
 #define MSC_COMPAT
 #endif
 
