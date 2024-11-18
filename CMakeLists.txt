@@ -469,8 +469,7 @@ install(
   PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/webm)
 
 install(EXPORT libwebm-targets
-        FILE libwebm-targets.cmake
-        NAMESPACE libwebm::
+        FILE libwebm-config.cmake
         DESTINATION share/libwebm)
 # Install common headers into a subdirectory to avoid breaking nested includes.
 install(FILES ${libwebm_common_public_headers}
