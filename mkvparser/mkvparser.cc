@@ -5014,7 +5014,7 @@ bool PrimaryChromaticity::Parse(IMkvReader* reader, long long read_pos,
     return false;
 
   if (!*chromaticity)
-    *chromaticity = new PrimaryChromaticity();
+    *chromaticity = new (std::nothrow) PrimaryChromaticity();
 
   if (!*chromaticity)
     return false;
