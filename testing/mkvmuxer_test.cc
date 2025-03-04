@@ -14,6 +14,7 @@
 #include <cstring>
 #include <iomanip>
 #include <memory>
+#include <new>
 #include <ostream>
 #include <string>
 
@@ -54,7 +55,8 @@ class MuxerTest : public testing::Test {
     temp_file_ = libwebm::FilePtr(std::fopen(filename_.c_str(), "wb"),
                                   libwebm::FILEDeleter());
     ASSERT_TRUE(temp_file_.get() != nullptr);
-    writer_.reset(new MkvWriter(temp_file_.get()));
+    writer_.reset(new (std::nothrow) MkvWriter(temp_file_.get()));
+    ASSERT_NE(writer_, nullptr);
     is_writer_open_ = true;
     memset(dummy_data_, 0, kFrameLength);
   }

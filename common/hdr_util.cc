@@ -20,7 +20,7 @@ bool CopyPrimaryChromaticity(const mkvparser::PrimaryChromaticity& parser_pc,
                              PrimaryChromaticityPtr* muxer_pc) {
   muxer_pc->reset(new (std::nothrow)
                       mkvmuxer::PrimaryChromaticity(parser_pc.x, parser_pc.y));
-  if (!muxer_pc->get())
+  if (!muxer_pc)
     return false;
   return true;
 }

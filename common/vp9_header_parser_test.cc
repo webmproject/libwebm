@@ -7,6 +7,7 @@
 // be found in the AUTHORS file in the root of the source tree.
 #include "common/vp9_header_parser.h"
 
+#include <new>
 #include <string>
 
 #include "gtest/gtest.h"
@@ -102,7 +103,7 @@ class Vp9HeaderParserTests : public ::testing::Test {
 
             if (static_cast<size_t>(frame.len) > data_len) {
               delete[] data;
-              data = new unsigned char[frame.len];
+              data = new (std::nothrow) unsigned char[frame.len];
               ASSERT_TRUE(data != NULL);
               data_len = static_cast<size_t>(frame.len);
             }

@@ -132,7 +132,7 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t* data, size_t size) {
   long long int pos = 0;
   std::unique_ptr<mkvparser::EBMLHeader> ebml_header(
       new (std::nothrow) mkvparser::EBMLHeader());  // NOLINT
-  if (ebml_header->Parse(&reader, pos) < 0) {
+  if (!ebml_header || ebml_header->Parse(&reader, pos) < 0) {
     return 0;
   }
 

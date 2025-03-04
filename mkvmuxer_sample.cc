@@ -12,6 +12,7 @@
 #include <cstring>
 #include <list>
 #include <memory>
+#include <new>
 #include <string>
 
 // libwebm common includes.
@@ -722,7 +723,7 @@ int main(int argc, char* argv[]) {
 
           if (frame.len > data_len) {
             delete[] data;
-            data = new unsigned char[frame.len];
+            data = new (std::nothrow) unsigned char[frame.len];
             if (!data)
               return EXIT_FAILURE;
             data_len = frame.len;

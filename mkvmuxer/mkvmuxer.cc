@@ -77,7 +77,7 @@ bool CopyChromaticity(const PrimaryChromaticity* src,
     return false;
 
   dst->reset(new (std::nothrow) PrimaryChromaticity(src->x(), src->y()));
-  if (!dst->get())
+  if (!dst)
     return false;
 
   return true;
@@ -152,12 +152,17 @@ bool ChunkedCopy(mkvparser::IMkvReader* source, mkvmuxer::IMkvWriter* dst,
                  int64_t start, int64_t size) {
   // TODO(vigneshv): Check if this is a reasonable value.
   const uint32_t kBufSize = 2048;
-  uint8_t* buf = new uint8_t[kBufSize];
+  uint8_t* buf = new (std::nothrow) uint8_t[kBufSize];
+  if (!buf) {
+    return false;
+  }
   int64_t offset = start;
   while (size > 0) {
     const int64_t read_len = (size > kBufSize) ? kBufSize : size;
-    if (source->Read(offset, static_cast<long>(read_len), buf))
+    if (source->Read(offset, static_cast<long>(read_len), buf)) {
+      delete[] buf;
       return false;
+    }
     dst->Write(buf, static_cast<uint32_t>(read_len));
     offset += read_len;
     size -= read_len;
@@ -1232,8 +1237,9 @@ bool Colour::Write(IMkvWriter* writer) const {
 }
 
 bool Colour::SetMasteringMetadata(const MasteringMetadata& mastering_metadata) {
-  std::unique_ptr<MasteringMetadata> mm_ptr(new MasteringMetadata());
-  if (!mm_ptr.get())
+  std::unique_ptr<MasteringMetadata> mm_ptr(new (std::nothrow)
+                                                MasteringMetadata());
+  if (!mm_ptr)
     return false;
 
   mm_ptr->set_luminance_max(mastering_metadata.luminance_max());
@@ -1558,8 +1564,8 @@ void VideoTrack::set_colour_space(const char* colour_space) {
 }
 
 bool VideoTrack::SetColour(const Colour& colour) {
-  std::unique_ptr<Colour> colour_ptr(new Colour());
-  if (!colour_ptr.get())
+  std::unique_ptr<Colour> colour_ptr(new (std::nothrow) Colour());
+  if (!colour_ptr)
     return false;
 
   if (colour.mastering_metadata()) {
@@ -1586,8 +1592,8 @@ bool VideoTrack::SetColour(const Colour& colour) {
 }
 
 bool VideoTrack::SetProjection(const Projection& projection) {
-  std::unique_ptr<Projection> projection_ptr(new Projection());
-  if (!projection_ptr.get())
+  std::unique_ptr<Projection> projection_ptr(new (std::nothrow) Projection());
+  if (!projection_ptr)
     return false;
 
   if (projection.private_data()) {
@@ -2672,7 +2678,10 @@ bool Cluster::QueueOrWriteFrame(const Frame* const frame) {
 
   // Queue the current frame.
   uint64_t track_number = frame->track_number();
-  Frame* const frame_to_store = new Frame();
+  Frame* const frame_to_store = new (std::nothrow) Frame();
+  if (!frame_to_store) {
+    return false;
+  }
   frame_to_store->CopyFrom(*frame);
   stored_frames_[track_number].push_back(frame_to_store);
 
