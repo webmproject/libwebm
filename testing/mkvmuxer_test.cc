@@ -512,6 +512,77 @@ TEST_F(MuxerTest, CuesBeforeClusters) {
   remove(cues_filename.c_str());
 }
 
+// Ensure forced clusters only result in cue points when they start on a
+// keyframe.
+TEST_F(MuxerTest, CuesWithForceCluster) {
+  EXPECT_TRUE(SegmentInit(/*output_cues=*/true,
+                          /*accurate_cluster_duration=*/false,
+                          /*fixed_size_cluster_timecode=*/false));
+  AddVideoTrack();
+  AddAudioTrack();
+
+  // Cluster 1 (starts on a keyframe).
+  EXPECT_TRUE(
+      segment_.AddFrame(dummy_data_, kFrameLength, kVideoTrackNumber, 0, true));
+  EXPECT_TRUE(
+      segment_.AddFrame(dummy_data_, kFrameLength, kAudioTrackNumber, 0, true));
+  EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kVideoTrackNumber,
+                                2000000, false));
+  // Cluster 2 (does not start on a keyframe).
+  segment_.ForceNewClusterOnNextFrame();
+  for (int i = 3000000; i <= 4000000; i += 1000000) {
+    EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kAudioTrackNumber,
+                                  i, true));
+  }
+  EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kVideoTrackNumber,
+                                4000000, false));
+  // Cluster 3 (non-forced, starts on a keyframe).
+  EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kVideoTrackNumber,
+                                5000000, true));
+  // Cluster 4 (no video).
+  segment_.ForceNewClusterOnNextFrame();
+  EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kAudioTrackNumber,
+                                5500000, true));
+  // Cluster 5 (starts on a keyframe).
+  segment_.ForceNewClusterOnNextFrame();
+  EXPECT_TRUE(segment_.AddFrame(dummy_data_, kFrameLength, kVideoTrackNumber,
+                                6000000, true));
+  segment_.Finalize();
+
+  CloseWriter();
+
+  MkvParser parser;
+  ASSERT_TRUE(ParseMkvFileReleaseParser(filename_, &parser));
+  mkvparser::Segment* segment = parser.segment;
+  int64_t cues_offset = 0;
+  ASSERT_TRUE(HasCuePoints(segment, &cues_offset));
+  ASSERT_GT(cues_offset, 0);
+  ASSERT_TRUE(ValidateCues(segment, parser.reader));
+
+  // Ensure cues only refer to keyframes.
+  const mkvparser::Cues* const cues = segment->GetCues();
+  ASSERT_NE(cues, nullptr);
+  ASSERT_TRUE(cues->DoneParsing());
+  ASSERT_EQ(cues->GetCount(), 3);
+
+  const mkvparser::CuePoint* cue_point = cues->GetFirst();
+  ASSERT_NE(cue_point, nullptr);
+  const mkvparser::Track* const track =
+      segment->GetTracks()->GetTrackByIndex(0);
+  ASSERT_NE(track, nullptr);
+  do {
+    const mkvparser::BlockEntry* block_entry =
+        cues->GetBlock(cue_point, cue_point->Find(track));
+    const mkvparser::Block* block = block_entry->GetBlock();
+    ASSERT_NE(block, nullptr);
+    ASSERT_TRUE(block->IsKey())
+        << "Cue point at time " << cue_point->GetTime(segment)
+        << " is not a keyframe";
+
+    cue_point = cues->GetNext(cue_point);
+  } while (cue_point != nullptr);
+}
+
 TEST_F(MuxerTest, MaxClusterSize) {
   EXPECT_TRUE(SegmentInit(false, false, false));
   AddVideoTrack();

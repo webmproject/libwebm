@@ -3581,8 +3581,13 @@ bool Segment::AddGenericFrame(const Frame* frame) {
     return false;
 
   if (new_cuepoint_ && cues_track_ == frame->track_number()) {
-    if (!AddCuePoint(frame->timestamp(), cues_track_))
+    // Only add a cue point at the start of a cluster if the frame is a
+    // keyframe.
+    if (frame->is_key() && !AddCuePoint(frame->timestamp(), cues_track_)) {
       return false;
+    } else {
+      new_cuepoint_ = false;
+    }
   }
 
   last_timestamp_ = frame->timestamp();
@@ -4095,9 +4100,13 @@ int Segment::WriteFramesAll() {
     }
 
     if (new_cuepoint_ && cues_track_ == frame->track_number()) {
-      if (!AddCuePoint(frame->timestamp(), cues_track_)) {
+      // Only add a cue point at the start of a cluster if the frame is a
+      // keyframe.
+      if (frame->is_key() && !AddCuePoint(frame->timestamp(), cues_track_)) {
         delete frame;
         continue;
+      } else {
+        new_cuepoint_ = false;
       }
     }
 
