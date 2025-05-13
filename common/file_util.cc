@@ -31,7 +31,7 @@ std::string GetTempFileName() {
   char* temp_file_name_template =
       new (std::nothrow) char[temp_file_name_template_str.length() + 1];
   if (!temp_file_name_template) {
-    return nullptr;
+    return std::string();
   }
   memset(temp_file_name_template, 0, temp_file_name_template_str.length() + 1);
   temp_file_name_template_str.copy(temp_file_name_template,
