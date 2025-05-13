@@ -23,6 +23,7 @@
 #include "common/file_util.h"
 #include "common/libwebm_util.h"
 #include "mkvmuxer/mkvwriter.h"
+#include "mkvparser/mkvparser.h"
 #include "mkvparser/mkvreader.h"
 #include "testing/test_util.h"
 
