@@ -13,6 +13,8 @@
 #include <new>
 #include <vector>
 
+#include "m2ts/webm2pes.h"
+
 namespace libwebm {
 // TODO(tomfinegan): Dedupe this and PesHeaderField.
 // Stores a value and its size in bits for writing into a MPEG2 TS Header.
