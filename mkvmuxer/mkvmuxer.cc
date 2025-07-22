@@ -4023,7 +4023,7 @@ bool Segment::UpdateChunkName(const char* ext, char** name) const {
   memcpy(&str[chunking_base_name_length], ext_chk, ext_chk_length);
   str[chunking_base_name_length + ext_chk_length] = '\0';
 
-  delete[] * name;
+  delete[] *name;
   *name = str;
 
   return true;
