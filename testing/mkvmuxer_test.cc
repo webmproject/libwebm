@@ -197,6 +197,10 @@ TEST_F(MuxerTest, AddTracksWithBlockAdditionMapping) {
 
   EXPECT_TRUE(CompareFiles(
       GetTestFilePath("tracks_with_block_addition_mapping.webm"), filename_));
+
+  // Ensure that the created file is valid.
+  MkvParser parser;
+  EXPECT_TRUE(ParseMkvFileReleaseParser(filename_, &parser));
 }
 
 TEST_F(MuxerTest, AddChapters) {

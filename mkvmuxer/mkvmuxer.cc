@@ -711,7 +711,8 @@ bool BlockAdditionMapping::Write(IMkvWriter* writer) const {
   if (payload_position < 0)
     return false;
 
-  if (!WriteEbmlMasterElement(writer, libwebm::kMkvBlockAdditionMapping, size))
+  if (!WriteEbmlMasterElement(writer, libwebm::kMkvBlockAdditionMapping,
+                              PayloadSize()))
     return false;
   if (!WriteEbmlElement(writer, libwebm::kMkvBlockAddIdValue,
                         static_cast<uint64>(value_)))
