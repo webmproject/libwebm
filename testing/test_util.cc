@@ -12,6 +12,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <ios>
+#include <memory>
 #include <string>
 
 #include "common/libwebm_util.h"
@@ -151,25 +152,34 @@ MkvParser::~MkvParser() {
 
 bool ParseMkvFileReleaseParser(const std::string& webm_file,
                                MkvParser* parser_out) {
-  parser_out->reader = new (std::nothrow) mkvparser::MkvReader;
-  mkvparser::MkvReader& reader = *parser_out->reader;
-  if (!parser_out->reader || reader.Open(webm_file.c_str()) < 0) {
+  if (!parser_out) {
+    return false;
+  }
+
+  // Ensure a clean output state on entry; ownership is transferred only on
+  // full success.
+  parser_out->segment = nullptr;
+  parser_out->reader = nullptr;
+
+  auto reader = std::unique_ptr<mkvparser::MkvReader>(new (std::nothrow) mkvparser::MkvReader);
+  if (!reader || reader->Open(webm_file.c_str()) < 0) {
     return false;
   }
 
   long long pos = 0;  // NOLINT
   mkvparser::EBMLHeader ebml_header;
-  if (ebml_header.Parse(&reader, pos)) {
+  if (ebml_header.Parse(reader.get(), pos)) {
     return false;
   }
 
   using mkvparser::Segment;
   Segment* segment_ptr = nullptr;
-  if (Segment::CreateInstance(&reader, pos, segment_ptr)) {
+  if (Segment::CreateInstance(reader.get(), pos, segment_ptr)) {
     return false;
   }
 
-  std::unique_ptr<Segment> segment(segment_ptr);
+  auto segment = std::unique_ptr<Segment>(segment_ptr);
+
   long result;
   if ((result = segment->Load()) < 0) {
     return false;
@@ -199,6 +209,8 @@ bool ParseMkvFileReleaseParser(const std::string& webm_file,
     cluster = segment->GetNext(cluster);
   }
 
+  // Commit ownership only after full success.
+  parser_out->reader = reader.release();
   parser_out->segment = segment.release();
   return true;
 }
@@ -206,8 +218,8 @@ bool ParseMkvFileReleaseParser(const std::string& webm_file,
 bool ParseMkvFile(const std::string& webm_file) {
   MkvParser parser;
   const bool result = ParseMkvFileReleaseParser(webm_file, &parser);
-  delete parser.segment;
-  delete parser.reader;
+
+  // Ownership is handled by MkvParser::~MkvParser(). Do NOT manually delete here.
   return result;
 }
 
