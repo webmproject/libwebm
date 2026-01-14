@@ -55,6 +55,12 @@ void Usage() {
   printf("  -fixed_size_cluster_timecode <int> ");
   printf(">0 Writes the cluster timecode using exactly 8 bytes\n");
   printf("  -copy_input_duration        >0 Copies the input duration\n");
+  printf("  -itut35_keyframe <file>     itut35 data for keyframes\n");
+  printf("  -itut35 <file>              itut35 data for all frames\n");
+  printf("                              if both this and itut35_keyframe\n");
+  printf("                              are specified, itut35_keyframe will\n");
+  printf("                              be used for key frames and this\n");
+  printf("                              will be used for all other frames\n");
   printf("\n");
   printf("Video options:\n");
   printf("  -display_width <int>           Display width in pixels\n");
@@ -93,6 +99,8 @@ void Usage() {
   printf("  -webvtt-chapters <vttfile>     ");
   printf("add WebVTT chapters as MKV chapters element\n");
 }
+
+constexpr int kMkvItut35BlockAddId = 4;
 
 struct MetadataFile {
   const char* name;
@@ -185,6 +193,14 @@ bool CopyVideoProjection(const mkvparser::Projection& parser_projection,
     muxer_projection->set_pose_roll(parser_projection.pose_roll);
   return true;
 }
+
+bool GetFileContents(const char* filename, std::string* contents) {
+  if (!libwebm::GetFileContents(filename, contents) || contents->size() == 0) {
+    printf("\n Failed to read file \"%s\" or file is empty\n", filename);
+    return false;
+  }
+  return true;
+}
 }  // end namespace
 
 int main(int argc, char* argv[]) {
@@ -225,6 +241,8 @@ int main(int argc, char* argv[]) {
   float projection_pose_yaw = mkvparser::Projection::kValueNotPresent;
   int vp9_profile = -1;  // No profile set.
   int vp9_level = -1;  // No level set.
+  const char* itut35_keyframe = 0;
+  const char* itut35 = 0;
 
   metadata_files_t metadata_files;
 
@@ -283,6 +301,10 @@ int main(int argc, char* argv[]) {
           strtol(argv[++i], &end, 10) == 0 ? false : true;
     } else if (!strcmp("-copy_input_duration", argv[i]) && i < argc_check) {
       copy_input_duration = strtol(argv[++i], &end, 10) == 0 ? false : true;
+    } else if (!strcmp("-itut35", argv[i]) && i < argc_check) {
+      itut35 = argv[++i];
+    } else if (!strcmp("-itut35_keyframe", argv[i]) && i < argc_check) {
+      itut35_keyframe = argv[++i];
     } else if (!strcmp("-display_width", argv[i]) && i < argc_check) {
       display_width = strtol(argv[++i], &end, 10);
     } else if (!strcmp("-display_height", argv[i]) && i < argc_check) {
@@ -319,6 +341,16 @@ int main(int argc, char* argv[]) {
 
   if (input == NULL || output == NULL) {
     Usage();
+    return EXIT_FAILURE;
+  }
+
+  std::string itut35_contents;
+  if (itut35 && !GetFileContents(itut35, &itut35_contents)) {
+    return EXIT_FAILURE;
+  }
+  std::string itut35_keyframe_contents;
+  if (itut35_keyframe &&
+      !GetFileContents(itut35_keyframe, &itut35_keyframe_contents)) {
     return EXIT_FAILURE;
   }
 
@@ -495,10 +527,7 @@ int main(int argc, char* argv[]) {
           }
           if (projection_file != NULL) {
             std::string contents;
-            if (!libwebm::GetFileContents(projection_file, &contents) ||
-                contents.size() == 0) {
-              printf("\n Failed to read file \"%s\" or file is empty\n",
-                     projection_file);
+            if (!GetFileContents(projection_file, &contents)) {
               return EXIT_FAILURE;
             }
             if (!muxer_projection.SetProjectionPrivate(
@@ -741,6 +770,16 @@ int main(int argc, char* argv[]) {
             muxer_frame.set_discard_padding(block->GetDiscardPadding());
           muxer_frame.set_timestamp(time_ns);
           muxer_frame.set_is_key(block->IsKey());
+          if (block->IsKey() && !itut35_keyframe_contents.empty()) {
+            muxer_frame.AddAdditionalData(reinterpret_cast<const uint8_t*>(
+                                              itut35_keyframe_contents.data()),
+                                          itut35_keyframe_contents.size(),
+                                          kMkvItut35BlockAddId);
+          } else if (!itut35_contents.empty()) {
+            muxer_frame.AddAdditionalData(
+                reinterpret_cast<const uint8_t*>(itut35_contents.data()),
+                itut35_contents.size(), kMkvItut35BlockAddId);
+          }
           if (!muxer_segment.AddGenericFrame(&muxer_frame)) {
             printf("\n Could not add frame.\n");
             return EXIT_FAILURE;
