@@ -32,72 +32,66 @@
 namespace {
 
 void Usage() {
-  printf("Usage: mkvmuxer_sample -i input -o output [options]\n");
-  printf("\n");
-  printf("Main options:\n");
-  printf("  -h | -?                     show help\n");
-  printf("  -video <int>                >0 outputs video\n");
-  printf("  -audio <int>                >0 outputs audio\n");
-  printf("  -live <int>                 >0 puts the muxer into live mode\n");
-  printf("                              0 puts the muxer into file mode\n");
-  printf("  -output_cues <int>          >0 outputs cues element\n");
-  printf("  -cues_on_video_track <int>  >0 outputs cues on video track\n");
-  printf("  -cues_on_audio_track <int>  >0 outputs cues on audio track\n");
-  printf("  -max_cluster_duration <double> in seconds\n");
-  printf("  -max_cluster_size <int>     in bytes\n");
-  printf("  -switch_tracks <int>        >0 switches tracks in output\n");
-  printf("  -audio_track_number <int>   >0 Changes the audio track number\n");
-  printf("  -video_track_number <int>   >0 Changes the video track number\n");
-  printf("  -chunking <string>          Chunk output\n");
-  printf("  -copy_tags <int>            >0 Copies the tags\n");
-  printf("  -accurate_cluster_duration <int> ");
-  printf(">0 Writes the last frame in each cluster with Duration\n");
-  printf("  -fixed_size_cluster_timecode <int> ");
-  printf(">0 Writes the cluster timecode using exactly 8 bytes\n");
-  printf("  -copy_input_duration        >0 Copies the input duration\n");
-  printf("  -itut35_keyframe <file>     itut35 data for keyframes\n");
-  printf("  -itut35 <file>              itut35 data for all frames\n");
-  printf("                              if both this and itut35_keyframe\n");
-  printf("                              are specified, itut35_keyframe will\n");
-  printf("                              be used for key frames and this\n");
-  printf("                              will be used for all other frames\n");
-  printf("\n");
-  printf("Video options:\n");
-  printf("  -display_width <int>           Display width in pixels\n");
-  printf("  -display_height <int>          Display height in pixels\n");
-  printf("  -pixel_width <int>             Override pixel width\n");
-  printf("  -pixel_height <int>            Override pixel height\n");
-  printf("  -projection_type <int>         Set/override projection type:\n");
-  printf("                                   0: Rectangular\n");
-  printf("                                   1: Equirectangular\n");
-  printf("                                   2: Cube map\n");
-  printf("                                   3: Mesh\n");
-  printf("  -projection_file <string>      Override projection private data\n");
-  printf("                                 with contents of this file\n");
-  printf("  -projection_pose_yaw <float>   Projection pose yaw\n");
-  printf("  -projection_pose_pitch <float> Projection pose pitch\n");
-  printf("  -projection_pose_roll <float>  Projection pose roll\n");
-  printf("  -stereo_mode <int>             3D video mode\n");
-  printf("\n");
-  printf("VP9 options:\n");
-  printf("  -profile <int>              VP9 profile\n");
-  printf("  -level <int>                VP9 level\n");
-  printf("\n");
-  printf("Cues options:\n");
-  printf("  -output_cues_block_number <int> >0 outputs cue block number\n");
-  printf("  -cues_before_clusters <int> >0 puts Cues before Clusters\n");
-  printf("\n");
-  printf("Metadata options:\n");
-  printf("  -webvtt-subtitles <vttfile>    ");
-  printf("add WebVTT subtitles as metadata track\n");
-  printf("  -webvtt-captions <vttfile>     ");
-  printf("add WebVTT captions as metadata track\n");
-  printf("  -webvtt-descriptions <vttfile> ");
-  printf("add WebVTT descriptions as metadata track\n");
-  printf("  -webvtt-metadata <vttfile>     ");
-  printf("add WebVTT subtitles as metadata track\n");
-  printf("  -webvtt-chapters <vttfile>     ");
-  printf("add WebVTT chapters as MKV chapters element\n");
+  printf(R"(Usage: mkvmuxer_sample -i input -o output [options]
+
+Main options:
+  -h | -?                     show help
+  -video <int>                >0 outputs video
+  -audio <int>                >0 outputs audio
+  -live <int>                 >0 puts the muxer into live mode
+                              0 puts the muxer into file mode
+  -output_cues <int>          >0 outputs cues element
+  -cues_on_video_track <int>  >0 outputs cues on video track
+  -cues_on_audio_track <int>  >0 outputs cues on audio track
+  -max_cluster_duration <double> in seconds
+  -max_cluster_size <int>     in bytes
+  -switch_tracks <int>        >0 switches tracks in output
+  -audio_track_number <int>   >0 Changes the audio track number
+  -video_track_number <int>   >0 Changes the video track number
+  -chunking <string>          Chunk output
+  -copy_tags <int>            >0 Copies the tags
+  -accurate_cluster_duration <int> >0 Writes the last frame in each cluster with Duration
+  -fixed_size_cluster_timecode <int> >0 Writes the cluster timecode using exactly 8 bytes
+  -copy_input_duration        >0 Copies the input duration
+  -itut35_keyframe <file>     itut35 data for keyframes
+  -itut35 <file>              itut35 data for all frames
+                              if both this and itut35_keyframe
+                              are specified, itut35_keyframe will
+                              be used for key frames and this
+                              will be used for all other frames
+
+Video options:
+  -display_width <int>           Display width in pixels
+  -display_height <int>          Display height in pixels
+  -pixel_width <int>             Override pixel width
+  -pixel_height <int>            Override pixel height
+  -projection_type <int>         Set/override projection type:
+                                   0: Rectangular
+                                   1: Equirectangular
+                                   2: Cube map
+                                   3: Mesh
+  -projection_file <string>      Override projection private data
+                                 with contents of this file
+  -projection_pose_yaw <float>   Projection pose yaw
+  -projection_pose_pitch <float> Projection pose pitch
+  -projection_pose_roll <float>  Projection pose roll
+  -stereo_mode <int>             3D video mode
+
+VP9 options:
+  -profile <int>              VP9 profile
+  -level <int>                VP9 level
+
+Cues options:
+  -output_cues_block_number <int> >0 outputs cue block number
+  -cues_before_clusters <int> >0 puts Cues before Clusters
+
+Metadata options:
+  -webvtt-subtitles <vttfile>    add WebVTT subtitles as metadata track
+  -webvtt-captions <vttfile>     add WebVTT captions as metadata track
+  -webvtt-descriptions <vttfile> add WebVTT descriptions as metadata track
+  -webvtt-metadata <vttfile>     add WebVTT subtitles as metadata track
+  -webvtt-chapters <vttfile>     add WebVTT chapters as MKV chapters element
+)");
 }
 
 constexpr int kMkvItut35BlockAddId = 4;
