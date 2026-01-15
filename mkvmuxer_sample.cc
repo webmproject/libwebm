@@ -189,7 +189,7 @@ bool CopyVideoProjection(const mkvparser::Projection& parser_projection,
 }
 
 bool GetFileContents(const char* filename, std::string* contents) {
-  if (!libwebm::GetFileContents(filename, contents) || contents->size() == 0) {
+  if (!libwebm::GetFileContents(filename, contents) || contents->empty()) {
     printf("\n Failed to read file \"%s\" or file is empty\n", filename);
     return false;
   }
