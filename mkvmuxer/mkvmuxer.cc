@@ -4152,12 +4152,14 @@ bool Segment::WriteFramesLessThan(uint64_t timestamp) {
         doc_type_version_ = 4;
       if (!cluster->AddFrame(frame_prev)) {
         delete frame_prev;
+        ++shift_left;
         continue;
       }
 
       if (new_cuepoint_ && cues_track_ == frame_prev->track_number()) {
         if (!AddCuePoint(frame_prev->timestamp(), cues_track_)) {
           delete frame_prev;
+          ++shift_left;
           continue;
         }
       }
