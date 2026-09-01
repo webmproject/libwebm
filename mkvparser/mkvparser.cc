@@ -7227,6 +7227,9 @@ long Cluster::CreateBlockGroup(long long start_offset, long long size,
   long long bpos = -1;
   long long bsize = -1;
 
+  long long apos = -1;  // BlockAdditions payload start
+  long long asize = 0;  // BlockAdditions payload size
+
   while (pos < stop) {
     long len;
     const long long id = ReadID(pReader, pos, len);
@@ -7245,6 +7248,11 @@ long Cluster::CreateBlockGroup(long long start_offset, long long size,
       if (bpos < 0) {  // Block ID
         bpos = pos;
         bsize = size;
+      }
+    } else if (id == libwebm::kMkvBlockAdditions) {
+      if (apos < 0) {  // BlockAdditions ID
+        apos = pos;
+        asize = size;
       }
     } else if (id == libwebm::kMkvBlockDuration) {
       if (size > 8)
@@ -7288,8 +7296,9 @@ long Cluster::CreateBlockGroup(long long start_offset, long long size,
   BlockEntry** const ppEntry = m_entries + idx;
   BlockEntry*& pEntry = *ppEntry;
 
-  pEntry = new (std::nothrow)
-      BlockGroup(this, idx, bpos, bsize, prev, next, duration, discard_padding);
+  pEntry =
+      new (std::nothrow) BlockGroup(this, idx, bpos, bsize, prev, next,
+                                    duration, discard_padding, apos, asize);
 
   if (pEntry == NULL)
     return -1;  // generic error
@@ -7614,12 +7623,16 @@ const Block* SimpleBlock::GetBlock() const { return &m_block; }
 
 BlockGroup::BlockGroup(Cluster* pCluster, long idx, long long block_start,
                        long long block_size, long long prev, long long next,
-                       long long duration, long long discard_padding)
+                       long long duration, long long discard_padding,
+                       long long block_additions_start,
+                       long long block_additions_size)
     : BlockEntry(pCluster, idx),
       m_block(block_start, block_size, discard_padding),
       m_prev(prev),
       m_next(next),
-      m_duration(duration) {}
+      m_duration(duration),
+      m_block_additions_start(block_additions_start),
+      m_block_additions_size(block_additions_size) {}
 
 long BlockGroup::Parse() {
   const long status = m_block.Parse(m_pCluster);
@@ -7628,6 +7641,14 @@ long BlockGroup::Parse() {
     return status;
 
   m_block.SetKey((m_prev > 0) && (m_next <= 0));
+
+  if (m_block_additions_start >= 0 && m_block_additions_size > 0) {
+    IMkvReader* const pReader = m_pCluster->m_pSegment->m_pReader;
+    const long add_status = m_block.ParseAdditions(
+        pReader, m_block_additions_start, m_block_additions_size);
+    if (add_status)
+      return add_status;
+  }
 
   return 0;
 }
@@ -7646,9 +7667,136 @@ Block::Block(long long start, long long size_, long long discard_padding)
       m_flags(0),
       m_frames(NULL),
       m_frame_count(-1),
+      m_additions(NULL),
+      m_addition_count(0),
       m_discard_padding(discard_padding) {}
 
-Block::~Block() { delete[] m_frames; }
+Block::~Block() {
+  delete[] m_frames;
+  for (long i = 0; i < m_addition_count; ++i)
+    delete[] m_additions[i].data;
+  delete[] m_additions;
+}
+
+long Block::GetAdditionCount() const { return m_addition_count; }
+
+const Block::Addition* Block::GetAddition(long index) const {
+  if (index < 0 || index >= m_addition_count)
+    return NULL;
+  return m_additions + index;
+}
+
+// Parses a BlockAdditions element: a sequence of BlockMore children, each
+// holding an optional BlockAddID and a mandatory BlockAdditional payload.
+// mkvparser previously skipped this element entirely, which dropped
+// container-carried side data such as HDR10+ dynamic metadata for VP9.
+long Block::ParseAdditions(IMkvReader* pReader, long long start,
+                           long long size) {
+  if (m_additions != NULL)
+    return E_PARSE_FAILED;
+
+  if (pReader == NULL || start < 0 || size < 0)
+    return E_PARSE_FAILED;
+
+  if (size == 0)
+    return 0;
+
+  if (start > LLONG_MAX - size)
+    return E_FILE_FORMAT_INVALID;
+
+  const long long stop = start + size;
+
+  // First pass: count BlockMore entries so we can size the array exactly.
+  const unsigned long long kMaxAdditions = 0x80000000ULL / sizeof(Addition);
+  long count = 0;
+  long long pos = start;
+  while (pos < stop) {
+    long long id, sz;
+    const long status = ParseElementHeader(pReader, pos, stop, id, sz);
+    if (status < 0)
+      return status;
+    if (sz > stop - pos)
+      return E_FILE_FORMAT_INVALID;
+    if (id == libwebm::kMkvBlockMore) {
+      if (static_cast<unsigned long long>(count) >= kMaxAdditions)
+        return E_FILE_FORMAT_INVALID;
+      ++count;
+    }
+    pos += sz;
+  }
+
+  if (count == 0)
+    return 0;
+
+  m_additions = new (std::nothrow) Addition[count];
+  if (m_additions == NULL)
+    return -1;
+  for (long i = 0; i < count; ++i) {
+    m_additions[i].id = 1;  // BlockAddID default per Matroska spec
+    m_additions[i].data = NULL;
+    m_additions[i].len = 0;
+  }
+  // Set up front so the destructor releases every payload, including any
+  // already read when a later element fails to parse.
+  m_addition_count = count;
+
+  // Second pass: fill in each BlockMore.
+  pos = start;
+  long filled = 0;
+  while (pos < stop && filled < count) {
+    long long id, sz;
+    long status = ParseElementHeader(pReader, pos, stop, id, sz);
+    if (status < 0)
+      return status;
+    if (sz > stop - pos)
+      return E_FILE_FORMAT_INVALID;
+
+    if (id == libwebm::kMkvBlockMore) {
+      Addition& a = m_additions[filled++];
+      bool has_id = false;
+      long long p = pos;
+      const long long more_stop = pos + sz;
+      while (p < more_stop) {
+        long long cid, csz;
+        status = ParseElementHeader(pReader, p, more_stop, cid, csz);
+        if (status < 0)
+          return status;
+        if (csz > more_stop - p)
+          return E_FILE_FORMAT_INVALID;
+
+        if (cid == libwebm::kMkvBlockAddID) {
+          if (has_id)
+            return E_FILE_FORMAT_INVALID;
+          const long long v = UnserializeUInt(pReader, p, csz);
+          if (v <= 0)
+            return E_FILE_FORMAT_INVALID;
+          a.id = v;
+          has_id = true;
+        } else if (cid == libwebm::kMkvBlockAdditional) {
+          if (a.data != NULL || csz <= 0 || csz > LONG_MAX)
+            return E_FILE_FORMAT_INVALID;
+          const long n = static_cast<long>(csz);
+          unsigned char* const buf = SafeArrayAlloc<unsigned char>(1, n);
+          if (buf == NULL)
+            return -1;
+          status = pReader->Read(p, n, buf);
+          if (status) {
+            delete[] buf;
+            return status;
+          }
+          a.data = buf;
+          a.len = n;
+        }
+        p += csz;
+      }
+      if (a.data == NULL)  // BlockAdditional is mandatory.
+        return E_FILE_FORMAT_INVALID;
+    }
+    pos += sz;
+  }
+
+  return 0;
+}
 
 long Block::Parse(const Cluster* pCluster) {
   if (pCluster == NULL)

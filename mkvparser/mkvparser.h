@@ -104,6 +104,20 @@ class Block {
 
   long long GetDiscardPadding() const;
 
+  // BlockAdditions attached to this block's BlockGroup. Used to carry
+  // codec-agnostic per-frame side data such as HDR10+ (ST 2094-40) dynamic
+  // metadata, which for VP9 in WebM is carried in the container rather than in
+  // the bitstream.
+  struct Addition {
+    long long id;  // BlockAddID
+    const unsigned char* data;  // BlockAdditional payload, owned by Block
+    long len;
+  };
+
+  long ParseAdditions(IMkvReader*, long long start, long long size);
+  long GetAdditionCount() const;
+  const Addition* GetAddition(long index) const;
+
  private:
   long long m_track;  // Track::Number()
   short m_timecode;  // relative to cluster
@@ -111,6 +125,9 @@ class Block {
 
   Frame* m_frames;
   int m_frame_count;
+
+  Addition* m_additions;
+  long m_addition_count;
 
  protected:
   const long long m_discard_padding;
@@ -163,7 +180,8 @@ class BlockGroup : public BlockEntry {
              long long block_start,  // absolute pos of block's payload
              long long block_size,  // size of block's payload
              long long prev, long long next, long long duration,
-             long long discard_padding);
+             long long discard_padding, long long block_additions_start = -1,
+             long long block_additions_size = 0);
 
   long Parse();
 
@@ -179,6 +197,8 @@ class BlockGroup : public BlockEntry {
   const long long m_prev;
   const long long m_next;
   const long long m_duration;
+  const long long m_block_additions_start;
+  const long long m_block_additions_size;
 };
 
 ///////////////////////////////////////////////////////////////

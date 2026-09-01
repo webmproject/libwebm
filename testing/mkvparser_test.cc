@@ -8,11 +8,13 @@
 #include "mkvparser/mkvparser.h"
 
 #include <array>
+#include <climits>
 #include <cstdint>
 #include <cstdio>
 #include <cstring>
 #include <iomanip>
 #include <string>
+#include <vector>
 
 #include "gtest/gtest.h"
 
@@ -298,6 +300,192 @@ TEST_F(ParserTest, BlockGroup) {
   EXPECT_EQ(NULL, block_entry);
   cluster = segment_->GetNext(cluster);
   EXPECT_TRUE(cluster->EOS());
+}
+
+TEST_F(ParserTest, BlockAdditions) {
+  ASSERT_TRUE(CreateAndLoadSegment("block_with_additional.webm"));
+
+  const Cluster* cluster = segment_->GetFirst();
+  ASSERT_TRUE(cluster != NULL);
+  EXPECT_FALSE(cluster->EOS());
+
+  const BlockEntry* block_entry;
+  EXPECT_EQ(0, cluster->GetFirst(block_entry));
+  for (int i = 0; i < 2; ++i) {
+    ASSERT_TRUE(block_entry != NULL);
+    EXPECT_FALSE(block_entry->EOS());
+    EXPECT_EQ(BlockEntry::Kind::kBlockGroup, block_entry->GetKind());
+    const Block* const block = block_entry->GetBlock();
+    ASSERT_TRUE(block != NULL);
+    ASSERT_EQ(1, block->GetAdditionCount());
+    const Block::Addition* const addition = block->GetAddition(0);
+    ASSERT_TRUE(addition != NULL);
+    EXPECT_EQ(1, addition->id);
+    ASSERT_EQ(kFrameLength, addition->len);
+    EXPECT_EQ(0, std::memcmp(gold_frame_, addition->data, kFrameLength));
+    // Out of range indices are rejected.
+    EXPECT_TRUE(block->GetAddition(-1) == NULL);
+    EXPECT_TRUE(block->GetAddition(1) == NULL);
+    EXPECT_EQ(0, cluster->GetNext(block_entry, block_entry));
+  }
+  EXPECT_TRUE(block_entry == NULL);
+}
+
+TEST_F(ParserTest, BlockWithoutAdditions) {
+  ASSERT_TRUE(CreateAndLoadSegment("metadata_block.webm"));
+
+  const Cluster* cluster = segment_->GetFirst();
+  ASSERT_TRUE(cluster != NULL);
+  const BlockEntry* block_entry;
+  EXPECT_EQ(0, cluster->GetFirst(block_entry));
+  ASSERT_TRUE(block_entry != NULL);
+  const Block* const block = block_entry->GetBlock();
+  ASSERT_TRUE(block != NULL);
+  EXPECT_EQ(0, block->GetAdditionCount());
+  EXPECT_TRUE(block->GetAddition(0) == NULL);
+}
+
+// In-memory IMkvReader for feeding hand-built elements to the parser.
+class BufferReader : public mkvparser::IMkvReader {
+ public:
+  explicit BufferReader(const std::vector<unsigned char>& data) : data_(data) {}
+
+  int Read(long long pos, long len, unsigned char* buf) override {
+    if (pos < 0 || len < 0 ||
+        pos + len > static_cast<long long>(data_.size())) {
+      return -1;
+    }
+    if (len > 0)
+      std::memcpy(buf, &data_[static_cast<size_t>(pos)], len);
+    return 0;
+  }
+
+  int Length(long long* total, long long* available) override {
+    if (total != NULL)
+      *total = static_cast<long long>(data_.size());
+    if (available != NULL)
+      *available = static_cast<long long>(data_.size());
+    return 0;
+  }
+
+ private:
+  const std::vector<unsigned char> data_;
+};
+
+// Encodes an element with a one-byte ID and a one-byte size.
+std::vector<unsigned char> Element(unsigned char id,
+                                   const std::vector<unsigned char>& payload) {
+  std::vector<unsigned char> element;
+  element.push_back(id);
+  element.push_back(static_cast<unsigned char>(0x80 | payload.size()));
+  element.insert(element.end(), payload.begin(), payload.end());
+  return element;
+}
+
+std::vector<unsigned char> Concat(
+    const std::vector<std::vector<unsigned char> >& elements) {
+  std::vector<unsigned char> out;
+  for (size_t i = 0; i < elements.size(); ++i)
+    out.insert(out.end(), elements[i].begin(), elements[i].end());
+  return out;
+}
+
+const unsigned char kBlockMore = 0xA6;
+const unsigned char kBlockAddID = 0xEE;
+const unsigned char kBlockAdditional = 0xA5;
+
+long ParseAdditions(const std::vector<unsigned char>& data, Block* block) {
+  BufferReader reader(data);
+  return block->ParseAdditions(&reader, 0, data.size());
+}
+
+TEST(BlockAdditionsTest, ParsesMultipleBlockMore) {
+  const std::vector<unsigned char> data = Concat({
+      Element(kBlockMore, Concat({Element(kBlockAddID, {4}),
+                                  Element(kBlockAdditional, {1, 2, 3})})),
+      // BlockAddID 128 must not be sign-extended.
+      Element(kBlockMore, Concat({Element(kBlockAddID, {0x80}),
+                                  Element(kBlockAdditional, {9})})),
+      // BlockAddID omitted: defaults to 1.
+      Element(kBlockMore, Element(kBlockAdditional, {7, 8})),
+  });
+  Block block(0, 0, 0);
+  ASSERT_EQ(0, ParseAdditions(data, &block));
+  ASSERT_EQ(3, block.GetAdditionCount());
+
+  const Block::Addition* addition = block.GetAddition(0);
+  ASSERT_TRUE(addition != NULL);
+  EXPECT_EQ(4, addition->id);
+  ASSERT_EQ(3, addition->len);
+  EXPECT_EQ(0, std::memcmp("\x01\x02\x03", addition->data, 3));
+
+  addition = block.GetAddition(1);
+  ASSERT_TRUE(addition != NULL);
+  EXPECT_EQ(128, addition->id);
+  ASSERT_EQ(1, addition->len);
+  EXPECT_EQ(9, addition->data[0]);
+
+  addition = block.GetAddition(2);
+  ASSERT_TRUE(addition != NULL);
+  EXPECT_EQ(1, addition->id);
+  ASSERT_EQ(2, addition->len);
+  EXPECT_EQ(0, std::memcmp("\x07\x08", addition->data, 2));
+}
+
+TEST(BlockAdditionsTest, InvalidArguments) {
+  const std::vector<unsigned char> data =
+      Element(kBlockMore, Element(kBlockAdditional, {1}));
+  BufferReader reader(data);
+  Block block(0, 0, 0);
+  EXPECT_EQ(mkvparser::E_PARSE_FAILED, block.ParseAdditions(NULL, 0, 1));
+  EXPECT_EQ(mkvparser::E_PARSE_FAILED, block.ParseAdditions(&reader, -1, 1));
+  EXPECT_EQ(mkvparser::E_PARSE_FAILED, block.ParseAdditions(&reader, 0, -1));
+  EXPECT_EQ(mkvparser::E_FILE_FORMAT_INVALID,
+            block.ParseAdditions(&reader, LLONG_MAX, 1));
+  EXPECT_EQ(0, block.ParseAdditions(&reader, 0, 0));
+  EXPECT_EQ(0, block.GetAdditionCount());
+
+  // A second successful parse is rejected rather than leaking the first.
+  ASSERT_EQ(0, block.ParseAdditions(&reader, 0, data.size()));
+  EXPECT_EQ(1, block.GetAdditionCount());
+  EXPECT_EQ(mkvparser::E_PARSE_FAILED,
+            block.ParseAdditions(&reader, 0, data.size()));
+  EXPECT_EQ(1, block.GetAdditionCount());
+}
+
+TEST(BlockAdditionsTest, MalformedBlockMore) {
+  const std::vector<std::vector<unsigned char> > malformed = {
+      // BlockAddID 0 is not allowed.
+      Element(kBlockMore, Concat({Element(kBlockAddID, {0}),
+                                  Element(kBlockAdditional, {1})})),
+      // Duplicate BlockAddID.
+      Element(kBlockMore,
+              Concat({Element(kBlockAddID, {4}), Element(kBlockAddID, {4}),
+                      Element(kBlockAdditional, {1})})),
+      // Missing BlockAdditional.
+      Element(kBlockMore, Element(kBlockAddID, {4})),
+      // Empty BlockAdditional.
+      Element(kBlockMore, Element(kBlockAdditional, {})),
+      // Duplicate BlockAdditional.
+      Element(kBlockMore, Concat({Element(kBlockAdditional, {1}),
+                                  Element(kBlockAdditional, {2})})),
+      // Child header truncated at the end of BlockMore.
+      Element(kBlockMore,
+              Concat({Element(kBlockAdditional, {1}), {kBlockAddID}})),
+      // Child payload runs past the end of BlockMore.
+      Element(kBlockMore, {kBlockAdditional, 0x85, 1}),
+      // BlockMore runs past the end of BlockAdditions.
+      {kBlockMore, 0x85, kBlockAdditional, 0x81, 1},
+  };
+  for (size_t i = 0; i < malformed.size(); ++i) {
+    // Prefix a valid BlockMore so that a payload is already allocated when
+    // the malformed one fails; the destructor must still release it.
+    const std::vector<unsigned char> data = Concat(
+        {Element(kBlockMore, Element(kBlockAdditional, {1})), malformed[i]});
+    Block block(0, 0, 0);
+    EXPECT_EQ(mkvparser::E_FILE_FORMAT_INVALID, ParseAdditions(data, &block))
+        << "case " << i;
+  }
 }
 
 TEST_F(ParserTest, Cues) {
