@@ -120,6 +120,62 @@ TEST(MkvmuxerUafTest, WriteFramesLessThanDanglingSlot_DoubleFree) {
   EXPECT_FALSE(segment.AddFrame(vdata, kVideoFrameLen, vtrack, 40 * kMs, true));
 }
 
+// Regression tests for Cluster::QueueOrWriteFrame() write failures.
+TEST(MkvmuxerUafTest, ClusterQueueOrWriteFrameWriteFailure_Destructor) {
+  FailingWriter writer;
+  mkvmuxer::Cluster cluster(0, -1, kTimeCodeScale,
+                            /*write_last_frame_with_duration=*/true, false);
+  ASSERT_TRUE(cluster.Init(&writer));
+
+  uint8_t data[kVideoFrameLen] = {};
+  ASSERT_TRUE(cluster.AddFrame(data, kVideoFrameLen, 1, 0 * kMs, true));
+
+  writer.StartFailing(/*min_len=*/0);
+  EXPECT_FALSE(cluster.AddFrame(data, kVideoFrameLen, 1, 10 * kMs, true));
+}
+
+TEST(MkvmuxerUafTest, ClusterQueueOrWriteFramePartialWriteFailure_Finalize) {
+  FailingWriter writer;
+  mkvmuxer::Cluster cluster(0, -1, kTimeCodeScale,
+                            /*write_last_frame_with_duration=*/true, false);
+  ASSERT_TRUE(cluster.Init(&writer));
+
+  uint8_t small_data[kVideoFrameLen] = {};
+  uint8_t large_data[kAudioFrameLen] = {};
+
+  // Queue track 2 at ts=5ms to hold back track 1 frames with ts > 5ms.
+  ASSERT_TRUE(cluster.AddFrame(small_data, kVideoFrameLen, 2, 5 * kMs, true));
+  ASSERT_TRUE(cluster.AddFrame(small_data, kVideoFrameLen, 1, 10 * kMs, true));
+  ASSERT_TRUE(cluster.AddFrame(large_data, kAudioFrameLen, 1, 20 * kMs, true));
+
+  // Unblock track 1 frames by advancing track 2 past 20ms.
+  ASSERT_TRUE(cluster.AddFrame(small_data, kVideoFrameLen, 2, 25 * kMs, true));
+
+  // Fail on large_data (100 bytes) after small_data (8 bytes) succeeds.
+  writer.StartFailing(/*min_len=*/50);
+  EXPECT_FALSE(cluster.AddFrame(small_data, kVideoFrameLen, 1, 30 * kMs, true));
+
+  // Finalize and destructor must not dereference or double-free deleted frames.
+  EXPECT_TRUE(cluster.Finalize(true, 40 * kMs));
+}
+
+TEST(MkvmuxerUafTest, SegmentAccurateClusterDurationWriteFailure) {
+  FailingWriter writer;
+  mkvmuxer::Segment segment;
+  ASSERT_TRUE(segment.Init(&writer));
+  segment.AccurateClusterDuration(true);
+
+  const uint64_t vtrack = segment.AddVideoTrack(320, 240, 1);
+  ASSERT_NE(vtrack, 0u);
+
+  uint8_t vdata[kVideoFrameLen] = {};
+  ASSERT_TRUE(segment.AddFrame(vdata, kVideoFrameLen, vtrack, 0 * kMs, true));
+
+  writer.StartFailing(/*min_len=*/0);
+  EXPECT_FALSE(
+      segment.AddFrame(vdata, kVideoFrameLen, vtrack, 10 * kMs, false));
+}
+
 // Base class containing boiler plate stuff.
 class MuxerTest : public testing::Test {
  public:

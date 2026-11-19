@@ -2789,12 +2789,16 @@ bool Cluster::QueueOrWriteFrame(const Frame* const frame) {
   if (!frame_to_store) {
     return false;
   }
-  frame_to_store->CopyFrom(*frame);
+  if (!frame_to_store->CopyFrom(*frame)) {
+    delete frame_to_store;
+    return false;
+  }
   stored_frames_[track_number].push_back(frame_to_store);
 
   // Iterate through all queued frames in the current track except the last one
   // and write it if it is okay to do so (i.e.) no other track has an held back
   // frame with timestamp <= the timestamp of the frame in question.
+  bool wrote_all_frames = true;
   std::vector<std::list<Frame*>::iterator> frames_to_erase;
   for (std::list<Frame*>::iterator
            current_track_iterator = stored_frames_[track_number].begin(),
@@ -2816,9 +2820,11 @@ bool Cluster::QueueOrWriteFrame(const Frame* const frame) {
     if (okay_to_write) {
       const bool wrote_frame = DoWriteFrame(frame_to_write);
       delete frame_to_write;
-      if (!wrote_frame)
-        return false;
       frames_to_erase.push_back(current_track_iterator);
+      if (!wrote_frame) {
+        wrote_all_frames = false;
+        break;
+      }
     } else {
       break;
     }
@@ -2828,7 +2834,7 @@ bool Cluster::QueueOrWriteFrame(const Frame* const frame) {
        iterator != frames_to_erase.end(); ++iterator) {
     stored_frames_[track_number].erase(*iterator);
   }
-  return true;
+  return wrote_all_frames;
 }
 
 bool Cluster::WriteClusterHeader() {
